@@ -5,7 +5,29 @@
       margin: 0;
       border-radius: 3px;
       overflow: auto;
+   /* Add a copy button to all code blocks */
+   pre code {
+      position: relative;
+      display: block;
+      padding-right: 3em;
    }
+   .copy-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: #0078d4;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 2px 8px;
+      font-size: 0.9em;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+      z-index: 10;
+   }
+   .copy-btn:hover {
+      opacity: 1;
 
    :root {
       --scale-difference: 15%;
@@ -35,6 +57,7 @@
    padding: 2em;
    margin: 0 auto;
    width: 8.5in;
+   min-height: 11in;
    box-sizing: border-box;
    overflow-x: scroll;
    height: 11in;
@@ -182,6 +205,7 @@
    padding: 2em;
    margin: 0 auto;
    width: 8.5in;
+   min-height: 11in;
    box-sizing: border-box;
    overflow-x: scroll;
    height: 11in;
@@ -279,6 +303,7 @@ During the lexing process, the compiler removes all the spaces between keywords 
    padding: 2em;
    margin: 0 auto;
    width: 8.5in;
+   min-height: 11in;
    box-sizing: border-box;
    overflow-x: scroll;
    height: 11in;
@@ -397,6 +422,7 @@ A program header appears at the beginning of every file. This identifies what th
    padding: 2em;
    margin: 0 auto;
    width: 8.5in;
+   min-height: 11in;
    box-sizing: border-box;
    overflow-x: scroll;
    height: 11in;
@@ -466,6 +492,7 @@ Just as one would expect correct spelling in a technical paper, one should also 
    padding: 2em;
    margin: 0 auto;
    width: 8.5in;
+   min-height: 11in;
    box-sizing: border-box;
    overflow-x: scroll;
    height: 11in;
@@ -579,6 +606,7 @@ istream & operator >> (istream & in, Card & card)
    padding: 2em;
    margin: 0 auto;
    width: 8.5in;
+   min-height: 11in;
    box-sizing: border-box;
    overflow-x: scroll;
    height: 11in;
@@ -675,3 +703,40 @@ complex.o: complex.cpp complex.h
 </div> <!-- End of Page -->
 
 </div> <!-- End of chapter -->
+
+<!-- Add a copy button to all code blocks -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+   // Select all code blocks inside <pre> elements
+   document.querySelectorAll("pre code").forEach(function (codeBlock) {
+      // Avoid duplicate buttons
+      if (codeBlock.parentElement.querySelector(".copy-btn")) return;
+
+      // Create the button
+      var button = document.createElement("button");
+      .className += " copy-btn";= "copy-btn";
+      button.type = "button";
+      button.innerText = "Copy";
+
+      // Position the button relative to the <pre>
+      var pre = codeBlock.parentElement;
+      pre.style.position = "relative";
+      button.style.position = "absolute";
+      button.style.top = "8px";
+      button.style.right = "8px";
+
+      // Copy code to clipboard on click
+      button.addEventListener("click", function () {
+         var text = codeBlock.innerText;
+         navigator.clipboard.writeText(text).then(function () {
+            button.innerText = "Copied!";
+            setTimeout(function () {
+               button.innerText = "Copy";
+            }, 1200);
+         });
+      });
+
+      pre.appendChild(button);
+   });
+});
+</script>
