@@ -2,7 +2,7 @@
     "markdown.styles": [
         "./.vscode/markdown-styles.css"
     ],
-    "gitdoc.enabled": true,
+    "gitdoc.enabled": false,
     "gitdoc.autoCommitDelay": 10000,
     "gitdoc.autoPushDelay": 30000,
     "gitdoc.commitMessageFormat": "gitdoc: ${date} ${files}",
