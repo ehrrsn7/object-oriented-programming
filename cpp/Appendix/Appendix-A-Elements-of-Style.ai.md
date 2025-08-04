@@ -54,7 +54,7 @@ During the lexing process, the compiler removes all the spaces between keywords 
 It takes quite a bit of work to figure out what a program or function is trying to do when all the reader has is the source code. We can simplify this process immensely by providing brief summaries. The two most common places to do this are in function and program headers.
 A function header appears immediately before every function. The purpose is to describe what the program does, any assumptions made about the input parameters, and describe the output. Ideally, a programmer should need no more information than is provided in the header before using a function. An example of a function header is the following:
 
-```
+```cpp
 /***********************************************************
 * GET YEAR
 * Prompt the user for the current year. Error checking
@@ -66,7 +66,7 @@ A function header appears immediately before every function. The purpose is to d
 
 A program header appears at the beginning of every file. This identifies what the program does, who wrote it, and a brief description of what it was written for. Our submission program reads this program header to determine how it is to be turned in. For this reason, it is important to start every program with the template provided at /home/cs165/template.cpp. The header for Assignment 1.0 is:
 
-```
+```cpp
 /**************************************************************
 * Program:
 * Assignment 10, Hello World
@@ -92,14 +92,14 @@ We put comments in our code for several reasons:
 
 Since a comment can be easily read by a programmer and source code, in many cases, must be decoded, one purpose of comments is to clarify complicated code. Comments can be used to convey information to those who will maintain the code. For example, a comment might provide warning that a certain value cannot be changed without impacting other portions of the program. Comments can provide documentation of the logic used in a program. Above all else, comments should add value to the code and should not simply restate what is obvious from the source code. The following are meaningless comments and add no value to the source code:
 
-```
+```cpp
 int i; // declare i to be an integer
 i = 2; // set i to 2
 ```
 
 On the other hand, the following comments add value:
 
-```
+```cpp
 int i; // indexing variable for loops
 i = 2; // skip cases 0 and 1 in the loop since they were processed earlier
 ```
@@ -168,7 +168,7 @@ Just as one would expect correct spelling in a technical paper, one should also 
 
 The following is an example of a class method with excellent style.
 
-```
+```cpp
 /*************************************************************
 * Extraction cin >> x;
 * RETURN: istream by reference (so we can say (cin >> x) >> y;)
@@ -192,7 +192,7 @@ istream & operator >> (istream & in, Card & card)
 
 The following example is a header file with excellent style.
 
-```
+```cpp
 /******************************************************************************
 * This file describes the WRITE interface, a class
 * designed to write data to a file
@@ -225,7 +225,7 @@ class Write
 
 The following example is a makefile with excellent style.
 
-```
+```cpp
 ############################################################################
 # Program:
 # Example 1.5, Complex Numbers demo
