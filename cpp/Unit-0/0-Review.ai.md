@@ -407,7 +407,7 @@ Here the syntax is quite a bit more complex than its WHILE and DO-WHILE brethren
 </div>
 
 ```cpp
-for (<mark>int count = 0</mark>; count < 5 ; count++) 
+for (int count = 0; count < 5 ; count++) 
    cout << count << endl;
 ```
 
