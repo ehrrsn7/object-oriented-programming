@@ -406,6 +406,22 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 Here the syntax is quite a bit more complex than its WHILE and DO-WHILE brethren.
 ::
 
+## Other examples
+
+::alert{type="info"}
+This is an info alert
+::
+
+::alert{type="warning"}  
+This is a warning alert
+::
+
+::code-group
+```bash [npm]
+npm install nuxt
+```
+::
+
 ```cpp
 for (int count = 0; count < 5 ; count++) 
    cout << count << endl;
