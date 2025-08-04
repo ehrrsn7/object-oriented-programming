@@ -402,12 +402,9 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
    <body statement>;
 ```
 
-<div class="card info">
-<div class="card-title">
-💡 Syntax Complexity
-</div>
+::card{icon="lucide:info" title="Syntax Complexity"}
 Here the syntax is quite a bit more complex than its WHILE and DO-WHILE brethren.
-</div>
+::
 
 ```cpp
 for (int count = 0; count < 5 ; count++) 
