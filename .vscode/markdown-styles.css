@@ -147,7 +147,7 @@ code.tip-style {
 
 pre.tip,
 pre.tip-style {
-  background-color: rgba(var(--callout-tip), 0.05);
+  background-color: rgba(var(--callout-tip), 0.05) !important;
   border-color: rgb(var(--callout-tip));
 }
 
