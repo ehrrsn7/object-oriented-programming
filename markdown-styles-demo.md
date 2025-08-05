@@ -282,6 +282,7 @@ private:
 ### C++ Code Block with Syntax Highlighting
 
 ```cpp{.success-style}
+// Green block class added using ```cpp{.success-style}
 #include <iostream>
 #include <string>
 
