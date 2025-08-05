@@ -153,7 +153,10 @@ code.tip {
 
 pre.tip {
   background-color: rgba(var(--callout-tip), 0.05);
-  border-left: 4px solid rgb(var(--callout-tip));
+  border-color: rgb(var(--callout-tip));
+  /* non-specific */
+  border-left-width: 4px;
+  border-left-style: solid;
   border-radius: var(--radius-s);
   padding: var(--size-4-3);
   position: relative;
@@ -161,11 +164,11 @@ pre.tip {
 
 pre.tip::before {
   content: "💡 Tip Code";
-  display: block;
   color: rgb(var(--callout-tip));
+  /* non-specific */
+  display: block;
   font-size: 0.875rem;
   margin-bottom: 8px;
-  text-transform: uppercase;
   letter-spacing: 0.025em;
 }
 
@@ -183,7 +186,6 @@ pre:has(code.tip)::before {
   color: rgb(var(--callout-tip));
   font-size: 0.875rem;
   margin-bottom: 8px;
-  text-transform: uppercase;
   letter-spacing: 0.025em;
 }
 
