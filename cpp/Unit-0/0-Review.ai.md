@@ -433,7 +433,7 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
 > The first statement to be executed in a loop.
 > - Can be any statement.
 > - We can declare and initialize a variable inside the loop:
->    `for (int i = 0; ... )`
+>    `for (int i = 0; ... )`{.info}
 > - We can initialize more than one variable:
 >    `for (j = 0, k = 0; ... )`{.info}
 > - We can also leave it empty:
@@ -442,10 +442,11 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
 </td>
 <td>
 
-Is executed immediately before the body of the loop.
-- Can be any expression.
-- As long as the expression evaluates to true, the loop continues:
-- If it is left empty, the expression evaluates to true. This means it will loop forever:
+> [!warning] Boolean Expression:
+> Is executed immediately before the body of the loop.
+> - Can be any expression.
+> - As long as the expression evaluates to true, the loop continues:
+> - If it is left empty, the expression evaluates to true. This means it will loop forever:
 
 </td>
 <td>
