@@ -416,11 +416,18 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 | **Initialization:** | **Boolean expression:** | **Increment:** |
 | The first statement to be executed in a loop. <br> - Can be any statement. <br> - We can declare and initialize a variable inside the loop: | Is executed immediately before the body of the loop. <br> - Can be any expression. <br> - As long as the expression evaluates to true, the loop continues: <br> - If it is left empty, the expression evaluates to true. This means it will loop forever: | Is executed immediately after the body of the loop. <br> - Can be any statement. <br> - Usually we put a ++ or -- here: <br> - You can put more than one statement here: <br> for ( $\ldots ; \ldots ; 1++, j--)$ <br> - Can be left empty: <br> for ( ; i < 10; ) |
 
-| `for (int i = 0 ; ...` |  |  |
-| - We can initialize more than one variable: |  | `for (; i < 10; )` |
-| `for (j = 0, k = 0 ; ...` |  |  |
-| - We can also leave it empty: |  |  |
-| `for (; i < 10; i++)` |  |  |
+
+`for (int i = 0 ; ...` 
+
+- We can initialize more than one variable: 
+
+`for (; i < 10; )` |
+
+`for (j = 0, k = 0 ; ...` 
+
+- We can also leave it empty: 
+
+`for (; i < 10; i++)` 
 
 While the syntax of the FOR loop may look quite complex, it has the three things any counting problem needs: where to start (initialization), where to end (Boolean expression), and how much to count by (the increment statement). For example, a FOR loop to give a countdown from 10 to zero would be:
 
