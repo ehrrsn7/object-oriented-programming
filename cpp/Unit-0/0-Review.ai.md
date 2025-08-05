@@ -407,9 +407,10 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 
 ## Other examples
 
-<pre><code>for (`int count = 0;`{.initialization .info} `count < 5` {.boolean-expression .warn}; `count++` {.increment .success})
+$$
+for (`int count = 0;`{.initialization .info} `count < 5` {.boolean-expression .warn}; `count++` {.increment .success})\\
    cout << count << endl;
-</code></pre>
+$$
 
 |  |  |  |
 | :-- | :-- | :-- |
