@@ -53,8 +53,20 @@ code.success {
   font-family: var(--font-monospace);
   font-size: 0.875rem;
   line-height: 1.5;
-  background-color: transparent;
   color: inherit;
+}
+pre code.callout,
+pre code.warning-style,
+pre code.warning,
+pre code.error-style,
+pre code.error,
+pre code.tip-style,
+pre code.tip,
+pre code.info-style,
+pre code.info,
+pre code.success-style,
+pre code.success {
+  background-color: transparent;
 }
 
 /* Enhanced code styling using callout variables */
