@@ -294,6 +294,8 @@ private:
     <td class="">
     <td class="">
     <td class="">
+</tr>
+<tr>
     <td class="">
     <td class="">
     <td class="">
@@ -303,6 +305,8 @@ private:
     <td class="">
     <td class="">
     <td class="">
+</tr>
+<tr>
     <td class="">
     <td class="">
     <td class="">
