@@ -75,15 +75,15 @@ This is the second line.
 > In VS Code, you can use the `\` character at the end of a line to force a line break instead --
 > While this technically works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.\
 
+> [!Tip]
+> Use two spaces at the end of a line for compatibility with most Markdown processors.
+
 > [!Warning] Author's preference:
 > Mr. Eli (the author) prefers using `\` for line breaks instead of trailing spaces for clarity and ease of editing in VS Code.\
 >\
 > **C++ Syntax**\
 > Perhaps the main reasoning for this is that in `C++`{.warning}, the newline character used is the standard output character for **bash** `\n` or **powershell** `\r`.\
 > The `\` character resembles this format.
-
-**Tip:**  
-Use two spaces at the end of a line for compatibility with most Markdown processors.
 
 ---
 
