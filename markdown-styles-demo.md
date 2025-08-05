@@ -441,6 +441,16 @@ You can embed raw HTML directly in Markdown to create advanced definition lists.
 
 **Rendered Output:**
 
+```markdown
+Apple
+:   Pomaceous fruit of plants of the genus Malus in 
+    the family Rosaceae.
+:   An American computer company.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+```
+
 Apple
 :   Pomaceous fruit of plants of the genus Malus in 
     the family Rosaceae.
