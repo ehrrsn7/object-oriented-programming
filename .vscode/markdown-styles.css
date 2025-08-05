@@ -145,8 +145,8 @@ code.tip-style {
   color: rgb(var(--callout-tip));
 }
 
-pre.tip,
-pre.tip-style {
+pre:has(.tip),
+pre:has(.tip-style) {
   background-color: rgba(var(--callout-tip), 0.05) !important;
   border-color: rgb(var(--callout-tip));
 }
