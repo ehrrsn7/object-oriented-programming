@@ -815,7 +815,7 @@ quote-style
 
 > [!info] You can use info callouts to highlight important information.
 
-> [!info] Info callouts support Markdown formatting, **bold**, *italic*, and `inline code`.
+> [!info] Info callouts support Markdown formatting, **bold**, *italic*, and `inline code`{.info}.
 
 > [!info] Multiple info callouts can be used in sequence for layered information.
 
