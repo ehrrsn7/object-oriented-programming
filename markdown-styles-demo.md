@@ -277,7 +277,7 @@ private:
 > +------------------------+------------+---------------------+
 > %
 > ```
-> Support for grid tables not available yet.
+> Support for pandoc-style grid tables not available yet.
 > Maybe there's an extension that I missed.
 
 ---
