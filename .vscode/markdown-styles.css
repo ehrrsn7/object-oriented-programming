@@ -483,7 +483,9 @@ code.quote-style
   border-width: 1px;
   border-style: solid;
   border-radius: var(--radius-s);
+  border-radius: 8px;
   padding: 2px 6px;
+  margin: 1em;
 }
 
 pre.bug,
