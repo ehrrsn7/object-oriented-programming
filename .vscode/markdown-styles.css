@@ -23,6 +23,10 @@ table.example tr:nth-child(even) {
   background: #f3f4f6;
 }
 
+table.example td {
+  border: 1px solid black;
+}
+
 table.example td.bug {
   color: rgba(var(--callout-bug), 1);
   background-color: rgba(var(--callout-bug), 0.3);
