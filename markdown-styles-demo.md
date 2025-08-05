@@ -439,8 +439,6 @@ You can embed raw HTML directly in Markdown to create advanced definition lists.
 
 > [!Success] There is a shorthand for this using markdown:
 
-**Rendered Output:**
-
 ```markdown
 Apple
 :   Pomaceous fruit of plants of the genus Malus in 
@@ -450,6 +448,8 @@ Apple
 Orange
 :   The fruit of an evergreen tree of the genus Citrus.
 ```
+
+**Rendered Output:**
 
 Apple
 :   Pomaceous fruit of plants of the genus Malus in 
