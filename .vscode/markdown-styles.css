@@ -24,6 +24,13 @@ h1.background {
   list-style: none;
 }
 
+/* Select the table that is the next sibling of h1#table-of-contents */
+h1#table-of-contents + table {
+  /* Add your styles here */
+  border: 2px solid #3730a3;
+  background: #f3f4f6;
+}
+
 /* Obsidian-style callout variables */
 :root {
   /* Callout styles: (already defined in extension)
