@@ -282,8 +282,6 @@ private:
 
 ---
 
-## Code Examples
-
 <table class="example">
 <tbody>
 <tr>
@@ -318,6 +316,8 @@ private:
 </tr>
 </tbody>
 </table>
+
+## Code Examples
 
 ### All code blocks styled like the callout types
 
