@@ -23,115 +23,115 @@ table.example tr:nth-child(even) {
   background: #f3f4f6;
 }
 
-td.bug {
+table.example td.bug {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.bug-style {
+table.example td.bug-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.default {
+table.example td.default {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.default-style {
+table.example td.default-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.error {
+table.example td.error {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.error-style {
+table.example td.error-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.example {
+table.example td.example {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.example-style {
+table.example td.example-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.fail {
+table.example td.fail {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.fail-style {
+table.example td.fail-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.important {
+table.example td.important {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.important-style {
+table.example td.important-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.info {
+table.example td.info {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.info-style {
+table.example td.info-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.question {
+table.example td.question {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.question-style {
+table.example td.question-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.success {
+table.example td.success {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.success-style {
+table.example td.success-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.summary {
+table.example td.summary {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.summary-style {
+table.example td.summary-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.tip {
+table.example td.tip {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.tip-style {
+table.example td.tip-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.todo {
+table.example td.todo {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.todo-style {
+table.example td.todo-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.warning {
+table.example td.warning {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.warning-style {
+table.example td.warning-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.quote {
+table.example td.quote {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
-td.quote-style {
+table.example td.quote-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
