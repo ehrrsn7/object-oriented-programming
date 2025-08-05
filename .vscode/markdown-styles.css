@@ -142,7 +142,7 @@ pre:has(code.success)::before {
 /* tip */
 code.tip,
 code.tip-style {
-  color: rgb(var(--callout-tip));
+  color: rgba(var(--callout-tip), 1);
 }
 
 pre.tip,
