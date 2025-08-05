@@ -79,7 +79,8 @@ This is the second line.
 > Mr. Eli (the author) prefers using `\` for line breaks instead of trailing spaces for clarity and ease of editing in VS Code.
 
 > [!Warning] C++ Syntax
-> Perhaps the main reasoning for this is that in `C++`{.warning}, the newline character used is the standard output character for **bash** `\n` or **powershell** `\r`.
+> Perhaps the main reasoning for this is that in `C++`{.warning}, the newline character used is the standard output character for **bash** `\n` or **powershell** `\r`.\
+> The `\` character resembles this format.
 
 **Tip:**  
 Use two spaces at the end of a line for compatibility with most Markdown processors.
