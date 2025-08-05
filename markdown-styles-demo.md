@@ -73,7 +73,7 @@ This is the second line.
 > **Newlines** within a paragraph in HTML are created using `<br>`.<br>
 > In an .md file, the markdown standard solution is to use <code>&nbsp;&nbsp;</code> at the end of the line.\
 > In VS Code, you can use the `\` character at the end of a line to force a line break instead --
-> While this technically works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.\
+> While this technically works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.
 
 > [!Tip]
 > Use two spaces at the end of a line for compatibility with most Markdown processors.
