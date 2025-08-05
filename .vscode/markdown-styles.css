@@ -1,3 +1,28 @@
+table.example {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  background: #fafaff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+table.example th,
+table.example td {
+  border: 1px solid #d1d5db;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+table.example th {
+  background: #e0e7ff;
+  color: #3730a3;
+  font-weight: 600;
+}
+
+table.example tr:nth-child(even) {
+  background: #f3f4f6;
+}
+
 /* Obsidian-style callout variables */
 :root {
   /* Callout styles: (already defined in extension)
