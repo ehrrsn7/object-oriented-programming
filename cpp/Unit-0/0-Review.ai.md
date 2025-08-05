@@ -405,10 +405,10 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > [!info] FOR Loop Syntax Complexity
 > The FOR loop syntax is more complex than WHILE and DO-WHILE loops, as it combines initialization, condition, and increment in a single statement.
 
-<pre><code>
-for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warn}; `count++`{.increment .success})
+<pre><code>for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warn}; `count++`{.increment .success})
    cout << count << endl;
 </code></pre>
+
 <table>
 <thead>
 <tr>
@@ -430,11 +430,11 @@ Initialization:
 The first statement to be executed in a loop.
 - Can be any statement.
 - We can declare and initialize a variable inside the loop:
-   `for (int i = 0; ... )`
+   `for (int i = 0; ... )`{.info}
 - We can initialize more than one variable:
-   `for (j = 0, k = 0; ... )`
+   `for (j = 0, k = 0; ... )`{.info}
 - We can also leave it empty:
-   `for (; i &lt; 10; i++)`
+   `for (; i &lt; 10; i++)`{.info}
    
 </td>
 <td>
@@ -451,9 +451,9 @@ Is executed immediately after the body of the loop.
 - Can be any statement.
 - Usually we put a ++ or -- here:
 - You can put more than one statement here:
-   `for (&hellip; ; &hellip; ; i++, j--)`
+   `for (&hellip; ; &hellip; ; i++, j--)`{.info}
 - Can be left empty:
-   `for (; i &lt; 10; )`
+   `for (; i &lt; 10; )`{.info}
 
 </td>
 </tr>
