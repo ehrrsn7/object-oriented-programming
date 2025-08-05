@@ -91,6 +91,37 @@ pre code.quote-style
   border: none;
 }
 
+/*
+bug
+bug-style
+default
+default-style
+error
+error-style
+example
+example-style
+fail
+fail-style
+important
+important-style
+info
+info-style
+question
+question-style
+success
+success-style
+summary
+summary-style
+tip
+tip-style
+todo
+todo-style
+warning
+warning-style
+quote
+quote-style
+*/
+
 code.bug,
 code.bug-style,
 code.default,
