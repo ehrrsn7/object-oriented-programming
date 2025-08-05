@@ -467,6 +467,13 @@ pre:has(code.quote-style)::before
   font-size: 0.875rem;
   margin-bottom: 8px;
   letter-spacing: 0.025em;
+  display: flex;
+  align-items: center;
+  height: 1.5em;
+  padding-left: 1.5em;
+  font-weight: bold;
+  width: auto;
+  background-size: 1.25em 1.25em;
 }
 
 /* debug table */
