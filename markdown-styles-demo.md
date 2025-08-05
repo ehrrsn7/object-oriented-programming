@@ -207,7 +207,7 @@ Here are examples of styled inline code:
 `code.warning`{.warning} - Warning-styled code\
 `code.tip`{.tip} - Tip-styled code\
 `code.info`{.info} - Info-styled code\
-`code.danger`{.danger} - Danger-styled code\
+`code.error`{.error} - Error-styled code\
 `code.success`{.success} - Success-styled code
 
 > [!warning]
