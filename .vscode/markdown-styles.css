@@ -38,6 +38,24 @@ details.callout {
   margin-bottom: 10px;
 }
 
+/*
+custom code callouts by type:
+  bug
+  default
+  error
+  example
+  fail
+  important
+  info
+  question
+  success
+  summary
+  tip
+  todo
+  warning
+  quote
+*/
+
 /* common among all code callouts */
 pre code.callout,
 pre code.warning-style,
@@ -53,6 +71,49 @@ pre code.success {
   background-color: transparent;
   color: black;
   border: none;
+}
+
+code.tip-style,
+code.tip {
+  /* non-specific */
+  border-width: 1px;
+  border-style: solid;
+  border-radius: var(--radius-s);
+  padding: 2px 6px;
+}
+
+pre.tip {
+  /* non-specific */
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
+pre.tip::before {
+  /* non-specific */
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  letter-spacing: 0.025em;
+}
+
+pre:has(code.tip) {
+  /* non-specific */
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
+pre:has(code.tip)::before {
+  /* non-specific */
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  letter-spacing: 0.025em;
 }
 
 /* Enhanced code styling using callout variables */
@@ -144,52 +205,26 @@ code.tip {
   background-color: rgba(var(--callout-tip), 0.1);
   color: rgb(var(--callout-tip));
   border-color: rgba(var(--callout-tip), 0.3);
-  /* non-specific */
-  border-width: 1px;
-  border-style: solid;
-  border-radius: var(--radius-s);
-  padding: 2px 6px;
 }
 
 pre.tip {
   background-color: rgba(var(--callout-tip), 0.05);
   border-color: rgb(var(--callout-tip));
-  /* non-specific */
-  border-left-width: 4px;
-  border-left-style: solid;
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
 }
 
 pre.tip::before {
   content: "💡 Tip Code";
   color: rgb(var(--callout-tip));
-  /* non-specific */
-  display: block;
-  font-size: 0.875rem;
-  margin-bottom: 8px;
-  letter-spacing: 0.025em;
 }
 
 pre:has(code.tip) {
   background-color: rgba(var(--callout-tip), 0.05);
   border-color: rgb(var(--callout-tip));
-  /* non-specific */
-  border-left-width: 4px;
-  border-left-style: solid;
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
 }
 
 pre:has(code.tip)::before {
   content: "💡 Tip";
-  display: block;
   color: rgb(var(--callout-tip));
-  font-size: 0.875rem;
-  margin-bottom: 8px;
-  letter-spacing: 0.025em;
 }
 
 /* todo */
