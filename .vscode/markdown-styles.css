@@ -174,7 +174,10 @@ pre.tip::before {
 
 pre:has(code.tip) {
   background-color: rgba(var(--callout-tip), 0.05);
-  border-left: 4px solid rgb(var(--callout-tip));
+  border-color: rgb(var(--callout-tip));
+  /* non-specific */
+  border-left-width: 4px;
+  border-left-style: solid;
   border-radius: var(--radius-s);
   padding: var(--size-4-3);
   position: relative;
