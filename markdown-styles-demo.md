@@ -216,7 +216,7 @@ Here are examples of styled inline code:
 
 > [!default] Code Blocks
 > We've styled the code blocks marked with classnames *(which allows for deeper styling)*.
-> See #
+All code blocks below are styled to match their corresponding callout types, demonstrating how custom CSS classes can visually differentiate code for warnings, tips, errors, and more.[^1]
 
 ```cpp {.warning}
 #include <iostream>
@@ -527,13 +527,13 @@ Orange
 
 ### Sue's Tips
 
-> [!Danger] 💡 **Sue's Tip:**
+> [!Danger] Sue's Tips
 > ![Sue](.vscode/assets/sue.png){width=50 align=right} 
 > Always use meaningful variable names and consistent formatting. Your future self (and your teammates) will thank you. Focus on writing code that works first, then optimize for readability.
 
 ### Sam's Corner
 
-> [!Tldr] 🤓 **Sam's Corner:**
+> [!Tldr] Sam's Corner
 > ![Sam](.vscode/assets/sam.png){width=50 align=right}
 > Did you know that C++ templates are Turing complete? This means you can theoretically compute any computable function at compile time using only template metaprogramming techniques.
 
