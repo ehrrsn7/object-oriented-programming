@@ -91,6 +91,7 @@ pre:has(code.bug) {
 code.default,
 code.default-style {
   color: rgb(var(--callout-default));
+  background-color: rgba(var(--callout-default), 0.05) !important;
 }
 
 pre:has(.default),
@@ -114,6 +115,7 @@ pre:has(code.default) {
 code.error,
 code.error-style {
   color: rgb(var(--callout-error));
+  background-color: rgba(var(--callout-error), 0.05) !important;
 }
 
 pre:has(.error),
@@ -137,6 +139,7 @@ pre:has(code.error) {
 code.example,
 code.example-style {
   color: rgb(var(--callout-example));
+  background-color: rgba(var(--callout-example), 0.05) !important;
 }
 
 pre:has(.example),
@@ -160,6 +163,7 @@ pre:has(code.example) {
 code.fail,
 code.fail-style {
   color: rgb(var(--callout-fail));
+  background-color: rgba(var(--callout-fail), 0.05) !important;
 }
 
 pre:has(.fail),
@@ -183,6 +187,7 @@ pre:has(code.fail) {
 code.important,
 code.important-style {
   color: rgb(var(--callout-important));
+  background-color: rgba(var(--callout-important), 0.05) !important;
 }
 
 pre:has(.important),
@@ -206,6 +211,7 @@ pre:has(code.important) {
 code.info,
 code.info-style {
   color: rgb(var(--callout-info));
+  background-color: rgba(var(--callout-info), 0.05) !important;
 }
 
 pre:has(.info),
@@ -229,6 +235,7 @@ pre:has(code.info) {
 code.question,
 code.question-style {
   color: rgb(var(--callout-question));
+  background-color: rgba(var(--callout-question), 0.05) !important;
 }
 
 pre:has(.question),
@@ -252,6 +259,7 @@ pre:has(code.question) {
 code.success,
 code.success-style {
   color: rgb(var(--callout-success));
+  background-color: rgba(var(--callout-success), 0.05) !important;
 }
 
 pre:has(.success),
@@ -275,6 +283,7 @@ pre:has(code.success) {
 code.summary,
 code.summary-style {
   color: rgb(var(--callout-summary));
+  background-color: rgba(var(--callout-summary), 0.05) !important;
 }
 
 pre:has(.summary),
@@ -298,6 +307,7 @@ pre:has(code.summary) {
 code.tip,
 code.tip-style {
   color: rgb(var(--callout-tip));
+  background-color: rgba(var(--callout-tip), 0.05) !important;
 }
 
 pre:has(.tip),
@@ -321,6 +331,7 @@ pre:has(code.tip) {
 code.todo,
 code.todo-style {
   color: rgb(var(--callout-todo));
+  background-color: rgba(var(--callout-todo), 0.05) !important;
 }
 
 pre:has(.todo),
@@ -344,6 +355,7 @@ pre:has(code.todo) {
 code.warning,
 code.warning-style {
   color: rgb(var(--callout-warning));
+  background-color: rgba(var(--callout-warning), 0.05) !important;
 }
 
 pre:has(.warning),
@@ -367,6 +379,7 @@ pre:has(code.warning) {
 code.quote,
 code.quote-style {
   color: rgb(var(--callout-quote));
+  background-color: rgba(var(--callout-quote), 0.05) !important;
 }
 
 pre:has(.quote),
