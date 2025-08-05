@@ -28,7 +28,7 @@ date: "2025-08-03"
 
 # 0-Course-Overview {.background}
 
-# Table of Contents
+# Table of Contents {.table-of-contents}
 
 | Table of Contents $\ldots$ 1 |
 | :--- |
