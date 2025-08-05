@@ -19,9 +19,7 @@ h1.background {
 }
 
 #table-of-contents {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  margin: 1em 0;
 }
 
 /* Select the table that is the next sibling of h1#table-of-contents */
@@ -30,6 +28,7 @@ h1#table-of-contents + table {
   border: 2px solid #373461;
   background: #f3f4f6;
   width: 100%;
+  margin-left: 1em;
 }
 
 /* Obsidian-style callout variables */
