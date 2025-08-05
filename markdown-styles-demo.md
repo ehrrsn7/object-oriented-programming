@@ -837,24 +837,22 @@ quote-style
 
 > [!info]- This is an expandable info callout.
 
-> [!info] Info callouts are useful for providing additional context.
+> [!bug] Callouts are useful for providing additional context.
 
-> [!info] You can use info callouts to highlight important information.
+> [!important] You can use callouts to highlight important information.
 
-> [!info] Info callouts support Markdown formatting, **bold**, *italic*, and `inline code`{.info}.
+> [!quote] Callouts support Markdown formatting, **bold**, *italic*, and `inline code`{.info}.
 
-> [!info] Multiple info callouts can be used in sequence for layered information.
-
-> [!info] Info callouts can include lists:
+> [!example] Eallouts can include lists:
 > - Point one
 > - Point two
 > - Point three
 
-> [!info] Info callouts can contain links: [Learn more](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
+> [!info] callouts can contain links: [Learn more](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
 
-> [!info] Info callouts can be nested:
-> > [!info] Nested info callout example.
+> [!info] callouts can be nested:
+> > [!info] Nested callout example.
 
-> [!info] You can use emojis in info callouts 🚀
+> [!info] You can use emojis in callouts 🚀
 
-> [!info] Info callouts help organize content and improve readability.
+> [!info] callouts help organize content and improve readability.
