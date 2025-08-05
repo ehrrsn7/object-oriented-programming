@@ -407,7 +407,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 
 ## Other examples
 
-<pre><code>for (`int count = 0;` count < 5 ; count++) 
+<pre><code>for (`int count = 0;`{.initialization .info} `count < 5` {boolean-expression .warn}; `count++` {})
    cout << count << endl;
 </code></pre>
 
