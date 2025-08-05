@@ -92,8 +92,39 @@ Here are examples of styled inline code:
 - `code.danger`{.danger} - Danger-styled code
 - `code.success`{.success} - Success-styled code
 
-```cpp{.warning}
+```cpp {.warning}
 hello
+```
+
+```cpp {.warning}
+#include <iostream>
+#include <string>
+
+class Student {
+private:
+    std::string name;
+    int id;
+
+public:
+    // Constructor
+    Student(const std::string& studentName, int studentId) 
+        : name(studentName), id(studentId) {}
+    
+    // Accessor methods
+    std::string getName() const { return name; }
+    int getId() const { return id; }
+    
+    // Display method
+    void display() const {
+        std::cout << "Student: " << name << " (ID: " << id << ")" << std::endl;
+    }
+};
+
+int main() {
+    Student student("John Doe", 12345);
+    student.display();
+    return 0;
+}
 ```
 
 ### Enhanced Blockquotes
