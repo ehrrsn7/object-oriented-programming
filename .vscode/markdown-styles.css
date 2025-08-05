@@ -8,7 +8,7 @@ h1.background {
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
   padding: 1em 1em;
   font-weight: bolder;
-  height: 25px;
+  max-height: 25px;
   text-align: right;
 }
 
