@@ -688,7 +688,7 @@ The `.vscode/settings.json` includes:
 1. **Open** your markdown file in VS Code
 2. **Ensure** the workspace includes the `.vscode` folder with `markdown-styles.css`
 > [!Note]
-> You will have to individually open up every folder containing the .vscode folder for this to work
+> You will have to individually open up every folder containing the `.vscode`{.note} folder for this to work
 3. **Use Command Palette** (`Ctrl+Shift+P`) → "Markdown Extended: Export (pdf)"
 4. **Result**: Professional PDF with custom footers, styling, and formatting
 
