@@ -426,35 +426,35 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
 <tr>
 <td>
 
-   Initialization:\
-   The first statement to be executed in a loop.\
-   - Can be any statement.\
-   - We can declare and initialize a variable inside the loop:\
-      `for (int i = 0; ... )`
-   - We can initialize more than one variable:\
-      `for (j = 0, k = 0; ... )`
-   - We can also leave it empty:\
-      `for (; i &lt; 10; i++)`
-      
-</td>
-<td>
-
-   Is executed immediately before the body of the loop.\
-   - Can be any expression.\
-   - As long as the expression evaluates to true, the loop continues:\
-   - If it is left empty, the expression evaluates to true. This means it will loop forever:
+Initialization:
+The first statement to be executed in a loop.
+- Can be any statement.
+- We can declare and initialize a variable inside the loop:
+   `for (int i = 0; ... )`
+- We can initialize more than one variable:
+   `for (j = 0, k = 0; ... )`
+- We can also leave it empty:
+   `for (; i &lt; 10; i++)`
    
 </td>
 <td>
 
-   Is executed immediately after the body of the loop.\
-   - Can be any statement.\
-   - Usually we put a ++ or -- here:\
-   - You can put more than one statement here:\
-   `for (&hellip; ; &hellip; ; i++, j--)`\
-   - Can be left empty:\
+Is executed immediately before the body of the loop.
+- Can be any expression.
+- As long as the expression evaluates to true, the loop continues:
+- If it is left empty, the expression evaluates to true. This means it will loop forever:
+
+</td>
+<td>
+
+Is executed immediately after the body of the loop.
+- Can be any statement.
+- Usually we put a ++ or -- here:
+- You can put more than one statement here:
+   `for (&hellip; ; &hellip; ; i++, j--)`
+- Can be left empty:
    `for (; i &lt; 10; )`
-   
+
 </td>
 </tr>
 </tbody>
