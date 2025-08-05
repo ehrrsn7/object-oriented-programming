@@ -51,7 +51,6 @@ code.info,
 code.success-style,
 code.success {
   font-family: var(--font-monospace);
-  font-size: 0.875rem;
   line-height: 1.5;
   color: inherit;
 }
@@ -67,7 +66,8 @@ pre code.info-style,
 pre code.info,
 pre code.success-style,
 pre code.success {
-  background-color: transparent;
+  background-color: transparent !important;
+  color: black !important;
   border: none;
 }
 
