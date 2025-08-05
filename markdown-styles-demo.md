@@ -803,7 +803,7 @@ warning-style
 quote-style
 ```
 
-> [!tip]-
+> [!tip]- Case Sensitivity
 > These are case-sensitive:
 > `` ```{.tip-style} ... ``` ``{.tip}:
 > ```{.tip-style}
