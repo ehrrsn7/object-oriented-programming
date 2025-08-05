@@ -272,7 +272,7 @@
       ">\\",
       "> ${2:Second paragraph}"
     ],
-    "description": "Insert a multi-line block quote"
+    "description": "Insert a multi-line block quote using backslash line breaks"
   },
   "Unordered List": {
     "prefix": "ul",
