@@ -159,7 +159,7 @@ pre.tip::before {
   display: inline-block;
   height: 1.25em;
   vertical-align: middle;
-  width: 1.25em;
+  width: 5.25em;
 }
 
 pre:has(code.tip) {
