@@ -260,7 +260,7 @@ private:
 | 2    | 2.0     | Encapsulation Design  | Intermediate | 4 hours        |
 | 2    | 2.1     | Building a Class      | Advanced     | 5 hours        |
 
-> [!Error] Wishlist:
+> [!Error] Not yet supported: Grid Tables
 > ```pandoc
 > % pandoc -f rst
 > +------------------------+------------+----------+----------+

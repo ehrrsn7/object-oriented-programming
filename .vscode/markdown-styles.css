@@ -27,21 +27,6 @@
   --callout-warning: var(--color-orange-rgb);
   --callout-quote: 158, 158, 158; 
   */
-
-  /* Fallback color definitions */
-  --color-red-rgb: 232, 62, 140;
-  --color-blue-rgb: 8, 109, 221;
-  --color-orange-rgb: 255, 159, 69;
-  --color-green-rgb: 9, 201, 174;
-  --color-purple-rgb: 168, 85, 247;
-  --color-cyan-rgb: 23, 171, 237;
-  
-  /* Size and radius fallbacks */
-  --size-4-3: 12px;
-  --size-4-6: 20px;
-  --radius-s: 4px;
-  --font-weight: 400;
-  --bold-modifier: 200;
 }
 
 div.callout,
