@@ -849,7 +849,7 @@ quote-style
 
 > [!important] You can use callouts to highlight important information.
 
-> [!quote] Callouts support Markdown formatting, **bold**, *italic*, and `inline code`{.info}.
+> [!quote] Callouts support Markdown formatting, **bold**, *italic*, and `inline code`{.quote}.
 
 > [!example] Eallouts can include lists:
 > - Point one
