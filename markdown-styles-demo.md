@@ -284,6 +284,8 @@ private:
 
 ## Code Examples
 
+### All code blocks styled like the callout types
+
 ```{.bug}
 bug
 ```
