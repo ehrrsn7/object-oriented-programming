@@ -206,21 +206,21 @@
     ],
     "description": "Insert a horizontal rule"
   },
-  "Line Break (Two Spaces)": {
+  "Line Break (Backslash)": {
     "prefix": "linebreak",
+    "body": [
+      "${1:First line}\\",
+      "${2:Second line}"
+    ],
+    "description": "Insert line break using backslash (Mr. Eli's preferred method)"
+  },
+  "Line Break (Two Spaces)": {
+    "prefix": "linebreak-spaces",
     "body": [
       "${1:First line}  ",
       "${2:Second line}"
     ],
     "description": "Insert line break using two trailing spaces"
-  },
-  "Line Break (Backslash)": {
-    "prefix": "linebreak-bs",
-    "body": [
-      "${1:First line}\\",
-      "${2:Second line}"
-    ],
-    "description": "Insert line break using backslash (VS Code specific)"
   },
   "Line Break (HTML)": {
     "prefix": "linebreak-html",
