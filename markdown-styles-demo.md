@@ -347,11 +347,11 @@ public:
     // Constructor
     Student(const std::string& studentName, int studentId) 
         : name(studentName), id(studentId) {}
-  \
+  
       // Accessor methods
     std::string getName() const { return name; }
     int getId() const { return id; }
-  \
+  
       // Display method
     void display() const {
         std::cout << "Student: " << name 
@@ -373,15 +373,15 @@ int main() {
 class Calculator:
     def __init__(self):
         self.result = 0
-  \
+  
       def add(self, value):
         self.result += value
         return self
-  \
+  
       def multiply(self, value):
         self.result *= value
         return self
-  \
+  
       def get_result(self):
         return self.result
 
