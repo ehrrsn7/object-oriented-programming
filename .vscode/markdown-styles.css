@@ -460,3 +460,146 @@ pre:has(code.quote-style)::before
   margin-bottom: 8px;
   letter-spacing: 0.025em;
 }
+
+/* debug table */
+table.example {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  background: #fafaff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+table.example th,
+table.example td {
+  border: 1px solid #d1d5db;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+table.example th {
+  background: #e0e7ff;
+  color: #3730a3;
+  font-weight: 600;
+}
+
+table.example tr:nth-child(even) {
+  background: #f3f4f6;
+}
+
+table.example td {
+  border: 1px solid black;
+}
+
+table.example td.bug {
+  color: rgba(var(--callout-bug), 1);
+  background-color: rgba(var(--callout-bug), 0.3);
+}
+table.example td.bug-style {
+  color: rgba(var(--callout-bug), 1);
+  background-color: rgba(var(--callout-bug), 0.3);
+}
+table.example td.default {
+  color: rgba(var(--callout-default), 1);
+  background-color: rgba(var(--callout-default), 0.3);
+}
+table.example td.default-style {
+  color: rgba(var(--callout-default), 1);
+  background-color: rgba(var(--callout-default), 0.3);
+}
+table.example td.error {
+  color: rgba(var(--callout-error), 1);
+  background-color: rgba(var(--callout-error), 0.3);
+}
+table.example td.error-style {
+  color: rgba(var(--callout-error), 1);
+  background-color: rgba(var(--callout-error), 0.3);
+}
+table.example td.example {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.3);
+}
+table.example td.example-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.3);
+}
+table.example td.fail {
+  color: rgba(var(--callout-fail), 1);
+  background-color: rgba(var(--callout-fail), 0.3);
+}
+table.example td.fail-style {
+  color: rgba(var(--callout-fail), 1);
+  background-color: rgba(var(--callout-fail), 0.3);
+}
+table.example td.important {
+  color: rgba(var(--callout-important), 1);
+  background-color: rgba(var(--callout-important), 0.3);
+}
+table.example td.important-style {
+  color: rgba(var(--callout-important), 1);
+  background-color: rgba(var(--callout-important), 0.3);
+}
+table.example td.info {
+  color: rgba(var(--callout-info), 1);
+  background-color: rgba(var(--callout-info), 0.3);
+}
+table.example td.info-style {
+  color: rgba(var(--callout-info), 1);
+  background-color: rgba(var(--callout-info), 0.3);
+}
+table.example td.question {
+  color: rgba(var(--callout-question), 1);
+  background-color: rgba(var(--callout-question), 0.3);
+}
+table.example td.question-style {
+  color: rgba(var(--callout-question), 1);
+  background-color: rgba(var(--callout-question), 0.3);
+}
+table.example td.success {
+  color: rgba(var(--callout-success), 1);
+  background-color: rgba(var(--callout-success), 0.3);
+}
+table.example td.success-style {
+  color: rgba(var(--callout-success), 1);
+  background-color: rgba(var(--callout-success), 0.3);
+}
+table.example td.summary {
+  color: rgba(var(--callout-summary), 1);
+  background-color: rgba(var(--callout-summary), 0.3);
+}
+table.example td.summary-style {
+  color: rgba(var(--callout-summary), 1);
+  background-color: rgba(var(--callout-summary), 0.3);
+}
+table.example td.tip {
+  color: rgba(var(--callout-tip), 1);
+  background-color: rgba(var(--callout-tip), 0.3);
+}
+table.example td.tip-style {
+  color: rgba(var(--callout-tip), 1);
+  background-color: rgba(var(--callout-tip), 0.3);
+}
+table.example td.todo {
+  color: rgba(var(--callout-todo), 1);
+  background-color: rgba(var(--callout-todo), 0.3);
+}
+table.example td.todo-style {
+  color: rgba(var(--callout-todo), 1);
+  background-color: rgba(var(--callout-todo), 0.3);
+}
+table.example td.warning {
+  color: rgba(var(--callout-warning), 1);
+  background-color: rgba(var(--callout-warning), 0.3);
+}
+table.example td.warning-style {
+  color: rgba(var(--callout-warning), 1);
+  background-color: rgba(var(--callout-warning), 0.3);
+}
+table.example td.quote {
+  color: rgba(var(--callout-quote), 1);
+  background-color: rgba(var(--callout-quote), 0.3);
+}
+table.example td.quote-style {
+  color: rgba(var(--callout-quote), 1);
+  background-color: rgba(var(--callout-quote), 0.3);
+}
