@@ -322,7 +322,7 @@ int main() {
 
 ### Python Code Example
 
-```python{.tip-style}
+```python {.tip-style}
 class Calculator:
     def __init__(self):
         self.result = 0
