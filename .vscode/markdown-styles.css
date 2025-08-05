@@ -195,6 +195,7 @@ pre:has(code.tip)::before {
   letter-spacing: 0.025em;
 }
 
+pre:has(code.success-style),
 pre:has(code.success) {
   background-color: rgba(var(--callout-success), 0.05);
   border-left: 4px solid rgb(var(--callout-success));
