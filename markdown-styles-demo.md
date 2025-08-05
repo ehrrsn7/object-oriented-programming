@@ -281,7 +281,7 @@ private:
 
 ### C++ Code Block with Syntax Highlighting
 
-```cpp{.success}
+```cpp{.success-style}
 #include <iostream>
 #include <string>
 
