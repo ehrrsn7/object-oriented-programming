@@ -140,12 +140,13 @@ pre:has(code.success)::before {
 /* summary */
 
 /* tip */
-code.tip-style,
-code.tip {
+code.tip,
+code.tip-style {
   color: rgb(var(--callout-tip));
 }
 
-pre.tip {
+pre.tip,
+pre.tip-style {
   background-color: rgba(var(--callout-tip), 0.05);
   border-color: rgb(var(--callout-tip));
 }
