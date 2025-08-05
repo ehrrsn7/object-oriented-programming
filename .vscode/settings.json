@@ -1,7 +1,17 @@
 {
     "markdown.styles": [
-        "./.vscode/markdown-styles.css"
+        "./.vscode/markdown-styles.css",
     ],
+    "markdown.preview.breaks": true,
+    "markdown.preview.linkify": true,
+    "markdown.preview.typographer": true,
+    "markdown.preview.markdownItOptions": {
+        "html": true,
+        "linkify": true,
+        "typographer": true
+    },
+    "markdown.extension.toc.levels": "1..6",
+    "markdown.extension.preview.autoShowPreviewToSide": false,
     "gitdoc.enabled": false,
     "gitdoc.autoCommitDelay": 10000,
     "gitdoc.autoPushDelay": 30000,

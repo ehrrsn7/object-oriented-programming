@@ -1,12 +1,38 @@
+---
+title: "Course Overview - Object-Oriented Programming in C++"
+description: "Introduction to Object-Oriented Programming course covering encapsulation, inheritance, polymorphism, and abstract types"
+course: "CS 165"
+unit: "Unit 0"
+chapter: "0-Course-Overview"
+tags:
+  - cpp
+  - object-oriented-programming
+  - course-overview
+  - encapsulation
+  - inheritance
+  - polymorphism
+source:
+  type: "AI-Generated Draft"
+  method: "Mistral OCR"
+  original: "0-Course-Overview.pdf"
+  generated: "2025-08-03 16:15:23"
+  book:
+    title: "CS165 Text"
+    format: "Unknown Binding"
+    asin: "B0DTVZSPM2"
+  course_url: "https://content.byui.edu/file/eba8da04-5bfb-481c-aac6-d571199802f3/5/CS%20165%20Syllabus.html"
+  institution: "Brigham Young University - Idaho"
+author: "CS 165 Course Materials"
+date: "2025-08-03"
+---
+
 # 0-Course-Overview
 
-> **AI-Generated Draft** - Converted from PDF using Mistral OCR
-> 
-> Original file: `0-Course-Overview.pdf`
-> 
-> Generated: 2025-08-03 16:15:23
-
----
+> [WARNING]
+> ⚠️ **Warning:** \
+> *here be dragons*
+>
+> ==yes==
 
 # Table of Contents 
 
