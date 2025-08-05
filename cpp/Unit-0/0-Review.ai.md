@@ -426,7 +426,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 <tr>
 <td>
 
-Initialization:
+### Initialization:
 The first statement to be executed in a loop.
 - Can be any statement.
 - We can declare and initialize a variable inside the loop:
