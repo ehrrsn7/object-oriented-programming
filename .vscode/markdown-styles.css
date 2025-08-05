@@ -1,6 +1,6 @@
 /* # Headers */
 .background {
-  background-image: url("../header.jpg");
+  background-image: url("./assets/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
