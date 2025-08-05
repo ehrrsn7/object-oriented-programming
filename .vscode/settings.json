@@ -5,16 +5,9 @@
     "markdown.preview.breaks": false,
     "markdown.preview.linkify": true,
     "markdown.preview.typographer": true,
-    "markdown.preview.markdownItOptions": {
-        "html": true,
-        "linkify": true,
-        "typographer": true
-    },
-    "markdown.extension.toc.levels": "1..6",
-    "markdown.extension.preview.autoShowPreviewToSide": false,
     "gitdoc.enabled": true,
     "gitdoc.autoCommitDelay": 10000,
     "gitdoc.autoPushDelay": 30000,
-    "gitdoc.commitMessageFormat": "gitdoc: ${date} ${files}",
+    "gitdoc.commitMessageFormat": "🤖 AI Commit: ${aiMessage} | ${date}",
     "gitdoc.ai.useEmojis": true
 }
