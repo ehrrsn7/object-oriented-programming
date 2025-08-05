@@ -5,15 +5,14 @@ h1.background {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: translateX(-0.15in);
-  transform: translateY(-0.15in);
-  overflow-x: clip;
+  transform: translate(-0.5in, -0.15in);
+  overflow-x: hidden;
   width: 100vw;
   color: white;
   font-weight: bolder;
   line-height: 1in;
   min-height: 1in;
-  min-width: 8.5in;
+  max-width: 8.5in;
   padding: 0;
   text-align: right;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
