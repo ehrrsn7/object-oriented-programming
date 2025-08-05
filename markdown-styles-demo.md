@@ -35,37 +35,144 @@ This document demonstrates all the available Bootstrap-inspired styles for educa
 
 ---
 
+<div style="page-break-after: always;"></div>
+
+---
+
+**Page Break Example:**  
+The horizontal rule above uses a custom HTML `<div style="page-break-after: always;"></div>` to force a page break in print or PDF output.  
+You can insert this anywhere in your Markdown to separate sections onto new pages.
+
+---
+
+## Line Break Demonstrations
+
+You can create line breaks in Markdown using two spaces at the end of a line, or by using the `<br>` HTML tag.
+
+**Example using two spaces:**  
+This is the first line.  
+This is the second line.
+
+**Example using `<br>` tag:**  
+This is the first line.<br>
+This is the second line.
+
+**Within lists or tables:**  
+- Item one  
+    continues on the next line  
+- Item two<br>with a manual break
+
+**Inside blockquotes:**  
+> This is a blockquote line one.  
+> This is line two.
+
+
+
+> [!Note]
+> In VS Code, you can use the `\` character at the end of a line to force a line break instead of <code>&nbsp;&nbsp;</code> or `<br>`. While this works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.\
+>\
+> *Author's preference:*\
+> Mr. Eli (the author) prefers using `\` for line breaks instead of trailing spaces for clarity and ease of editing in VS Code.
+
+**Tip:**  
+Use two spaces at the end of a line for compatibility with most Markdown processors.
+
+---
+
 ## Educational Content Blocks
+
+Below are examples of each Obsidian callout type, rendered with Bootstrap-inspired styles using the Markdown Obsidian Callout extension.
 
 ### Warning Blocks
 
-> [WARNING]
-> ⚠️ **Warning:** \
-> *This is a warning block using the standard format. It will be styled with Bootstrap danger colors (red theme).*
+> [!WARNING]
+> With the Markdown Obsidian Callout extension, warning blocks are rendered with Bootstrap-inspired warning styles (orange theme), making alerts visually prominent and easy to spot.
 
 ### Tip Blocks
 
-> [TIP]
-> 💡 **Tip:** \
-> *This is a tip block that provides helpful advice. It uses Bootstrap info colors (cyan theme).*
+> [!TIP]
+> Tip blocks are enhanced with Bootstrap info (cyan theme) styling, providing helpful advice with clear visual separation, thanks to the Obsidian Callout extension.
 
 ### Info Blocks
 
-> [INFO]
-> ℹ️ **Info:** \
-> *This is an informational block for additional context. It uses Bootstrap primary colors (blue theme).*
+> **Note**: *This block is expandable*
 
-### Danger Blocks
+> [!INFO]-
+> Informational blocks use Bootstrap primary (blue theme) colors for added context, improving readability and organization when the callout extension is active.
 
-> [DANGER]
-> 🚨 **Danger:** \
-> *This is a danger block for critical warnings. It uses a stronger red theme than warnings.*
+### Danger/Error Blocks
+
+> [!DANGER]
+> Danger blocks receive a stronger red Bootstrap theme, emphasizing critical warnings and urgent messages with distinct styling from the callout extension.
+
+> [!ERROR]
+> Error blocks highlight problems or failures with a bold red theme, making issues easy to identify.
 
 ### Success Blocks
 
-> [SUCCESS]
-> ✅ **Success:** \
-> *This is a success block for positive reinforcement. It uses Bootstrap success colors (green theme).*
+> [!SUCCESS]
+> Success blocks are styled with Bootstrap success (green theme) colors, offering positive reinforcement and confirmation, visually highlighted by the Obsidian Callout extension.
+
+> [!CHECK]
+> This is a check callout, confirming a completed action or success.
+
+### Bug Blocks
+
+> [!BUG]
+> Bug callouts use a distinct style to highlight known issues or defects in code or documentation.
+
+### Default/Note Blocks
+
+> [!NOTE]
+> Default note blocks provide general information or reminders, styled with a neutral Bootstrap theme.
+
+### Example Blocks
+
+> [!EXAMPLE]
+> Example callouts showcase sample code, usage, or scenarios for better understanding.
+
+### Fail/Missing Blocks
+
+> [!FAIL]
+> Fail blocks indicate missing features, failed tests, or incomplete sections.
+
+> [!MISSING]
+> This callout marks content that is not yet available or needs to be added.
+
+### Important Blocks
+
+> [!IMPORTANT]
+> Important callouts emphasize critical instructions or must-read information.
+
+### Question/Help/FAQ Blocks
+
+> [!QUESTION]
+> Question callouts highlight frequently asked questions or prompts for further discussion.
+
+> [!HELP]
+> Help callouts provide guidance or troubleshooting tips.
+
+### Summary/Abstract/TLDR Blocks
+
+> [!SUMMARY]
+> Summary callouts give a brief overview or abstract of the section.
+
+> [!TLDR]
+> TLDR (Too Long; Didn't Read) callouts summarize key points for quick reference.
+
+### Todo Blocks
+
+> [!TODO]
+> Todo callouts list tasks or items that need attention or completion.
+
+### Quote/Cite Blocks
+
+> [!QUOTE]
+> Quote callouts are used for citations, references, or notable statements.
+
+> [!CITE]
+> Cite callouts reference sources or important literature.
+
 
 ---
 
@@ -86,13 +193,14 @@ This is **bold text** and this is *italic text*. You can also use ==highlighted 
 
 Here are examples of styled inline code:
 
-- `code.warning`{.warning} - Warning-styled code
-- `code.tip`{.tip} - Tip-styled code  
-- `code.info`{.info} - Info-styled code
-- `code.danger`{.danger} - Danger-styled code
-- `code.success`{.success} - Success-styled code
+`code.warning`{.warning} - Warning-styled code\
+`code.tip`{.tip} - Tip-styled code\
+`code.info`{.info} - Info-styled code\
+`code.danger`{.danger} - Danger-styled code\
+`code.success`{.success} - Success-styled code
 
-```cpp {.warning}
+<!--shouldn't be changed in this scenario-->
+```cpp {.warning} 
 hello
 ```
 
