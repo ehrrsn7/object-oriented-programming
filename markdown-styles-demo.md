@@ -775,8 +775,8 @@ The `.vscode/settings.json` includes:
 - **Template System**: One CSS file with dynamic frontmatter extraction
 - **Batch Processing**: Export multiple documents with consistent styling
 
-> [!TIP]
-> 💡 **Pro Tip:** The CSS `@page` rules take precedence over `markdownExtended.pdfFooterTemplate`, so you can use pure CSS for maximum control over footer formatting.
+> [!TIP] Pro Tip
+> The CSS `@page` rules take precedence over `markdownExtended.pdfFooterTemplate`, so you can use pure CSS for maximum control over footer formatting.
 
 ---
 
