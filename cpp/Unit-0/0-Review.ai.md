@@ -425,9 +425,15 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
    <tbody>
       <tr>
          <td>
+            Initialization:<br>
             The first statement to be executed in a loop.<br>
             - Can be any statement.<br>
-            - We can declare and initialize a variable inside the loop:
+            - We can declare and initialize a variable inside the loop:<br>
+               `for (int i = 0; ... )`
+            - We can initialize more than one variable:<br>
+               `for (j = 0, k = 0; ... )`
+            - We can also leave it empty:<br>
+               `for (; i &lt; 10; i++)`
          </td>
          <td>
             Is executed immediately before the body of the loop.<br>
