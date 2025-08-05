@@ -305,6 +305,8 @@ private:
     <td class="important-style">12
     <td class="info">13
     <td class="info-style">14
+    <td class="note">13
+    <td class="note-style">14
 </tr>
 <tr>
     <td class="question">15
