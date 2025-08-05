@@ -57,6 +57,12 @@ custom code callouts by type: (14 total, 28 '-style' pairs)
 */
 
 /* Enhanced code styling using callout variables */
+
+/* Replace {COLOR} with the hex value for your tip color, e.g. F59E42 for orange.
+   Example: stroke=%22%23F59E42%22
+   Tip 2ACAC8: stroke=%22%232ACAC8%22
+*/
+
 /* bug */
 
 /* default */
@@ -156,11 +162,6 @@ pre:has(code.tip)::before {
   color: rgb(var(--callout-tip));
   content: "Tip";
 }
-
-/* Replace {COLOR} with the hex value for your tip color, e.g. F59E42 for orange.
-   Example: stroke=%22%23F59E42%22
-   Tip 2ACAC8: stroke=%22%232ACAC8%22
-*/
 
 pre:has(code.tip) {
   background-color: rgba(var(--callout-tip), 0.05);
