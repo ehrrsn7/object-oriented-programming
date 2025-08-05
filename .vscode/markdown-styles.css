@@ -39,7 +39,6 @@ details.callout {
 
 /* Enhanced code styling using callout variables */
 
-/* Inline code with callout-based styling */
 code.warning-style,
 code.warning {
   background-color: rgba(var(--callout-warning), 0.1) !important;
@@ -47,6 +46,15 @@ code.warning {
   border: 1px solid rgba(var(--callout-warning), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
+}
+
+pre.warning-style,
+pre.warning {
+  background-color: rgba(var(--callout-warning), 0.05);
+  border-left: 4px solid rgb(var(--callout-warning));
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
 }
 
 code.error-style,
@@ -83,16 +91,6 @@ code.success {
   border: 1px solid rgba(var(--callout-success), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
-}
-
-/* Multiline code blocks with callout styling */
-pre.warning-style,
-pre.warning {
-  background-color: rgba(var(--callout-warning), 0.05);
-  border-left: 4px solid rgb(var(--callout-warning));
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
 }
 
 pre.error-style,
