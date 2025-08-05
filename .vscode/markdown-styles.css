@@ -36,7 +36,7 @@ table.example td.default {
   background-color: rgba(var(--callout-default), 0.3);
 }
 table.example td.default-style {
-  color: rgba(var(--callout-example)default-style 1);
+  color: rgba(var(--callout-default-style), 1);
   background-color: rgba(var(--callout-default-style), 0.3);
 }
 table.example td.error {
@@ -44,7 +44,7 @@ table.example td.error {
   background-color: rgba(var(--callout-error), 0.3);
 }
 table.example td.error-style {
-  color: rgba(var(--callout-example)error-style 1);
+  color: rgba(var(--callout-error-style), 1);
   background-color: rgba(var(--callout-error-style), 0.3);
 }
 table.example td.example {
@@ -52,7 +52,7 @@ table.example td.example {
   background-color: rgba(var(--callout-example), 0.3);
 }
 table.example td.example-style {
-  color: rgba(var(--callout-example)example-style 1);
+  color: rgba(var(--callout-example-style), 1);
   background-color: rgba(var(--callout-example-style), 0.3);
 }
 table.example td.fail {
@@ -60,7 +60,7 @@ table.example td.fail {
   background-color: rgba(var(--callout-fail), 0.3);
 }
 table.example td.fail-style {
-  color: rgba(var(--callout-example)fail-style 1);
+  color: rgba(var(--callout-fail-style), 1);
   background-color: rgba(var(--callout-fail-style), 0.3);
 }
 table.example td.important {
@@ -68,7 +68,7 @@ table.example td.important {
   background-color: rgba(var(--callout-important), 0.3);
 }
 table.example td.important-style {
-  color: rgba(var(--callout-example)important-style 1);
+  color: rgba(var(--callout-important-style), 1);
   background-color: rgba(var(--callout-important-style), 0.3);
 }
 table.example td.info {
@@ -76,7 +76,7 @@ table.example td.info {
   background-color: rgba(var(--callout-info), 0.3);
 }
 table.example td.info-style {
-  color: rgba(var(--callout-example)info-style 1);
+  color: rgba(var(--callout-info-style), 1);
   background-color: rgba(var(--callout-info-style), 0.3);
 }
 table.example td.question {
@@ -84,7 +84,7 @@ table.example td.question {
   background-color: rgba(var(--callout-question), 0.3);
 }
 table.example td.question-style {
-  color: rgba(var(--callout-example)question-style 1);
+  color: rgba(var(--callout-question-style), 1);
   background-color: rgba(var(--callout-question-style), 0.3);
 }
 table.example td.success {
@@ -92,7 +92,7 @@ table.example td.success {
   background-color: rgba(var(--callout-success), 0.3);
 }
 table.example td.success-style {
-  color: rgba(var(--callout-example)success-style 1);
+  color: rgba(var(--callout-success-style), 1);
   background-color: rgba(var(--callout-success-style), 0.3);
 }
 table.example td.summary {
@@ -100,7 +100,7 @@ table.example td.summary {
   background-color: rgba(var(--callout-summary), 0.3);
 }
 table.example td.summary-style {
-  color: rgba(var(--callout-example)summary-style 1);
+  color: rgba(var(--callout-summary-style), 1);
   background-color: rgba(var(--callout-summary-style), 0.3);
 }
 table.example td.tip {
@@ -116,7 +116,7 @@ table.example td.todo {
   background-color: rgba(var(--callout-todo), 0.3);
 }
 table.example td.todo-style {
-  color: rgba(var(--callout-example)todo-style 1);
+  color: rgba(var(--callout-todo-style), 1);
   background-color: rgba(var(--callout-todo-style), 0.3);
 }
 table.example td.warning {
@@ -124,7 +124,7 @@ table.example td.warning {
   background-color: rgba(var(--callout-warning), 0.3);
 }
 table.example td.warning-style {
-  color: rgba(var(--callout-example)warning-style 1);
+  color: rgba(var(--callout-warning-style), 1);
   background-color: rgba(var(--callout-warning-style), 0.3);
 }
 table.example td.quote {
@@ -132,7 +132,7 @@ table.example td.quote {
   background-color: rgba(var(--callout-quote), 0.3);
 }
 table.example td.quote-style {
-  color: rgba(var(--callout-example)quote-style 1);
+  color: rgba(var(--callout-quote-style), 1);
   background-color: rgba(var(--callout-quote-style), 0.3);
 }
 
