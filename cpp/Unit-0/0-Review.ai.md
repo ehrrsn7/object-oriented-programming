@@ -451,9 +451,9 @@ Is executed immediately after the body of the loop.
 - Can be any statement.
 - Usually we put a ++ or -- here:
 - You can put more than one statement here:
-   `for (&hellip; ; &hellip; ; i++, j--)`{.info}
+   `for (&hellip; ; &hellip; ; i++, j--)`{.success}
 - Can be left empty:
-   `for (; i &lt; 10; )`{.info}
+   `for (; i &lt; 10; )`{.success}
 
 </td>
 </tr>
