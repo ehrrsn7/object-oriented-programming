@@ -461,7 +461,7 @@ Is executed immediately after the body of the loop.
 </table>
 
 
-`for (int i = 0 ; ...` 
+`for (int i = 0; ; ...` 
 
 - We can initialize more than one variable: 
 
