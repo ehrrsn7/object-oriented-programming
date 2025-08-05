@@ -284,6 +284,41 @@ private:
 
 ## Code Examples
 
+<table class="example">
+<tbody>
+<tr>
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+    <td class="">
+</tr>
+</tbody>
+</table>
+
 ### All code blocks styled like the callout types
 
 ```{.bug}
