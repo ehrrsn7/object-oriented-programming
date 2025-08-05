@@ -537,21 +537,21 @@ Orange
 
 ## Lists and Organization
 
-### Ordered Lists
-
-1. **First Principle**: Encapsulation
-   - Hide implementation details
-   - Provide clean interfaces
-   - Protect data integrity
-
-2. **Second Principle**: Inheritance
-   - Code reusability
-   - Hierarchical relationships
-   - Polymorphic behavior
-
-3. **Third Principle**: Polymorphism
-   - Runtime type binding
-   - Interface consistency
+> [!Summary] Ordered Lists
+> 
+> 1. **First Principle**: Encapsulation
+>    - Hide implementation details
+>    - Provide clean interfaces
+>    - Protect data integrity
+> 
+> 2. **Second Principle**: Inheritance
+>    - Code reusability
+>    - Hierarchical relationships
+>    - Polymorphic behavior
+> 
+> 3. **Third Principle**: Polymorphism
+>    - Runtime type binding
+>    - Interface consistency
    - Flexible design patterns
 
 > [!Todo] Unordered Lists
