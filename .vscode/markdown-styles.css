@@ -56,222 +56,6 @@ custom code callouts by type: (14 total, 28 '-style' pairs)
   quote
 */
 
-/* common among all code callouts */
-pre code.bug,
-pre code.bug-style,
-pre code.default,
-pre code.default-style,
-pre code.error,
-pre code.error-style,
-pre code.example,
-pre code.example-style,
-pre code.fail,
-pre code.fail-style,
-pre code.important,
-pre code.important-style,
-pre code.info,
-pre code.info-style,
-pre code.question,
-pre code.question-style,
-pre code.success,
-pre code.success-style,
-pre code.summary,
-pre code.summary-style,
-pre code.tip,
-pre code.tip-style,
-pre code.todo,
-pre code.todo-style,
-pre code.warning,
-pre code.warning-style,
-pre code.quote,
-pre code.quote-style
-{
-  background-color: transparent;
-  color: black;
-  border: none;
-}
-
-/*
-bug
-bug-style
-default
-default-style
-error
-error-style
-example
-example-style
-fail
-fail-style
-important
-important-style
-info
-info-style
-question
-question-style
-success
-success-style
-summary
-summary-style
-tip
-tip-style
-todo
-todo-style
-warning
-warning-style
-quote
-quote-style
-*/
-
-code.bug,
-code.bug-style,
-code.default,
-code.default-style,
-code.error,
-code.error-style,
-code.example,
-code.example-style,
-code.fail,
-code.fail-style,
-code.important,
-code.important-style,
-code.info,
-code.info-style,
-code.question,
-code.question-style,
-code.success,
-code.success-style,
-code.summary,
-code.summary-style,
-code.tip,
-code.tip-style,
-code.todo,
-code.todo-style,
-code.warning,
-code.warning-style,
-code.quote,
-code.quote-style
-{
-  border-width: 1px;
-  border-style: solid;
-  border-radius: var(--radius-s);
-  padding: 2px 6px;
-}
-
-pre.bug,
-pre.bug-style,
-pre.default,
-pre.default-style,
-pre.error,
-pre.error-style,
-pre.example,
-pre.example-style,
-pre.fail,
-pre.fail-style,
-pre.important,
-pre.important-style,
-pre.info,
-pre.info-style,
-pre.question,
-pre.question-style,
-pre.success,
-pre.success-style,
-pre.summary,
-pre.summary-style,
-pre.tip,
-pre.tip-style,
-pre.todo,
-pre.todo-style,
-pre.warning,
-pre.warning-style,
-pre.quote,
-pre.quote-style
-{
-  border-left-width: 4px;
-  border-left-style: solid;
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
-}
-
-pre.bug::before,
-pre.bug-style::before,
-pre.default::before,
-pre.default-style::before,
-pre.error::before,
-pre.error-style::before,
-pre.example::before,
-pre.example-style::before,
-pre.fail::before,
-pre.fail-style::before,
-pre.important::before,
-pre.important-style::before,
-pre.info::before,
-pre.info-style::before,
-pre.question::before,
-pre.question-style::before,
-pre.success::before,
-pre.success-style::before,
-pre.summary::before,
-pre.summary-style::before,
-pre.tip::before,
-pre.tip-style::before,
-pre.todo::before,
-pre.todo-style::before,
-pre.warning::before,
-pre.warning-style::before,
-pre.quote::before,
-pre.quote-style::before
-{
-  display: block;
-  font-size: 0.875rem;
-  margin-bottom: 8px;
-  letter-spacing: 0.025em;
-}
-
-pre:has(code.bug),
-pre:has(code.bug-style),
-pre:has(code.default),
-pre:has(code.default-style),
-pre:has(code.error),
-pre:has(code.error-style),
-pre:has(code.example),
-pre:has(code.example-style),
-pre:has(code.fail),
-pre:has(code.fail-style),
-pre:has(code.important),
-pre:has(code.important-style),
-pre:has(code.info),
-pre:has(code.info-style),
-pre:has(code.question),
-pre:has(code.question-style),
-pre:has(code.success),
-pre:has(code.success-style),
-pre:has(code.summary),
-pre:has(code.summary-style),
-pre:has(code.tip),
-pre:has(code.tip-style),
-pre:has(code.todo),
-pre:has(code.todo-style),
-pre:has(code.warning),
-pre:has(code.warning-style),
-pre:has(code.quote),
-pre:has(code.quote-style)
-{
-  border-left-width: 4px;
-  border-left-style: solid;
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
-}
-
-pre:has(code.tip)::before
-{
-  display: block;
-  font-size: 0.875rem;
-  margin-bottom: 8px;
-  letter-spacing: 0.025em;
-}
-
 /* Enhanced code styling using callout variables */
 /* bug */
 
@@ -431,3 +215,247 @@ pre:has(code.warning)::before {
 }
 
 /* quote */
+
+
+/* common among all code callouts */
+
+/*
+bug
+bug-style
+default
+default-style
+error
+error-style
+example
+example-style
+fail
+fail-style
+important
+important-style
+info
+info-style
+question
+question-style
+success
+success-style
+summary
+summary-style
+tip
+tip-style
+todo
+todo-style
+warning
+warning-style
+quote
+quote-style
+*/
+pre code.bug,
+pre code.bug-style,
+pre code.default,
+pre code.default-style,
+pre code.error,
+pre code.error-style,
+pre code.example,
+pre code.example-style,
+pre code.fail,
+pre code.fail-style,
+pre code.important,
+pre code.important-style,
+pre code.info,
+pre code.info-style,
+pre code.question,
+pre code.question-style,
+pre code.success,
+pre code.success-style,
+pre code.summary,
+pre code.summary-style,
+pre code.tip,
+pre code.tip-style,
+pre code.todo,
+pre code.todo-style,
+pre code.warning,
+pre code.warning-style,
+pre code.quote,
+pre code.quote-style
+{
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
+code.bug,
+code.bug-style,
+code.default,
+code.default-style,
+code.error,
+code.error-style,
+code.example,
+code.example-style,
+code.fail,
+code.fail-style,
+code.important,
+code.important-style,
+code.info,
+code.info-style,
+code.question,
+code.question-style,
+code.success,
+code.success-style,
+code.summary,
+code.summary-style,
+code.tip,
+code.tip-style,
+code.todo,
+code.todo-style,
+code.warning,
+code.warning-style,
+code.quote,
+code.quote-style
+{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: var(--radius-s);
+  padding: 2px 6px;
+}
+
+pre.bug,
+pre.bug-style,
+pre.default,
+pre.default-style,
+pre.error,
+pre.error-style,
+pre.example,
+pre.example-style,
+pre.fail,
+pre.fail-style,
+pre.important,
+pre.important-style,
+pre.info,
+pre.info-style,
+pre.question,
+pre.question-style,
+pre.success,
+pre.success-style,
+pre.summary,
+pre.summary-style,
+pre.tip,
+pre.tip-style,
+pre.todo,
+pre.todo-style,
+pre.warning,
+pre.warning-style,
+pre.quote,
+pre.quote-style
+{
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
+pre.bug::before,
+pre.bug-style::before,
+pre.default::before,
+pre.default-style::before,
+pre.error::before,
+pre.error-style::before,
+pre.example::before,
+pre.example-style::before,
+pre.fail::before,
+pre.fail-style::before,
+pre.important::before,
+pre.important-style::before,
+pre.info::before,
+pre.info-style::before,
+pre.question::before,
+pre.question-style::before,
+pre.success::before,
+pre.success-style::before,
+pre.summary::before,
+pre.summary-style::before,
+pre.tip::before,
+pre.tip-style::before,
+pre.todo::before,
+pre.todo-style::before,
+pre.warning::before,
+pre.warning-style::before,
+pre.quote::before,
+pre.quote-style::before
+{
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  letter-spacing: 0.025em;
+}
+
+pre:has(code.bug),
+pre:has(code.bug-style),
+pre:has(code.default),
+pre:has(code.default-style),
+pre:has(code.error),
+pre:has(code.error-style),
+pre:has(code.example),
+pre:has(code.example-style),
+pre:has(code.fail),
+pre:has(code.fail-style),
+pre:has(code.important),
+pre:has(code.important-style),
+pre:has(code.info),
+pre:has(code.info-style),
+pre:has(code.question),
+pre:has(code.question-style),
+pre:has(code.success),
+pre:has(code.success-style),
+pre:has(code.summary),
+pre:has(code.summary-style),
+pre:has(code.tip),
+pre:has(code.tip-style),
+pre:has(code.todo),
+pre:has(code.todo-style),
+pre:has(code.warning),
+pre:has(code.warning-style),
+pre:has(code.quote),
+pre:has(code.quote-style)
+{
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
+pre:has(code.bug)::before,
+pre:has(code.bug-style)::before,
+pre:has(code.default)::before,
+pre:has(code.default-style)::before,
+pre:has(code.error)::before,
+pre:has(code.error-style)::before,
+pre:has(code.example)::before,
+pre:has(code.example-style)::before,
+pre:has(code.fail)::before,
+pre:has(code.fail-style)::before,
+pre:has(code.important)::before,
+pre:has(code.important-style)::before,
+pre:has(code.info)::before,
+pre:has(code.info-style)::before,
+pre:has(code.question)::before,
+pre:has(code.question-style)::before,
+pre:has(code.success)::before,
+pre:has(code.success-style)::before,
+pre:has(code.summary)::before,
+pre:has(code.summary-style)::before,
+pre:has(code.tip)::before,
+pre:has(code.tip-style)::before,
+pre:has(code.todo)::before,
+pre:has(code.todo-style)::before,
+pre:has(code.warning)::before,
+pre:has(code.warning-style)::before,
+pre:has(code.quote)::before,
+pre:has(code.quote-style)::before
+{
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  letter-spacing: 0.025em;
+}
