@@ -38,8 +38,16 @@ details.callout {
   margin-bottom: 10px;
 }
 
-/* Enhanced code styling using callout variables */
+/* common among all code callouts */
+code.callout {
+  font-family: var(--font-monospace);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background-color: transparent;
+  color: inherit;
+}
 
+/* Enhanced code styling using callout variables */
 code.warning-style,
 code.warning {
   background-color: rgba(var(--callout-warning), 0.1) !important;
