@@ -407,10 +407,9 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 
 ## Other examples
 
-```cpp
-for (int count = 0; count < 5 ; count++) 
+<pre><code>for (`int count = 0;` count < 5 ; count++) 
    cout << count << endl;
-```
+</code></pre>
 
 |  |  |  |
 | :-- | :-- | :-- |

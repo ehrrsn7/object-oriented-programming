@@ -874,3 +874,202 @@ quote-style
 > [!info] You can use emojis in callouts 🚀
 
 > [!info] callouts help organize content and improve readability.
+
+---
+
+## Complete Style Reference & Requirements
+
+This section documents all the crucial criteria that must be propagated to other `.md` files in this workspace and reflected in the `.code-snippets` file.
+
+### 📋 **Mr. Eli's Preferences & Standards**
+
+#### **Line Breaks**
+> [!IMPORTANT] **Author's Preference:**
+> Mr. Eli (the author) prefers using `\` for line breaks instead of trailing spaces for clarity and ease of editing in VS Code.\\
+>\\
+> **Reasoning:** In `C++`{.warning}, the newline character used is the standard output character for **bash** `\n` or **powershell** `\r`. The `\` character resembles this format.
+
+**Examples:**
+- Primary method: `Line one\`
+- Alternative: `Line one  ` (two spaces)
+- HTML method: `Line one<br>`
+
+#### **Required VS Code Configuration**
+```json
+{
+    "markdown.styles": [
+        "./.vscode/markdown-styles.css"
+    ],
+    "markdown.preview.breaks": false,
+    "markdown.preview.linkify": true,
+    "markdown.preview.typographer": true
+}
+```
+
+> [!WARNING] **No Bootstrap or Git Dependencies**
+> All styles must be accessible to the IDE with only the above configuration. No external dependencies allowed.
+
+### 🎯 **Complete Feature Checklist**
+
+#### **Educational Blocks/Callouts** (All 18 Types)
+- [x] `[!WARNING]` - Orange theme alerts
+- [x] `[!TIP]` - Cyan theme helpful hints  
+- [x] `[!INFO]` - Blue theme information
+- [x] `[!DANGER]` - Red theme critical warnings
+- [x] `[!ERROR]` - Red theme error messages
+- [x] `[!SUCCESS]` - Green theme confirmations
+- [x] `[!CHECK]` - Green theme completed actions
+- [x] `[!BUG]` - Distinct style for known issues
+- [x] `[!NOTE]` - Neutral theme general information
+- [x] `[!EXAMPLE]` - Sample code/usage scenarios
+- [x] `[!FAIL]` - Missing features/failed tests
+- [x] `[!MISSING]` - Content not yet available
+- [x] `[!IMPORTANT]` - Critical instructions
+- [x] `[!QUESTION]` - FAQ or discussion prompts
+- [x] `[!HELP]` - Guidance/troubleshooting
+- [x] `[!SUMMARY]` - Brief overview/abstract
+- [x] `[!TLDR]` - Quick reference summaries
+- [x] `[!TODO]` - Tasks needing attention
+- [x] `[!QUOTE]` - Citations/references
+- [x] `[!CITE]` - Source references
+
+#### **Inline Code Styling**
+```markdown
+`code.warning`{.warning} - Warning-styled code\
+`code.tip`{.tip} - Tip-styled code\
+`code.info`{.info} - Info-styled code\
+`code.error`{.error} - Error-styled code\
+`code.success`{.success} - Success-styled code\
+`code.fail`{.fail} - Fail-styled code\
+`code.bug`{.bug} - Bug-styled code\
+`code.example`{.example} - Example-styled code\
+`code.important`{.important} - Important-styled code\
+`code.default`{.default} - Default-styled code
+```
+
+#### **Block Quotes (Standard vs Callout Extension)**
+**Standard Block Quote:**
+```markdown
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit.\
+>\
+> Second paragraph with backslash line breaks.
+```
+
+**Callout Extension Alternative:**
+```markdown
+> [!INFO] Block Quotes alternative using the obsidian callout extension:
+> Lorem ipsum with enhanced styling and visual separation.\
+>\
+> Second paragraph maintains callout theme formatting.
+```
+
+#### **Mathematical Expressions**
+- **Inline Math:** `$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$`
+- **Block Math:** `$$equation$$`
+- **Aligned Equations:** `\begin{align}...\end{align}`
+- **Cases:** `\begin{cases}...\end{cases}`
+
+#### **Educational Character Sections**
+**Sue's Tips:**
+```markdown
+> [!DANGER] 💡 **Sue's Tip:**
+> ![Sue](.vscode/assets/sue.png){width=50 align=right}
+> Practical advice for getting the job done efficiently
+```
+
+**Sam's Corner:**
+```markdown
+> [!TLDR] 🤓 **Sam's Corner:**
+> ![Sam](.vscode/assets/sam.png){width=50 align=right}
+> Technical details and interesting tidbits
+```
+
+#### **Task Lists with Brackets**
+```markdown
+> [!TODO] Todo List (unordered list with brackets)
+> - [x] ✅ **Completed Topics**
+>   - [x] Basic syntax and semantics
+>   - [x] Control structures and functions
+>   - [ ] Arrays and pointers
+> 
+> - [ ] 🔄 **In Progress**
+>   - [ ] Object-oriented design
+>   - [ ] Template programming
+```
+
+#### **Code Blocks Styled Like Callout Types**
+All code blocks can be styled to match callout types:
+```markdown
+```{.warning}
+warning-styled code block
+```
+
+```{.tip-style}  
+tip-style code block
+```
+
+```{.info}
+info-styled code block  
+```
+```
+
+#### **Complete Footnote System**
+- **Reference:** `[^1]`
+- **Definition:** `[^1]: Footnote content here`
+
+#### **Frontmatter Template**
+```yaml
+---
+title: "Document Title"
+description: "Brief description"
+course: "CS 165"
+unit: "Unit X"
+chapter: "Chapter Name"
+tags:
+  - cpp
+  - object-oriented-programming
+source:
+  type: "AI-Generated Draft"
+  method: "Manual Creation"  
+  original: "source.pdf"
+  generated: "2025-08-04 16:30:00"
+author: "CS 165 Course Materials"
+date: "2025-08-04"
+---
+```
+
+#### **Table of Contents Structure**
+```markdown
+| Table of Contents |
+| :--- |
+| Course Overview |
+| [Section Name](path/to/file.md) |
+| [Another Section](path/to/another.md) |
+```
+
+### 🔧 **Implementation Requirements**
+
+1. **All `.md` files** must include proper frontmatter
+2. **All callout types** must be consistently used
+3. **Line breaks** must use `\` (backslash) method
+4. **Code snippets** must be available for all features
+5. **CSS styling** must work with specified VS Code settings only
+6. **PDF export** must maintain all styling and formatting
+7. **Character sections** (Sue/Sam) must include proper image references
+8. **Mathematical expressions** must render properly in preview and PDF
+
+### 📚 **Code Snippets Coverage**
+
+The `.vscode/markdown.code-snippets` file includes shortcuts for:
+- All 18 callout types (`warning`, `tip`, `info`, etc.)
+- Line break methods (`linebreak`, `linebreak-spaces`, `linebreak-html`)
+- Text formatting (`bold`, `italic`, `strike`, `highlight`)
+- Code blocks (`codeblock`, `codestyle`, `allstyles`)
+- Tables (`table`, `table-aligned`, `htmltable`)
+- Math (`math`, `imath`, `mathalign`, `mathcases`)
+- Educational content (`eduheader`, `sues-tips`, `sams-corner`)
+- Document structure (`toc`, `pagebreak`, `hr`)
+- Interactive elements (`collapse`, `deflist`, `tasklist`)
+
+> [!SUCCESS] **Complete Implementation**
+> This comprehensive reference ensures consistent, professional educational content across the entire workspace with Mr. Eli's preferred formatting standards.
