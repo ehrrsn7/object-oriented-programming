@@ -451,9 +451,9 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
    - Can be any statement.\
    - Usually we put a ++ or -- here:\
    - You can put more than one statement here:\
-   for (&hellip; ; &hellip; ; i++, j--)\
+   `for (&hellip; ; &hellip; ; i++, j--)`\
    - Can be left empty:\
-   for (; i &lt; 10; )
+   `for (; i &lt; 10; )`
    
 </td>
 </tr>
