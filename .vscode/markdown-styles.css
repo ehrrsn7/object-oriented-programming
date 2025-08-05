@@ -91,8 +91,34 @@ pre code.quote-style
   border: none;
 }
 
+code.bug,
+code.bug-style,
+code.default,
+code.default-style,
+code.error,
+code.error-style,
+code.example,
+code.example-style,
+code.fail,
+code.fail-style,
+code.important,
+code.important-style,
+code.info,
+code.info-style,
+code.question,
+code.question-style,
+code.success,
+code.success-style,
+code.summary,
+code.summary-style,
+code.tip,
 code.tip-style,
-code.tip 
+code.todo,
+code.todo-style,
+code.warning,
+code.warning-style,
+code.quote,
+code.quote-style
 {
   border-width: 1px;
   border-style: solid;
