@@ -40,8 +40,8 @@ This document demonstrates all the available Bootstrap-inspired styles for educa
 
 <div style="page-break-after: always;"></div>
 
-**Page Break Example:**  
-The horizontal rule above uses a custom HTML `<div style="page-break-after: always;"></div>` to force a page break in print or PDF output.  
+**Page Break Example:**\
+The horizontal rule above uses a custom HTML `<div style="page-break-after: always;"></div>` to force a page break in print or PDF output.\
 You can insert this anywhere in your Markdown to separate sections onto new pages.
 
 ---
@@ -52,26 +52,26 @@ You can insert this anywhere in your Markdown to separate sections onto new page
 
 You can create line breaks in Markdown using two spaces at the end of a line, or by using the `<br>` HTML tag.
 
-**Example using two spaces:**  
-This is the first line.  
+**Example using two spaces:**\
+This is the first line.\
 This is the second line.
 
-**Example using `<br>` tag:**  
+**Example using `<br>` tag:**\
 This is the first line.<br>
 This is the second line.
 
-**Within lists or tables:**  
-- Item one  
-    continues on the next line  
+**Within lists or tables:**
+- Item one\
+    continues on the next line
 - Item two<br>with a manual break
 
-**Inside block quotes:**  
-> This is a blockquote line one.  
+**Inside block quotes:**
+> This is a blockquote line one.\
 > This is line two.
 
 > [!Note] Different methods of inserting _**newlines**_:
 > **Newlines** within a paragraph in HTML are created using `<br>`.<br>
-> In an .md file, the markdown standard solution is to use <code>&nbsp;&nbsp;</code> at the end of the line.  
+> In an .md file, the markdown standard solution is to use <code>&nbsp;&nbsp;</code> at the end of the line.\
 > In VS Code, you can use the `\` character at the end of a line to force a line break instead --
 > While this technically works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.\
 
@@ -188,7 +188,7 @@ Below are examples of each Obsidian callout type, rendered with Bootstrap-inspir
 ## Typography Demonstrations
 
 # Heading 1 (2.5rem)
-## Heading 2 (2rem)  
+## Heading 2 (2rem)\
 ### Heading 3 (1.75rem)
 #### Heading 4 (1.5rem)
 ##### Heading 5 (1.25rem)
@@ -345,12 +345,12 @@ public:
     // Constructor
     Student(const std::string& studentName, int studentId) 
         : name(studentName), id(studentId) {}
-    
-    // Accessor methods
+  \
+      // Accessor methods
     std::string getName() const { return name; }
     int getId() const { return id; }
-    
-    // Display method
+  \
+      // Display method
     void display() const {
         std::cout << "Student: " << name 
             << " (ID: " << id << ")" 
@@ -371,16 +371,16 @@ int main() {
 class Calculator:
     def __init__(self):
         self.result = 0
-    
-    def add(self, value):
+  \
+      def add(self, value):
         self.result += value
         return self
-    
-    def multiply(self, value):
+  \
+      def multiply(self, value):
         self.result *= value
         return self
-    
-    def get_result(self):
+  \
+      def get_result(self):
         return self.result
 
 # Usage example
