@@ -554,7 +554,7 @@ Orange
 >    - Interface consistency
    - Flexible design patterns
 
-> [!Todo] Unordered Lists
+> [!Example] Unordered Lists
 > - ✅ **Completed Topics**
 >   - Basic syntax and semantics
 >   - Control structures and functions
@@ -569,6 +569,22 @@ Orange
 >   - Advanced templates
 >   - Design patterns
 >   - Performance optimization
+
+> [!Todo] Todo List (unordered list with brackets)
+> - [x] ✅ **Completed Topics**
+>   - [x] Basic syntax and semantics
+>   - [x] Control structures and functions
+>   - [ ] Arrays and pointers
+> 
+> - [-] 🔄 **In Progress**
+>   - [-] Object-oriented design
+>   - [-] Template programming
+>   - [-] STL containers
+> 
+> - [ ] 📋 **Upcoming**
+>   - [ ] Advanced templates
+>   - [ ] Design patterns
+>   - [ ] Performance optimization
 
 > [!Success] Task Lists
 > 
