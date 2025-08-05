@@ -1,6 +1,7 @@
 /* Obsidian-style callout variables */
 :root {
-  /* --callout-border-width: 0px;
+  /* Callout styles: (already defined in extension)
+  --callout-border-width: 0px;
   --callout-border-opacity: 0.25;
   --callout-padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
   --callout-radius: var(--radius-s);
@@ -24,7 +25,8 @@
   --callout-tip: var(--color-cyan-rgb);
   --callout-todo: var(--color-blue-rgb);
   --callout-warning: var(--color-orange-rgb);
-  --callout-quote: 158, 158, 158; */
+  --callout-quote: 158, 158, 158; 
+  */
 
   /* Fallback color definitions */
   --color-red-rgb: 232, 62, 140;
