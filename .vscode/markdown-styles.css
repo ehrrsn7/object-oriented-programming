@@ -499,7 +499,6 @@ pre code.quote,
 pre code.quote-style
 { /* multiline only */
   background-color: transparent;
-  color: black;
   border: none;
   margin-bottom: 0px !important;
 }
