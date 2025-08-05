@@ -346,7 +346,7 @@ print(f"Result: {result}")  # Output: Result: 15
 
 ### JSON Configuration Example
 
-```json
+```json {.info-style}
 {
   "markdown.styles": [
     "./.vscode/markdown-styles.css",
