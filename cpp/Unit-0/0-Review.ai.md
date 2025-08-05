@@ -409,11 +409,44 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warn}; `count++`{.increment .success})
    cout << count << endl;
 </code></pre>
-
-|  |  |  |
-| :-- | :-- | :-- |
-| `Initialization:`{.initialization .info} | `Boolean expression:` | `Increment:` |
-| The first statement to be executed in a loop. <br> - Can be any statement. <br> - We can declare and initialize a variable inside the loop: | Is executed immediately before the body of the loop. <br> - Can be any expression. <br> - As long as the expression evaluates to true, the loop continues: <br> - If it is left empty, the expression evaluates to true. This means it will loop forever: | Is executed immediately after the body of the loop. <br> - Can be any statement. <br> - Usually we put a ++ or -- here: <br> - You can put more than one statement here: <br> for ( $\ldots ; \ldots ; 1++, j--)$ <br> - Can be left empty: <br> for ( ; i < 10; ) |
+<table>
+   <thead>
+      <tr>
+         <th></th>
+         <th></th>
+         <th></th>
+      </tr>
+      <tr>
+         <th>Initialization:</th>
+         <th>Boolean expression:</th>
+         <th>Increment:</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            The first statement to be executed in a loop.<br>
+            - Can be any statement.<br>
+            - We can declare and initialize a variable inside the loop:
+         </td>
+         <td>
+            Is executed immediately before the body of the loop.<br>
+            - Can be any expression.<br>
+            - As long as the expression evaluates to true, the loop continues:<br>
+            - If it is left empty, the expression evaluates to true. This means it will loop forever:
+         </td>
+         <td>
+            Is executed immediately after the body of the loop.<br>
+            - Can be any statement.<br>
+            - Usually we put a ++ or -- here:<br>
+            - You can put more than one statement here:<br>
+            <code>for (&hellip; ; &hellip; ; i++, j--)</code><br>
+            - Can be left empty:<br>
+            <code>for (; i &lt; 10; )</code>
+         </td>
+      </tr>
+   </tbody>
+</table>
 
 
 `for (int i = 0 ; ...` 
