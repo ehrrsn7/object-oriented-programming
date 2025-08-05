@@ -92,7 +92,6 @@ pre code.quote-style {
 
 code.tip-style,
 code.tip {
-  /* non-specific */
   border-width: 1px;
   border-style: solid;
   border-radius: var(--radius-s);
@@ -100,7 +99,6 @@ code.tip {
 }
 
 pre.tip {
-  /* non-specific */
   border-left-width: 4px;
   border-left-style: solid;
   border-radius: var(--radius-s);
@@ -109,7 +107,6 @@ pre.tip {
 }
 
 pre.tip::before {
-  /* non-specific */
   display: block;
   font-size: 0.875rem;
   margin-bottom: 8px;
@@ -117,7 +114,6 @@ pre.tip::before {
 }
 
 pre:has(code.tip) {
-  /* non-specific */
   border-left-width: 4px;
   border-left-style: solid;
   border-radius: var(--radius-s);
@@ -126,7 +122,6 @@ pre:has(code.tip) {
 }
 
 pre:has(code.tip)::before {
-  /* non-specific */
   display: block;
   font-size: 0.875rem;
   margin-bottom: 8px;
