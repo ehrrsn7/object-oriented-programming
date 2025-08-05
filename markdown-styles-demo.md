@@ -554,22 +554,21 @@ Orange
    - Interface consistency
    - Flexible design patterns
 
-### Unordered Lists
-
-- ✅ **Completed Topics**
-  - Basic syntax and semantics
-  - Control structures and functions
-  - Arrays and pointers
-
-- 🔄 **In Progress**
-  - Object-oriented design
-  - Template programming
-  - STL containers
-
-- 📋 **Upcoming**
-  - Advanced templates
-  - Design patterns
-  - Performance optimization
+> [!Todo] Unordered Lists
+> - ✅ **Completed Topics**
+>   - Basic syntax and semantics
+>   - Control structures and functions
+>   - Arrays and pointers
+> 
+> - 🔄 **In Progress**
+>   - Object-oriented design
+>   - Template programming
+>   - STL containers
+> 
+> - 📋 **Upcoming**
+>   - Advanced templates
+>   - Design patterns
+>   - Performance optimization
 
 > [!Success] Task Lists
 > 
