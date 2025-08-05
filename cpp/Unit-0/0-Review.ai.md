@@ -425,29 +425,29 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
    <tbody>
       <tr>
          <td>
-            Initialization:<br>
-            The first statement to be executed in a loop.<br>
-            - Can be any statement.<br>
-            - We can declare and initialize a variable inside the loop:<br>
+            Initialization:\
+            The first statement to be executed in a loop.\
+            - Can be any statement.\
+            - We can declare and initialize a variable inside the loop:\
                `for (int i = 0; ... )`
-            - We can initialize more than one variable:<br>
+            - We can initialize more than one variable:\
                `for (j = 0, k = 0; ... )`
-            - We can also leave it empty:<br>
+            - We can also leave it empty:\
                `for (; i &lt; 10; i++)`
          </td>
          <td>
-            Is executed immediately before the body of the loop.<br>
-            - Can be any expression.<br>
-            - As long as the expression evaluates to true, the loop continues:<br>
+            Is executed immediately before the body of the loop.\
+            - Can be any expression.\
+            - As long as the expression evaluates to true, the loop continues:\
             - If it is left empty, the expression evaluates to true. This means it will loop forever:
          </td>
          <td>
-            Is executed immediately after the body of the loop.<br>
-            - Can be any statement.<br>
-            - Usually we put a ++ or -- here:<br>
-            - You can put more than one statement here:<br>
-            <code>for (&hellip; ; &hellip; ; i++, j--)</code><br>
-            - Can be left empty:<br>
+            Is executed immediately after the body of the loop.\
+            - Can be any statement.\
+            - Usually we put a ++ or -- here:\
+            - You can put more than one statement here:\
+            <code>for (&hellip; ; &hellip; ; i++, j--)</code>\
+            - Can be left empty:\
             <code>for (; i &lt; 10; )</code>
          </td>
       </tr>
