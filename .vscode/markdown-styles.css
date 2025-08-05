@@ -47,7 +47,6 @@ code.warning {
   border: 1px solid rgba(var(--callout-warning), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
-  font-weight: var(--callout-title-weight);
 }
 
 code.error-style,
@@ -57,7 +56,6 @@ code.error {
   border: 1px solid rgba(var(--callout-error), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
-  font-weight: var(--callout-title-weight);
 }
 
 code.tip-style,
@@ -67,7 +65,6 @@ code.tip {
   border: 1px solid rgba(var(--callout-tip), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
-  font-weight: var(--callout-title-weight);
 }
 
 code.info-style,
@@ -77,7 +74,6 @@ code.info {
   border: 1px solid rgba(var(--callout-info), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
-  font-weight: var(--callout-title-weight);
 }
 
 code.success-style,
@@ -87,7 +83,6 @@ code.success {
   border: 1px solid rgba(var(--callout-success), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
-  font-weight: var(--callout-title-weight);
 }
 
 /* Multiline code blocks with callout styling */
@@ -113,7 +108,6 @@ pre.warning::before {
   content: "⚠️ Warning Code";
   display: block;
   color: rgb(var(--callout-warning));
-  font-weight: var(--callout-title-weight);
   font-size: 0.875rem;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -124,7 +118,6 @@ pre.error::before {
   content: "❌ Error Code";
   display: block;
   color: rgb(var(--callout-error));
-  font-weight: var(--callout-title-weight);
   font-size: 0.875rem;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -143,7 +136,6 @@ pre.tip::before {
   content: "💡 Tip Code";
   display: block;
   color: rgb(var(--callout-tip));
-  font-weight: var(--callout-title-weight);
   font-size: 0.875rem;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -163,7 +155,6 @@ pre:has(code.warning)::before {
   content: "⚠️ Warning";
   display: block;
   color: rgb(var(--callout-warning));
-  font-weight: var(--callout-title-weight);
   font-size: 0.875rem;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -182,7 +173,6 @@ pre:has(code.tip)::before {
   content: "💡 Tip";
   display: block;
   color: rgb(var(--callout-tip));
-  font-weight: var(--callout-title-weight);
   font-size: 0.875rem;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -202,7 +192,6 @@ pre:has(code.success)::before {
   content: "✅ Success";
   display: block;
   color: rgb(var(--callout-success));
-  font-weight: var(--callout-title-weight);
   font-size: 0.875rem;
   margin-bottom: 8px;
   text-transform: uppercase;
