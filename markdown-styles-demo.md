@@ -670,10 +670,10 @@ The `markdown-styles.css` file uses CSS custom properties for dynamic footer con
 ```
 
 > [!todo]
-> Create a system that dynamically pulls the md frontmatter into our :root selector in css
+> Create a system that dynamically pulls the md frontmatter into our `:root`{.todo} selector in css
 
 > [!info]- How does this work?
-> VS Code pulls this CSS file in (see #3 below), and the extension recreates the webview "as-is".
+> VS Code pulls this CSS file in (see `#3`{.info} below), and the extension recreates the webview "as-is".
 
 #### 3. **VS Code Settings Configuration**
 The `.vscode/settings.json` includes:
