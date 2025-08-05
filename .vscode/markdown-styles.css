@@ -54,8 +54,8 @@ code.success {
   font-size: 0.875rem;
   line-height: 1.5;
   color: inherit;
-  border: none;
 }
+
 pre code.callout,
 pre code.warning-style,
 pre code.warning,
@@ -68,6 +68,7 @@ pre code.info,
 pre code.success-style,
 pre code.success {
   background-color: transparent;
+  border: none;
 }
 
 /* Enhanced code styling using callout variables */
