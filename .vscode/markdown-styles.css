@@ -23,6 +23,11 @@ table.example tr:nth-child(even) {
   background: #f3f4f6;
 }
 
+td.example {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+
 /* Obsidian-style callout variables */
 :root {
   /* Callout styles: (already defined in extension)
