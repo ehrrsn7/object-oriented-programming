@@ -408,10 +408,10 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 ## Other examples
 > [!example] FOR Loop Example
 > 
-> ```cpp
-> for (`int count = 0;` {.initialization .info} `count < 5` {.boolean-expression .warn}; `count++` {.increment .success})
+> <pre><code>
+> for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warn}; `count++`{.increment .success})
 >    cout << count << endl;
-> ```
+> </code></pre>
 > 
 > - **Initialization** (`int count = 0;`): Sets the starting value.
 > - **Boolean Expression** (`count < 5`): Checks if the loop should continue.
@@ -419,7 +419,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 
 |  |  |  |
 | :-- | :-- | :-- |
-| **Initialization:** | **Boolean expression:** | **Increment:** |
+| `Initialization:`{.initialization .info} | `Boolean expression:` | `Increment:` |
 | The first statement to be executed in a loop. <br> - Can be any statement. <br> - We can declare and initialize a variable inside the loop: | Is executed immediately before the body of the loop. <br> - Can be any expression. <br> - As long as the expression evaluates to true, the loop continues: <br> - If it is left empty, the expression evaluates to true. This means it will loop forever: | Is executed immediately after the body of the loop. <br> - Can be any statement. <br> - Usually we put a ++ or -- here: <br> - You can put more than one statement here: <br> for ( $\ldots ; \ldots ; 1++, j--)$ <br> - Can be left empty: <br> for ( ; i < 10; ) |
 
 
