@@ -65,8 +65,8 @@ code.warning {
   padding: 2px 6px;
 }
 
-pre.warning-style,
-pre.warning {
+pre:has(.warning-style),
+pre:has(.warning) {
   background-color: rgba(var(--callout-warning), 0.05);
   border-left: 4px solid rgb(var(--callout-warning));
   border-radius: var(--radius-s);
