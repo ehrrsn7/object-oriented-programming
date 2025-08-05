@@ -805,12 +805,12 @@ quote-style
 
 > [!tip]
 > These are case-sensitive:
-> `` ```{.tip-style} ... ``` ``:
+> `` ```{.tip-style} ... ``` ``{.tip}:
 > ```{.tip-style}
 > tip-style
 > ```
 > vs
-> `` ```{.Tip-style} ... ``` ``:
+> `` ```{.Tip-style} ... ``` ``{.tip}:
 > ```{.Tip-style}
 > tip-style
 > ```
