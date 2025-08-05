@@ -260,6 +260,7 @@ private:
 | 2    | 2.0     | Encapsulation Design  | Intermediate | 4 hours        |
 | 2    | 2.1     | Building a Class      | Advanced     | 5 hours        |
 
+```pandoc{.error}
 % pandoc -f rst
 +------------------------+------------+----------+----------+
 | Header row, column 1   | Header 2   | Header 3 | Header 4 |
@@ -274,6 +275,7 @@ private:
 | body row 4             |            | - body elements.    |
 +------------------------+------------+---------------------+
 %
+```
 
 ---
 
