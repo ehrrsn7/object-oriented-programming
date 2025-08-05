@@ -40,6 +40,7 @@ details.callout {
 /* Enhanced code styling using callout variables */
 
 /* Inline code with callout-based styling */
+code.warning-style,
 code.warning {
   background-color: rgba(var(--callout-warning), 0.1) !important;
   color: rgb(var(--callout-warning)) !important;
@@ -49,6 +50,7 @@ code.warning {
   font-weight: var(--callout-title-weight);
 }
 
+code.error-style,
 code.error {
   background-color: rgba(var(--callout-error), 0.1) !important;
   color: rgb(var(--callout-error)) !important;
@@ -58,6 +60,7 @@ code.error {
   font-weight: var(--callout-title-weight);
 }
 
+code.tip-style,
 code.tip {
   background-color: rgba(var(--callout-tip), 0.1) !important;
   color: rgb(var(--callout-tip)) !important;
@@ -67,6 +70,7 @@ code.tip {
   font-weight: var(--callout-title-weight);
 }
 
+code.info-style,
 code.info {
   background-color: rgba(var(--callout-info), 0.1) !important;
   color: rgb(var(--callout-info)) !important;
@@ -76,6 +80,7 @@ code.info {
   font-weight: var(--callout-title-weight);
 }
 
+code.success-style,
 code.success {
   background-color: rgba(var(--callout-success), 0.1) !important;
   color: rgb(var(--callout-success)) !important;
@@ -86,6 +91,7 @@ code.success {
 }
 
 /* Multiline code blocks with callout styling */
+pre.warning-style,
 pre.warning {
   background-color: rgba(var(--callout-warning), 0.05);
   border-left: 4px solid rgb(var(--callout-warning));
@@ -105,6 +111,7 @@ pre.warning::before {
   letter-spacing: 0.025em;
 }
 
+pre.error-style,
 pre.error {
   background-color: rgba(var(--callout-error), 0.05);
   border-left: 4px solid rgb(var(--callout-error));
