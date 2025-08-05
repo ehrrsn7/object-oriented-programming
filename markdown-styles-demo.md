@@ -277,6 +277,8 @@ private:
 > +------------------------+------------+---------------------+
 > %
 > ```
+> Support for grid tables not available yet.
+> Maybe there's an extension that I missed.
 
 ---
 
