@@ -1,5 +1,6 @@
 ---
-title: "Markdown Styles Demo" # front matter
+# front matter
+title: "Markdown Styles Demo" 
 description: "A comprehensive demonstration of all available Bootstrap-inspired Markdown styles for educational content"
 course: "CS 165"
 unit: "Demo"
