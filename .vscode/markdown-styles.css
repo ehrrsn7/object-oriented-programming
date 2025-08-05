@@ -143,6 +143,7 @@ code.tip-style,
 code.tip {
   background-color: rgba(var(--callout-tip), 0.1);
   color: rgb(var(--callout-tip));
+  border-color: rgb(var(--callout-tip))
   border: 1px solid rgba(var(--callout-tip), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
