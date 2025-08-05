@@ -9,7 +9,7 @@ h1.background {
   padding: 1em 1em;
   font-weight: bolder;
   text-align: right;
-  max-height: 25px;
+  min-height: 25px;
   min-width: 8.5in;
   /* object-fit: cover; */
   /* clip-path: inset(0 0 0 0); */
