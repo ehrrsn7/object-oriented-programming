@@ -167,7 +167,7 @@ pre.tip::before {
 
 /* Replace {COLOR} with the hex value for your tip color, e.g. F59E42 for orange.
    Example: stroke=%22%23F59E42%22
-   You can use: stroke=%22%23f59e42%22 for a color similar to Obsidian's tip.
+   Tip 2ACAC8: stroke=%22%232ACAC8%22
 */
 
 pre:has(code.tip) {
