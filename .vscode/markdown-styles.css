@@ -5,7 +5,6 @@ h1.background {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: translate(-0.5in, -0.15in);
   overflow-x: hidden;
   width: calc(100vw - .25in - 1em);
   color: white;
