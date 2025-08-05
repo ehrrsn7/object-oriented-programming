@@ -325,93 +325,6 @@ private:
 
 ## Code Examples
 
-### All code blocks styled like the callout types
-
-```{.bug}
-bug
-```
-```{.default}
-default
-```
-```{.error}
-error
-```
-```{.example}
-example
-```
-```{.fail}
-fail
-```
-```{.important}
-important
-```
-```{.info}
-info
-```
-```{.question}
-question
-```
-```{.success}
-success
-```
-```{.summary}
-summary
-```
-```{.tip}
-tip
-```
-```{.todo}
-todo
-```
-```{.warning}
-warning
-```
-```{.quote}
-quote
-```
-```{.bug-style}
-bug-style
-```
-```{.default-style}
-default-style
-```
-```{.error-style}
-error-style
-```
-```{.example-style}
-example-style
-```
-```{.fail-style}
-fail-style
-```
-```{.important-style}
-important-style
-```
-```{.info-style}
-info-style
-```
-```{.question-style}
-question-style
-```
-```{.success-style}
-success-style
-```
-```{.summary-style}
-summary-style
-```
-```{.tip-style}
-tip-style
-```
-```{.todo-style}
-todo-style
-```
-```{.warning-style}
-warning-style
-```
-```{.quote-style}
-quote-style
-```
-
 ### C++ Code Block with Syntax Highlighting
 
 ```cpp{.success-style}
@@ -780,3 +693,129 @@ The `.vscode/settings.json` includes:
 
 ---
 
+
+### All code blocks styled like the callout types
+
+```{.bug}
+bug
+```
+```{.default}
+default
+```
+```{.error}
+error
+```
+```{.example}
+example
+```
+```{.fail}
+fail
+```
+```{.important}
+important
+```
+```{.info}
+info
+```
+```{.question}
+question
+```
+```{.success}
+success
+```
+```{.summary}
+summary
+```
+```{.tip}
+tip
+```
+```{.todo}
+todo
+```
+```{.warning}
+warning
+```
+```{.quote}
+quote
+```
+```{.bug-style}
+bug-style
+```
+```{.default-style}
+default-style
+```
+```{.error-style}
+error-style
+```
+```{.example-style}
+example-style
+```
+```{.fail-style}
+fail-style
+```
+```{.important-style}
+important-style
+```
+```{.info-style}
+info-style
+```
+```{.question-style}
+question-style
+```
+```{.success-style}
+success-style
+```
+```{.summary-style}
+summary-style
+```
+```{.tip-style}
+tip-style
+```
+```{.todo-style}
+todo-style
+```
+```{.warning-style}
+warning-style
+```
+```{.quote-style}
+quote-style
+```
+
+> [!bug] This is an info callout.
+> [!default] This is an info callout.
+> [!error] This is an info callout.
+> [!example] This is an info callout.
+> [!fail] This is an info callout.
+> [!important] This is an info callout.
+> [!info] This is an info callout.
+> [!question] This is an info callout.
+> [!success] This is an info callout.
+> [!summary] This is an info callout.
+> [!tip] This is an info callout.
+> [!todo] This is an info callout.
+> [!warning] This is an info callout.
+> [!quote] This is an info callout.
+
+> [!info]- This is an expandable info callout.
+
+> [!info] Info callouts are useful for providing additional context.
+
+> [!info] You can use info callouts to highlight important information.
+
+> [!info] Info callouts support Markdown formatting, **bold**, *italic*, and `inline code`.
+
+> [!info] Multiple info callouts can be used in sequence for layered information.
+
+> [!info] Info callouts can include lists:
+> - Point one
+> - Point two
+> - Point three
+
+> [!info] Info callouts can contain links: [Learn more](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
+
+> [!info] Info callouts can be nested:
+> > [!info] Nested info callout example.
+
+> [!info] You can use emojis in info callouts 🚀
+
+> [!info] Info callouts help organize content and improve readability.
