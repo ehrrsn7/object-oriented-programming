@@ -39,7 +39,17 @@ details.callout {
 }
 
 /* common among all code callouts */
-code.callout {
+code.callout,
+code.warning-style,
+code.warning,
+code.error-style,
+code.error,
+code.tip-style,
+code.tip,
+code.info-style,
+code.info,
+code.success-style,
+code.success {
   font-family: var(--font-monospace);
   font-size: 0.875rem;
   line-height: 1.5;
