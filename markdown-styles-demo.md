@@ -70,7 +70,9 @@ This is the second line.
 > This is line two.
 
 > [!Note]
-> In VS Code, you can use the `\` character at the end of a line to force a line break instead of <code>&nbsp;&nbsp;</code> or `<br>`. While this works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.\
+> Newlines within a paragraph in HTML are created using `<br>`.
+> In VS Code, you can use the `\` character at the end of a line to force a line break instead 
+> While this technically works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.\
 >\
 > *Author's preference:*\
 > Mr. Eli (the author) prefers using `\` for line breaks instead of trailing spaces for clarity and ease of editing in VS Code.
