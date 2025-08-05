@@ -54,6 +54,7 @@ code.success {
   font-size: 0.875rem;
   line-height: 1.5;
   color: inherit;
+  border: none;
 }
 pre code.callout,
 pre code.warning-style,
