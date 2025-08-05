@@ -139,7 +139,54 @@ pre:has(code.success)::before {
 /* summary */
 
 /* tip */
+code.tip-style,
+code.tip {
+  background-color: rgba(var(--callout-tip), 0.1);
+  color: rgb(var(--callout-tip));
+  border: 1px solid rgba(var(--callout-tip), 0.3);
+  border-radius: var(--radius-s);
+  padding: 2px 6px;
+}
 
+pre.tip {
+  background-color: rgba(var(--callout-tip), 0.05);
+  border-left: 4px solid rgb(var(--callout-tip));
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
+pre.tip::before {
+  content: "💡 Tip Code";
+  display: block;
+  color: rgb(var(--callout-tip));
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+pre:has(code.tip) {
+  background-color: rgba(var(--callout-tip), 0.05);
+  border-left: 4px solid rgb(var(--callout-tip));
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
+pre:has(code.tip)::before {
+  content: "💡 Tip";
+  display: block;
+  color: rgb(var(--callout-tip));
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+/* todo */
+
+/* warning */
 code.warning-style,
 code.warning {
   background-color: rgba(var(--callout-warning), 0.1);
@@ -186,47 +233,4 @@ pre:has(code.warning)::before {
   letter-spacing: 0.025em;
 }
 
-code.tip-style,
-code.tip {
-  background-color: rgba(var(--callout-tip), 0.1);
-  color: rgb(var(--callout-tip));
-  border: 1px solid rgba(var(--callout-tip), 0.3);
-  border-radius: var(--radius-s);
-  padding: 2px 6px;
-}
-
-pre.tip {
-  background-color: rgba(var(--callout-tip), 0.05);
-  border-left: 4px solid rgb(var(--callout-tip));
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
-}
-
-pre.tip::before {
-  content: "💡 Tip Code";
-  display: block;
-  color: rgb(var(--callout-tip));
-  font-size: 0.875rem;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
-}
-
-pre:has(code.tip) {
-  background-color: rgba(var(--callout-tip), 0.05);
-  border-left: 4px solid rgb(var(--callout-tip));
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
-}
-
-pre:has(code.tip)::before {
-  content: "💡 Tip";
-  display: block;
-  color: rgb(var(--callout-tip));
-  font-size: 0.875rem;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
-}
+/* quote */
