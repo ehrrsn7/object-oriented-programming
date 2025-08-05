@@ -485,7 +485,7 @@ code.quote-style
   border-radius: var(--radius-s);
   border-radius: 8px;
   padding: 2px 6px;
-  margin: 1em;
+  margin-bottom: 1em !important;
 }
 
 pre.bug,
