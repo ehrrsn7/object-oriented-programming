@@ -126,7 +126,34 @@ code.quote-style
   padding: 2px 6px;
 }
 
-pre.tip
+pre.bug,
+pre.bug-style,
+pre.default,
+pre.default-style,
+pre.error,
+pre.error-style,
+pre.example,
+pre.example-style,
+pre.fail,
+pre.fail-style,
+pre.important,
+pre.important-style,
+pre.info,
+pre.info-style,
+pre.question,
+pre.question-style,
+pre.success,
+pre.success-style,
+pre.summary,
+pre.summary-style,
+pre.tip,
+pre.tip-style,
+pre.todo,
+pre.todo-style,
+pre.warning,
+pre.warning-style,
+pre.quote,
+pre.quote-style
 {
   border-left-width: 4px;
   border-left-style: solid;
@@ -135,7 +162,34 @@ pre.tip
   position: relative;
 }
 
-pre.tip::before
+pre.bug::before,
+pre.bug-style::before,
+pre.default::before,
+pre.default-style::before,
+pre.error::before,
+pre.error-style::before,
+pre.example::before,
+pre.example-style::before,
+pre.fail::before,
+pre.fail-style::before,
+pre.important::before,
+pre.important-style::before,
+pre.info::before,
+pre.info-style::before,
+pre.question::before,
+pre.question-style::before,
+pre.success::before,
+pre.success-style::before,
+pre.summary::before,
+pre.summary-style::before,
+pre.tip::before,
+pre.tip-style::before,
+pre.todo::before,
+pre.todo-style::before,
+pre.warning::before,
+pre.warning-style::before,
+pre.quote::before,
+pre.quote-style::before
 {
   display: block;
   font-size: 0.875rem;
