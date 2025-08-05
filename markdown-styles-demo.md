@@ -439,10 +439,10 @@ You can embed raw HTML directly in Markdown to create advanced definition lists.
 
 > [!Success] There is a shorthand for this using markdown:
 
-```markdown
+```md
 Apple
 :   Pomaceous fruit of plants of the genus Malus in 
-    the family Rosaceae.
+    the family Rosaceae. <!--can be multiple lines-->
 :   An American computer company.
 
 Orange
