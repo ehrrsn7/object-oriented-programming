@@ -795,9 +795,11 @@ warning-style
 quote-style
 ```
 
-```{.tip}
-These are case-sensitive
-```
+> [!tip]
+> These are case-sensitive:
+> ```{.tip-style}
+> tip-style
+> ```
 
 > [!bug] This is an bug callout.
 
