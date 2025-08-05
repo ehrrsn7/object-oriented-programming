@@ -2,12 +2,12 @@
 h1.background {
   background-color: blue;
   background-image: url("./assets/header.jpg");
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   transform: translate(-0.5in, -0.15in);
   overflow-x: hidden;
-  width: 90vw;
+  width: 100vw;
   color: white;
   font-weight: bolder;
   line-height: 1in;
