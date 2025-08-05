@@ -413,18 +413,6 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
 </div>
 
 <table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-<tr>
-<th>Initialization:</th>
-<th>Boolean expression:</th>
-<th>Increment:</th>
-</tr>
-</thead>
 <tbody>
 <tr>
 <td>
