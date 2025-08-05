@@ -576,10 +576,10 @@ Orange
 >   - [x] Control structures and functions
 >   - [ ] Arrays and pointers
 > 
-> - [-] 🔄 **In Progress**
->   - [-] Object-oriented design
->   - [-] Template programming
->   - [-] STL containers
+> - [ ] 🔄 **In Progress**
+>   - [ ] Object-oriented design
+>   - [ ] Template programming
+>   - [ ] STL containers
 > 
 > - [ ] 📋 **Upcoming**
 >   - [ ] Advanced templates
