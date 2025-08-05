@@ -66,6 +66,25 @@ code.error {
   padding: 2px 6px;
 }
 
+pre.error-style,
+pre.error {
+  background-color: rgba(var(--callout-error), 0.05);
+  border-left: 4px solid rgb(var(--callout-error));
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
+pre.error::before {
+  content: "❌ Error Code";
+  display: block;
+  color: rgb(var(--callout-error));
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
 code.tip-style,
 code.tip {
   background-color: rgba(var(--callout-tip), 0.1) !important;
@@ -73,6 +92,24 @@ code.tip {
   border: 1px solid rgba(var(--callout-tip), 0.3);
   border-radius: var(--radius-s);
   padding: 2px 6px;
+}
+
+pre.tip {
+  background-color: rgba(var(--callout-tip), 0.05);
+  border-left: 4px solid rgb(var(--callout-tip));
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
+pre.tip::before {
+  content: "💡 Tip Code";
+  display: block;
+  color: rgb(var(--callout-tip));
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
 }
 
 code.info-style,
@@ -93,47 +130,10 @@ code.success {
   padding: 2px 6px;
 }
 
-pre.error-style,
-pre.error {
-  background-color: rgba(var(--callout-error), 0.05);
-  border-left: 4px solid rgb(var(--callout-error));
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
-}
-
 pre.warning::before {
   content: "⚠️ Warning Code";
   display: block;
   color: rgb(var(--callout-warning));
-  font-size: 0.875rem;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
-}
-
-pre.error::before {
-  content: "❌ Error Code";
-  display: block;
-  color: rgb(var(--callout-error));
-  font-size: 0.875rem;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
-}
-
-pre.tip {
-  background-color: rgba(var(--callout-tip), 0.05);
-  border-left: 4px solid rgb(var(--callout-tip));
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
-}
-
-pre.tip::before {
-  content: "💡 Tip Code";
-  display: block;
-  color: rgb(var(--callout-tip));
   font-size: 0.875rem;
   margin-bottom: 8px;
   text-transform: uppercase;
