@@ -30,42 +30,42 @@ date: "2025-08-03"
 
 # Table of Contents
 
-| Table of Contents $\ldots$ 1 |
-| :--- |
-| Course Overview $\ldots$ 2 |
-| Review $\ldots$ 4 |
-| 1.0 Design Documents $\ldots$ 30 |
-| 1.1 Defensive Programming $\ldots$ 43 |
-| 1.2 Exception Handling $\ldots$ 55 |
-| 1.3 Structures $\ldots$ 65 |
-| 1.4 Separate Compilation $\ldots$ 79 |
-| 1.5 Function: Advanced Topics $\ldots$ 92 |
-| 2.0 Encapsulation Design $\ldots$ 108 |
-| 2.1 Building a Class $\ldots$ 119 |
-| 2.2 Class Syntax $\ldots$ 126 |
-| 2.3 Accessors \& Mutators $\ldots$ 136 |
-| 2.4 Constructors \& Destructors $\ldots$ 143 |
-| 2.5 Static $\ldots$ 155 |
-| 2.6 Non-Member Operator Overloading $\ldots$ 165 |
-| 2.7 Friends $\ldots$ 180 |
-| 2.8 Member Operator Overloading $\ldots$ 188 |
-| 3.0 Class Relations $\ldots$ 203 |
-| 3.1 Building Polymorphism $\ldots$ 212 |
-| 3.2 Inheritance $\ldots$ 221 |
-| 3.3 Inheritance Qualifiers $\ldots$ 231 |
-| 3.4 Virtual Functions $\ldots$ 241 |
-| 3.5 Pure Virtual Functions $\ldots$ 253 |
-| 4.0 Type-Independent Design $\ldots$ 264 |
-| 4.1 Void Pointers and Callbacks $\ldots$ 273 |
-| 4.2 Function Templates $\ldots$ 285 |
-| 4.3 Class Templates $\ldots$ 293 |
-| 4.4 Linked Lists $\ldots$ 300 |
-| 4.5 Iterators $\ldots$ 313 |
-| 4.6 Standard Template Library $\ldots$ 324 |
-| A. Elements of Style $\ldots$ 337 |
-| B. C++ Syntax Reference Guide $\ldots$ 342 |
-| C. Glossary $\ldots$ 346 |
-| D. Index $\ldots$ 361 |
+| Table of Contents | $\ldots$ 1 |
+| :--- | :--- |
+| Course Overview | $\ldots$ 2 |
+| Review | $\ldots$ 4 |
+| 1.0 Design Documents | $\ldots$ 30 |
+| 1.1 Defensive Programming | $\ldots$ 43 |
+| 1.2 Exception Handling | $\ldots$ 55 |
+| 1.3 Structures | $\ldots$ 65 |
+| 1.4 Separate Compilation | $\ldots$ 79 |
+| 1.5 Function: Advanced Topics | $\ldots$ 92 |
+| 2.0 Encapsulation Design | $\ldots$ 108 |
+| 2.1 Building a Class | $\ldots$ 119 |
+| 2.2 Class Syntax | $\ldots$ 126 |
+| 2.3 Accessors \& Mutators | $\ldots$ 136 |
+| 2.4 Constructors \& Destructors | $\ldots$ 143 |
+| 2.5 Static | $\ldots$ 155 |
+| 2.6 Non-Member Operator Overloading | $\ldots$ 165 |
+| 2.7 Friends | $\ldots$ 180 |
+| 2.8 Member Operator Overloading | $\ldots$ 188 |
+| 3.0 Class Relations | $\ldots$ 203 |
+| 3.1 Building Polymorphism | $\ldots$ 212 |
+| 3.2 Inheritance | $\ldots$ 221 |
+| 3.3 Inheritance Qualifiers | $\ldots$ 231 |
+| 3.4 Virtual Functions | $\ldots$ 241 |
+| 3.5 Pure Virtual Functions | $\ldots$ 253 |
+| 4.0 Type-Independent Design | $\ldots$ 264 |
+| 4.1 Void Pointers and Callbacks | $\ldots$ 273 |
+| 4.2 Function Templates | $\ldots$ 285 |
+| 4.3 Class Templates | $\ldots$ 293 |
+| 4.4 Linked Lists | $\ldots$ 300 |
+| 4.5 Iterators | $\ldots$ 313 |
+| 4.6 Standard Template Library | $\ldots$ 324 |
+| A. Elements of Style | $\ldots$ 337 |
+| B. C++ Syntax Reference Guide | $\ldots$ 342 |
+| C. Glossary | $\ldots$ 346 |
+| D. Index | $\ldots$ 361 |
 
 # Course Overview 
 
