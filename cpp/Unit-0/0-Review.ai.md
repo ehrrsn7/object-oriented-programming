@@ -405,9 +405,9 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > [!info] FOR Loop Syntax Complexity
 > The FOR loop syntax is more complex than WHILE and DO-WHILE loops, as it combines initialization, condition, and increment in a single statement.
 
-<pre><code>for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warn}; `count++`{.increment .success})
+<p>for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warn}; `count++`{.increment .success})
    cout << count << endl;
-</code></pre>
+</p>
 
 <table>
 <thead>
