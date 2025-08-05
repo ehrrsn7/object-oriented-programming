@@ -608,8 +608,8 @@ This demo showcases all available Bootstrap-enhanced Markdown styles. The styles
 
 | Style Type | Syntax                                      | Use Case                      |
 | :--------- | :------------------------------------------ | :---------------------------- |
-| Warning    | `> [!WARNING]` (quote block)                |                               |
-|            | `` `WARNING`{.warning}`` (code block)       | `Important alerts`{.warning}  |
+| Warning    | `> [!WARNING]` (quote block)                | `Important alerts`{.warning}  |
+|            | `` `WARNING`{.warning}`` (code block)       |                               |
 | Tip        | `> [!TIP]` or `` `TIP`{.tip}``              | `Helpful advice`{.tip}        |
 | Info       | `> [!INFO]` or `` `INFO`{.info}``           | `Additional context`{.info}   |
 | Danger     | `> [!DANGER]` or `` `DANGER`{.danger}``     | `Critical warnings`{.danger}  |
