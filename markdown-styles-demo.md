@@ -307,7 +307,9 @@ public:
     
     // Display method
     void display() const {
-        std::cout << "Student: " << name << " (ID: " << id << ")" << std::endl;
+        std::cout << "Student: " << name 
+            << " (ID: " << id << ")" 
+            << std::endl;
     }
 };
 
