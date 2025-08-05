@@ -496,17 +496,16 @@ You can embed raw HTML directly in Markdown to create advanced definition lists.
 </dl>
 ```
 
-```md {.tip}
-# **There is a shorthand for this using markdown:**
-
-Apple
-:   Pomaceous fruit of plants of the genus Malus in 
-    the family Rosaceae. <!--can be multiple lines-->
-:   An American computer company.
-
-Orange
-:   The fruit of an evergreen tree of the genus Citrus.
-```
+> [!Tip] There is a shorthand for this using markdown:
+> ```md
+> Apple
+> :   Pomaceous fruit of plants of the genus Malus in 
+>     the family Rosaceae. <!--can be multiple lines-->
+> :   An American computer company.
+> 
+> Orange
+> :   The fruit of an evergreen tree of the genus Citrus.
+> ```
 
 **Rendered Output:**
 
