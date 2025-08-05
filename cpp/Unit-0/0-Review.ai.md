@@ -412,7 +412,7 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
 
 </div>
 
-<table>
+<table style="max-width: 11in">
 <tbody>
 <tr>
 <td>
