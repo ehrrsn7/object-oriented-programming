@@ -67,6 +67,7 @@ custom code callouts by type: (14 total, 28 '-style' pairs)
 code.bug,
 code.bug-style {
   color: rgb(var(--callout-bug));
+  background-color: rgba(var(--callout-bug), 0.05) !important;
 }
 
 pre:has(.bug),
