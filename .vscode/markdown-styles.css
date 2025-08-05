@@ -6,7 +6,7 @@ h1.background {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
-  width: calc(100vw - .25in - 1em);
+  width: calc(100vw - .5in - 1em);
   color: white;
   font-weight: bolder;
   line-height: 1in;
