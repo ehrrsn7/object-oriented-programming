@@ -215,8 +215,8 @@ Here are examples of styled inline code:
 `Aenean quam ex, ullamcorper ut imperdiet quis, egestas ut quam. Phasellus fringilla efficitur sem eu blandit. Etiam feugiat nisi ex, nec maximus leo molestie id. Nullam gravida neque eros, imperdiet rutrum enim maximus a. Duis ullamcorper ante eget risus congue, et interdum augue luctus. Ut fermentum massa et eros sollicitudin commodo. Integer condimentum pellentesque tortor, eget egestas magna tristique eu. Fusce neque eros, efficitur a sem non, porttitor imperdiet lectus. Quisque pharetra odio et ante vestibulum ornare. Mauris tempus metus id enim tincidunt, et ornare ipsum fermentum. Nam laoreet placerat erat quis rhoncus. Donec vitae tempor nisl, sed fringilla purus. Vestibulum sed ligula enim. Morbi pharetra mattis porta.`{.fail}
 
 > [!default] Code Blocks
-> We've styled the code blocks marked with classnames *(which allows for deeper styling)*
-> coded by classname to match the styles:
+> We've styled the code blocks marked with classnames *(which allows for deeper styling)*.
+> See #
 
 ```cpp {.warning}
 #include <iostream>
@@ -713,6 +713,8 @@ The `.vscode/settings.json` includes:
 
 
 ### All code blocks styled like the callout types
+[^1]: All code blocks below are styled to match their corresponding callout types, demonstrating how custom CSS classes can visually differentiate code for warnings, tips, errors, and more.
+
 
 ```{.bug}
 bug
