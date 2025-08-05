@@ -1061,7 +1061,7 @@ date: "2025-08-04"
 ### 📚 **Code Snippets Coverage**
 
 The `.vscode/markdown.code-snippets` file includes shortcuts for:
-- All 18 callout types (`warning`, `tip`, `info`, etc.)
+- All 18 callout types (`warning`{.warning}, `tip`{.tip}, `info`{.info}, etc.)
 - Line break methods (`linebreak`, `linebreak-spaces`, `linebreak-html`)
 - Text formatting (`bold`, `italic`, `strike`, `highlight`)
 - Code blocks (`codeblock`, `codestyle`, `allstyles`)
