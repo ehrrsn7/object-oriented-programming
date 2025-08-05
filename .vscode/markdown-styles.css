@@ -23,7 +23,115 @@ table.example tr:nth-child(even) {
   background: #f3f4f6;
 }
 
+td.bug {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.bug-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.default {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.default-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.error {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.error-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
 td.example {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.example-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.fail {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.fail-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.important {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.important-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.info {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.info-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.question {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.question-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.success {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.success-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.summary {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.summary-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.tip {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.tip-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.todo {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.todo-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.warning {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.warning-style {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.quote {
+  color: rgba(var(--callout-example), 1);
+  background-color: rgba(var(--callout-example), 0.5);
+}
+td.quote-style {
   color: rgba(var(--callout-example), 1);
   background-color: rgba(var(--callout-example), 0.5);
 }
