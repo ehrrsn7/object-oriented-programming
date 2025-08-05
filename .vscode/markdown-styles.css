@@ -487,6 +487,7 @@ pre code.quote-style
   background-color: transparent;
   color: black;
   border: none;
+  margin-bottom: 0px !important;
 }
 
 pre.bug,
