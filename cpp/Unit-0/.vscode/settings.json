@@ -1,5 +1,6 @@
 {
     "markdown.styles": [
         "./markdown-styles.css"
-    ]
+    ],
+    "markdownExtended.pdfFooterTemplate": "<div style=\"font-size: 9px; width: 100%; padding: 0 20px; box-sizing: border-box;\"><div style=\"display: flex; justify-content: space-between; align-items: center; white-space: nowrap;\"><span>Page <span class='pageNumber'></span></span><span style=\"margin: 0 15px; color: #666;\">|</span><span>Course Overview</span><span style=\"margin: 0 15px; color: #666;\">|</span><span>Unit 0: Introduction</span><span style=\"margin: 0 15px; color: #666;\">|</span><span>Object-Oriented Programming in C++</span></div></div>"
 }

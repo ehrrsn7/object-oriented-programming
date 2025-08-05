@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap-Enhanced Markdown Styles Demo"
+title: "Markdown Styles Demo"
 description: "A comprehensive demonstration of all available Bootstrap-inspired Markdown styles for educational content"
 course: "CS 165"
 unit: "Demo"
@@ -19,19 +19,21 @@ author: "Style Demo"
 date: "2025-08-04"
 ---
 
-# Bootstrap-Enhanced Markdown Styles Demo
+# Markdown Styles Demo
 
 This document demonstrates all the available Bootstrap-inspired styles for educational content. Use this as a reference when creating your course materials.
 
 ## Table of Contents
 
-| Content Section | Page |
-|:---|:---|
-| Educational Blocks | 1 |
-| Typography & Headings | 2 |
-| Tables & Lists | 3 |
-| Code & Math | 4 |
-| Interactive Elements | 5 |
+| Section                   | Page |
+|:--------------------------|:----:|
+| Educational Blocks        | 1    |
+| Typography & Headings     | 2    |
+| Tables & Lists            | 3    |
+| Code & Math               | 4    |
+| Interactive Elements      | 5    |
+| Character Sections        | 6    |
+| Exporting to PDF          | 7    |
 
 ---
 
@@ -45,7 +47,7 @@ You can insert this anywhere in your Markdown to separate sections onto new page
 
 ---
 
-## Line Break Demonstrations
+## Paragraphs and Line Break Examples
 
 You can create line breaks in Markdown using two spaces at the end of a line, or by using the `<br>` HTML tag.
 
@@ -62,11 +64,9 @@ This is the second line.
     continues on the next line  
 - Item two<br>with a manual break
 
-**Inside blockquotes:**  
+**Inside block quotes:**  
 > This is a blockquote line one.  
 > This is line two.
-
-
 
 > [!Note]
 > In VS Code, you can use the `\` character at the end of a line to force a line break instead of <code>&nbsp;&nbsp;</code> or `<br>`. While this works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.\
@@ -173,8 +173,9 @@ Below are examples of each Obsidian callout type, rendered with Bootstrap-inspir
 > [!CITE]
 > Cite callouts reference sources or important literature.
 
-
 ---
+
+<div style="page-break-after: always;"></div>
 
 ## Typography Demonstrations
 
@@ -188,6 +189,8 @@ Below are examples of each Obsidian callout type, rendered with Bootstrap-inspir
 ### Text Formatting
 
 This is **bold text** and this is *italic text*. You can also use ==highlighted text== for emphasis.
+This is _underlined text_ using HTML `<u>` tags or `_` characters.
+This is ~~strikethrough text~~ using double tildes `~~text~~`.
 
 ### Inline Code Styling
 
@@ -199,10 +202,9 @@ Here are examples of styled inline code:
 `code.danger`{.danger} - Danger-styled code\
 `code.success`{.success} - Success-styled code
 
-<!--shouldn't be changed in this scenario-->
-```cpp {.warning} 
-hello
-```
+> [!warning]
+> We've styled the code blocks marked with classnames *(which allows for deeper styling)*
+> coded by classname to match the styles:
 
 ```cpp {.warning}
 #include <iostream>
@@ -212,35 +214,24 @@ class Student {
 private:
     std::string name;
     int id;
-
-public:
-    // Constructor
-    Student(const std::string& studentName, int studentId) 
-        : name(studentName), id(studentId) {}
-    
-    // Accessor methods
-    std::string getName() const { return name; }
-    int getId() const { return id; }
-    
-    // Display method
-    void display() const {
-        std::cout << "Student: " << name << " (ID: " << id << ")" << std::endl;
-    }
-};
-
-int main() {
-    Student student("John Doe", 12345);
-    student.display();
-    return 0;
+    // ...
 }
 ```
 
-### Enhanced Blockquotes
+### Block quotes
 
-> This is a standard blockquote that has been enhanced with Bootstrap styling.
-> It includes better padding, margins, and a subtle background color.
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod quam consectetur velit sodales, vel euismod ipsum volutpat. Phasellus et lacus ligula. Duis mattis semper ligula et egestas. Etiam molestie eget nulla nec sodales. Praesent euismod ex in purus ornare dictum. Etiam fringilla malesuada neque, ac dignissim nibh laoreet nec. Vestibulum sapien mauris, pharetra vel tortor nec, pharetra euismod ipsum. Curabitur vitae accumsan sem, ut suscipit orci. Etiam sed nunc dignissim, aliquet quam non, dictum felis. Aenean quam ex, ullamcorper ut imperdiet quis, egestas ut quam. Phasellus fringilla efficitur sem eu blandit. Etiam feugiat nisi ex, nec maximus leo molestie id.\
+>\
+> Nullam gravida neque eros, imperdiet rutrum enim maximus a. Duis ullamcorper ante eget risus congue, et interdum augue luctus. Ut fermentum massa et eros sollicitudin commodo. Integer condimentum pellentesque tortor, eget egestas magna tristique eu. Fusce neque eros, efficitur a sem non, porttitor imperdiet lectus. Quisque pharetra odio et ante vestibulum ornare. Mauris tempus metus id enim tincidunt, et ornare ipsum fermentum. Nam laoreet placerat erat quis rhoncus. Donec vitae tempor nisl, sed fringilla purus. Vestibulum sed ligula enim. Morbi pharetra mattis porta.
+
+> [!info] Block Quotes alternative using the obsidian callout extension:
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod quam consectetur velit sodales, vel euismod ipsum volutpat. Phasellus et lacus ligula. Duis mattis semper ligula et egestas. Etiam molestie eget nulla nec sodales. Praesent euismod ex in purus ornare dictum. Etiam fringilla malesuada neque, ac dignissim nibh laoreet nec. Vestibulum sapien mauris, pharetra vel tortor nec, pharetra euismod ipsum. Curabitur vitae accumsan sem, ut suscipit orci. Etiam sed nunc dignissim, aliquet quam non, dictum felis. Aenean quam ex, ullamcorper ut imperdiet quis, egestas ut quam. Phasellus fringilla efficitur sem eu blandit. Etiam feugiat nisi ex, nec maximus leo molestie id.
+>\
+> Nullam gravida neque eros, imperdiet rutrum enim maximus a. Duis ullamcorper ante eget risus congue, et interdum augue luctus. Ut fermentum massa et eros sollicitudin commodo. Integer condimentum pellentesque tortor, eget egestas magna tristique eu. Fusce neque eros, efficitur a sem non, porttitor imperdiet lectus. Quisque pharetra odio et ante vestibulum ornare. Mauris tempus metus id enim tincidunt, et ornare ipsum fermentum. Nam laoreet placerat erat quis rhoncus. Donec vitae tempor nisl, sed fringilla purus. Vestibulum sed ligula enim. Morbi pharetra mattis porta.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ## Tables with Bootstrap Styling
 
@@ -254,12 +245,12 @@ int main() {
 
 ### Complex Table Example
 
-| Unit | Chapter | Topic | Difficulty | Estimated Time |
-|:-----|:--------|:------|:-----------|:---------------|
-| 1 | 1.0 | Using Objects | Beginner | 2 hours |
-| 1 | 1.1 | Defensive Programming | Intermediate | 3 hours |
-| 2 | 2.0 | Encapsulation Design | Intermediate | 4 hours |
-| 2 | 2.1 | Building a Class | Advanced | 5 hours |
+| Unit | Chapter | Topic                 | Difficulty   | Estimated Time |
+| :--- | :------ | :-------------------- | :----------- | :------------- |
+| 1    | 1.0     | Using Objects         | Beginner     | 2 hours        |
+| 1    | 1.1     | Defensive Programming | Intermediate | 3 hours        |
+| 2    | 2.0     | Encapsulation Design  | Intermediate | 4 hours        |
+| 2    | 2.1     | Building a Class      | Advanced     | 5 hours        |
 
 ---
 
@@ -267,7 +258,7 @@ int main() {
 
 ### C++ Code Block with Syntax Highlighting
 
-```cpp
+```cpp{.success}
 #include <iostream>
 #include <string>
 
@@ -420,15 +411,15 @@ public:
 
 ### Sue's Tips
 
-> [TIP]
-> ![Sue](.vscode/assets/sue.png){width=50 align=right} 💡 **Sue's Tip:** \
-> *Always use meaningful variable names and consistent formatting. Your future self (and your teammates) will thank you. Focus on writing code that works first, then optimize for readability.*
+> [!Danger] 💡 **Sue's Tip:**
+> ![Sue](.vscode/assets/sue.png){width=50 align=right} 
+> Always use meaningful variable names and consistent formatting. Your future self (and your teammates) will thank you. Focus on writing code that works first, then optimize for readability.
 
 ### Sam's Corner
 
-> [INFO]
-> ![Sam](.vscode/assets/sam.png){width=50 align=right} 🤓 **Sam's Corner:** \
-> *Did you know that C++ templates are Turing complete? This means you can theoretically compute any computable function at compile time using only template metaprogramming techniques.*
+> [!Tldr] 🤓 **Sam's Corner:**
+> ![Sam](.vscode/assets/sam.png){width=50 align=right}
+> Did you know that C++ templates are Turing complete? This means you can theoretically compute any computable function at compile time using only template metaprogramming techniques.
 
 ---
 
@@ -483,21 +474,21 @@ public:
 
 This demo showcases all available Bootstrap-enhanced Markdown styles. The styles provide:
 
-> [SUCCESS]
-> ✅ **Benefits:** \
+> [!SUCCESS] **Benefits:**
 > *Professional appearance, consistent formatting, improved readability, and enhanced educational content presentation.*
 
 ### Quick Reference
 
-| Style Type | Syntax | Use Case |
-|:-----------|:-------|:---------|
-| Warning | `> [WARNING]` | Important alerts |
-| Tip | `> [TIP]` | Helpful advice |
-| Info | `> [INFO]` | Additional context |
-| Danger | `> [DANGER]` | Critical warnings |
-| Success | `> [SUCCESS]` | Positive feedback |
-| Highlight | `==text==` | Emphasis |
-| Math | `$equation$` or `$$block$$` | Mathematical expressions |
+| Style Type | Syntax                                      | Use Case                      |
+| :--------- | :------------------------------------------ | :---------------------------- |
+| Warning    | `> [!WARNING]` (quote block)                |                               |
+| ^          | `` `WARNING`{.warning}`` (code block)       | `Important alerts`{.warning}  |
+| Tip        | `> [!TIP]` or `` `TIP`{.tip}``              | `Helpful advice`{.tip}        |
+| Info       | `> [!INFO]` or `` `INFO`{.info}``           | `Additional context`{.info}   |
+| Danger     | `> [!DANGER]` or `` `DANGER`{.danger}``     | `Critical warnings`{.danger}  |
+| Success    | `> [!SUCCESS]`  or `` `SUCCESS`{.success}`` | `Positive feedback`{.success} |
+| Highlight  | `==text==`                                  | ==Emphasis==                  |
+| Math       | `$equation$` or `$$block$$`                 | $Mathematical$ $Expressions$  |
 
 ---
 
@@ -509,7 +500,83 @@ void helloWorld() {
 }
 ```
 
-> [WARNING]
-> ⚠️ **Warning:** \
+> [!WARNING]
 > *Your warning message here*
->
+
+## Exporting to PDF
+
+This document demonstrates a complete "What You See Is What You Get" (WYSIWYG) PDF export workflow using VS Code with the Markdown Extended extension. The workflow combines dynamic CSS styling, frontmatter metadata, and custom footer templates for professional document generation.
+
+### 🔧 Workflow Components
+
+#### 1. **Markdown Frontmatter**
+Each document includes structured metadata in YAML format:
+```yaml
+---
+title: "Bootstrap-Enhanced Markdown Styles Demo"
+course: "CS 165"
+unit: "Demo"
+chapter: "Styles-Demo"
+tags: [markdown, bootstrap, styles]
+---
+```
+
+#### 2. **Dynamic CSS Variables**
+The `markdown-styles.css` file uses CSS custom properties for dynamic footer content:
+```css
+:root {
+    --course-name: "CS 165";
+    --unit-name: "Demo Unit";
+    --chapter-name: "Styles Demo";
+}
+
+@page {
+    @bottom-center {
+        content: "Page " counter(page) " | " var(--chapter-name) " | " var(--unit-name) " | " var(--course-name);
+        font-size: 9px;
+    }
+}
+```
+
+> [!todo]
+> Create a system that dynamically pulls the md frontmatter into our :root selector in css
+
+> [!info]- How does this work?
+> VS Code pulls this CSS file in (see #3 below), and the extension recreates the webview "as-is".
+
+#### 3. **VS Code Settings Configuration**
+The `.vscode/settings.json` includes:
+```json
+{
+    "markdown.styles": ["./markdown-styles.css"],
+    "markdownExtended.pdfFooterTemplate": "<!-- Optional fallback -->"
+}
+```
+
+#### 4. **Export Process**
+1. **Open** your markdown file in VS Code
+2. **Ensure** the workspace includes the `.vscode` folder with `markdown-styles.css`
+> [!Note]
+> You will have to individually open up every folder containing the .vscode folder for this to work
+3. **Use Command Palette** (`Ctrl+Shift+P`) → "Markdown Extended: Export (pdf)"
+4. **Result**: Professional PDF with custom footers, styling, and formatting
+
+### ✨ Key Benefits
+
+- **WYSIWYG**: Preview exactly matches PDF output
+- **Dynamic Footers**: Page numbers, chapter names, unit info automatically included
+- **Professional Styling**: Bootstrap-inspired callouts, tables, and typography
+- **Consistent Branding**: Unified appearance across all course documents
+- **Frontmatter Integration**: Document metadata drives styling decisions
+
+### 🔄 Future Enhancements
+
+- **Automated Script**: Parse frontmatter to auto-generate CSS variables
+- **Template System**: One CSS file with dynamic frontmatter extraction
+- **Batch Processing**: Export multiple documents with consistent styling
+
+> [!TIP]
+> 💡 **Pro Tip:** The CSS `@page` rules take precedence over `markdownExtended.pdfFooterTemplate`, so you can use pure CSS for maximum control over footer formatting.
+
+---
+
