@@ -100,6 +100,15 @@ pre.warning {
   position: relative;
 }
 
+pre.error-style,
+pre.error {
+  background-color: rgba(var(--callout-error), 0.05);
+  border-left: 4px solid rgb(var(--callout-error));
+  border-radius: var(--radius-s);
+  padding: var(--size-4-3);
+  position: relative;
+}
+
 pre.warning::before {
   content: "⚠️ Warning Code";
   display: block;
@@ -109,15 +118,6 @@ pre.warning::before {
   margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 0.025em;
-}
-
-pre.error-style,
-pre.error {
-  background-color: rgba(var(--callout-error), 0.05);
-  border-left: 4px solid rgb(var(--callout-error));
-  border-radius: var(--radius-s);
-  padding: var(--size-4-3);
-  position: relative;
 }
 
 pre.error::before {
