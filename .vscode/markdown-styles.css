@@ -5,9 +5,11 @@ h1.background {
   background-repeat: no-repeat;
   background-position: center;
   color: white;
+  background-color: blue;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
   font-weight: bolder;
   text-align: right;
+  padding: .5in 0;
   min-height: 1in;
   min-width: 8.5in;
   /* object-fit: cover; */
