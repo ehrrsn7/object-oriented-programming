@@ -795,6 +795,10 @@ warning-style
 quote-style
 ```
 
+```{.tip}
+These are case-sensitive
+```
+
 > [!bug] This is an bug callout.
 
 > [!default] This is an default callout.
