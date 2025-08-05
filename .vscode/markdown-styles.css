@@ -197,7 +197,34 @@ pre.quote-style::before
   letter-spacing: 0.025em;
 }
 
-pre:has(code.tip)
+pre:has(code.bug),
+pre:has(code.bug-style),
+pre:has(code.default),
+pre:has(code.default-style),
+pre:has(code.error),
+pre:has(code.error-style),
+pre:has(code.example),
+pre:has(code.example-style),
+pre:has(code.fail),
+pre:has(code.fail-style),
+pre:has(code.important),
+pre:has(code.important-style),
+pre:has(code.info),
+pre:has(code.info-style),
+pre:has(code.question),
+pre:has(code.question-style),
+pre:has(code.success),
+pre:has(code.success-style),
+pre:has(code.summary),
+pre:has(code.summary-style),
+pre:has(code.tip),
+pre:has(code.tip-style),
+pre:has(code.todo),
+pre:has(code.todo-style),
+pre:has(code.warning),
+pre:has(code.warning-style),
+pre:has(code.quote),
+pre:has(code.quote-style)
 {
   border-left-width: 4px;
   border-left-style: solid;
