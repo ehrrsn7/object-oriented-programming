@@ -779,33 +779,33 @@ warning-style
 quote-style
 ```
 
-> [!bug] This is an info callout.
+> [!bug] This is an bug callout.
 
-> [!default] This is an info callout.
+> [!default] This is an default callout.
 
-> [!error] This is an info callout.
+> [!error] This is an error callout.
 
-> [!example] This is an info callout.
+> [!example] This is an example callout.
 
-> [!fail] This is an info callout.
+> [!fail] This is an fail callout.
 
-> [!important] This is an info callout.
+> [!important] This is an important callout.
 
 > [!info] This is an info callout.
 
-> [!question] This is an info callout.
+> [!question] This is an question callout.
 
-> [!success] This is an info callout.
+> [!success] This is an success callout.
 
-> [!summary] This is an info callout.
+> [!summary] This is an summary callout.
 
-> [!tip] This is an info callout.
+> [!tip] This is an tip callout.
 
-> [!todo] This is an info callout.
+> [!todo] This is an todo callout.
 
-> [!warning] This is an info callout.
+> [!warning] This is an warning callout.
 
-> [!quote] This is an info callout.
+> [!quote] This is an quote callout.
 
 > [!info]- This is an expandable info callout.
 
