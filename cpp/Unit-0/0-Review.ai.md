@@ -425,6 +425,7 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
    <tbody>
       <tr>
          <td>
+
             Initialization:\
             The first statement to be executed in a loop.\
             - Can be any statement.\
@@ -434,14 +435,18 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
                `for (j = 0, k = 0; ... )`
             - We can also leave it empty:\
                `for (; i &lt; 10; i++)`
+               
          </td>
          <td>
+
             Is executed immediately before the body of the loop.\
             - Can be any expression.\
             - As long as the expression evaluates to true, the loop continues:\
             - If it is left empty, the expression evaluates to true. This means it will loop forever:
+            
          </td>
          <td>
+
             Is executed immediately after the body of the loop.\
             - Can be any statement.\
             - Usually we put a ++ or -- here:\
@@ -449,6 +454,7 @@ for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .wa
             <code>for (&hellip; ; &hellip; ; i++, j--)</code>\
             - Can be left empty:\
             <code>for (; i &lt; 10; )</code>
+            
          </td>
       </tr>
    </tbody>
