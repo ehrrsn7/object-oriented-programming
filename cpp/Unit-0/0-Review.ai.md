@@ -402,25 +402,10 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
    <body statement>;
 ```
 
-::card{icon="lucide:info" title="Syntax Complexity"}
-Here the syntax is quite a bit more complex than its WHILE and DO-WHILE brethren.
-::
+> [!info] FOR Loop Syntax Complexity
+> The FOR loop syntax is more complex than WHILE and DO-WHILE loops, as it combines initialization, condition, and increment in a single statement.
 
 ## Other examples
-
-::alert{type="info"}
-This is an info alert
-::
-
-::alert{type="warning"}  
-This is a warning alert
-::
-
-::code-group
-```bash [npm]
-npm install nuxt
-```
-::
 
 ```cpp
 for (int count = 0; count < 5 ; count++) 
