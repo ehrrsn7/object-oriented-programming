@@ -566,7 +566,7 @@ This demo showcases all available Bootstrap-enhanced Markdown styles. The styles
 
 *Happy writing with your enhanced Markdown styles! 🎉*
 
-```cpp {.hello}
+```cpp {.warning-style}
 void helloWorld() {
     return;
 }
