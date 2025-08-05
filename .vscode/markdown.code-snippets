@@ -583,32 +583,81 @@
     ],
     "description": "Highlight text with extended markdown syntax"
   },
-  "Sue's Tips Section": {
-    "prefix": "sues-tips",
+  "PDF Export Footer": {
+    "prefix": "pdffooter",
     "body": [
-      "## Sue's Tips",
+      "```css",
+      ":root {",
+      "    --course-name: \"${1:CS 165}\";",
+      "    --unit-name: \"${2:Unit Name}\";",
+      "    --chapter-name: \"${3:Chapter Name}\";",
+      "}",
       "",
-      "> [TIP]",
-      "> ![Sue](.vscode/assets/sue.png){width=50 align=right} 💡 **Sue's Tip:** \\",
-      "> *${1:Practical advice for getting the job done efficiently}*",
-      ">",
-      "",
-      "${0}"
+      "@page {",
+      "    @bottom-center {",
+      "        content: \"Page \" counter(page) \" | \" var(--chapter-name) \" | \" var(--unit-name) \" | \" var(--course-name);",
+      "        font-size: 9px;",
+      "    }",
+      "}",
+      "```"
     ],
-    "description": "Insert a Sue's Tips section with character image"
+    "description": "Insert CSS for PDF export with dynamic footer"
   },
-  "Sam's Corner Section": {
-    "prefix": "sams-corner",
+  "VS Code Settings": {
+    "prefix": "vscode-settings",
     "body": [
-      "## Sam's Corner",
-      "",
-      "> [INFO]",
-      "> ![Sam](.vscode/assets/sam.png){width=50 align=right} 🤓 **Sam's Corner:** \\",
-      "> *${1:Technical details and interesting tidbits}*",
-      ">",
-      "",
-      "${0}"
+      "```json",
+      "{",
+      "  \"markdown.styles\": [\"./markdown-styles.css\"],",
+      "  \"markdown.preview.breaks\": ${1:true},",
+      "  \"markdown.preview.linkify\": ${2:true},",
+      "  \"markdown.preview.typographer\": ${3:true}",
+      "}",
+      "```"
     ],
-    "description": "Insert a Sam's Corner section with character image"
+    "description": "Insert VS Code markdown settings configuration"
+  },
+  "Quadratic Formula": {
+    "prefix": "quadratic",
+    "body": [
+      "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
+    ],
+    "description": "Insert quadratic formula"
+  },
+  "Algorithm Complexity": {
+    "prefix": "complexity",
+    "body": [
+      "$$",
+      "\\begin{cases}",
+      "O(1) & \\text{constant time} \\\\",
+      "O(\\log n) & \\text{logarithmic time} \\\\",
+      "O(n) & \\text{linear time} \\\\",
+      "O(n \\log n) & \\text{linearithmic time} \\\\",
+      "O(n^2) & \\text{quadratic time}",
+      "\\end{cases}",
+      "$$"
+    ],
+    "description": "Insert algorithm complexity notation"
+  },
+  "All Headings": {
+    "prefix": "headings",
+    "body": [
+      "# ${1:Heading 1} (2.5rem)",
+      "## ${2:Heading 2} (2rem)",
+      "### ${3:Heading 3} (1.75rem)",
+      "#### ${4:Heading 4} (1.5rem)",
+      "##### ${5:Heading 5} (1.25rem)",
+      "###### ${6:Heading 6} (1rem)"
+    ],
+    "description": "Insert all heading levels with size annotations"
+  },
+  "Complete Text Formatting": {
+    "prefix": "textformat",
+    "body": [
+      "This is **bold text** and this is *italic text*. You can also use ==highlighted text== for emphasis.",
+      "This is _underlined text_ using HTML `<u>` tags or `_` characters.",
+      "This is ~~strikethrough text~~ using double tildes `~~text~~`."
+    ],
+    "description": "Insert complete text formatting examples"
   }
 }
