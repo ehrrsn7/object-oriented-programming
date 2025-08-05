@@ -40,13 +40,13 @@ This document demonstrates all the available Bootstrap-inspired styles for educa
 
 <div style="page-break-after: always;"></div>
 
----
-
 **Page Break Example:**  
 The horizontal rule above uses a custom HTML `<div style="page-break-after: always;"></div>` to force a page break in print or PDF output.  
 You can insert this anywhere in your Markdown to separate sections onto new pages.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ## Paragraphs and Line Break Examples
 
