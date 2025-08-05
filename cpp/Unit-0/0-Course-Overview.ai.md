@@ -28,12 +28,6 @@ date: "2025-08-03"
 
 # 0-Course-Overview {.background}
 
-> [WARNING]
-> ⚠️ **Warning:** \
-> *here be dragons*
->
-> ==yes==
-
 # Table of Contents 
 
 | Table of Contents $\ldots$ 1 |
