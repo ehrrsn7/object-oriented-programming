@@ -188,7 +188,7 @@ Below are examples of each Obsidian callout type, rendered with Bootstrap-inspir
 ## Typography Demonstrations
 
 # Heading 1 (2.5rem)
-## Heading 2 (2rem)\
+## Heading 2 (2rem)
 ### Heading 3 (1.75rem)
 #### Heading 4 (1.5rem)
 ##### Heading 5 (1.25rem)
