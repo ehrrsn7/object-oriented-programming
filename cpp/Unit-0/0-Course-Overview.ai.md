@@ -33,39 +33,39 @@ date: "2025-08-03"
 | Table of Contents |
 | :--- |
 | Course Overview |
-| Review |
-| 1.0 Design Documents |
-| 1.1 Defensive Programming |
-| 1.2 Exception Handling |
-| 1.3 Structures |
-| 1.4 Separate Compilation |
-| 1.5 Function: Advanced Topics |
-| 2.0 Encapsulation Design |
-| 2.1 Building a Class |
-| 2.2 Class Syntax |
-| 2.3 Accessors \& Mutators |
-| 2.4 Constructors \& Destructors |
-| 2.5 Static |
-| 2.6 Non-Member Operator Overloading |
-| 2.7 Friends |
-| 2.8 Member Operator Overloading |
-| 3.0 Class Relations |
-| 3.1 Building Polymorphism |
-| 3.2 Inheritance |
-| 3.3 Inheritance Qualifiers |
-| 3.4 Virtual Functions |
-| 3.5 Pure Virtual Functions |
-| 4.0 Type-Independent Design |
-| 4.1 Void Pointers and Callbacks |
-| 4.2 Function Templates |
-| 4.3 Class Templates |
-| 4.4 Linked Lists |
-| 4.5 Iterators |
-| 4.6 Standard Template Library |
-| A. Elements of Style |
-| B. C++ Syntax Reference Guide |
-| C. Glossary |
-| D. Index |
+| [Review](0-Review.ai.md) |
+| [1.0 Design Documents](../Unit-1/Chapter-1.0/1.0-Using-Objects.ai.md) |
+| [1.1 Defensive Programming](../Unit-1/Chapter-1.1/1.1-Defensive-Programming.ai.md) |
+| [1.2 Exception Handling](../Unit-1/Chapter-1.2/1.2-Exception-Handling.ai.md) |
+| [1.3 Structures](../Unit-1/Chapter-1.3/1.3-Structures.ai.md) |
+| [1.4 Separate Compilation](../Unit-1/Chapter-1.4/1.4-Separate-Compilation.ai.md) |
+| [1.5 Function: Advanced Topics](../Unit-1/Chapter-1.5/1.5-Function-Advanced-Topics.ai.md) |
+| [2.0 Encapsulation Design](../Unit-2/Chapter-2.0/2.0-Encapsulation-Design.ai.md) |
+| [2.1 Building a Class](../Unit-2/Chapter-2.1/2.1-Building-a-Class.ai.md) |
+| [2.2 Class Syntax](../Unit-2/Chapter-2.2/2.2-Class-Syntax.ai.md) |
+| [2.3 Accessors \& Mutators](../Unit-2/Chapter-2.3/2.3-Accessors-&-Mutators.ai.md) |
+| [2.4 Constructors \& Destructors](../Unit-2/Chapter-2.4/2.4-Constructors-&-Destructors.ai.md) |
+| [2.5 Static](../Unit-2/Chapter-2.5/2.5-Static.ai.md) |
+| [2.6 Non-Member Operator Overloading](../Unit-2/Chapter-2.6/2.6-Non-Member-Operator-Overloading.ai.md) |
+| [2.7 Friends](../Unit-2/Chapter-2.7/2.7-Friends.ai.md) |
+| [2.8 Member Operator Overloading](../Unit-2/Chapter-2.8/2.8-Member-Operator-Overloading.ai.md) |
+| [3.0 Class Relations](../Unit-3/Chapter-3.0/3.0-Class-Relations.ai.md) |
+| [3.1 Building Polymorphism](../Unit-3/Chapter-3.1/3.1-Building-Polymorphism.ai.md) |
+| [3.2 Inheritance](../Unit-3/Chapter-3.2/3.2-Inheritance.ai.md) |
+| [3.3 Inheritance Qualifiers](../Unit-3/Chapter-3.3/3.3-Inheritance-Qualifiers.ai.md) |
+| [3.4 Virtual Functions](../Unit-3/Chapter-3.4/3.4-Virtual-Functions.ai.md) |
+| [3.5 Pure Virtual Functions](../Unit-3/Chapter-3.5/3.5-Pure-Virtual-Functions.ai.md) |
+| [4.0 Type-Independent Design](../Unit-4/Chapter-4.0/4.0-Type-Independent-Design.ai.md) |
+| [4.1 Void Pointers and Callbacks](../Unit-4/Chapter-4.1/4.1-Void-Pointers-and-Callbacks.ai.md) |
+| [4.2 Function Templates](../Unit-4/Chapter-4.2/4.2-Function-Templates.ai.md) |
+| [4.3 Class Templates](../Unit-4/Chapter-4.3/4.3-Class-Templates.ai.md) |
+| [4.4 Linked Lists](../Unit-4/Chapter-4.4/4.4-Linked-List.ai.md) |
+| [4.5 Iterators](../Unit-4/Chapter-4.5/4.5-Iterators.ai.md) |
+| [4.6 Standard Template Library](../Unit-4/Chapter-4.6/4.6-Standard-Template-Library.ai.md) |
+| [A. Elements of Style](../Appendix/Appendix-A-Elements-of-Style.ai.md) |
+| [B. C++ Syntax Reference Guide](../Appendix/Appendix-B-C++-Reference-Guide.ai.md) |
+| [C. Glossary](../Appendix/Appendix-C-Glossary.ai.md) |
+| [D. Index](../Appendix/Appendix-D-Index.ai.md) |
 
 # Course Overview 
 
