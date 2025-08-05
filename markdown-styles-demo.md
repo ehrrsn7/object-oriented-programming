@@ -285,40 +285,40 @@ private:
 <table class="example">
 <tbody>
 <tr>
-    <td class="">1
-    <td class="">2
-    <td class="">3
-    <td class="">4
-    <td class="">5
-    <td class="">6
-    <td class="">7
+    <td class="bug">1
+    <td class="bug-style">2
+    <td class="default">3
+    <td class="default-style">4
+    <td class="error">5
+    <td class="error-style">6
+    <td class="example">7
 </tr>
 <tr>
-    <td class="">8
-    <td class="">9
-    <td class="">10
-    <td class="">11
-    <td class="">12
-    <td class="">13
-    <td class="">14
+    <td class="example-style">8
+    <td class="fail">9
+    <td class="fail-style">10
+    <td class="important">11
+    <td class="important-style">12
+    <td class="info">13
+    <td class="info-style">14
 </tr>
 <tr>
-    <td class="">15
-    <td class="">16
-    <td class="">17
-    <td class="">18
-    <td class="">19
-    <td class="">20
-    <td class="">21
+    <td class="question">15
+    <td class="question-style">16
+    <td class="success">17
+    <td class="success-style">18
+    <td class="summary">19
+    <td class="summary-style">20
+    <td class="tip">21
 </tr>
 <tr>
-    <td class="">22
-    <td class="">23
-    <td class="">24
-    <td class="">25
-    <td class="">26
-    <td class="">27
-    <td class="">28
+    <td class="tip-style">22
+    <td class="todo">23
+    <td class="todo-style">24
+    <td class="warning">25
+    <td class="warning-style">26
+    <td class="quote">27
+    <td class="quote-style">28
 </tr>
 </tbody>
 </table>
