@@ -39,22 +39,6 @@ details.callout {
 }
 
 /* common among all code callouts */
-code.callout,
-code.warning-style,
-code.warning,
-code.error-style,
-code.error,
-code.tip-style,
-code.tip,
-code.info-style,
-code.info,
-code.success-style,
-code.success {
-  font-family: var(--font-monospace);
-  line-height: 1.5;
-  color: inherit;
-}
-
 pre code.callout,
 pre code.warning-style,
 pre code.warning,
