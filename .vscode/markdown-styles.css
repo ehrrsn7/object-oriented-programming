@@ -39,7 +39,7 @@ details.callout {
 }
 
 /*
-custom code callouts by type:
+custom code callouts by type: (14 total)
   bug
   default
   error
@@ -57,17 +57,34 @@ custom code callouts by type:
 */
 
 /* common among all code callouts */
-pre code.callout,
-pre code.warning-style,
-pre code.warning,
-pre code.error-style,
+pre code.bug,
+pre code.bug-style,
+pre code.default,
+pre code.default-style,
 pre code.error,
-pre code.tip-style,
-pre code.tip,
-pre code.info-style,
+pre code.error-style,
+pre code.example,
+pre code.example-style,
+pre code.fail,
+pre code.fail-style,
+pre code.important,
+pre code.important-style,
 pre code.info,
+pre code.info-style,
+pre code.question,
+pre code.question-style,
+pre code.success,
 pre code.success-style,
-pre code.success {
+pre code.summary,
+pre code.summary-style,
+pre code.tip,
+pre code.tip-style,
+pre code.todo,
+pre code.todo-style,
+pre code.warning,
+pre code.warning-style,
+pre code.quote,
+pre code.quote-style {
   background-color: transparent;
   color: black;
   border: none;
