@@ -800,6 +800,10 @@ quote-style
 > ```{.tip-style}
 > tip-style
 > ```
+> vs:
+> ```{.Tip-style}
+> tip-style
+> ```
 
 > [!bug] This is an bug callout.
 
