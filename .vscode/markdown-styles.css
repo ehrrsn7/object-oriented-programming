@@ -14,8 +14,6 @@ h1.background {
   line-height: 1in;
   transform: translateY(-0.15in);
   min-width: 8.5in;
-  /* object-fit: cover; */
-  /* clip-path: inset(0 0 0 0); */
 }
 
 /* Obsidian-style callout variables */
