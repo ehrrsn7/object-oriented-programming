@@ -797,10 +797,12 @@ quote-style
 
 > [!tip]
 > These are case-sensitive:
+> `` ```{.tip-style} ... ``` ``:
 > ```{.tip-style}
 > tip-style
 > ```
-> vs:
+> vs
+> `` ```{.Tip-style} ... ``` ``:
 > ```{.Tip-style}
 > tip-style
 > ```
