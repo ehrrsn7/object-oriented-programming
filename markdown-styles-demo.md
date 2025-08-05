@@ -709,7 +709,7 @@ The `.vscode/settings.json` includes:
 - **Batch Processing**: Export multiple documents with consistent styling
 
 > [!TIP] Pro Tip
-> The CSS `@page` rules take precedence over `markdownExtended.pdfFooterTemplate`, so you can use pure CSS for maximum control over footer formatting.
+> The CSS `@page`{.tip} rules take precedence over `markdownExtended.pdfFooterTemplate`{.tip}, so you can use pure CSS for maximum control over footer formatting.
 
 ---
 
