@@ -31,9 +31,9 @@ date: "2025-08-03"
 # Table of Contents
 
 | Table of Contents | $\ldots$ 1 |
-| :--- | :--- |
+| :--- | ---: |
 | Course Overview | $\ldots$ 2 |
-| Review | $\ldots$ 4 |
+| Review | $\ldots$ 4 | 
 | 1.0 Design Documents | $\ldots$ 30 |
 | 1.1 Defensive Programming | $\ldots$ 43 |
 | 1.2 Exception Handling | $\ldots$ 55 |
