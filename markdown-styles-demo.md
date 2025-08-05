@@ -1,5 +1,5 @@
 ---
-title: "Markdown Styles Demo"
+title: "Markdown Styles Demo" # front matter
 description: "A comprehensive demonstration of all available Bootstrap-inspired Markdown styles for educational content"
 course: "CS 165"
 unit: "Demo"
@@ -29,12 +29,15 @@ This document demonstrates all the available Bootstrap-inspired styles for educa
 | Section                   | Page |
 |:--------------------------|:----:|
 | Educational Blocks        | 1    |
-| Typography & Headings     | 2    |
-| Tables & Lists            | 3    |
-| Code & Math               | 4    |
-| Interactive Elements      | 5    |
-| Character Sections        | 6    |
-| Exporting to PDF          | 7    |
+| Paragraphs & Line Breaks  | 2    |
+| Typography & Headings     | 3    |
+| Tables & Lists            | 4    |
+| Code Examples             | 5    |
+| Mathematical Expressions  | 6    |
+| Interactive Elements      | 7    |
+| Definition Lists          | 8    |
+| Character Sections        | 9    |
+| Exporting to PDF          | 10   |
 
 ---
 
