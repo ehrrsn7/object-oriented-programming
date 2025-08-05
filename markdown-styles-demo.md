@@ -24,7 +24,7 @@ date: "2025-08-04"
 
 This document demonstrates all the available Bootstrap-inspired styles for educational content. Use this as a reference when creating your course materials.
 
-## Table of Contents
+# Table of Contents
 
 | Section                   | Page |
 |:--------------------------|:----:|
