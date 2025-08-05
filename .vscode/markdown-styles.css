@@ -18,6 +18,12 @@ h1.background {
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
 }
 
+#table-of-contents {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* Obsidian-style callout variables */
 :root {
   /* Callout styles: (already defined in extension)
