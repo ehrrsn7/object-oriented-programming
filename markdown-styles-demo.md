@@ -423,7 +423,7 @@ public:
 
 ## Definition lists
 
-### HTML Example (Definition List)
+**HTML Example (Definition List)**
 
 You can embed raw HTML directly in Markdown to create advanced definition lists.
 
