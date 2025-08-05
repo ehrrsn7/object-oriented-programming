@@ -6,10 +6,9 @@ h1.background {
   background-position: center;
   color: white;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
-  padding: 1em 1em;
   font-weight: bolder;
   text-align: right;
-  min-height: 25px;
+  min-height: 1in;
   min-width: 8.5in;
   /* object-fit: cover; */
   /* clip-path: inset(0 0 0 0); */
