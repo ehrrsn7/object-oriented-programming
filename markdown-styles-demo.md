@@ -296,31 +296,31 @@ private:
     <td class="error">5
     <td class="error-style">6
     <td class="example">7
-</tr>
-<tr>
     <td class="example-style">8
     <td class="fail">9
     <td class="fail-style">10
+</tr>
+<tr>
     <td class="important">11
     <td class="important-style">12
     <td class="info">13
     <td class="info-style">14
-    <td class="note">13
     <td class="note-style">14
-</tr>
-<tr>
+    <td class="note">13
     <td class="question">15
     <td class="question-style">16
+</tr>
+<tr>
     <td class="success">17
     <td class="success-style">18
     <td class="summary">19
     <td class="summary-style">20
     <td class="tip">21
-</tr>
-<tr>
     <td class="tip-style">22
     <td class="todo">23
     <td class="todo-style">24
+</tr>
+<tr>
     <td class="warning">25
     <td class="warning-style">26
     <td class="quote">27
