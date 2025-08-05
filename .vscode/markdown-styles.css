@@ -473,6 +473,8 @@ important
 important-style
 info
 info-style
+note
+note-style
 question
 question-style
 success
@@ -503,6 +505,8 @@ code.important,
 code.important-style,
 code.info,
 code.info-style,
+code.note,
+code.note-style,
 code.question,
 code.question-style,
 code.success,
@@ -540,6 +544,8 @@ pre code.important,
 pre code.important-style,
 pre code.info,
 pre code.info-style,
+pre code.note,
+pre code.note-style,
 pre code.question,
 pre code.question-style,
 pre code.success,
@@ -574,6 +580,8 @@ pre.important,
 pre.important-style,
 pre.info,
 pre.info-style,
+pre.note,
+pre.note-style,
 pre.question,
 pre.question-style,
 pre.success,
@@ -610,6 +618,8 @@ pre:has(code.tip).important::before,
 pre:has(code.tip).important-style::before,
 pre:has(code.tip).info::before,
 pre:has(code.tip).info-style::before,
+pre:has(code.tip).note::before,
+pre:has(code.tip).note-style::before,
 pre:has(code.tip).question::before,
 pre:has(code.tip).question-style::before,
 pre:has(code.tip).success::before,
@@ -652,6 +662,8 @@ pre:has(code.important),
 pre:has(code.important-style),
 pre:has(code.info),
 pre:has(code.info-style),
+pre:has(code.note),
+pre:has(code.note-style),
 pre:has(code.question),
 pre:has(code.question-style),
 pre:has(code.success),
@@ -688,6 +700,8 @@ pre:has(code.important)::before,
 pre:has(code.important-style)::before,
 pre:has(code.info)::before,
 pre:has(code.info-style)::before,
+pre:has(code.note)::before,
+pre:has(code.note-style)::before,
 pre:has(code.question)::before,
 pre:has(code.question-style)::before,
 pre:has(code.success)::before,
@@ -801,6 +815,14 @@ table.example td.info {
 table.example td.info-style {
   color: rgba(var(--callout-info), 1);
   background-color: rgba(var(--callout-info), 0.3);
+}
+table.example td.note {
+  color: rgba(var(--callout-note), 1);
+  background-color: rgba(var(--callout-note), 0.3);
+}
+table.example td.note-style {
+  color: rgba(var(--callout-note), 1);
+  background-color: rgba(var(--callout-note), 0.3);
 }
 table.example td.question {
   color: rgba(var(--callout-question), 1);
