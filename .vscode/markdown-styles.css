@@ -417,39 +417,6 @@ warning-style
 quote
 quote-style
 */
-pre code.bug,
-pre code.bug-style,
-pre code.default,
-pre code.default-style,
-pre code.error,
-pre code.error-style,
-pre code.example,
-pre code.example-style,
-pre code.fail,
-pre code.fail-style,
-pre code.important,
-pre code.important-style,
-pre code.info,
-pre code.info-style,
-pre code.question,
-pre code.question-style,
-pre code.success,
-pre code.success-style,
-pre code.summary,
-pre code.summary-style,
-pre code.tip,
-pre code.tip-style,
-pre code.todo,
-pre code.todo-style,
-pre code.warning,
-pre code.warning-style,
-pre code.quote,
-pre code.quote-style
-{
-  background-color: transparent;
-  color: black;
-  border: none;
-}
 
 code.bug,
 code.bug-style,
@@ -479,13 +446,47 @@ code.warning,
 code.warning-style,
 code.quote,
 code.quote-style
-{
+{ /* inline and multiline */
   border-width: 1px;
   border-style: solid;
   border-radius: var(--radius-s);
   border-radius: 8px;
   padding: 2px 6px;
-  margin-bottom: 100px !important;
+  margin-bottom: 10px !important;
+}
+
+pre code.bug,
+pre code.bug-style,
+pre code.default,
+pre code.default-style,
+pre code.error,
+pre code.error-style,
+pre code.example,
+pre code.example-style,
+pre code.fail,
+pre code.fail-style,
+pre code.important,
+pre code.important-style,
+pre code.info,
+pre code.info-style,
+pre code.question,
+pre code.question-style,
+pre code.success,
+pre code.success-style,
+pre code.summary,
+pre code.summary-style,
+pre code.tip,
+pre code.tip-style,
+pre code.todo,
+pre code.todo-style,
+pre code.warning,
+pre code.warning-style,
+pre code.quote,
+pre code.quote-style
+{ /* multiline only */
+  background-color: transparent;
+  color: black;
+  border: none;
 }
 
 pre.bug,
