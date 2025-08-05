@@ -5,6 +5,7 @@ h1.background {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform: translateX(-0.15in);
   transform: translateY(-0.15in);
   overflow-x: clip;
   width: 100vw;
