@@ -284,6 +284,63 @@ private:
 
 ## Code Examples
 
+```{.bug}
+```
+```{.default}
+```
+```{.error}
+```
+```{.example}
+```
+```{.fail}
+```
+```{.important}
+```
+```{.info}
+```
+```{.question}
+```
+```{.success}
+```
+```{.summary}
+```
+```{.tip}
+```
+```{.todo}
+```
+```{.warning}
+```
+```{.quote}
+```
+```{.bug-style}
+```
+```{.default-style}
+```
+```{.error-style}
+```
+```{.example-style}
+```
+```{.fail-style}
+```
+```{.important-style}
+```
+```{.info-style}
+```
+```{.question-style}
+```
+```{.success-style}
+```
+```{.summary-style}
+```
+```{.tip-style}
+```
+```{.todo-style}
+```
+```{.warning-style}
+```
+```{.quote-style}
+```
+
 ### C++ Code Block with Syntax Highlighting
 
 ```cpp{.success-style}
