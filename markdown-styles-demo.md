@@ -650,7 +650,7 @@ tags: [markdown, bootstrap, styles]
 
 #### 2. **Dynamic CSS Variables**
 The `markdown-styles.css` file uses CSS custom properties for dynamic footer content:
-```css
+```css {.bug}
 :root {
     --course-name: "CS 165";
     --unit-name: "Demo Unit";
