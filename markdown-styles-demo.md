@@ -612,6 +612,7 @@ This demo showcases all available Bootstrap-enhanced Markdown styles. The styles
 |            | `` `WARNING`{.warning}`` (code block)       |                               |
 | Tip        | `> [!TIP]` or `` `TIP`{.tip}``              | `Helpful advice`{.tip}        |
 | Info       | `> [!INFO]` or `` `INFO`{.info}``           | `Additional context`{.info}   |
+| Fail       | `> [!Fail]` or `` `Fail`{.Fail}``           | `Critical warnings`{.fail}    |
 | Success    | `> [!SUCCESS]`  or `` `SUCCESS`{.success}`` | `Positive feedback`{.success} |
 | Highlight  | `==text==`                                  | ==Emphasis==                  |
 | Math       | `$equation$` or `$$block$$`                 | $Mathematical$ $Expressions$  |
