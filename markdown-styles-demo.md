@@ -571,14 +571,14 @@ Orange
   - Design patterns
   - Performance optimization
 
-### Task Lists
-
-- [x] Set up development environment
-- [x] Learn basic C++ syntax
-- [ ] Master class design
-- [ ] Implement inheritance hierarchies
-- [ ] Practice template programming
-- [ ] Complete final project
+> [!Success] Task Lists
+> 
+> - [x] Set up development environment
+> - [x] Learn basic C++ syntax
+> - [ ] Master class design
+> - [ ] Implement inheritance hierarchies
+> - [ ] Practice template programming
+> - [ ] Complete final project
 
 ---
 
