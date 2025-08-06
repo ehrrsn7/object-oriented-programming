@@ -179,7 +179,10 @@ p > code.bug {
   background: red !important;
 }
 p > code.bug::before {
-  background: yellow !important;
+  content: "Bug: ";
+  color: red;
+  font-weight: bold;
+  margin-right: 4px;
 }
 
 pre:has(code.bug)::before {
