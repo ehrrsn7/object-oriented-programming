@@ -632,6 +632,42 @@ pre code.quote-style
   margin-bottom: 0px !important;
 }
 
+.callout pre:has(code.bug),
+.callout pre:has(code.bug-style),
+.callout pre:has(code.default),
+.callout pre:has(code.default-style),
+.callout pre:has(code.error),
+.callout pre:has(code.error-style),
+.callout pre:has(code.example),
+.callout pre:has(code.example-style),
+.callout pre:has(code.fail),
+.callout pre:has(code.fail-style),
+.callout pre:has(code.important),
+.callout pre:has(code.important-style),
+.callout pre:has(code.info),
+.callout pre:has(code.info-style),
+.callout pre:has(code.note),
+.callout pre:has(code.note-style),
+.callout pre:has(code.question),
+.callout pre:has(code.question-style),
+.callout pre:has(code.success),
+.callout pre:has(code.success-style),
+.callout pre:has(code.summary),
+.callout pre:has(code.summary-style),
+.callout pre:has(code.tip),
+.callout pre:has(code.tip-style),
+.callout pre:has(code.todo),
+.callout pre:has(code.todo-style),
+.callout pre:has(code.warning),
+.callout pre:has(code.warning-style),
+.callout pre:has(code.quote),
+.callout pre:has(code.quote-style)
+{ /* multiline only */
+  background-color: transparent;
+  border: none;
+  margin-bottom: 0px !important;
+}
+
 pre.bug,
 pre.bug-style,
 pre.default,
