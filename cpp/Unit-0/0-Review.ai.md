@@ -526,31 +526,25 @@ Coupling is the quality of the information interchange between functions. Loose 
 > The syntax for declaring a function is:
 
 <table>
-<thead>
-<th>
+<tbody>
+<tr>
 <td>
 
 `Return type`{.info}
 
 </td>
-</th>
-
-<th>
 <td>
 
 `Function name`{.info}
 
 </td>
-</th>
-
-<th>
 <td>
 
 `Parameter list`{.info}
 
 </td>
-</th>
-</thead>
+</tr>
+</tbody>
 </table>
 
 > | Output type of the function. | Every function needs a name by which it will be called. | How data enters the function. |
