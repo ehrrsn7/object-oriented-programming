@@ -555,12 +555,12 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > <div class="monospace">
 > 
+> </div>
+> 
 > <table width="100%">
 > <tbody>
 > <tr>
 > <td width="33%" height="100px">
-> 
-> </div>
 > 
 > > [!error] Return type
 > > Output type of the function.
