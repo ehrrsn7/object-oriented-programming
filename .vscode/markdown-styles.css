@@ -31,6 +31,31 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
+.blue-sidebar-table + table {
+  border-left: 6px solid #2563eb;
+  background: #f0f6ff;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+  margin: 1em 0;
+  width: 100%;
+}
+
+.blue-sidebar-table + table th,
+.blue-sidebar-table + table td {
+  border: 1px solid #dbeafe;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+.blue-sidebar-table + table th {
+  background: #dbeafe;
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.blue-sidebar-table + table tr:nth-child(even) {
+  background: #f3f8ff;
+}
+
 .monospace {
   font-family: 'Courier New', Courier, monospace;
 }
