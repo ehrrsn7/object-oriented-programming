@@ -40,8 +40,6 @@ h1#table-of-contents + table {
   background: transparent;
 }
 
-.steel-blue-sidebar-table + table,
-.steel-blue-sidebar-table + table th,
 .steel-blue-sidebar-table + table th,
 .steel-blue-sidebar-table + table th:first-child,
 .steel-blue-sidebar-table + table tr :first-child {
