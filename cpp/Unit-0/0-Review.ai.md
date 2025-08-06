@@ -601,7 +601,7 @@ double convertFeetToMeters(double feet)
 }
 ```
 
-Calling a function occurs by naming the function and providing the required parameters. To call the convertFeetToMeters() function above, see the following example:
+Calling a function occurs by naming the function and providing the required parameters. To call the `convertFeetToMeters()` function above, see the following example:
 
 ```cpp
 {
