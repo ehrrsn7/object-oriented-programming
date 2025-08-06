@@ -633,7 +633,7 @@ There are two ways to send data between functions: pass-by-value and pass-by-ref
 
 <div class="steel-blue-sidebar-table" style="display:none"></div>
 
-<table>
+<table class="steel-blue-sidebar-table">
 <thead>
 <tr>
 <th style="text-align:center">Pass By Value</th>
