@@ -40,7 +40,7 @@ h1#table-of-contents + table {
   background: transparent;
 }
 
-.steel-blue-sidebar-table + table th,
+.steel-blue-sidebar-table + table thead,
 .steel-blue-sidebar-table + table th:first-child,
 .steel-blue-sidebar-table + table tr :first-child {
   background: #4f81bd;
@@ -49,11 +49,16 @@ h1#table-of-contents + table {
 }
 
 .steel-blue-sidebar-table + table th {
+  background: #4f81bd;
   border-bottom: 3px solid black;
 }
 
 .steel-blue-sidebar-table + table tr:nth-child(odd) {
   background: #d8d8d8aa;
+}
+
+.steel-blue-sidebar-table + table td {
+  font-weight: normal;
 }
 
 /* Obsidian-style callout variables */
