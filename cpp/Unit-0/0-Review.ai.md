@@ -126,7 +126,7 @@ An expression is an equation that is evaluated to a single value. This equation 
 
 The order of operations is:
 
-<div class="steel-blue-sidebar-table row-border-3 row-border-3 row-border-3 row-border-3 row-border-3 row-border-3 row-border-3 row-border-3 row-border-3 row-border-3 row-border-3" style="display:none"></div>
+<div class="steel-blue-sidebar-table row-border-1 row-border-3 row-border-12 row-border-15 row-border-17 row-border-19 row-border-20 row-border-21 row-border-22 row-border-23 row-border-24" style="display:none"></div>
 
 | | Name | Operator | Example |
 | --- | :-- | :-- | :-- |
