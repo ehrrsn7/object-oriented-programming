@@ -290,9 +290,8 @@ Finally, it is possible to fetch only a single character from the input stream, 
 {
    char character;
    character = cin.get();  // fetch a single character. This could be a
-}                          // letter, digit, symbol, or even a space
+}                          //    letter, digit, symbol, or even a space
 ```
-
 
 ## File
 
