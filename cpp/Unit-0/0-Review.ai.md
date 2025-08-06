@@ -517,10 +517,10 @@ The syntax for declaring a function is:
 
 <p class="monospace">
 
-<return type> <function name>(<parameter list>)
-{
-   <statement list>
-   return <return value>;
+\<return type> \<function name>(\<parameter list>)\
+{\
+   \<statement list>\
+   return \<return value>;\
 }
 
 </p>
