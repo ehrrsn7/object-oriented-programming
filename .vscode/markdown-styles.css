@@ -63,17 +63,9 @@ h1#table-of-contents + table {
   border-color: black;
 }
 
-.row-border-1 + table > tbody > tr {
-  border-bottom-width: 1px;
-}
-
-.row-border-2 + table > tbody > tr {
-  border-bottom-width: 2px;
-}
-
-.row-border-3 + table > tbody > tr {
-  border-bottom-width: 3px;
-}
+.row-border-1 + table > tbody > tr { border-bottom-width: 1px;}
+.row-border-2 + table > tbody > tr { border-bottom-width: 2px;}
+.row-border-3 + table > tbody > tr { border-bottom-width: 3px;}
 
 /* Obsidian-style callout variables */
 /* 
