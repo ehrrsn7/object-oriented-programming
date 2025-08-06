@@ -37,8 +37,12 @@ h1#table-of-contents + table {
 
 /* Select the table that is the next sibling of div.steel-blue-sidebar-table */
 .steel-blue-sidebar-table + table,
-.steel-blue-sidebar-table + table th {
+.steel-blue-sidebar-table + table th,
+.steel-blue-sidebar-table + table th,
+.steel-blue-sidebar-table + table th:first-child,
+.steel-blue-sidebar-table + table tr :first-child {
   background: #4f81bd;
+  background: white;
 }
 
 .steel-blue-sidebar-table + table th {
@@ -47,14 +51,6 @@ h1#table-of-contents + table {
 
 .steel-blue-sidebar-table + table td {
   background: transparent;
-}
-
-.steel-blue-sidebar-table + table th,
-.steel-blue-sidebar-table + table th:first-child,
-.steel-blue-sidebar-table + table tr :first-child
-{
-  background: transparent;
-  font-weight: 700;
 }
 
 .steel-blue-sidebar-table + table tr:nth-child(odd) {
