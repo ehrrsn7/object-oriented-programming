@@ -528,19 +528,19 @@ Coupling is the quality of the information interchange between functions. Loose 
 > <table width="100%">
 > <tbody>
 > <tr>
-> <td>
+> <td width="33%">
 > 
 > > [!error] Return type
 > > Output type of the function.
 > 
 > </td>
-> <td>
+> <td width="33%">
 > 
 > > [!info] Function name
 > > Every function needs a name by which it will be called.
 > 
 > </td>
-> <td>
+> <td width="33%">
 > 
 > > [!example] Parameter list
 > > How data enters the function.
