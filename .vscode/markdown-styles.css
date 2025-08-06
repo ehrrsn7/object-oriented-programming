@@ -51,7 +51,7 @@ h1#table-of-contents + table {
 }
 
 .steel-blue-sidebar-table + table th {
-  border-bottom: 6px solid black;
+  border-bottom: 3px solid black;
 }
 
 .steel-blue-sidebar-table + table tr:nth-child(odd) {
