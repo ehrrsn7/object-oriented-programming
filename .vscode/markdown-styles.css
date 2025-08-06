@@ -35,11 +35,6 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  /* font-size: 150%; */
-  background-color: blue;
-}
-
 /* Select the table that is the next sibling of div.steel-blue-sidebar-table */
 .steel-blue-sidebar-table + table td {
   background: transparent;
