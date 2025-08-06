@@ -583,9 +583,11 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > </div>
 >
-> | The code to be executed when the function is called. | The answer to be returned to the caller indicating the results of the function. |
-> | :-- | :-- |
-> | <span style="color:#267CB9"><b>Statement list</b></span> | <span style="color:#267CB9"><b>Return value</b></span> |
+> The code to be executed when the function is called.
+> The answer to be returned to the caller indicating the results of the function.
+>
+> <span style="color:#267CB9"><b>Statement list</b></span>
+> <span style="color:#267CB9"><b>Return value</b></span>
 
 default
 error
