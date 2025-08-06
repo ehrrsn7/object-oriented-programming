@@ -42,7 +42,7 @@ h1#table-of-contents + table {
 }
 
 .steel-blue-sidebar-table + table > thead,
-.steel-blue-sidebar-table + table > tbody tr :first-child {
+.steel-blue-sidebar-table + table > tbody > tr > :first-child {
   background: #4f81bd;
   color: white;
   font-weight: bold;
@@ -52,7 +52,7 @@ h1#table-of-contents + table {
   border-bottom: 3px solid black;
 }
 
-.steel-blue-sidebar-table + table > tbody tr:nth-child(odd) {
+.steel-blue-sidebar-table + table > tbody > tr:nth-child(odd) {
   background: #d8d8d8aa;
 }
 
