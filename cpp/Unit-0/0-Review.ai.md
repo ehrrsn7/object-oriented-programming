@@ -405,13 +405,15 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > [!info] FOR Loop Syntax Complexity
 > The FOR loop syntax is more complex than WHILE and DO-WHILE loops, as it combines initialization, condition, and increment in a single statement.
 
-<div class="monospace">
 
 > [!default] FOR Loop
+> <div class="monospace">
+>
 >   ### for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warning}; `count++`{.increment .success})
 >   ### &nbsp;&nbsp;&nbsp;cout << count << endl;
+>
+> </div>
 
-</div>
 
 <table style="max-width: 11in">
 <tbody>
