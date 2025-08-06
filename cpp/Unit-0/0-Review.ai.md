@@ -92,6 +92,8 @@ Data conversion happens automatically whenever a value from one data type is ass
 
 Observe that the (int) cast signals to the compiler to convert the floating point value into an integer. C++ adds four special types of casts:
 
+<div class="steel-blue-sidebar-table" style="display:none"></div>
+
 | Cast | Use |
 | :-- | :-- |
 | `static_cast<Type>(expression)` | Same as the simple cast described above |
