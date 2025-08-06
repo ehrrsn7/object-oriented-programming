@@ -625,13 +625,7 @@ pre code.todo-style,
 pre code.warning,
 pre code.warning-style,
 pre code.quote,
-pre code.quote-style
-{ /* multiline only */
-  background-color: transparent;
-  border: none;
-  margin-bottom: 0px !important;
-}
-
+pre code.quote-style,
 .callout pre:has(code.bug),
 .callout pre:has(code.bug-style),
 .callout pre:has(code.default),
