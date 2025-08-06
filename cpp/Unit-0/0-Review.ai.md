@@ -128,43 +128,43 @@ The order of operations is:
 
 <div class="steel-blue-sidebar-table" style="display:none"></div>
 
-| Name | Operator | Example |
-| :-- | :-- | :-- |
-| Array indexing | `[]` | `array[4]` |
-| Function call | `()` | `function()` |
-| Postfix increment and decrement | `++` `--` | `count++` `count--` |
-| --- | --- | --- |
-| Prefix increment and decrement | `++` `--` | `++count` `--count` |
-| Not | `!` | `!married` |
-| Negative | `-` | `-4` |
-| Dereference | `*` | `*pValue` |
-| Address-of | `&` | `&value` |
-| Allocate with new | `new` | `new int` |
-| Free with delete | `delete` | `delete pValue` |
-| Casting | `()` | `(int)4.2` |
-| Get size of | `sizeof` | `sizeof(int)` |
-| --- | --- | --- |
-| Multiplication | `*` | `3 * 4` |
-| Division | `/` | `3 / 4` |
-| Modulus | `%` | `3 % 4` |
-| --- | --- | --- |
-| Addition | `+` | `3 + 4` |
-| Subtraction | `-` | `3 - 4` |
-| --- | --- | --- |
-| Insertion | `<<` | `cout << value` |
-| Extraction | `>>` | `cin >> value` |
-| --- | --- | --- |
-| Greater than, etc. | `>=` `<=` `>` `<` | `3 >= 4` |
-| --- | --- | --- |
-| Equal to, not equal to | `==` `!` | `3 != 4` |
-| --- | --- | --- |
-| Logical And | `&&` | `passed && juniorStatus` |
-| --- | --- | --- |
-| Logical OR | `||` | `passed || juniorStatus` |
-| --- | --- | --- |
-| Assignment, etc. | `=` `+=` `*=` `-=` `/=` ` %=` | `value += 4` |
-| --- | --- | --- |
-| Conditional expression (ternary operator) | `?` `:` | `passed ? "happy" : "sad"` |
+| | Name | Operator | Example |
+| --- | :-- | :-- | :-- |
+| 1 | Array indexing | `[]` | `array[4]` |
+|  | Function call | `()` | `function()` |
+|  | Postfix increment and decrement | `++` `--` | `count++` `count--` |
+|  | --- | --- | --- |
+| 1 | Prefix increment and decrement | `++` `--` | `++count` `--count` |
+|  | Not | `!` | `!married` |
+|  | Negative | `-` | `-4` |
+|  | Dereference | `*` | `*pValue` |
+|  | Address-of | `&` | `&value` |
+|  | Allocate with new | `new` | `new int` |
+|  | Free with delete | `delete` | `delete pValue` |
+|  | Casting | `()` | `(int)4.2` |
+|  | Get size of | `sizeof` | `sizeof(int)` |
+|  | --- | --- | --- |
+| 1 | Multiplication | `*` | `3 * 4` |
+|  | Division | `/` | `3 / 4` |
+|  | Modulus | `%` | `3 % 4` |
+|  | --- | --- | --- |
+| 1 | Addition | `+` | `3 + 4` |
+|  | Subtraction | `-` | `3 - 4` |
+|  | --- | --- | --- |
+| 1 | Insertion | `<<` | `cout << value` |
+|  | Extraction | `>>` | `cin >> value` |
+|  | --- | --- | --- |
+| 1 | Greater than, etc. | `>=` `<=` `>` `<` | `3 >= 4` |
+|  | --- | --- | --- |
+| 1 | Equal to, not equal to | `==` `!` | `3 != 4` |
+|  | --- | --- | --- |
+| 1 | Logical And | `&&` | `passed && juniorStatus` |
+|  | --- | --- | --- |
+| 1 | Logical OR | `||` | `passed || juniorStatus` |
+|  | --- | --- | --- |
+| 1 | Assignment, etc. | `=` `+=` `*=` `-=` `/=` ` %=` | `value += 4` |
+|  | --- | --- | --- |
+| 1 | Conditional expression (ternary operator) | `?` `:` | `passed ? "happy" : "sad"` |
 
 # Arithmetic operators
 
