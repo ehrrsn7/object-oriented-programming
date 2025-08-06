@@ -499,6 +499,8 @@ Cohesion is the quality of a function performing one and only one task. The seve
 
 Coupling is the quality of the information interchange between functions. Loose coupling, represented by simple data being passed between functions, is desirable over tight. The four levels of Coupling are:
 
+<div class="steel-blue-sidebar-table" style="display:none"></div>
+
 | Coupling Name | Description |
 | :--: | :-- |
 | Data | Occurs when the data passed between functions is very simple. This occurs when a single <br> atomic data-item is passed, or when highly cohesive data-items are passed. |
