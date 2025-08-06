@@ -530,17 +530,17 @@ Coupling is the quality of the information interchange between functions. Loose 
 <tr>
 <td>
 
-`Return type`{.info}
+> [!info] Return type
 
 </td>
 <td>
 
-`Function name`{.info}
+> [!info] Function name
 
 </td>
 <td>
 
-`Parameter list`{.info}
+> [!info] Parameter list
 
 </td>
 </tr>
