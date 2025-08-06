@@ -565,13 +565,13 @@ Coupling is the quality of the information interchange between functions. Loose 
 > <tr valign="top">
 > <td width="33%" height="100px">
 > 
-> > [!error] Success
+> > [!success] Success
 > > The code to be executed when the function is called.
 > 
 > </td>
 > <td width="33%" height="100px">
 > 
-> > [!info] Warning
+> > [!warning] Warning
 > > The answer to be returned to the caller indicating the results of the function.
 > 
 > </td>
