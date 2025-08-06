@@ -33,7 +33,7 @@ h1#table-of-contents + table {
 
 .steel-blue-sidebar-table + table {
   border-left: 6px solid #4f81bdaa;
-  background: #f0f6ff;
+  background: #4f81bdaa;
   box-shadow: 0 2px 8px #2563eb14;
   margin: 1em 0;
   width: 100%;
