@@ -112,9 +112,9 @@ Of these four, the most common is the `static_cast`. You can use it interchangea
 }
 ```
 
-## Sam's Corner
-
-Though `static_cast<int>(value)` is more of a C++ way of doing a cast than the C way of doing things `(int)value`, they do the same thing. In this text and in all the examples, we will use the C casting convention simply because it requires less typing.
+> [!tldr] Sam's Corner
+> 
+> Though `static_cast<int>(value)` is more of a C++ way of doing a cast than the C way of doing things `(int)value`, they do the same thing. In this text and in all the examples, we will use the C casting convention simply because it requires less typing.
 
 # Expressions
 
