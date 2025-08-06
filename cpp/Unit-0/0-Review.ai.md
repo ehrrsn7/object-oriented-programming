@@ -205,8 +205,8 @@ There are two flavors of the increment (and decrement of course) operators: incr
 ```cpp
 {
    int age = 10;
-   cout << age++ << endl; // display the value of 10 because the expression
-} // is evaluated before age is incremented
+   cout << age++ << endl;  // display the value of 10 because the expression
+}                          //     is evaluated before age is incremented
 ```
 
 In this example, we increment the value of age _after_ the expression is evaluated (as indicated by the `age++` rather than `++age` where we would evaluate _before_). Therefore, the output would be 10 although the value of age would be 11 at the end of execution. This would not be true with:
