@@ -511,9 +511,9 @@ Coupling is the quality of the information interchange between functions. Loose 
 # Function syntax
 
 The syntax for declaring a function is:
-| Output type of the function. | Every function needs a name by which it will be called. | How data enters the function. |
-| :--: | :--: | :--: |
 | <span style="color:#267CB9"><b>Return type</b></span> | <span style="color:#267CB9"><b>Function name</b></span> | <span style="color:#267CB9"><b>Parameter list</b></span> |
+| :-- | :-- | :-- |
+| Output type of the function. | Every function needs a name by which it will be called. | How data enters the function. |
 
 <div class="monospace">
 
