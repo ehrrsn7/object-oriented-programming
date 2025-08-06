@@ -407,7 +407,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 
 
 > [!default] FOR Loop
-> <div class="monospace">
+> <div class="monospace quote-style">
 >
 >   ### for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warning}; `count++`{.increment .success})
 >   ### &nbsp;&nbsp;&nbsp;cout << count << endl;
