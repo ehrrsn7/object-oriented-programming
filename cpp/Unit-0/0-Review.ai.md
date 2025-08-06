@@ -17,7 +17,7 @@ This section is a brief review of procedural programming. Please use this sectio
 
 ## Variables and data types
 
-The first generation of computers could only work with integers. A few decades later, scientists figured out how to store decimal numbers in a computer. Today, most computers natively handle many data types. The built-in data types supported by the $\mathrm{C}++$ language are:
+The first generation of computers could only work with integers. A few decades later, scientists figured out how to store decimal numbers in a computer. Today, most computers natively handle many data types. The built-in data types supported by the `C++` language are:
 
 <div class="steel-blue-sidebar-table" style="display:none"></div>
 
@@ -218,10 +218,9 @@ In this example, we increment the value of age _after_ the expression is evaluat
 }                          // is evaluated after age is incremented
 ```
 
-
 ## Streams
 
-The standard tools to perform text input and output with $\mathrm{C}++$ is with the standard stream libraries. This includes writing text to the screen and accepting text from the keyboard as well as interacting with files.
+The standard tools to perform text input and output with `C++` is with the standard stream libraries. This includes writing text to the screen and accepting text from the keyboard as well as interacting with files.
 
 ## Output
 
@@ -730,7 +729,7 @@ int main()
 
 # Pointers
 
-A pointer is a variable that does not hold data, but rather an address. All pointers have a data type, namely "a pointer to an integer" or "a pointer to a character." Arrays and c-strings are pointer variables in $\mathrm{C}++$.
+A pointer is a variable that does not hold data, but rather an address. All pointers have a data type, namely "a pointer to an integer" or "a pointer to a character." Arrays and c-strings are pointer variables in `C++`.
 
 ## Pointer syntax
 
