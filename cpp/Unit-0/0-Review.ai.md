@@ -485,7 +485,7 @@ A function is a small part of a larger program. In fact, it is the fundamental u
 Modularization is the process of splitting a large program into smaller chunks. There are, of course, good ways of doing this and bad one. We have two metrics by which we can measure the quality of modularization in a given program: cohesion and coupling.
 Cohesion is the quality of a function performing one and only one task. The seven levels of Cohesion (from highest to lowest) are:
 
-<div class="blue-sidebar-table" style="display:none"></div>
+<div class="steel-blue-sidebar-table" style="display:none"></div>
 
 | Cohesion Name | Description |
 | :--: | :--: |
