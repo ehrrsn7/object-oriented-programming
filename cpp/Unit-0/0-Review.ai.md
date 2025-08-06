@@ -173,7 +173,7 @@ Floating point division (`/`) behaves the way it does in mathematics. Integer di
    cout << answer;
 }
 ```
-In this case, the output is not 1.9. The variable `answer` cannot store a floating point value. When 19 is divided by 10, the result is 1 with a remainder of 9. Therefore, `answer` will get the value 1 and the remainder is discarded.
+In this case, the output is _not_ 1.9. The variable `answer` cannot store a floating point value. When 19 is divided by 10, the result is 1 with a remainder of 9. Therefore, `answer` will get the value 1 and the remainder is discarded.
 
 ## Modulus `%`
 
