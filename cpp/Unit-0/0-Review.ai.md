@@ -126,7 +126,10 @@ An expression is an equation that is evaluated to a single value. This equation 
 
 The order of operations is:
 
-<div class="steel-blue-sidebar-table row-border-1 row-border-3 row-border-12 row-border-15 row-border-17 row-border-19 row-border-20 row-border-21 row-border-22 row-border-23 row-border-24" style="display:none"></div>
+<div
+   class="steel-blue-sidebar-table row-border-1 row-border-3 row-border-12 row-border-15 row-border-17 row-border-19 row-border-20 row-border-21 row-border-22 row-border-23 row-border-24"
+   style="display:none">
+</div>
 
 | | Name | Operator | Example |
 | --- | :-- | :-- | :-- |
@@ -407,7 +410,7 @@ We commonly use WHILE and DO-WHILE loops in event-controlled loops, a loop that 
 
 The final loop is designed for counting. The syntax is:
 ```cpp
-for (<initialization statement>; <Boolean expression>; <increment statement>) 
+for (<initialization statement>; <Boolean expression>; <increment statement>)
    <body statement>;
 ```
 
@@ -415,7 +418,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > The FOR loop syntax is more complex than WHILE and DO-WHILE loops, as it combines initialization, condition, and increment in a single statement.
 
 > <div class="monospace quote-style" style="padding: 1em">
-> 
+>
 >  for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warning}; `count++`{.increment .success})\
 >  &nbsp;&nbsp;&nbsp;cout << count << endl;
 >
@@ -433,10 +436,10 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > - You can declare and initialize a variable inside the loop:\
 >   `for (int i = 0; ... )`{.initialization .info}
 > - You can initialize more than one variable:\
->   `for (j = 0, k = 0; ... )`{.initialization .info} 
+>   `for (j = 0, k = 0; ... )`{.initialization .info}
 > - You can also leave it empty:\
->   `for (; i < 10; i++)`{.initialization .info} 
-   
+>   `for (; i < 10; i++)`{.initialization .info}
+
 </td>
 <td>
 
