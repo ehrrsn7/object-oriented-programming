@@ -633,21 +633,21 @@ There are two ways to send data between functions: pass-by-value and pass-by-ref
 
 <div class="steel-blue-sidebar-table" style="display:none"></div>
 
-<table data-line="0" class="code-line" dir="auto">
-<thead data-line="0" class="code-line" dir="auto">
-<tr data-line="0" class="code-line" dir="auto">
-<th style="text-align:center" data-line="0" class="code-line" dir="auto">Pass By Value</th>
-<th style="text-align:center" data-line="0" class="code-line" dir="auto">Pass By Reference</th>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Pass By Value</th>
+<th style="text-align:center">Pass By Reference</th>
 </tr>
 </thead>
-<tbody data-line="2" class="code-line" dir="auto">
-<tr data-line="2" class="code-line" dir="auto">
-<td style="text-align:center" data-line="2" class="code-line" dir="auto">Pass-by-value makes a copy so two independent variables are created.</td>
-<td style="text-align:center" data-line="2" class="code-line" dir="auto">Pass-by-reference uses the same variable in the caller and the callee.</td>
+<tbody>
+<tr>
+<td style="text-align:center">Pass-by-value makes a copy so two independent variables are created.</td>
+<td style="text-align:center">Pass-by-reference uses the same variable in the caller and the callee.</td>
 </tr>
-<tr data-line="3" class="code-line" dir="auto">
-<td style="text-align:center" data-line="3" class="code-line" dir="auto">Any change to the variable by the function will not affect the caller.</td>
-<td style="text-align:center" data-line="3" class="code-line" dir="auto">Any change to the variable by the function will affect the caller.</td>
+<tr>
+<td style="text-align:center">Any change to the variable by the function will not affect the caller.</td>
+<td style="text-align:center">Any change to the variable by the function will affect the caller.</td>
 </tr>
 </tbody>
 </table>
