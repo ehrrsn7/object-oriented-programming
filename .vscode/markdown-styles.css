@@ -22,6 +22,10 @@ h1.background {
   margin: 1em 0;
 }
 
+.monospace {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 /* Select the table that is the next sibling of h1#table-of-contents */
 h1#table-of-contents + table {
   /* Add your styles here */
@@ -50,10 +54,6 @@ h1#table-of-contents + table {
 
 .steel-blue-sidebar-table + table tr:nth-child(odd) {
   background: #d8d8d8aa;
-}
-
-.monospace {
-  font-family: 'Courier New', Courier, monospace;
 }
 
 /* Obsidian-style callout variables */
