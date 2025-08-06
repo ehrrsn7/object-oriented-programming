@@ -36,7 +36,8 @@ h1#table-of-contents + table {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 150%;
+  font-size: 1.5em;
+  background-color: blue;
 }
 
 /* Select the table that is the next sibling of div.steel-blue-sidebar-table */
