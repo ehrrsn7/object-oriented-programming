@@ -560,33 +560,24 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > </div>
 >
-> success
-> warning
->
 > <table width="100%">
 > <tbody>
 > <tr valign="top">
 > <td width="33%" height="100px">
 > 
-> > [!error] Return type
+> > [!error] Success
 > > The code to be executed when the function is called.
 > 
 > </td>
 > <td width="33%" height="100px">
 > 
-> > [!info] Function name
+> > [!info] Warning
 > > The answer to be returned to the caller indicating the results of the function.
 > 
 > </td>
 > </tr>
 > </tbody>
 > </table>
-> 
-> 
-> 
->
-> <span style="color:#267CB9"><b>Statement list</b></span>
-> <span style="color:#267CB9"><b>Return value</b></span>
 
 default
 error
