@@ -445,11 +445,11 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > [!success] Increment:
 > Is executed immediately after the body of the loop.
 > - Can be any statement.
-> - Usually we put a ++ or -- here:
-> - You can put more than one statement here:
->    `for (&hellip; ; &hellip; ; i++, j--)`{.success}
-> - Can be left empty:
->    `for (; i &lt; 10; )`{.success}
+> - Usually, we put a `++` or `--` here.
+> - You can put more than one statement here:\
+>   `for (... ; ... ; i++, j--)`{.increment .success}
+> - Can be left empty:\
+>   `for (; i < 10; )`{.increment .success}
 
 </td>
 </tr>
