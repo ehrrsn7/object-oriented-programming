@@ -10,9 +10,9 @@
   color: white;
   font-weight: 900;
   font-size: 2em;
-  line-height: 1in;
+  line-height: .8in;
+  min-height: .8in;
   transform: translateY(-10%);
-  min-height: 1in;
   max-width: 8.5in;
   padding: .5em;
   padding-top: 1em;
