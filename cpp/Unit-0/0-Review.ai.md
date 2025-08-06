@@ -525,7 +525,7 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > The syntax for declaring a function is:
 
-<table>
+<table width="100%">
 <tbody>
 <tr>
 <td>
