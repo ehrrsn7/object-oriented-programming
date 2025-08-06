@@ -466,17 +466,15 @@ While the syntax of the FOR loop may look quite complex, it has the three things
 }
 ```
 
-
-# Sue's Tips
-
-We commonly use FOR loops in counter-controlled loops, loops executing a fixed number of times. Counter-controlled loops are readily identified by the presence of a single variable that moves through a range of values. In other words, counter-controlled loops do not exclusively increment by one: they might increment by 10 or powers of 3.
-When designing counter-controlled loops, it is helpful to answer the following four questions:
-
-- How does the loop start
-- How does the loop end
-- What do you count by
-- What happens each iteration
-
+> [!danger] Sue's Tips
+> 
+> We commonly use FOR loops in counter-controlled loops, which execute a fixed number of times. Counter-controlled loops are identified by a single variable moving through a range of values. Note that the increment may be by 1, 10, or even powers of 3.
+> 
+> When designing counter-controlled loops, answer these four questions:
+> - How does the loop start?
+> - How does the loop end?
+> - What do you count by?
+> - What happens each iteration?
 
 ## Functions
 
