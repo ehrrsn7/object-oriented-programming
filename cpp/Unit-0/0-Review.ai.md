@@ -426,8 +426,6 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 >
 > </div>
 
-`Bug`{.bug}
-
 <table style="min-width: 8.5in">
 <tbody>
 <tr valign="top">
