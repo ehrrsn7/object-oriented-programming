@@ -161,7 +161,7 @@ The order of operations is:
 
 # Arithmetic operators
 
-Most of the arithmetic operators such as addition and multiplication work the same in $\mathrm{C}++$ as they do in algebra. There are a few exceptions: integer division, modulus, and the increment operator.
+Most of the arithmetic operators such as addition and multiplication work the same in `C++` as they do in algebra. There are a few exceptions: integer division, modulus, and the increment operator.
 
 ## Division `/`
 
