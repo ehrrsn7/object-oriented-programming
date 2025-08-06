@@ -631,6 +631,8 @@ Parameter matchup occurs by order, not by name.
 
 There are two ways to send data between functions: pass-by-value and pass-by-reference. Pass-by-reference" is the process of indicating to the compiler that a given parameter variable is shared between the caller and the callee. We use the ampersand \& to indicate the parameter is pass-by-reference.
 
+<div class=".steel-blue-sidebar-table" style="display: hidden"></div>
+
 | Pass By Value | Pass By Reference |
 | :--: | :--: |
 | Pass-by-value makes a copy so two independent variables are created. | Pass-by-reference uses the same variable in the caller and the callee. |
