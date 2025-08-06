@@ -527,7 +527,7 @@ Coupling is the quality of the information interchange between functions. Loose 
 > 
 > <table width="100%">
 > <tbody>
-> <tr>
+> <tr valign="bottom">
 > <td width="33%" height="100px">
 > 
 > > [!error] Return type
@@ -565,7 +565,7 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > <table width="100%">
 > <tbody>
-> <tr>
+> <tr valign="top">
 > <td width="33%" height="100px">
 > 
 > > [!error] Return type
