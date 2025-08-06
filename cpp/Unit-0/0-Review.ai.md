@@ -113,7 +113,7 @@ Of these four, the most common is the `static_cast`. You can use it interchangea
 ```
 
 > [!tldr] Sam's Corner
-> ![Sam](.vscode/assets/sam.png){width=50 align=right}
+> ![Sam](../../.vscode/assets/sam.png){width=50 align=right}
 > Though `static_cast<int>(value)`{.tldr} is more of a C++ way of doing a cast than the C way of doing things `(int)value`{.tldr}, they do the same thing. In this text and in all the examples, we will use the C casting convention simply because it requires less typing.
 
 # Expressions
