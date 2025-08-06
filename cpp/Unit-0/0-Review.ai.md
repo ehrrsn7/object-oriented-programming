@@ -521,33 +521,35 @@ Coupling is the quality of the information interchange between functions. Loose 
 
 ### Function syntax
 
-> [!quote] Function syntax
->
-> The syntax for declaring a function is:
-
-<table width="100%">
-<tbody>
-<tr>
-<td>
-
-> [!info] Return type
-
-</td>
-<td>
-
-> [!info] Function name
-
-</td>
-<td>
-
-> [!info] Parameter list
-
-</td>
-</tr>
-</tbody>
-</table>
-
-> | Output type of the function. | Every function needs a name by which it will be called. | How data enters the function. |
+> > [!quote] Function syntax
+> >
+> > The syntax for declaring a function is:
+> 
+> <table width="100%">
+> <tbody>
+> <tr>
+> <td>
+> 
+> > [!info] Return type
+> > Output type of the function.
+> 
+> </td>
+> <td>
+> 
+> > [!info] Function name
+> > Every function needs a name by which it will be called.
+> 
+> </td>
+> <td>
+> 
+> > [!info] Parameter list
+> > How data enters the function.
+> 
+> </td>
+> </tr>
+> </tbody>
+> </table>
+> 
 >
 > <div class="monospace">
 >
