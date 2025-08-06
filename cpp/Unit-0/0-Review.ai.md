@@ -579,14 +579,6 @@ Coupling is the quality of the information interchange between functions. Loose 
 > </tbody>
 > </table>
 
-default
-error
-example
-important
-info
-question
-success
-
 An example function for converting feet to meters is:
 
 ```cpp
