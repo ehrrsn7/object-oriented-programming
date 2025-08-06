@@ -631,8 +631,7 @@ Parameter matchup occurs by order, not by name.
 
 There are two ways to send data between functions: pass-by-value and pass-by-reference. Pass-by-reference" is the process of indicating to the compiler that a given parameter variable is shared between the caller and the callee. We use the ampersand \& to indicate the parameter is pass-by-reference.
 
-<div class="steel-blue-sidebar-table" style="display:none"></div>
-<table class="steel-blue-sidebar-table">
+<table>
 <thead>
 <tr>
 <th style="text-align:center"></th>
