@@ -36,8 +36,11 @@ h1#table-of-contents + table {
   background: #4f81bd;
 }
 
-.steel-blue-sidebar-table + table th {
-  color: #1e3a8a;
+.steel-blue-sidebar-table + table th,
+.steel-blue-sidebar-table + table th:first-child,
+.steel-blue-sidebar-table + table td:first-child
+{
+  color: white;
   font-weight: 700;
 }
 
