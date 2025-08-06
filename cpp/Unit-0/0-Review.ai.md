@@ -114,7 +114,7 @@ Of these four, the most common is the `static_cast`. You can use it interchangea
 
 > [!tldr] Sam's Corner
 > 
-> Though `static_cast<int>(value)` is more of a C++ way of doing a cast than the C way of doing things `(int)value`, they do the same thing. In this text and in all the examples, we will use the C casting convention simply because it requires less typing.
+> Though `static_cast<int>(value)`{.tldr} is more of a C++ way of doing a cast than the C way of doing things `(int)value`{.tldr}, they do the same thing. In this text and in all the examples, we will use the C casting convention simply because it requires less typing.
 
 # Expressions
 
