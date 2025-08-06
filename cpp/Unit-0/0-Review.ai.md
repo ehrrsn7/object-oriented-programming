@@ -515,12 +515,12 @@ The syntax for declaring a function is:
 | :--: | :--: | :--: |
 | <span style="color:#267CB9"><b>Return type</b></span> | <span style="color:#267CB9"><b>Function name</b></span> | <span style="color:#267CB9"><b>Parameter list</b></span> |
 
-<p class="monospace">
+<div class="monospace">
 
 \<return type\> \<function name\>(\<parameter list\>)\
 {\
-   \<statement list\>\
-   return \<return value\>;\
+&nbsp;&nbsp;&nbsp;\<statement list\>\
+&nbsp;&nbsp;&nbsp;return \<return value\>;\
 }
 
 </p>
