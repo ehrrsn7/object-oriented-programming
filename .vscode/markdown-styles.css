@@ -22,7 +22,7 @@
 }
 
 .monospace {
-  font-weight: var(--vscode-font-weight);
+  font-weight: var(--vscode-font-weight) 700;
   word-wrap: break-word;
   font-family: var(--vscode-editor-font-family, "SF Mono", Monaco, Menlo, Consolas, "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace);
 }
