@@ -507,7 +507,7 @@ Coupling is the quality of the information interchange between functions. Loose 
 | Control | Occurs when one module passes data to another that is interpreted as a command. |
 | External | Occurs when two modules communicate through a global variable or another external <br> communication avenue. |
 
-> [!summary] Function syntax
+> [!quote] Function syntax
 > 
 > The syntax for declaring a function is:
 > | <span style="color:#267CB9"><b>Return type</b></span> | <span style="color:#267CB9"><b>Function name</b></span> | <span style="color:#267CB9"><b>Parameter list</b></span> |
@@ -520,7 +520,7 @@ Coupling is the quality of the information interchange between functions. Loose 
 > {\
 > &nbsp;&nbsp;&nbsp;`<statement list>`{.info}\
 > &nbsp;&nbsp;&nbsp;return `<return value>`{.info};\
-> }\
+> }
 > 
 > </div>
 > 
