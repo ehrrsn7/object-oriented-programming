@@ -530,7 +530,7 @@ Coupling is the quality of the information interchange between functions. Loose 
 > <tr>
 > <td>
 > 
-> > [!info] Return type
+> > [!error] Return type
 > > Output type of the function.
 > 
 > </td>
@@ -542,15 +542,15 @@ Coupling is the quality of the information interchange between functions. Loose 
 > </td>
 > <td>
 > 
-> > [!info] Parameter list
+> > [!example] Parameter list
 > > How data enters the function.
 > 
 > </td>
 > </tr>
 > </tbody>
 > </table>
-> 
->
+> success
+> warning
 > <div class="monospace">
 >
 > `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
