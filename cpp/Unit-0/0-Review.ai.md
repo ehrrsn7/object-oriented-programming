@@ -430,7 +430,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 <table style="max-width: 11in">
 <tbody>
 <tr valign="top">
-<td>
+<td width="33%">
 
 > [!info] Initialization:
 > The first statement to be executed in a loop.
@@ -443,7 +443,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 >   `for (; i < 10; i++)`{.initialization .info}
 
 </td>
-<td>
+<td width="33%">
 
 > [!warning] Boolean Expression:
 > Is executed immediately before the body of the loop.
@@ -453,7 +453,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 >   `for (i = 0; ; i++)`{.boolean-expression .warning}
 
 </td>
-<td>
+<td width="33%">
 
 > [!success] Increment:
 > Is executed immediately after the body of the loop.
