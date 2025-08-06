@@ -485,7 +485,7 @@ A function is a small part of a larger program. In fact, it is the fundamental u
 Modularization is the process of splitting a large program into smaller chunks. There are, of course, good ways of doing this and bad one. We have two metrics by which we can measure the quality of modularization in a given program: cohesion and coupling.
 Cohesion is the quality of a function performing one and only one task. The seven levels of Cohesion (from highest to lowest) are:
 
-| Cohesion Name | Description | {background=blue}
+| Cohesion Name | Description |
 | :--: | :--: |
 | Functional | Every item in a function or module is related to a single task. |
 | Sequential | Operations in a module must occur in a certain order. Here operations depend on results generated from preceding operations. |
@@ -494,6 +494,7 @@ Cohesion is the quality of a function performing one and only one task. The seve
 | Temporal | Items are grouped in a module because the items need to occur at nearly the same time. What they do or how they do it is not important. |
 | Logical | Items are grouped in a module because they do the same kinds of things. What they operate on, however, is totally different. |
 | Coincidental | Items are in a module simply because they happen to fall together. There is no relationship. |
+{: .blue-header }
 
 Coupling is the quality of the information interchange between functions. Loose coupling, represented by simple data being passed between functions, is desirable over tight. The four levels of Coupling are:
 
