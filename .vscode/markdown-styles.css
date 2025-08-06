@@ -41,10 +41,10 @@ h1#table-of-contents + table {
 }
 
 .steel-blue-sidebar-table + table thead,
-.steel-blue-sidebar-table + table th:first-child,
+.steel-blue-sidebar-table + table thead,
 .steel-blue-sidebar-table + table tr :first-child {
   background: #4f81bd;
-  background: white;
+  color: white;
   font-weight: bold;
 }
 
