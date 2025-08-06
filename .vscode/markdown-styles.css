@@ -36,11 +36,12 @@ h1#table-of-contents + table {
 }
 
 /* Select the table that is the next sibling of div.steel-blue-sidebar-table */
-.steel-blue-sidebar-table + table {
-  background: #4f81bd;
-}
+.steel-blue-sidebar-table + table,
 .steel-blue-sidebar-table + table th {
   background: #4f81bd;
+}
+
+.steel-blue-sidebar-table + table th {
   border-bottom: 6px solid black;
 }
 
