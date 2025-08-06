@@ -132,8 +132,8 @@ The order of operations is:
 | :-- | :-- | :-- |
 | Array indexing | `[]` | `array[4]` |
 | Function call | `()` | `function()` |
-| Postfix increment and decrement | `++` | `count++` `count--` |
-| Prefix increment and decrement | `++` | `++count` `--count` |
+| Postfix increment and decrement | `++` `--` | `count++` `count--` |
+| Prefix increment and decrement | `++` `--` | `++count` `--count` |
 | Not | `!` | `!married` |
 | Negative | `-` | `-4` |
 | Dereference | `*` | `*pValue` |
