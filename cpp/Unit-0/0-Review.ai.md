@@ -406,7 +406,6 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > The FOR loop syntax is more complex than WHILE and DO-WHILE loops, as it combines initialization, condition, and increment in a single statement.
 
 
-> [!default] FOR Loop
 > <div class="monospace quote-style">
 > 
 >   ### for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warning}; `count++`{.increment .success})
