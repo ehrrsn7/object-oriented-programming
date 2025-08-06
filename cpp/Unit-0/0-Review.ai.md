@@ -126,6 +126,8 @@ An expression is an equation that is evaluated to a single value. This equation 
 
 The order of operations is:
 
+<div class="steel-blue-sidebar-table" style="display:none"></div>
+
 | Name | Operator | Example |
 | :--: | :--: | :--: |
 | Array indexing | `[]` | `array[4]` |
