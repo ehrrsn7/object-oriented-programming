@@ -325,11 +325,11 @@ Writing to a file follows the same pattern except we create an `ofstream` object
 ```cpp
 void writeNumber(const char * filename, int data)
 {
-   ofstream fout(filename); // just like with fin, we need to open the file
-   if (fout.fail()) // always check the error state
+   ofstream fout(filename);   // just like with fin, we need to open the file
+   if (fout.fail())           // always check the error state
       return;
    // write the data
-   fout << data << endl; // write to a file exactly the same as you would
+   fout << data << endl;      // write to a file exactly the same as you would
                               // output data to the screen
    // close the file
    fout.close(); // do not forget to close the file!
