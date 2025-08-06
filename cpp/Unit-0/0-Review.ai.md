@@ -236,7 +236,7 @@ Simple text and number output can be performed with `cout` and the insertion ope
 ```cpp
 {
    int variable = 10;
-   
+
    cout << "text"
       << 42          // c-string literals can be displayed
       << variable    // numeric literals can be displayed
@@ -270,7 +270,8 @@ Input is primarily accomplished through the `cin` object and the extraction `>>`
 {
    int number;
    char text[256];
-   cin >> number >> text; // first fetch a number, then a string
+
+   cin >> number >> text;  // first fetch a number, then a string
 }
 ```
 
