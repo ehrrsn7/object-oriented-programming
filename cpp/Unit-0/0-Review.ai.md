@@ -523,7 +523,7 @@ The syntax for declaring a function is:
 &nbsp;&nbsp;&nbsp;return \<return value\>;\
 }
 
-</p>
+</div>
 
 | The code to be executed when the function is called. | The answer to be returned to the caller indicating the results of the function. |
 | :--: | :--: |
