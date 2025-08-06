@@ -427,7 +427,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > </div>
 
 
-<table style="width: 11in">
+<table style="min-width: 8.5in">
 <tbody>
 <tr valign="top">
 <td width="33%">
