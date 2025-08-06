@@ -36,13 +36,6 @@ h1#table-of-contents + table {
   background: #4f81bdaa;
 }
 
-.steel-blue-sidebar-table + table th,
-.steel-blue-sidebar-table + table td {
-  border: 1px solid #dbeafe;
-  padding: 10px 14px;
-  text-align: left;
-}
-
 .steel-blue-sidebar-table + table th {
   color: #1e3a8a;
   font-weight: 700;
