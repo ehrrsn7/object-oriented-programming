@@ -236,12 +236,12 @@ Simple text and number output can be performed with `cout` and the insertion ope
 ```cpp
 {
    int variable = 10;
+   
    cout << "text"
-   cout << "text"
-   << 42 // c-string literals can be displayed
-   << variable // numeric literals can be displayed
-   << 4 + 6 // variables can be evaluated
-   << endl; // expressions can be evaluated
+      << 42          // c-string literals can be displayed
+      << variable    // numeric literals can be displayed
+      << 4 + 6       // variables can be evaluated
+      << endl;       // expressions can be evaluated
 }
 ```
 
