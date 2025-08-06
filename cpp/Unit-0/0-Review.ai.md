@@ -642,12 +642,20 @@ There are two ways to send data between functions: pass-by-value and pass-by-ref
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Pass-by-value makes a copy so two independent variables are created.</td>
-<td style="text-align:left">Pass-by-reference uses the same variable in the caller and the callee.</td>
-</tr>
-<tr>
-<td style="text-align:left">Any change to the variable by the function will not affect the caller.</td>
-<td style="text-align:left">Any change to the variable by the function will affect the caller.</td>
+<td style="text-align:left">
+
+Pass-by-value makes a copy so two independent variables are created.
+
+Any change to the variable by the function will not affect the caller.
+
+</td>
+<td style="text-align:left">
+
+Pass-by-reference uses the same variable in the caller and the callee.
+
+Any change to the variable by the function will affect the caller.
+
+</td>
 </tr>
 </tbody>
 </table>
