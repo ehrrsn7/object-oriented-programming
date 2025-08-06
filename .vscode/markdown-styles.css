@@ -179,7 +179,7 @@ p > code.bug {
   background: rgb(230, 202, 202) !important;
 }
 p > code.bug::before {
-  content: "&nbsp;Bug:";
+  content: " Bug:";
   display: inline-block;
   vertical-align: middle;
   width: fit-content;
