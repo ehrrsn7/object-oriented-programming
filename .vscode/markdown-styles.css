@@ -331,6 +331,12 @@ pre:has(.important-style) {
   border-color: rgb(var(--callout-important));
 }
 
+code.important {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 30px;
+}
+
 pre:has(code.important)::before {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=%22%232ACAC8%22 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" class="svg-icon lucide-flame"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>') no-repeat left center/1.25em 1.25em;
   color: rgb(var(--callout-important));
@@ -353,6 +359,12 @@ pre:has(.info),
 pre:has(.info-style) {
   background-color: rgba(var(--callout-info), 0.05) !important;
   border-color: rgb(var(--callout-info));
+}
+
+code.info {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 30px;
 }
 
 pre:has(code.info)::before {
@@ -379,6 +391,12 @@ pre:has(.note-style) {
   border-color: rgb(var(--callout-note));
 }
 
+code.note {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 30px;
+}
+
 pre:has(code.note)::before {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=%22%232ACAC8%22 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" class="svg-icon lucide-flame"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>') no-repeat left center/1.25em 1.25em;
   color: rgb(var(--callout-note));
@@ -403,6 +421,12 @@ pre:has(.question-style) {
   border-color: rgb(var(--callout-question));
 }
 
+code.question {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 30px;
+}
+
 pre:has(code.question)::before {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=%22%232ACAC8%22 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1" class="svg-icon lucide-flame"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>') no-repeat left center/1.25em 1.25em;
   color: rgb(var(--callout-question));
@@ -425,6 +449,12 @@ pre:has(.success),
 pre:has(.success-style) {
   background-color: rgba(var(--callout-success), 0.05) !important;
   border-color: rgb(var(--callout-success));
+}
+
+code.success {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 30px;
 }
 
 pre:has(code.success)::before {
