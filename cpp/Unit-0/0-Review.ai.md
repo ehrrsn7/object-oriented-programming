@@ -633,7 +633,9 @@ There are two ways to send data between functions: pass-by-value and pass-by-ref
 
 <table>
 <thead>
-<tr>
+<tr style="
+  background: #4f81bddd;
+  color: white;">
 <th style="text-align:center"></th>
 <th style="text-align:center">Pass By Value</th>
 <th style="text-align:center">Pass By Reference</th>
