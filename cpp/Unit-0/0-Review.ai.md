@@ -553,10 +553,6 @@ Coupling is the quality of the information interchange between functions. Loose 
 > success
 > warning
 >
-> <div class="monospace">
-> 
-> </div>
-> 
 > <table width="100%">
 > <tbody>
 > <tr>
@@ -575,7 +571,8 @@ Coupling is the quality of the information interchange between functions. Loose 
 > </tr>
 > </tbody>
 > </table>
->
+> 
+> <div class="monospace">
 > 
 > `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
 > {\
