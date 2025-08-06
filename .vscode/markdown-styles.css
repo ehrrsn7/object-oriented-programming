@@ -63,9 +63,36 @@ h1#table-of-contents + table {
   border-color: black;
 }
 
-.row-border-1 + table > tbody > tr { border-bottom-width: 1px;}
-.row-border-2 + table > tbody > tr { border-bottom-width: 2px;}
-.row-border-3 + table > tbody > tr { border-bottom-width: 3px;}
+.row-border-1  + table > tbody > tr { border-bottom-width: 1px; }
+.row-border-2  + table > tbody > tr { border-bottom-width: 2px; }
+.row-border-3  + table > tbody > tr { border-bottom-width: 3px; }
+.row-border-4  + table > tbody > tr { border-bottom-width: 4px; }
+.row-border-5  + table > tbody > tr { border-bottom-width: 5px; }
+.row-border-6  + table > tbody > tr { border-bottom-width: 6px; }
+.row-border-7  + table > tbody > tr { border-bottom-width: 7px; }
+.row-border-8  + table > tbody > tr { border-bottom-width: 8px; }
+.row-border-9  + table > tbody > tr { border-bottom-width: 9px; }
+.row-border-10 + table > tbody > tr { border-bottom-width: 10px; }
+.row-border-11 + table > tbody > tr { border-bottom-width: 11px; }
+.row-border-12 + table > tbody > tr { border-bottom-width: 12px; }
+.row-border-13 + table > tbody > tr { border-bottom-width: 13px; }
+.row-border-14 + table > tbody > tr { border-bottom-width: 14px; }
+.row-border-15 + table > tbody > tr { border-bottom-width: 15px; }
+.row-border-16 + table > tbody > tr { border-bottom-width: 16px; }
+.row-border-17 + table > tbody > tr { border-bottom-width: 17px; }
+.row-border-18 + table > tbody > tr { border-bottom-width: 18px; }
+.row-border-19 + table > tbody > tr { border-bottom-width: 19px; }
+.row-border-20 + table > tbody > tr { border-bottom-width: 20px; }
+.row-border-21 + table > tbody > tr { border-bottom-width: 21px; }
+.row-border-22 + table > tbody > tr { border-bottom-width: 22px; }
+.row-border-23 + table > tbody > tr { border-bottom-width: 23px; }
+.row-border-24 + table > tbody > tr { border-bottom-width: 24px; }
+.row-border-25 + table > tbody > tr { border-bottom-width: 25px; }
+.row-border-26 + table > tbody > tr { border-bottom-width: 26px; }
+.row-border-27 + table > tbody > tr { border-bottom-width: 27px; }
+.row-border-28 + table > tbody > tr { border-bottom-width: 28px; }
+.row-border-29 + table > tbody > tr { border-bottom-width: 29px; }
+.row-border-30 + table > tbody > tr { border-bottom-width: 30px; } 
 
 /* Obsidian-style callout variables */
 /* 
