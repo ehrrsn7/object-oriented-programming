@@ -488,7 +488,7 @@ Cohesion is the quality of a function performing one and only one task. The seve
 <div class="steel-blue-sidebar-table" style="display:none"></div>
 
 | Cohesion Name | Description |
-| :--: | :--: |
+| :--: | :-- |
 | Functional | Every item in a function or module is related to a single task. |
 | Sequential | Operations in a module must occur in a certain order. Here operations depend on results generated from preceding operations. |
 | Communicational | All elements work on the same piece of data. |
