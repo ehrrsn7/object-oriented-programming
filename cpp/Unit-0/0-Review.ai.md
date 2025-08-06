@@ -516,10 +516,10 @@ Coupling is the quality of the information interchange between functions. Loose 
 > 
 > <div class="monospace">
 > 
-> \<return type\> \<function name\>(\<parameter list\>)\
-> {\
-> &nbsp;&nbsp;&nbsp;\<statement list\>\
-> &nbsp;&nbsp;&nbsp;return \<return value\>;\
+> <return type> <function name>(<parameter list>)
+> {
+> &nbsp;&nbsp;&nbsp;<statement list>
+> &nbsp;&nbsp;&nbsp;return <return value>;
 > }
 > 
 > </div>
