@@ -133,7 +133,6 @@ The order of operations is:
 | 1 | Array indexing | `[]` | `array[4]` |
 |  | Function call | `()` | `function()` |
 |  | Postfix increment and decrement | `++` `--` | `count++` `count--` |
-|  | --- | --- | --- |
 | 1 | Prefix increment and decrement | `++` `--` | `++count` `--count` |
 |  | Not | `!` | `!married` |
 |  | Negative | `-` | `-4` |
@@ -143,27 +142,18 @@ The order of operations is:
 |  | Free with delete | `delete` | `delete pValue` |
 |  | Casting | `()` | `(int)4.2` |
 |  | Get size of | `sizeof` | `sizeof(int)` |
-|  | --- | --- | --- |
 | 1 | Multiplication | `*` | `3 * 4` |
 |  | Division | `/` | `3 / 4` |
 |  | Modulus | `%` | `3 % 4` |
-|  | --- | --- | --- |
 | 1 | Addition | `+` | `3 + 4` |
 |  | Subtraction | `-` | `3 - 4` |
-|  | --- | --- | --- |
 | 1 | Insertion | `<<` | `cout << value` |
 |  | Extraction | `>>` | `cin >> value` |
-|  | --- | --- | --- |
 | 1 | Greater than, etc. | `>=` `<=` `>` `<` | `3 >= 4` |
-|  | --- | --- | --- |
 | 1 | Equal to, not equal to | `==` `!` | `3 != 4` |
-|  | --- | --- | --- |
 | 1 | Logical And | `&&` | `passed && juniorStatus` |
-|  | --- | --- | --- |
 | 1 | Logical OR | `||` | `passed || juniorStatus` |
-|  | --- | --- | --- |
 | 1 | Assignment, etc. | `=` `+=` `*=` `-=` `/=` ` %=` | `value += 4` |
-|  | --- | --- | --- |
 | 1 | Conditional expression (ternary operator) | `?` `:` | `passed ? "happy" : "sad"` |
 
 # Arithmetic operators
