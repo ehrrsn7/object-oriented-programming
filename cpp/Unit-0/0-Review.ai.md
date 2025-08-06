@@ -227,7 +227,7 @@ The standard tools to perform text input and output with `C++` is with the stand
 Text output on the screen is performed with the `cout` object. You can setup your program to write text to the screen by including the `iostream` library and using the standard namespace.
 
 ```cpp
-#include <iostream> // where cout and cin live
+#include <iostream>  // where cout and cin live
 using namespace std; // cout and cin are part of the standard namespace
 ```
 
