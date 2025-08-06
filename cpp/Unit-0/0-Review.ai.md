@@ -631,13 +631,48 @@ Parameter matchup occurs by order, not by name.
 
 There are two ways to send data between functions: pass-by-value and pass-by-reference. Pass-by-reference" is the process of indicating to the compiler that a given parameter variable is shared between the caller and the callee. We use the ampersand \& to indicate the parameter is pass-by-reference.
 
-<div class=".steel-blue-sidebar-table" style="display: hidden"></div>
+<div class="steel-blue-sidebar-table" style="display: hidden"></div>
 
-| Pass By Value | Pass By Reference |
-| :--: | :--: |
-| Pass-by-value makes a copy so two independent variables are created. | Pass-by-reference uses the same variable in the caller and the callee. |
-| Any change to the variable by the function will not affect the caller. | Any change to the variable by the function will affect the caller. |
-| ```* * Pass-by-value * No change to the caller * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+<table data-line="0" class="code-line" dir="auto">
+<thead data-line="0" class="code-line" dir="auto">
+<tr data-line="0" class="code-line" dir="auto">
+<th style="text-align:center" data-line="0" class="code-line" dir="auto">Pass By Value</th>
+<th style="text-align:center" data-line="0" class="code-line" dir="auto">Pass By Reference</th>
+</tr>
+</thead>
+<tbody data-line="2" class="code-line" dir="auto">
+<tr data-line="2" class="code-line" dir="auto">
+<td style="text-align:center" data-line="2" class="code-line" dir="auto">Pass-by-value makes a copy so two independent variables are created.</td>
+<td style="text-align:center" data-line="2" class="code-line" dir="auto">Pass-by-reference uses the same variable in the caller and the callee.</td>
+</tr>
+<tr data-line="3" class="code-line" dir="auto">
+<td style="text-align:center" data-line="3" class="code-line" dir="auto">Any change to the variable by the function will not affect the caller.</td>
+<td style="text-align:center" data-line="3" class="code-line" dir="auto">Any change to the variable by the function will affect the caller.</td>
+</tr>
+</tbody>
+</table>
+
+```cpp
+/****************************************
+ * Pass-by-value
+ *     No change to the caller
+ ****************************************/
+void notChange(int number)
+{
+   number++;
+}
+```
+
+```cpp
+/****************************************
+ * Pass-by-reference
+ *     Will change the caller
+ ****************************************/
+void change(int &number)
+{
+   number++;
+}
+```
 
 # Arrays
 
