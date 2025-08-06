@@ -32,11 +32,8 @@ h1#table-of-contents + table {
 }
 
 .steel-blue-sidebar-table + table {
-  border-left: 6px solid #4f81bdaa;
+  border-bottom: 6px solid black;
   background: #4f81bdaa;
-  box-shadow: 0 2px 8px #2563eb14;
-  margin: 1em 0;
-  width: 100%;
 }
 
 .steel-blue-sidebar-table + table th,
