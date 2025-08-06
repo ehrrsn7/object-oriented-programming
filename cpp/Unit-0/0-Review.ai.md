@@ -429,7 +429,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 
 <table style="max-width: 11in">
 <tbody>
-<tr>
+<tr valign="top">
 <td>
 
 > [!info] Initialization:
