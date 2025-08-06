@@ -532,8 +532,8 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
 > {\
-> &nbsp;&nbsp;&nbsp;`<statement list>`{.info}\
-> &nbsp;&nbsp;&nbsp;return `<return value>`{.info};\
+> &nbsp;&nbsp;&nbsp;`<statement list>`{.success}\
+> &nbsp;&nbsp;&nbsp;return `<return value>`{.warning};\
 > }
 >
 > </div>
