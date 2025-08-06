@@ -608,14 +608,15 @@ Calling a function occurs by naming the function and providing the required para
 Parameter passing is the process of sending data between functions. The programmer is able to specify the parameters needed in a function with a comma-separated list. For example, consider the scenario where the programmer is sending a row and column coordinate to a display function. The display function will need to accept two parameters.
 
 ```cpp
-/*********************************************************
-* DISPLAY COORDINATES
-* Display the row and column coordinates on the screen
+/******************************************************
+ * DISPLAY COORDINATES
+ * Display the row and column coordinates on the screen  
+ ******************************************************/
 void displayCoordinates(int row, int column) // two parameters are expected
 {
-   cout << "(" << row // the row parameter is the first passed
-         << ", " << column // the column parameter is the second
-         << ")\n";
+   cout << "("    << row      // the row parameter is the first passed
+        << ", "   << column   // the column parameter is the second
+        << ")\n";
    return;
 }
 ```
