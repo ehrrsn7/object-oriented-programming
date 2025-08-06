@@ -176,7 +176,7 @@ pre:has(.bug-style) {
 }
 
 code.bug{
-  height: 25px;
+  height: 45px;
 }
 
 code.bug::before {
