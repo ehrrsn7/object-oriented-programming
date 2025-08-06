@@ -176,7 +176,7 @@ pre:has(.bug-style) {
 }
 
 p > code.bug {
-  background: red;
+  background: red !important;
 }
 
 pre:has(code.bug)::before {
