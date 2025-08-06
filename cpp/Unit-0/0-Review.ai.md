@@ -106,7 +106,7 @@ Of these four, the most common is the `static_cast`. You can use it interchangea
 ```cpp
 {
    float value = 3.14159;
-   cout <<                    value << endl; // display "3.14159"
+   cout <<                  value   << endl; // display "3.14159"
    cout << static_cast<int>(value)  << endl; // display "3"
    cout <<            (int) value   << endl; // display "3"
 }
