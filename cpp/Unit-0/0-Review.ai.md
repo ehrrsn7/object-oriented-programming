@@ -491,7 +491,7 @@ While the syntax of the FOR loop may look quite complex, it has the three things
 
 A function is a small part of a larger program. In fact, it is the fundamental unit of organization for a procedural program (the subject of CS 124). When designing writing a program with functions, three things need to be taken into account: modularization, the syntax of a function, and parameter passing.
 
-## Modularization
+### Modularization
 
 Modularization is the process of splitting a large program into smaller chunks. There are, of course, good ways of doing this and bad one. We have two metrics by which we can measure the quality of modularization in a given program: cohesion and coupling.
 Cohesion is the quality of a function performing one and only one task. The seven levels of Cohesion (from highest to lowest) are:
@@ -518,6 +518,8 @@ Coupling is the quality of the information interchange between functions. Loose 
 | Stamp | Occurs when complex data or a collection of unrelated data-items are passed between <br> modules. |
 | Control | Occurs when one module passes data to another that is interpreted as a command. |
 | External | Occurs when two modules communicate through a global variable or another external <br> communication avenue. |
+
+### Function syntax
 
 > [!quote] Function syntax
 >
