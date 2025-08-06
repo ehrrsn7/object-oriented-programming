@@ -402,8 +402,8 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
    <body statement>;
 ```
 
-### FOR Loop Syntax Complexity
-The FOR loop syntax is more complex than WHILE and DO-WHILE loops, as it combines initialization, condition, and increment in a single statement.
+> [!note] FOR Loop Syntax Complexity
+> The FOR loop syntax is more complex than WHILE and DO-WHILE loops, as it combines initialization, condition, and increment in a single statement.
 
 > <div class="monospace quote-style">
 > 
