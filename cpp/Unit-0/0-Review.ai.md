@@ -635,12 +635,14 @@ There are two ways to send data between functions: pass-by-value and pass-by-ref
 <table class="steel-blue-sidebar-table">
 <thead>
 <tr>
+<th style="text-align:center"></th>
 <th style="text-align:center">Pass By Value</th>
 <th style="text-align:center">Pass By Reference</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td style="text-align:left"></td>
 <td style="text-align:left">
 
 Pass-by-value makes a copy so two independent variables are created.
