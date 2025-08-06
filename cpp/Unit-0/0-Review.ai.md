@@ -648,18 +648,6 @@ Pass-by-value makes a copy so two independent variables are created.
 
 Any change to the variable by the function will not affect the caller.
 
-</td>
-<td style="text-align:left">
-
-Pass-by-reference uses the same variable in the caller and the callee.
-
-Any change to the variable by the function will affect the caller.
-
-</td>
-</tr>
-</tbody>
-</table>
-
 ```cpp
 /****************************************
  * Pass-by-value
@@ -671,6 +659,13 @@ void notChange(int number)
 }
 ```
 
+</td>
+<td style="text-align:left">
+
+Pass-by-reference uses the same variable in the caller and the callee.
+
+Any change to the variable by the function will affect the caller.
+
 ```cpp
 /****************************************
  * Pass-by-reference
@@ -681,6 +676,11 @@ void change(int &number)
    number++;
 }
 ```
+
+</td>
+</tr>
+</tbody>
+</table>
 
 # Arrays
 
