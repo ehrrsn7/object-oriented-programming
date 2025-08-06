@@ -526,7 +526,7 @@ The syntax for declaring a function is:
 </div>
 
 | The code to be executed when the function is called. | The answer to be returned to the caller indicating the results of the function. |
-| :--: | :--: |
+| :-- | :-- |
 | <span style="color:#267CB9"><b>Statement list</b></span> | <span style="color:#267CB9"><b>Return value</b></span> |
 
 An example function for converting feet to meters is:
