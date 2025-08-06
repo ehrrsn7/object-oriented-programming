@@ -179,7 +179,8 @@ pre:has(.bug-style) {
 
 code.bug{
   display: inline-block;
-  height: 45px;
+  vertical-align: bottom;
+  line-height: 35px;
 }
 
 code.bug::before {
