@@ -176,11 +176,11 @@ pre:has(.bug-style) {
 }
 
 p > code.bug {
-  background: red !important;
+  background: rgb(230, 202, 202) !important;
 }
 p > code.bug::before {
-  content: "Bug: ";
-  color: red;
+  content: "Bug:";
+  color: rgb(56, 53, 53);
   font-weight: bold;
   margin-right: 4px;
 }
