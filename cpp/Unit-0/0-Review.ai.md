@@ -309,7 +309,7 @@ int getNumber(const char * filename)
    ifstream fin(filename); // the fin object will point to the file in filename
    if (fin.fail())         // always check to see if the file correctly opened
       return 0;            // if we failed, do not continue on
-   
+
    // fetch the data
    int data;
    fin >> data;            // reading from a file is the same as accepting
@@ -524,8 +524,11 @@ Coupling is the quality of the information interchange between functions. Loose 
 > [!quote] Function syntax
 >
 > The syntax for declaring a function is:
-> | `Return type` | `Function name` | `Parameter list` |
-> | :-- | :-- | :-- |
+
+<tr><td>`Return type`{.info}</td></tr>
+<tr><td>`Function name`{.info}</td></tr>
+<tr><td>`Parameter list`{.info}</td></tr>
+
 > | Output type of the function. | Every function needs a name by which it will be called. | How data enters the function. |
 >
 > <div class="monospace">
