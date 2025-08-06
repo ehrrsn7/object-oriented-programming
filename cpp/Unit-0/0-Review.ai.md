@@ -422,11 +422,11 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > [!info] Initialization:
 > The first statement to be executed in a loop.
 > - Can be any statement.
-> - You can declare and initialize a variable inside the loop:
+> - You can declare and initialize a variable inside the loop:\
 >   `for (int i = 0; ... )`{.initialization .info}
-> - You can initialize more than one variable:
+> - You can initialize more than one variable:\
 >   `for (j = 0, k = 0; ... )`{.initialization .info} 
-> - You can also leave it empty:
+> - You can also leave it empty:\
 >   `for (; i < 10; i++)`{.initialization .info} 
    
 </td>
@@ -436,7 +436,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > Is executed immediately before the body of the loop.
 > - Can be any expression.
 > - As long as the expression evaluates to true, the loop continues.
-> - If it is left empty, the expression evaluates to true. This means it will loop forever:
+> - If it is left empty, the expression evaluates to true. This means it will loop forever:\
 >   `for (i = 0; ; i++)`{.boolean-expression .warning}
 
 </td>
