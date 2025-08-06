@@ -129,7 +129,7 @@ The order of operations is:
 <div class="steel-blue-sidebar-table" style="display:none"></div>
 
 | Name | Operator | Example |
-| :--: | :--: | :--: |
+| :-- | :-- | :-- |
 | Array indexing | `[]` | `array[4]` |
 | Function call | `()` | `function()` |
 | Postfix increment and decrement | `++` | `count++` `count--` |
