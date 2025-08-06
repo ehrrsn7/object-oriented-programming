@@ -550,28 +550,6 @@ Coupling is the quality of the information interchange between functions. Loose 
 > </tbody>
 > </table>
 >
-> success
-> warning
->
-> <table width="100%">
-> <tbody>
-> <tr>
-> <td width="33%" height="100px">
-> 
-> > [!error] Return type
-> > Output type of the function.
-> 
-> </td>
-> <td width="33%" height="100px">
-> 
-> > [!info] Function name
-> > Every function needs a name by which it will be called.
-> 
-> </td>
-> </tr>
-> </tbody>
-> </table>
-> 
 > <div class="monospace">
 > 
 > `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
@@ -582,8 +560,30 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > </div>
 >
-> The code to be executed when the function is called.
-> The answer to be returned to the caller indicating the results of the function.
+> success
+> warning
+>
+> <table width="100%">
+> <tbody>
+> <tr>
+> <td width="33%" height="100px">
+> 
+> > [!error] Return type
+> > The code to be executed when the function is called.
+> 
+> </td>
+> <td width="33%" height="100px">
+> 
+> > [!info] Function name
+> > The answer to be returned to the caller indicating the results of the function.
+> 
+> </td>
+> </tr>
+> </tbody>
+> </table>
+> 
+> 
+> 
 >
 > <span style="color:#267CB9"><b>Statement list</b></span>
 > <span style="color:#267CB9"><b>Return value</b></span>
