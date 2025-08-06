@@ -11,6 +11,7 @@ h1.background {
   font-weight: 900;
   font-size: 2.5em;
   line-height: 1in;
+  transform: translateY(-10%);
   min-height: 1in;
   max-width: 8.5in;
   padding: .5em;
