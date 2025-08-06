@@ -152,7 +152,7 @@ The order of operations is:
 | Greater than, etc. | `>=` `<=` `>` `<` | `3 >= 4` |
 | Equal to, not equal to | `==` `!` | `3 != 4` |
 | Logical And | `&&` | `passed && juniorStatus` |
-| Logical OR | `\|\|` | `passed \|\| juniorStatus` |
+| Logical OR | `||` | `passed || juniorStatus` |
 | Assignment, etc. | `=` `+=` `*=` `-=` `/=` ` %=` | `value += 4` |
 | Conditional expression (ternary operator) | `?` `:` | `passed ? "happy" : "sad"` |
 
