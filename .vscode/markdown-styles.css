@@ -179,10 +179,10 @@ p > code.bug {
   background: rgb(230, 202, 202) !important;
 }
 p > code.bug::before {
-  content: "   Bug:";
+  content: "&nbsp;Bug:";
   display: inline-block;
   vertical-align: middle;
-  width: 1.25em;
+  width: fit-content;
   height: 1.25em;
   margin-right: 4px;
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="transparent" stroke=%22%23E93147%22 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><circle cx="12" cy="12" r="10"/><line x1="8" y1="8" x2="16" y2="16"/><line x1="16" y1="8" x2="8" y2="16"/></svg>') no-repeat center center / contain;
