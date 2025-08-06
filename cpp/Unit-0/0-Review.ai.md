@@ -1,16 +1,17 @@
-# 0-Review
+---
+title: 0-Review
+source: AI-Generated Draft (Converted from PDF using Mistral OCR)
+original_file: 0-Review.pdf
+generated: 2025-08-03 16:15:30
+---
 
-> **AI-Generated Draft** - Converted from PDF using Mistral OCR
->
-> Original file: `0-Review.pdf`
->
-> Generated: 2025-08-03 16:15:30
+# 0-Review {.background}
 
 ---
 
 # Review
 
-Procedural programming is a method of programming where the fundamental unit is a function (or procedure). Topics such as variables, loops, and functions are central to procedural programming. Objectoriented programming, on the other hand, is a methodology where the fundamental unit is an object which is built from procedural tools. It is therefore necessary to have a firm grasp of procedural programming before object-oriented programming can be learned.
+Procedural programming is a method of programming where the fundamental unit is a function (or procedure). Topics such as variables, loops, and functions are central to procedural programming. Object-oriented programming, on the other hand, is a methodology where the fundamental unit is an object which is built from procedural tools. It is therefore necessary to have a firm grasp of procedural programming before object-oriented programming can be learned.
 
 This section is a brief review of procedural programming. Please use this section as a gauge indicating whether you need to review some procedural topics before continuing with this book.
 
