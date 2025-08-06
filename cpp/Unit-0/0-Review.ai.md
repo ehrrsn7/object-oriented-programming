@@ -404,8 +404,8 @@ An example of the DO-WHILE loop in action is to verify that the user's age is gr
 }
 ```
 
-> [!DANGER] 💡 **Sue's Tip:**
-> ![Sue](.vscode/assets/sue.png){width=50 align=right}
+> [!Danger] Sue's Tips
+> ![Sue](../../.vscode/assets/sue.png){width=50 align=right}
 > We commonly use WHILE and DO-WHILE loops in event-controlled loops, a loop that continues until a given event occurs. With these loops, the number of repetitions is typically not known before the program starts.
 
 ## For
@@ -476,8 +476,6 @@ While the syntax of the FOR loop may look quite complex, it has the three things
    for (int countDown = 10; countDown >= 0; countDown--)
       cout << countDown << endl;
 ```
-
-### Sue's Tips
 
 > [!Danger] Sue's Tips
 > ![Sue](../../.vscode/assets/sue.png){width=50 align=right}
