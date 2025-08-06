@@ -555,6 +555,25 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > <div class="monospace">
 > 
+> <table width="100%">
+> <tbody>
+> <tr>
+> <td width="33%" height="100px">
+> 
+> > [!error] Return type
+> > Output type of the function.
+> 
+> </td>
+> <td width="33%" height="100px">
+> 
+> > [!info] Function name
+> > Every function needs a name by which it will be called.
+> 
+> </td>
+> </tr>
+> </tbody>
+> </table>
+>
 > 
 > `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
 > {\
