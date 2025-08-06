@@ -648,16 +648,17 @@ Pass-by-value makes a copy so two independent variables are created.
 
 Any change to the variable by the function will not affect the caller.
 
-```cpp
-/****************************************
- * Pass-by-value
- *     No change to the caller
- ****************************************/
-void notChange(int number)
-{
-   number++;
-}
-```
+> [!Fail]
+> ```cpp
+> /****************************************
+>  * Pass-by-value
+>  *     No change to the caller
+>  ****************************************/
+> void notChange(int number)
+> {
+>    number++;
+> }
+> ```
 
 </td>
 <td style="text-align:left">
@@ -666,16 +667,17 @@ Pass-by-reference uses the same variable in the caller and the callee.
 
 Any change to the variable by the function will affect the caller.
 
-```cpp
-/****************************************
- * Pass-by-reference
- *     Will change the caller
- ****************************************/
-void change(int &number)
-{
-   number++;
-}
-```
+> [!Success]
+> ```cpp
+> /****************************************
+>  * Pass-by-reference
+>  *     Will change the caller
+>  ****************************************/
+> void change(int &number)
+> {
+>    number++;
+> }
+> ```
 
 </td>
 </tr>
