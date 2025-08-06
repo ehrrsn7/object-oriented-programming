@@ -18,6 +18,8 @@ This section is a brief review of procedural programming. Please use this sectio
 
 The first generation of computers could only work with integers. A few decades later, scientists figured out how to store decimal numbers in a computer. Today, most computers natively handle many data types. The built-in data types supported by the $\mathrm{C}++$ language are:
 
+<div class="steel-blue-sidebar-table" style="display:none"></div>
+
 | Data type | Use | Size | Range of values |
 | :-- | :-- | :-- | :-- |
 | `bool` | Logic | $1$ | $true$, $false$ |
@@ -516,7 +518,7 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > <div class="monospace">
 >
-> `<return type>`{.info} `<function name>`{.info}(`<parameter list>`{.info})\
+> `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
 > {\
 > &nbsp;&nbsp;&nbsp;`<statement list>`{.info}\
 > &nbsp;&nbsp;&nbsp;return `<return value>`{.info};\
@@ -527,6 +529,14 @@ Coupling is the quality of the information interchange between functions. Loose 
 > | The code to be executed when the function is called. | The answer to be returned to the caller indicating the results of the function. |
 > | :-- | :-- |
 > | <span style="color:#267CB9"><b>Statement list</b></span> | <span style="color:#267CB9"><b>Return value</b></span> |
+
+default
+error
+example
+important
+info
+question
+success
 
 An example function for converting feet to meters is:
 
