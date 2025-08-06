@@ -40,6 +40,8 @@ Observe how the variable name is camelcase: multiple words are commonly used in 
 
 The range of values for an integer is -2 billion to positive 2 billion for a total of 4 billion values. You can declare an integer to be positive by using the unsigned modifier. Note that this only works for integral data types; floating point numbers do not accept the unsigned modifier.
 
+<div class="steel-blue-sidebar-table" style="display:none"></div>
+
 | Data type | Use | Size | Range of values |
 | :-- | :-- | :-- | :-- |
 | `unsigned char` | Small numbers | 1 | $0$ to $255$ |
