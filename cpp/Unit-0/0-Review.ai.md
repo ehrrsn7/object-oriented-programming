@@ -521,36 +521,34 @@ Coupling is the quality of the information interchange between functions. Loose 
 ### Function syntax
 
 > [!quote] Function syntax
-> 
-> The syntax for declaring a function is:
-> 
-> <table width="100%">
+> The syntax for declaring a function is: {style="margin-bottom: 0"}
+> <table width="100%" style="margin: 0; border-bottom: 1px solid gray">
 > <tbody>
 > <tr valign="bottom">
 > <td width="33%" height="100px">
-> 
+>
 > > [!error] Return type
 > > Output type of the function.
-> 
+>
 > </td>
 > <td width="33%" height="100px">
-> 
+>
 > > [!info] Function name
 > > Every function needs a name by which it will be called.
-> 
+>
 > </td>
 > <td width="33%" height="100px">
-> 
+>
 > > [!example] Parameter list
 > > How data enters the function.
-> 
+>
 > </td>
 > </tr>
 > </tbody>
 > </table>
 >
 > <div class="monospace">
-> 
+>
 > `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
 > {\
 > &nbsp;&nbsp;&nbsp;`<statement list>`{.success}\
@@ -559,20 +557,20 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > </div>
 >
-> <table width="100%">
+> <table width="100%" style="margin: 0; border-top: 1px solid gray">
 > <tbody>
 > <tr valign="top">
 > <td width="33%" height="100px">
-> 
+>
 > > [!success] Success
 > > The code to be executed when the function is called.
-> 
+>
 > </td>
 > <td width="33%" height="100px">
-> 
+>
 > > [!warning] Warning
 > > The answer to be returned to the caller indicating the results of the function.
-> 
+>
 > </td>
 > </tr>
 > </tbody>
@@ -609,7 +607,7 @@ Parameter passing is the process of sending data between functions. The programm
 ```cpp
 /******************************************************
  * DISPLAY COORDINATES
- * Display the row and column coordinates on the screen  
+ * Display the row and column coordinates on the screen
  ******************************************************/
 void displayCoordinates(int row, int column) // two parameters are expected
 {
@@ -669,7 +667,7 @@ Pass-by-reference uses the same variable in the caller and the callee.
 Any change to the variable by the function will affect the caller.
 
 > [!Success]
-> ```cpp
+> ```cpp{style="background: transparent"}
 > /****************************************
 >  * Pass-by-reference
 >  *     Will change the caller
@@ -685,36 +683,212 @@ Any change to the variable by the function will affect the caller.
 </tbody>
 </table>
 
-# Arrays
+We use pass-by-reference to enable a callee to send more than one piece of data
+back to the caller.
+An example of this would be:
+
+```cpp
+void getCoordinates(int & row, int & column)
+{
+   cout << "Please specify the coordinates x y: ";
+   cin  >> row >> column;
+   return;                    // no data is sent using return
+}
+```
+
+## Arrays
 
 In the simplest form, an array is a "bucket of variables." Rather than having many variables to represent the values in a collection, we can have a single variable representing the bucket. There are two main tasks we do with arrays: create lists of data, and looking up values from a table. In call cases, it is necessary to know how to declare an array, reference individual items, and to pass arrays as parameters.
 
-## Declare
+### Declare
 
 A normal variable declaration asks the compiler to reserve the necessary amount of memory and allows the user to reference the memory by the variable name. Arrays are slightly different. The amount of memory reserved is computed by the size of each member in the list multiplied by the number of items in the list.
 
-| Base-type: | Name: | Size: |
-| :--: | :--: | :--: |
-| The Base-type is the common data type for all elements in the array. This can be any data type. | The name of the bucket of variables. Note that it refers to the collection rather than to any individual item. | Specified at declaration time. <br> - Determines the amount of space the array will use. <br> - Once the size is specified, it cannot be changed. <br> - The size cannot be a variable! It must be a literal (a number like 5) or a constant. |
+<div class="monospace">
+
+{\
+&nbsp;&nbsp;&nbsp;`int`{.tip-style} `grades`{.info-style}[`10`{.error-style}];\
+}
+
+</div>
+
+<table data-line="0" class="code-line" dir="auto">
+<tbody data-line="0" class="code-line" dir="auto">
+<tr data-line="0" class="code-line" dir="auto">
+<tr style="text-align:left" valign="top" data-line="0" class="code-line" dir="auto">
+<td>
+
+> [!tip] Base-type:
+>
+> The Base-type is the common data type for all elements in the array. This can be any data type.
+
+</td>
+<td>
+
+> [!info] Name:
+>
+> The name of the bucket of variables. Note that it refers to the collection rather than to any individual item.
+
+</td>
+<td>
+
+> [!error] Size:
+>
+> Specified at declaration time.
+> * Determines the amount of space the array will use.
+> * Once the size is specified, it cannot be changed.
+> * The size cannot be a variable! It must be a literal (a number like 5) or a constant.
+
+</td>
+</tr>
+</tbody>
+</table>
 
 It is also possible to initialize an array at declaration time:
 
-| Declaration | In memory |  |  |  |  | Description |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| int array[6]; | 7 | 7 | ? | ? | ? | Though six slots were set aside, they remain uninitialized. All slots are filled with unknown values. |
-| int array $[6]=$ \{ | 3 | 6 | 2 | 9 | 1 | The initialized size is the same as the declared size so every slot has a known value. |
-| $\}$; |  |  |  |  |  | The first 2 slots are initialized, the balance are filled with 0. This is a partially filled array. |
-| int array $[6]=$ <br> \{ | 3 | 6 | 0 | 0 | 0 | Declared to exactly the size necessary to fit the list of numbers. The compiler will count the number of slots |
-| int array[] = <br> \{ | 3 | 6 | 2 | 9 | 1 | This is the easiest way to initialize an array with zeros in all the slots |
-| $\}$; |  |  |  |  |  |  |
-| int array $[6]=\{ \}$; | 0 | 0 | 0 | 0 | 0 |  |
+<div class="steel-blue-header-table"></div>
+
+<table class="code-line" dir="auto">
+<thead class="code-line" dir="auto">
+<tr class="code-line" dir="auto">
+<th style="min-width: 190px; text-align:center" class="code-line" dir="auto">
+
+Declaration
+
+</th>
+<th style="text-align:center" class="code-line" dir="auto">
+
+In memory
+
+</th>
+<th style="text-align:center" class="code-line" dir="auto">
+
+Description
+
+</th>
+</tr>
+</thead>
+<tbody class="code-line" dir="auto">
+<tr class="code-line" dir="auto">
+<td style="text-align:left" class="code-line" dir="auto">
+
+```cpp
+int array[6];
+```
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+7
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+Though six slots were set aside, they remain uninitialized. All slots are filled with unknown values.
+
+</td>
+</tr>
+<tr class="code-line" dir="auto">
+<td style="text-align:left" class="code-line" dir="auto">
+
+```cpp
+int array[6] =
+{
+   3, 6, 2, 9, 1, 8
+};
+```
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+6
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+The initialized size is the same as the declared size so every slot has a known value.
+
+</td>
+</tr>
+<tr class="code-line" dir="auto">
+<td style="text-align:left" class="code-line" dir="auto">
+
+```cpp
+int array[6] =
+{
+   3, 6
+};
+```
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+The first 2 slots are initialized, the balance are filled with 0. This is a partially filled array.
+
+</td>
+</tr>
+<tr class="code-line" dir="auto">
+<td style="text-align:left" class="code-line" dir="auto">
+
+```cpp
+int array[] =
+{
+   3, 6, 2, 9, 1, 8
+};
+```
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+6
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+Declared to exactly the size necessary to fit the list of numbers. The compiler will count the number of slots
+
+</td>
+</tr>
+<tr class="code-line" dir="auto">
+<td style="text-align:left" class="code-line" dir="auto">
+
+```cpp
+int array[6] = {};
+```
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+6
+
+</td>
+<td style="text-align:left" class="code-line" dir="auto">
+
+This is the easiest way to initialize an array with zeros in all the slots
+
+</td>
+</tr>
+</tbody>
+</table>
 
 It is also possible to declare a multi-dimensional array. This is an array with more than one index:
-<base-type> <variable>[<number of rows>][<number of columns>];
-A grid of integers that is $3 \times 4$ can be declared as:
-int grid[4][3];
 
-# Referencing an array
+```cpp
+<base-type> <variable>[<number of rows>][<number of columns>];
+```
+
+A grid of integers that is $3 \times 4$ can be declared as:
+
+```cpp
+int grid[4][3];
+```
+
+### Referencing an array
 
 We access individual items in an array with the square-bracket operator [].
 
@@ -730,27 +904,31 @@ for (int i = 0; i < num; i++)
 ```
 
 From this loop we notice several things. First, the array index variable is commonly the letter i or some version of it (such as ilist). This is one of the few times we can get away with a one letter variable name.
-When referencing a multi-dimensional array, it is important to specify each of the dimensions. Again, we use the vertical dimension first so we use (Row, Column) variables rather than ( $\mathrm{X}, \mathrm{Y}$ ). Back to our $3 \times 4$ grid example:
+
+When referencing a multi-dimensional array, it is important to specify each of the dimensions. Again, we use the vertical dimension first so we use (Row, Column) variables rather than  $\mathrm{(X, Y)}$ . Back to our $3 \times 4$ grid example:
 
 ```cpp
 {
    int grid[4][3] =
    {// col 0 1 2
-      { 8, 12, -5 }, // row 0
-      {421, 4, 153 }, // row 1
-      { -15, 20, 91 }, // row 2
-      { 4, -15, 182 }, // row 3
+      {    8,  12,  -5 },  // row 0
+      {  421,   4, 153 },  // row 1
+      {  -15,  20,  91 },  // row 2
+      {    4, -15, 182 },  // row 3
    };
+
    // two indices for 2d arrays
-   int row; // vertical dimension
-   int col; // horizontal dimension
+   int row;                                     // vertical dimension
+   int col;                                     // horizontal dimension
+
    // fetch the coordinates
-   cout << "Specify the coordinates (X, Y) "; // people think in terms of X,Y
+   cout << "Specify the coordinates (X, Y) ";   // people think in terms of X,Y
    cin >> col >> row;
+
    // paranoia!
-   assert(row >= 0 && row < 4); // a loop would be a better tool here
-   assert(col >= 0 && col < 3); // always check before indexing into
-                                 // an array
+   assert(row >= 0 && row < 4);                 // a loop would be a better tool here
+   assert(col >= 0 && col < 3);                 // always check before indexing into
+                                                // an array
    // actually display the contents
    cout << grid[row][col] << endl;
 }
@@ -779,32 +957,40 @@ void displayName(char lastName[], bool isMale) // no number inside the brackets!
 ```
 
 Passing multi-dimensional arrays as parameters works much the same for their single-dimensional brethren with one exception: it is necessary to specify the size of all the dimensions except the left-most dimension. Back to our $3 \times 4$ example, a prototype might be:
+```cpp
 void displayGrid(int array[][3]); // column size must be present
+```
 Note that c-strings are arrays. Therefore, if you would like to create an array of c-strings, multi-dimensional arrays are necessary. Consider the following example:
 
 ```cpp
-void promptNames(char names[][256])
-{
+void promptNames(char names[][256])          // the column dimension must be the
+{                                            //    buffer size
    // prompt for name (first, middle, last)
    cout << "What is your first name? ";
-   cin >> names[0];
-   cout << "What is your middle name? ";
-   cin >> names[1];
-   cout << "What is your last name? ";
-   cin >> names[2];
+   cin >> names[0];                          // passing one instance of the array
+   cout << "What is your middle name? ";     //    of names to the function CIN
+   cin >> names[1];                          // Note that the data type is
+   cout << "What is your last name? ";       //    a pointer to a character,
+   cin >> names[2];                          //    what CIN expects
 }
+
 int main()
 {
-   char names[3][256]; // arrays of strings are multi-
+   char names[3][256];                       // arrays of strings are multi-
+                                             //    dimensional arrays of chars
    // fill the array
-   promptNames(names); // pass the entire array
+   promptNames(names);                       // pass the entire array
+
    // first name:
-   cout << names[0] << endl; // again, an array of characters
-   // middle initial
-   cout << names[1][0] << endl; // first letter of second string
-   // loop through the names for output
+   cout << names[0] << endl;                 // again, an array of characters
+
+   // middle initial:
+   cout << names[1][0] << endl;              // first letter of second string
+
+   // loop through the 3 names for full name output
    for (int i = 0; i < 3; i++)
       cout << names[i] << endl;
+
    return 0;
 }
 ```

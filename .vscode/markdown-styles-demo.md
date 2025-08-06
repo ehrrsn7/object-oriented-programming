@@ -27,18 +27,20 @@ This document demonstrates all the available Bootstrap-inspired styles for educa
 
 # Table of Contents
 
-| Section                   | Page |
-|:--------------------------|:----:|
-| Educational Blocks        | 1    |
-| Paragraphs & Line Breaks  | 2    |
-| Typography & Headings     | 3    |
-| Tables & Lists            | 4    |
-| Code Examples             | 5    |
-| Mathematical Expressions  | 6    |
-| Interactive Elements      | 7    |
-| Definition Lists          | 8    |
-| Character Sections        | 9    |
-| Exporting to PDF          | 10   |
+| Section                                                                            |
+| :--------------------------------------------------------------------------------- |
+| [Educational Blocks](#educational-content-blocks)                                  |
+| [Paragraphs & Line Breaks](#paragraphs-and-line-break-examples)                    |
+| [Typography & Headings](#typography-demonstrations)                                |
+| [Tables & Lists](#tables-with-bootstrap-styling)                                   |
+| [Code Examples](#code-examples)                                                    |
+| [Mathematical Expressions](#mathematical-expressions)                              |
+| [Interactive Elements](#interactive-elements)                                      |
+| [Definition Lists](#definition-lists)                                              |
+| [Character Sections](#educational-character-sections)                              |
+| [Exporting to PDF](#exporting-to-pdf)                                              |
+| [All Callout-Style Blocks](#all-code-blocks-styled-like-the-callout-types)         |
+| [Complete Style Reference & Requirements](#complete-style-reference--requirements) |
 
 ---
 
@@ -208,11 +210,11 @@ This is ~~strikethrough text~~ using double tildes `~~text~~`.
 
 Here are examples of styled inline code:
 
-`code.warning`{.warning} - Warning-styled code\
-`code.tip`{.tip} - Tip-styled code\
-`code.info`{.info} - Info-styled code\
-`code.error`{.error} - Error-styled code\
-`code.success`{.success} - Success-styled code
+`code.warning`{.warning} - Warning-styled\
+`code.tip`{.tip} - Tip-styled\
+`code.info`{.info} - Info-styled\
+`code.error`{.error} - Error-styled\
+`code.success`{.success} - Success-styled
 
 > [!Warning]
 > Be careful of longer line code: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod quam consectetur velit sodales, vel euismod ipsum volutpat. Phasellus et lacus ligula. Duis mattis semper ligula et egestas. Etiam molestie eget nulla nec sodales. Praesent euismod ex in purus ornare dictum. Etiam fringilla malesuada neque, ac dignissim nibh laoreet nec. Vestibulum sapien mauris, pharetra vel tortor nec, pharetra euismod ipsum. Curabitur vitae accumsan sem, ut suscipit orci. Etiam sed nunc dignissim, aliquet quam non, dictum felis. `
@@ -718,7 +720,7 @@ The `.vscode/settings.json` includes:
 ---
 
 
-### All code blocks styled like the callout types
+## All code blocks styled like the callout types
 [^1]: All code blocks below are styled to match their corresponding callout types, demonstrating how custom CSS classes can visually differentiate code for warnings, tips, errors, and more.
 
 
