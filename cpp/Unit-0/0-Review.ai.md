@@ -466,11 +466,12 @@ While the syntax of the FOR loop may look quite complex, it has the three things
 }
 ```
 
-> [!danger] Sue's Tips
->
-> ![Sue](./.vscode/assets/sue.png)
+### Sue's Tips
+
+> [!Danger] Sue's Tips
+> ![Sue](.vscode/assets/sue.png){width=50 align=right}
 > We commonly use FOR loops in counter-controlled loops, which execute a fixed number of times. Counter-controlled loops are identified by a single variable moving through a range of values. Note that the increment may be by 1, 10, or even powers of 3.
-> 
+>
 > When designing counter-controlled loops, answer these four questions:
 > - How does the loop start?
 > - How does the loop end?
