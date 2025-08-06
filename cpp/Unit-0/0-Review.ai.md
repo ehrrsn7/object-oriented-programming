@@ -408,7 +408,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 <div class="monospace">
 
    for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warning}; `count++`{.increment .success})\
-   `` `` `` `` `` ``cout << count << endl;
+   &nbsp;&nbsp;&nbsp;cout << count << endl;
 
 </div>
 
