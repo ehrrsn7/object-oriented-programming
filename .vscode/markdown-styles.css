@@ -37,14 +37,14 @@ h1#table-of-contents + table {
 }
 
 .steel-blue-sidebar-table + table td {
-  background: white;
+  background: transparent;
 }
 
 .steel-blue-sidebar-table + table th,
 .steel-blue-sidebar-table + table th:first-child,
-.steel-blue-sidebar-table + table td:first-child
+.steel-blue-sidebar-table + table tr :first-child
 {
-  color: white;
+  background: transparent;
   font-weight: 700;
 }
 
