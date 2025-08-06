@@ -175,6 +175,10 @@ pre:has(.bug-style) {
   border-color: rgb(var(--callout-bug));
 }
 
+code.bug {
+  height: 1.15em;
+}
+
 code.bug::before {
   content: "";
   display: inline-block;
