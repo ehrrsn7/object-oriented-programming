@@ -307,14 +307,15 @@ To read data from a file, it is necessary to open the file, fetch the text, and 
 int getNumber(const char * filename)
 {
    ifstream fin(filename); // the fin object will point to the file in filename
-   if (fin.fail()) // always check to see if the file correctly opened
-      return 0; // if we failed, do not continue on
+   if (fin.fail())         // always check to see if the file correctly opened
+      return 0;            // if we failed, do not continue on
+   
    // fetch the data
    int data;
-   fin >> data; // reading from a file is the same as accepting
-                              // input from the keyboard
+   fin >> data;            // reading from a file is the same as accepting
+                           // input from the keyboard
    // close the file
-   fin.close(); // do not forget to close the file when finished
+   fin.close();            // do not forget to close the file when finished
    return data;
 }
 ```
