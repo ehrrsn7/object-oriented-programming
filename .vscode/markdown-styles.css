@@ -175,7 +175,7 @@ pre:has(.bug-style) {
   border-color: rgb(var(--callout-bug));
 }
 
-code.bug > * {
+code.bug{
   min-height: 15px;
 }
 
