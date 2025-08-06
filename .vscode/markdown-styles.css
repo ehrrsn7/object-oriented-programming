@@ -9,12 +9,13 @@
   width: 100%;
   color: white;
   font-weight: 900;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1in;
   transform: translateY(-10%);
   min-height: 1in;
   max-width: 8.5in;
   padding: .5em;
+  padding-top: 1em;
   margin: 0 auto;
   text-align: right;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
