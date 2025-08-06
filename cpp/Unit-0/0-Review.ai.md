@@ -508,22 +508,22 @@ Coupling is the quality of the information interchange between functions. Loose 
 | External | Occurs when two modules communicate through a global variable or another external <br> communication avenue. |
 
 > [!quote] Function syntax
-> 
+>
 > The syntax for declaring a function is:
 > | <span style="color:#267CB9"><b>Return type</b></span> | <span style="color:#267CB9"><b>Function name</b></span> | <span style="color:#267CB9"><b>Parameter list</b></span> |
 > | :-- | :-- | :-- |
 > | Output type of the function. | Every function needs a name by which it will be called. | How data enters the function. |
-> 
+>
 > <div class="monospace">
-> 
+>
 > `<return type>`{.info} `<function name>`{.info}(`<parameter list>`{.info})\
 > {\
 > &nbsp;&nbsp;&nbsp;`<statement list>`{.info}\
 > &nbsp;&nbsp;&nbsp;return `<return value>`{.info};\
 > }
-> 
+>
 > </div>
-> 
+>
 > | The code to be executed when the function is called. | The answer to be returned to the caller indicating the results of the function. |
 > | :-- | :-- |
 > | <span style="color:#267CB9"><b>Statement list</b></span> | <span style="color:#267CB9"><b>Return value</b></span> |
