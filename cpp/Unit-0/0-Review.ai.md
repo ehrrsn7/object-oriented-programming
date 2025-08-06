@@ -5,7 +5,7 @@ original_file: 0-Review.pdf
 generated: 2025-08-03 16:15:30
 ---
 
-# 0-Review {.background}
+# 0-Review
 
 ---
 
