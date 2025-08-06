@@ -435,8 +435,9 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > [!warning] Boolean Expression:
 > Is executed immediately before the body of the loop.
 > - Can be any expression.
-> - As long as the expression evaluates to true, the loop continues:
+> - As long as the expression evaluates to true, the loop continues.
 > - If it is left empty, the expression evaluates to true. This means it will loop forever:
+>   `for (i = 0; ; i++)`{.boolean-expression .warning}
 
 </td>
 <td>
