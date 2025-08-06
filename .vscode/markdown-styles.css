@@ -48,7 +48,7 @@ h1#table-of-contents + table {
   font-weight: 700;
 }
 
-.steel-blue-sidebar-table + table tr:nth-child(even) {
+.steel-blue-sidebar-table + table tr:nth-child(odd) {
   background: #d8d8d8aa;
 }
 
