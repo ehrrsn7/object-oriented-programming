@@ -128,10 +128,10 @@ h1#table-of-contents + table {
 .row-border-27 + table > tbody > tr:nth-child(27) { border-bottom-width: 2px; }
 .row-border-28 + table > tbody > tr:nth-child(28) { border-bottom-width: 2px; }
 .row-border-29 + table > tbody > tr:nth-child(29) { border-bottom-width: 2px; }
-.row-border-30 + table > tbody > tr:nth-child(30) { border-bottom-width: 2px; } 
+.row-border-30 + table > tbody > tr:nth-child(30) { border-bottom-width: 2px; }
 
 /* Obsidian-style callout variables */
-/* 
+/*
 Callout styles: (already defined in extension)
 --callout-border-width: 0px;
 --callout-border-opacity: 0.25;
@@ -157,7 +157,7 @@ Callout styles: (already defined in extension)
 --callout-tip: var(--color-cyan-rgb);
 --callout-todo: var(--color-blue-rgb);
 --callout-warning: var(--color-orange-rgb);
---callout-quote: 158, 158, 158; 
+--callout-quote: 158, 158, 158;
 */
 
 /* adjust the callout styles slightly for my preference */
