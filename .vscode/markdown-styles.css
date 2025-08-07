@@ -74,6 +74,10 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
+h2[id^="problem"] {
+  background: red;
+}
+
 /* General Table Styling */
 table.Example {
   width: 100%;
