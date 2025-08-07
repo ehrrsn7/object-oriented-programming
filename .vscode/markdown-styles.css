@@ -111,8 +111,7 @@ table.Example > tbody th > p {
   margin: 0;
 }
 table.Example > tbody th > div {
-  vertical-align: middle;
-  align-self: center;
+  width: 0;
 }
 
 /* Content Cell Styling */
