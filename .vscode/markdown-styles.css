@@ -99,18 +99,18 @@ thead.steel-blue-header-table {
 }
 
 img.sue {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   float: right;
-  margin-left: .1em;
-  margin-bottom: .1em;
+  margin-left: .3em;
+  margin-bottom: .3em;
 }
 img.sam {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   float: left;
-  margin-left: .1em;
-  margin-bottom: .1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 /* Base row-border class */
