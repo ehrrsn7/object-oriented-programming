@@ -75,7 +75,7 @@ h1#table-of-contents + table {
 }
 
 th.rotate {
-  height: 140px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
   white-space: nowrap;
 }
 
