@@ -93,6 +93,10 @@ h2[id^="challenge"] {
   border-width: 2px;
   margin: 0;
 }
+h2[id^="problem"] input,
+h2[id^="challenge"] input {
+  background: red;
+}
 
 /* General Table Styling */
 table.Example {
