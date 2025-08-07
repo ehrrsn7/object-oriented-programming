@@ -74,45 +74,47 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
-th.rotate {
-  background: #4f81bd;
-  color: white;
-  height: 50px; /* Adjust as needed */
-  white-space: nowrap;
+/* General Table Styling */
+table.Example {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-family: sans-serif;
 }
 
-th.rotate > div {
-  text-align: right;
-  background: red;
-  height: 100%;
-  transform: translateX(50px) translateY(25px) rotate(-90deg); /* Adjust values based on desired rotation and position */
-  width: 30px; /* Adjust as needed */
-  transform-origin: 0% 100%; /* Rotates from bottom left corner */
-}
-
-th.rotate > div > span {
-  text-align: right;
-  color: white;
-  padding: 5px 10px;
-}
-
+/* Header Styling */
 table.Example > thead {
-  background: #4f81bd;
-  color: white;
+    background: #4f81bd;
+    color: white;
+    text-align: center;
 }
 
-table.Example > tbody > tr > td:first-child {
-  background: #4f81bd;
-  color: white;
-  max-width: 20px;
+/* Cell Padding and Borders */
+table.Example th, table.Example td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
 }
 
-table.Example > tbody > tr > td:first-child > h3 {
-  background: #4f81bd;
-  color: white;
-  transform: rotate(-90deg);
-  max-height: 20px;
-  padding: 0;
+/* Vertical Header Styling (First Column) */
+table.Example > tbody > tr > th:first-child {
+    background: #4f81bd;
+    color: white;
+    width: 20px; /* Set a fixed width for the vertical header cell */
+    text-align: center;
+    padding: 10px 5px;
+}
+
+/* Vertical Text Implementation */
+table.Example > tbody > tr > th:first-child > span {
+    writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
+    transform: rotate(180deg);  /* Flips the text to be read bottom-to-top */
+    white-space: nowrap;
+}
+
+/* Content Cell Styling */
+table.Example > tbody > tr > td {
+    vertical-align: top;
 }
 
 div.steel-blue-header-table {
