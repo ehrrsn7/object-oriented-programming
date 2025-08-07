@@ -20,6 +20,7 @@
   text-align: right;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
 }
+
 .unit-background {
   background-color: #4f81bd;
   background-image: url("./assets/unit-background.jpg");
@@ -31,8 +32,8 @@
   color: white;
   font-weight: 900;
   font-size: 2em;
-  line-height: .8in;
-  min-height: .8in;
+  line-height: 1.8in;
+  min-height: 1.8in;
   transform: translateY(-10%);
   max-width: 8.5in;
   padding: .5em;
