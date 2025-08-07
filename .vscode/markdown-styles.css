@@ -99,6 +99,7 @@ h2[id^="challenge"] {
   list-style-type: disc;
   color: #4f81bd;
   font-size: 1.2em;
+  margin-left: 0;
 }
 .markdown-body blockquote input {
   border: unset;
