@@ -93,10 +93,10 @@ table.Example > thead {
   text-align: center;
   border: none;
 }
-body > div.markdown-body > table.Example > thead > tr > th {
+body > div.markdown-body > table.Example > thead > tr > th,
+table.Example > tbody th {
   border: none;
 }
-body > div.markdown-body > table.Example > thead > tr > th,
 table.Example > tbody th {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
   background: #4f81bd;
@@ -104,7 +104,6 @@ table.Example > tbody th {
   min-width: 12px; /* Set a fixed width for the vertical header cell */
   text-align: center;
   vertical-align: center;
-  margin: 0;
 }
 table.Example > tbody th > p {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
