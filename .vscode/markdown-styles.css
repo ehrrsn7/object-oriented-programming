@@ -101,7 +101,7 @@ table.Example > tbody th {
   vertical-align: center;
   background: red;
 }
-table.Example > tbody > tr > th span {
+table.Example > tbody > tr > th p {
   /* writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
   /* transform: rotate(180deg);  /* Flips the text to be read bottom-to-top */
   white-space: nowrap;
