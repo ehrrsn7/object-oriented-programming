@@ -72,7 +72,8 @@ div.steel-blue-header-table {
 }
 
 thead.steel-blue-header-table,
-th.steel-blue-header-table ~ th {
+th.steel-blue-header-table ~ th,
+th.steel-blue-header-table {
   background: #4f81bddd;
   color: white;
 }
