@@ -142,7 +142,7 @@ table.Example {
   border: 1px solid #aaaaaa;
   page-break-after: always;
 }
-table.Example > thead > tr > th h2.example-title {
+table.Example > thead > tr > th h2 {
   text-align: center;
   padding: 0;
   margin: .2em;
