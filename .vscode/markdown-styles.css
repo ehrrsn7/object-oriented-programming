@@ -115,9 +115,7 @@ img.sam {
 
 /* Base row-border class */
 [class*="row-border"] + tbody > tr {
-  border-bottom-width: 0px;
-  border-bottom-style: solid;
-  border-color: black;
+  border: 2px solid gray;
 }
 
 .row-border-1  + table > tbody > tr:nth-child(1)  { border-bottom-width: 2px; }
