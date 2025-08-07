@@ -120,7 +120,7 @@ blockquote em {
   width: 90%;
   line-height: 2em;
 }
-.markdown-body blockquote input:hover {
+.markdown-body blockquote input:selected {
   border: unset;
 }
 
