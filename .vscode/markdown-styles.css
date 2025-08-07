@@ -94,7 +94,8 @@ h2[id^="challenge"] {
   margin: 0;
 }
 h2[id^="problem"] input,
-h2[id^="challenge"] input {
+h2[id^="challenge"] input,
+input.writing-placeholder {
   background: red;
 }
 
