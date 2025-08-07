@@ -94,8 +94,10 @@ h2[id^="challenge"] {
   margin: 0;
 }
 
+blockquote:has(h2[id^="problem"]) em:last-child,
 blockquote:has(h2[id^="challenge"]) em:last-child,
-blockquote:has(h2[id^="challenge"]) em:last-child {
+blockquote:has(h2[id^="problem"]) p:has(em:last-child),
+blockquote:has(h2[id^="challenge"]) p:has(em:last-child) {
   /* hints */
   border-color: #4f81bd;
   color: #4f81bd;
