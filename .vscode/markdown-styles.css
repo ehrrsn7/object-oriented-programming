@@ -63,10 +63,15 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
-.steel-blue-header-table {
+div.steel-blue-header-table {
   display: hidden;
 }
 .steel-blue-header-table + table > thead {
+  background: #4f81bddd;
+  color: white;
+}
+
+tr.steel-blue-header-table {
   background: #4f81bddd;
   color: white;
 }
