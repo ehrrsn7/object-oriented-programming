@@ -85,7 +85,7 @@ table.Example > thead {
   background: #4f81bd;
   color: white;
   text-align: center;
-  background: gree;
+  background: green;
 }
 table.Example > tbody > tr > th {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
