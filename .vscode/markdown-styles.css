@@ -141,6 +141,7 @@ table.Example {
   width: 100%;
   border: 1px solid #aaaaaa;
   page-break-after: always;
+  page-break-before: always;
 }
 table.Example > thead > tr > th h2 {
   text-align: center;
