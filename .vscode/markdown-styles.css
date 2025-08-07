@@ -56,6 +56,10 @@
   margin-left: 1em;
 }
 
+:has(.center) {
+  margin: 0 auto;
+}
+
 /* Select the table that is the next sibling of h1#table-of-contents */
 #table-of-contents {
   margin: 1em 0;
