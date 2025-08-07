@@ -79,6 +79,10 @@ table.Example > thead {
   color: white;
 }
 
+table.Example > thead > tr > th > h1 {
+  border: none;
+}
+
 table.Example > tbody > tr > td:first-child {
   background: #4f81bd;
   color: white;
