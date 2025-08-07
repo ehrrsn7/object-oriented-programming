@@ -79,11 +79,12 @@ table.Example > thead {
   color: white;
 }
 
-table.Example > tbody > tr > :first-child {
+table.Example > tbody > tr > td :first-child > p{
   background: #4f81bd;
   color: white;
   transform: rotate(-90deg);
   max-height: 20px;
+  padding: 0;
 }
 
 div.steel-blue-header-table {
