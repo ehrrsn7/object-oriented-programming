@@ -78,7 +78,7 @@ h1#table-of-contents + table {
 blockquote:has(h2[id^="problem"]),
 blockquote:has(h2[id^="challenge"]) {
   padding: 1em;
-  margin: 0 1em;
+  margin: 2em 0;
   border-left: 4px solid #4f81bd;
   background: white;
   outline: 2px solid gray;
