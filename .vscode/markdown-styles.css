@@ -118,7 +118,8 @@ tbody.gray-box > tr,
 thead.gray-box > tr,
 tr.gray-box > td,
 td.gray-box,
-td.gray-box ~ td {
+td.gray-box ~ td,
+th.gray-box ~ th {
   border: 2px solid gray;
 }
 
