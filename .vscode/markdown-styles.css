@@ -101,7 +101,7 @@ h2[id^="challenge"] {
   border: unset;
   border-bottom-width: 1px;
   border-bottom: 1px solid #4f81bd;
-  margin: 1em;
+  margin: .3em;
   background: unset;
   background: #fafafa;
   width: 90%;
