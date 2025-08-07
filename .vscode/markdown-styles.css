@@ -79,7 +79,6 @@ table.Example {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #ddd;
-    font-family: sans-serif;
 }
 table.Example > thead {
     background: #4f81bd;
@@ -87,7 +86,6 @@ table.Example > thead {
     text-align: center;
 }
 table.Example th, table.Example td {
-    padding: 12px;
     border: 1px solid #ddd;
     text-align: left;
 }
@@ -97,7 +95,6 @@ table.Example > tbody > tr > th {
     color: white;
     width: 20px; /* Set a fixed width for the vertical header cell */
     text-align: center;
-    padding: 10px 5px;
 }
 table.Example > tbody > tr > th > span {
     writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
