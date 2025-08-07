@@ -96,6 +96,7 @@ h2[id^="challenge"] {
 
 blockquote:has(h2[id^="problem"]) em,
 blockquote:has(h2[id^="challenge"]) em {
+  /* hints */
   border-color: #4f81bd;
   color: #4f81bd;
   border-radius: .1em;
