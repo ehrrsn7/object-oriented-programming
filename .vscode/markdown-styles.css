@@ -115,6 +115,7 @@ img.sue {
 
 table.gray-box > tbody > tr,
 tbody.gray-box > tr,
+thead.gray-box > tr,
 tr.gray-box > td {
   border: 2px solid gray;
 }
