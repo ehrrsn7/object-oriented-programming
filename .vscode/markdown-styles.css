@@ -20,6 +20,27 @@
   text-align: right;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
 }
+.unit-background {
+  background-color: #4f81bd;
+  background-image: url("./assets/unit-background.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100%;
+  color: white;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: .8in;
+  min-height: .8in;
+  transform: translateY(-10%);
+  max-width: 8.5in;
+  padding: .5em;
+  padding-top: 1em;
+  margin: 0 auto;
+  text-align: right;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.7);
+}
 
 .monospace {
   font-weight: var(--vscode-font-weight) 700;
