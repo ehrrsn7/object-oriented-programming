@@ -87,7 +87,7 @@ th.rotate > div {
   height: 100%;
   transform: translateX(-10px) translateY(25px) rotate(90deg); /* Adjust values based on desired rotation and position */
   width: 30px; /* Adjust as needed */
-  transform-origin: 0% 0%; /* Rotates from top-left corner */
+  transform-origin: 100% 0%; /* Rotates from top-right corner */
 }
 
 th.rotate > div > span {
