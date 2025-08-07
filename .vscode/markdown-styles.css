@@ -82,6 +82,8 @@ th.rotate {
 }
 
 th.rotate > div {
+  background: red;
+  height: 100%;
   transform: translate(10px, 10px) rotate(-90deg); /* Adjust values based on desired rotation and position */
   width: 30px; /* Adjust as needed */
   transform-origin: 0% 0%; /* Rotates from top-left corner */
