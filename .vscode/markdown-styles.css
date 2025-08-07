@@ -89,6 +89,7 @@ table.Example > tbody > tr > td:first-child > h3 {
   background: #4f81bd;
   color: white;
   transform: rotate(-90deg);
+  max-height: 20px;
   padding: 0;
 }
 
