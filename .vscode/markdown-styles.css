@@ -121,7 +121,7 @@ blockquote em {
   line-height: 2em;
 }
 .markdown-body blockquote input:focus  {
-  outline: 1px solid #4f81bd40;
+  outline-color: #4f81bd40;
 }
 
 /* General Table Styling */
