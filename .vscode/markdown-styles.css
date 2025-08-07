@@ -76,9 +76,6 @@ h1#table-of-contents + table {
 
 h2[id^="problem"],
 h2[id^="problem"] ~ :not(h2) {
-  border: 3px solid #b91c1c;
-  border-radius: 12px;
-  padding: 0.5em 1em;
 }
 
 /* General Table Styling */
