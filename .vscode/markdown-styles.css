@@ -120,8 +120,8 @@ blockquote em {
   width: 90%;
   line-height: 2em;
 }
-.markdown-body blockquote input:selected {
-  border: unset;
+.markdown-body blockquote input:focus  {
+  outline: unset;
 }
 
 /* General Table Styling */
