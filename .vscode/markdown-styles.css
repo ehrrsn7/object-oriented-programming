@@ -79,6 +79,11 @@ table.Example > thead {
   color: white;
 }
 
+table.Example > tbody > tr > :first-child {
+  background: #4f81bddd;
+  color: white;
+}
+
 div.steel-blue-header-table {
   display: hidden;
 }
