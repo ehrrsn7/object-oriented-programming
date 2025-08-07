@@ -83,6 +83,7 @@ table.Example > tbody > tr > :first-child {
   background: #4f81bddd;
   color: white;
   transform: rotate(-90deg);
+  max-height: 20px;
 }
 
 div.steel-blue-header-table {
