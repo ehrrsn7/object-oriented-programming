@@ -74,8 +74,9 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
-table.Example {
-  background: green;
+table.Example > thead {
+  background: #4f81bddd;
+  color: white;
 }
 
 div.steel-blue-header-table {
