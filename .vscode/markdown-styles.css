@@ -82,7 +82,8 @@ blockquote:has(h2[id^="challenge"]) {
   margin-left: 1em;
   background: white;
   outline: 2px solid gray;
-  border-radius: 8px;
+  border-radius: 4px;
+  border: none;
 }
 h2[id^="problem"],
 h2[id^="challenge"] {
