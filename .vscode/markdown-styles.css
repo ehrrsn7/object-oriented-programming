@@ -74,6 +74,10 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
+table.Example {
+  background: green;
+}
+
 div.steel-blue-header-table {
   display: hidden;
 }
