@@ -93,7 +93,7 @@ table.Example > thead {
   text-align: center;
 }
 table.Example > tbody th {
-  /* writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
+  writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
   background: #4f81bd;
   color: white;
   min-width: 12px; /* Set a fixed width for the vertical header cell */
