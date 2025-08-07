@@ -77,7 +77,7 @@ h1#table-of-contents + table {
 /* General Table Styling */
 table.Example {
   width: 100%;
-  border: 1px solid #ddd;
+  border: 1px solid #aaaaaa;
 }
 table.Example > thead {
   background: #4f81bd;
