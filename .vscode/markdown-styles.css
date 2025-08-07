@@ -114,7 +114,7 @@ img.sam {
 }
 
 /* Base row-border class */
-[class*="row-border"] + tbody > tr {
+table.row-border tbody > tr {
   border: 2px solid gray;
 }
 
