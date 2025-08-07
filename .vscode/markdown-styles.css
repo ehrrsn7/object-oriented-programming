@@ -56,8 +56,9 @@
   margin-left: 1em;
 }
 
-:has(.center) {
-  
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 /* Select the table that is the next sibling of h1#table-of-contents */
