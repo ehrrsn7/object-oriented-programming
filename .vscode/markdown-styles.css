@@ -93,6 +93,9 @@ table.Example > thead {
   text-align: center;
   border: none;
 }
+body > div.markdown-body > table.Example > thead > tr > th {
+  border: none;
+}
 body > div.markdown-body > table.Example > thead > tr > th,
 table.Example > tbody th {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
@@ -102,7 +105,6 @@ table.Example > tbody th {
   text-align: center;
   vertical-align: center;
   margin: 0;
-  border: none;
 }
 table.Example > tbody th > p {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
