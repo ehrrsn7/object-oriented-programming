@@ -104,9 +104,11 @@ blockquote em {
   margin: 0;
 }
 
+.markdown-body blockquote ul {
+  padding-left: 2em;
+}
 .markdown-body blockquote li {
   list-style-type: disc;
-  padding-left: 0;
   background: #e0e0e0;
 }
 .markdown-body blockquote input {
