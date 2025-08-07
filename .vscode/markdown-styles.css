@@ -140,8 +140,9 @@ blockquote:has(h2[id^="challenge"]) input:focus {
 table.Example {
   width: 100%;
   border: 1px solid #aaaaaa;
+  page-break-after: always;
 }
-body > div.markdown-body > table.Example > thead > tr > th h2.example-title {
+table.Example > thead > tr > th h2.example-title {
   text-align: center;
   padding: 0;
   margin: .2em;
