@@ -114,7 +114,7 @@ img.sam {
 }
 
 /* Base row-border class */
-[class*="row-border"] + table > tbody > tr {
+[class*="row-border"] + tbody > tr {
   border-bottom-width: 0px;
   border-bottom-style: solid;
   border-color: black;
