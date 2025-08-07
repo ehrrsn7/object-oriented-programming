@@ -100,6 +100,7 @@ table.Example > tbody th {
   text-align: center;
   vertical-align: center;
   background: red;
+  margin: 0;
 }
 table.Example > tbody > tr > th p {
   /* writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
