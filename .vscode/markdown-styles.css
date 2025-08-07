@@ -50,6 +50,10 @@
   line-height: 25px;
 }
 
+.monospace quote {
+  
+}
+
 /* Select the table that is the next sibling of h1#table-of-contents */
 #table-of-contents {
   margin: 1em 0;
