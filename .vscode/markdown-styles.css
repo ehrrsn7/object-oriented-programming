@@ -102,8 +102,15 @@ img.sue {
   width: 100px;
   height: 100px;
   float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin-left: .1em;
+  margin-bottom: .1em;
+}
+img.sam {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: .1em;
+  margin-bottom: .1em;
 }
 
 /* Base row-border class */
