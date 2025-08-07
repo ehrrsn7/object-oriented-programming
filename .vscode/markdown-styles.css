@@ -96,7 +96,7 @@ table.Example > thead {
 body > div.markdown-body > table.Example > thead > tr > th,
 table.Example > tbody th {
   border: none;
-  border-bottom: 5px solid white;
+  outline: 5px solid white;
 }
 table.Example > tbody th {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
