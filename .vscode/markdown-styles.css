@@ -96,12 +96,11 @@ table.Example > tbody th {
   /* writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
   background: #4f81bd;
   color: white;
-  min-width: 30px; /* Set a fixed width for the vertical header cell */
+  min-width: 20px; /* Set a fixed width for the vertical header cell */
   text-align: center;
   vertical-align: center;
   background: red;
   margin: 0;
-  padding: 0;
 }
 table.Example > tbody th > p {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
@@ -109,6 +108,7 @@ table.Example > tbody th > p {
   white-space: nowrap;
   background: teal;
   margin: 0;
+  padding: 5px;
 }
 table.Example > tbody th > div {
   width: 0;
