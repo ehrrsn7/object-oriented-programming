@@ -74,6 +74,22 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
+th.rotate {
+  height: 140px; /* Adjust as needed */
+  white-space: nowrap;
+}
+
+th.rotate > div {
+  transform: translate(25px, 51px) rotate(315deg); /* Adjust values based on desired rotation and position */
+  width: 30px; /* Adjust as needed */
+  transform-origin: 0% 100%; /* Example: rotates from bottom-left corner */
+}
+
+th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+
 table.Example > thead {
   background: #4f81bd;
   color: white;
