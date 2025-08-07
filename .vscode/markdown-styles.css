@@ -76,10 +76,8 @@ h1#table-of-contents + table {
 
 /* General Table Styling */
 table.Example {
-  border-collapse: collapse;
   width: 100%;
   border: 1px solid #ddd;
-  background: yellow;
 }
 table.Example > thead {
   background: #4f81bd;
