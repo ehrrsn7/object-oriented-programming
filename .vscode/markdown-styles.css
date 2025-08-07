@@ -81,6 +81,7 @@ table.Example > thead {
 
 table.Example > thead > tr > th > h2 {
   text-align: center;
+  margin: 0 auto;
 }
 
 table.Example > tbody > tr > td:first-child {
