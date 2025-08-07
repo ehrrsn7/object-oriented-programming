@@ -96,7 +96,7 @@ h2[id^="challenge"] {
 
 h2[id^="problem"] .hint,
 h2[id^="challenge"] .hint,
-blockquote p.hint {
+blockquote em {
   border-color: #4f81bd;
   color: #4f81bd;
   border-radius: .1em;
