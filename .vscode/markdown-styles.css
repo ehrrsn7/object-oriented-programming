@@ -95,7 +95,7 @@ h2[id^="challenge"] {
 }
 
 .writing-placeholder {
-  outline: 1px solid red;
+  outline: 1px solid red !important;
 }
 
 /* General Table Styling */
