@@ -113,7 +113,8 @@ img.sue {
   margin-bottom: 1em;
 }
 
-table.gray-box > tbody > tr {
+table.gray-box > tbody > tr,
+tbody.gray-box > tr {
   border: 2px solid gray;
 }
 
