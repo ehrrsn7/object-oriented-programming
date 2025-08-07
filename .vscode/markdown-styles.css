@@ -71,9 +71,20 @@ div.steel-blue-header-table {
   color: white;
 }
 
-thead.steel-blue-header-table {
+thead.steel-blue-header-table,
+th.steel-blue-header-table ~ th {
   background: #4f81bddd;
   color: white;
+}
+
+table.gray-box > tbody > tr,
+tbody.gray-box > tr,
+thead.gray-box > tr,
+tr.gray-box > td,
+td.gray-box,
+td.gray-box ~ td,
+th.gray-box ~ th {
+  border: 2px solid gray;
 }
 
 /* Select the table that is the next sibling of div.steel-blue-sidebar-table */
@@ -111,16 +122,6 @@ img.sue {
   float: left;
   margin-right: 1em;
   margin-bottom: 1em;
-}
-
-table.gray-box > tbody > tr,
-tbody.gray-box > tr,
-thead.gray-box > tr,
-tr.gray-box > td,
-td.gray-box,
-td.gray-box ~ td,
-th.gray-box ~ th {
-  border: 2px solid gray;
 }
 
 /* Base row-border class */
