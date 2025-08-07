@@ -79,13 +79,14 @@ table.Example > thead {
   color: white;
 }
 
-table.Example > thead > tr > th > h1 {
+table.Example > thead > tr > th > h2 {
   border: none;
 }
 
 table.Example > tbody > tr > td:first-child {
   background: #4f81bd;
   color: white;
+  max-width: 20px;
 }
 
 table.Example > tbody > tr > td:first-child > h3 {
