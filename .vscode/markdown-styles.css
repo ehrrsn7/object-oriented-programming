@@ -79,7 +79,7 @@ blockquote:has(h2[id^="problem"]),
 blockquote:has(h2[id^="challenge"]) {
   padding: 1em;
   margin: 2em 0;
-  border-width: 4px;
+  border-top-width: 4px;
   background: white;
   border-radius: 4px;
 }
