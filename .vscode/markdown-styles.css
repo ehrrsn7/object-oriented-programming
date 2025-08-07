@@ -76,22 +76,22 @@ h1#table-of-contents + table {
 
 /* General Table Styling */
 table.Example {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
 }
 table.Example > thead {
-    background: #4f81bd;
-    color: white;
-    text-align: center;
+  background: #4f81bd;
+  color: white;
+  text-align: center;
 }
 table.Example > tbody > tr > th {
-    writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
-    background: #4f81bd;
-    color: white;
-    width: 10px; /* Set a fixed width for the vertical header cell */
-    text-align: center;
-    background: green;
+  writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
+  background: #4f81bd;
+  color: white;
+  width: 10px; /* Set a fixed width for the vertical header cell */
+  text-align: center;
+  background: green;
 }
 table.Example > tbody > tr > th > span {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
