@@ -77,9 +77,10 @@ h1#table-of-contents + table {
 /* Select blockquotes that contain an h2 with id starting with "problem" or "challenge" */
 blockquote:has(h2[id^="problem"]),
 blockquote:has(h2[id^="challenge"]) {
+  padding: .5em;
+  margin: .5em;
   border-left: 4px solid #4f81bd;
   padding-left: 1em;
-  margin-left: 1em;
   background: white;
   outline: 2px solid gray;
   border-radius: 4px;
@@ -87,8 +88,8 @@ blockquote:has(h2[id^="challenge"]) {
 }
 h2[id^="problem"],
 h2[id^="challenge"] {
-  background-color: #f0f4ff;
-  border-bottom: 2px solid #4f81bd;
+  border-color: #4f81bd;
+  border-width: 2px;
 }
 
 /* General Table Styling */
