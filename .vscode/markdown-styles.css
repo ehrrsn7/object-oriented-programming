@@ -79,7 +79,12 @@ table.Example > thead {
   color: white;
 }
 
-table.Example > tbody > tr > td :first-child > h3{
+table.Example > tbody > tr > td:first-child {
+  background: #4f81bd;
+  color: white;
+}
+
+table.Example > tbody > tr > td:first-child > h3 {
   background: #4f81bd;
   color: white;
   transform: rotate(-90deg);
