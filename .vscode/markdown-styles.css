@@ -107,8 +107,8 @@ table.Example > tbody th > p {
   transform: rotate(180deg);  /* Flips the text to be read bottom-to-top */
   white-space: nowrap;
   background: teal;
-  margin: -10px;
-  padding: 1px;
+  margin: -8px;
+  padding: 2px;
 }
 table.Example > tbody th > div {
   width: 0;
