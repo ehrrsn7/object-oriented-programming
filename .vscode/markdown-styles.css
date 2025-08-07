@@ -79,9 +79,15 @@ table.Example {
   width: 100%;
   border: 1px solid #aaaaaa;
 }
-table > thead > tr > th > h2 {
+.example-title {
   text-align: center;
+  padding: 0;
+  margin: .5em;
+  font-weight: bolder;
+  outline: none;
+  border: none;
 }
+
 table.Example > thead {
   background: #4f81bd;
   color: white;
