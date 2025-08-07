@@ -74,7 +74,8 @@ h1#table-of-contents + table {
   margin-left: 1em;
 }
 
-h2[id^="problem"] {
+h2[id^="problem"],
+h2[id^="problem"] ~ :not(h2) {
   background: red;
 }
 
