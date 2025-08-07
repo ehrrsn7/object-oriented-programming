@@ -110,6 +110,10 @@ table.Example > tbody th > p {
   background: teal;
   margin: 0;
 }
+table.Example > tbody th > div {
+  vertical-align: middle;
+  horizontal-align: middle;
+}
 
 /* Content Cell Styling */
 table.Example > tbody > tr > td {
