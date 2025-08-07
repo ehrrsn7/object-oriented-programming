@@ -85,11 +85,6 @@ table.Example > thead {
     color: white;
     text-align: center;
 }
-table.Example th, table.Example td {
-    border: 1px solid #ddd;
-    text-align: left;
-    background: blue;
-}
 table.Example > tbody > tr > th {
     writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
     background: #4f81bd;
@@ -100,7 +95,6 @@ table.Example > tbody > tr > th {
 }
 table.Example > tbody > tr > th > span {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
-  transform: rotate(180deg);  /* Flips the text to be read bottom-to-top */
   white-space: nowrap;
   background: red;
 }
