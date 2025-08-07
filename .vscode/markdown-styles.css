@@ -97,6 +97,10 @@ h2[id^="challenge"] {
 .markdown-body blockquote input {
   border: unset;
   border-bottom: 1px solid red;
+  margin: 1em;
+  background: unset;
+  background: #fefefe;
+  width: 90%;
 }
 
 /* General Table Styling */
