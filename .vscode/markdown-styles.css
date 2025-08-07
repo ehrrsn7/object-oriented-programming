@@ -79,11 +79,11 @@ table.Example {
   width: 100%;
   border: 1px solid #aaaaaa;
 }
-h2.example-title {
+body > div.markdown-body > table.Example > thead > tr > th h2.example-title {
   text-align: center;
   padding: 0;
-  margin: .5em;
-  font-weight: bolder;
+  margin: .2em;
+  font-weight: bold;
   outline: none;
   border: none;
 }
