@@ -120,6 +120,9 @@ blockquote em {
   width: 90%;
   line-height: 2em;
 }
+.markdown-body blockquote input:hover {
+  border: unset;
+}
 
 /* General Table Styling */
 table.Example {
