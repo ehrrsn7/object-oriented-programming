@@ -82,15 +82,12 @@ th.rotate {
 }
 
 th.rotate > div {
-  background: #4f81bd;
-  color: white;
   transform: rotate(-90deg); /* Adjust values based on desired rotation and position */
   width: 30px; /* Adjust as needed */
   transform-origin: 0% 100%; /* Example: rotates from bottom-left corner */
 }
 
 th.rotate > div > span {
-  background: #4f81bd;
   color: white;
   border-bottom: 1px solid #ccc;
   padding: 5px 10px;
