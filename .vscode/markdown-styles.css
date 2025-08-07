@@ -51,7 +51,8 @@
 }
 
 .monospace blockquote {
-
+  border: none !important;
+  background: none !important;
 }
 
 /* Select the table that is the next sibling of h1#table-of-contents */
