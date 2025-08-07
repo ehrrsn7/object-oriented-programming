@@ -93,8 +93,6 @@ table.Example > thead {
   text-align: center;
 }
 table.Example > tbody th {
-  display: flex;
-  flex-direction: column;
   /* writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
   background: #4f81bd;
   color: white;
