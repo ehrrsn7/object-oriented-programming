@@ -114,6 +114,7 @@ blockquote em {
   border: unset;
   border-bottom-width: 1px;
   border-bottom: 1px solid #4f81bd;
+  color: #4f81bd;
   margin: .3em;
   background: unset;
   background: #fafafa;
