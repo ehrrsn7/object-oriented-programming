@@ -75,12 +75,12 @@ h1#table-of-contents + table {
 }
 
 table.Example > thead {
-  background: #4f81bddd;
+  background: #4f81bd;
   color: white;
 }
 
 table.Example > thead > tr > th > h2 {
-  border: none;
+  text-align: center;
 }
 
 table.Example > tbody > tr > td:first-child {
