@@ -79,11 +79,6 @@ table.Example > thead {
   color: white;
 }
 
-table.Example > thead > tr > th > h2 {
-  text-align: center;
-  margin: 0 auto;
-}
-
 table.Example > tbody > tr > td:first-child {
   background: #4f81bd;
   color: white;
@@ -94,7 +89,6 @@ table.Example > tbody > tr > td:first-child > h3 {
   background: #4f81bd;
   color: white;
   transform: rotate(-90deg);
-  max-height: 20px;
   padding: 0;
 }
 
