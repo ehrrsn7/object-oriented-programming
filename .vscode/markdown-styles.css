@@ -115,6 +115,8 @@ blockquote em {
   border-bottom-width: 1px;
   border-bottom: 1px solid #4f81bd;
   color: #4f81bd;
+  font-weight: bold;
+  padding: 1em auto;
   margin: .3em;
   background: unset;
   background: #fafafa;
