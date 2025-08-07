@@ -53,6 +53,7 @@
 .monospace blockquote {
   border-color: transparent;
   background: none;
+  margin-left: 1em;
 }
 
 /* Select the table that is the next sibling of h1#table-of-contents */
