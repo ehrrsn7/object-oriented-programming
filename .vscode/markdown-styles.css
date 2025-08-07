@@ -106,6 +106,7 @@ blockquote:has(h2[id^="challenge"]) p:has(em:last-child) {
   margin: 0;
   width: 100%;
   text-align: right;
+  font-size: .85em;
 }
 
 blockquote:has(h2[id^="problem"]) ul,
