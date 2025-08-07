@@ -113,9 +113,16 @@ img.sam {
   margin-bottom: 1em;
 }
 
-/* Base row-border class */
-table.row-border tbody > tr {
+table.gray-box > tbody > tr {
   border: 2px solid gray;
+}
+
+/* Base row-border class */
+/* Base row-border class */
+[class*="row-border"] + table > tbody > tr {
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-color: black;
 }
 
 .row-border-1  + table > tbody > tr:nth-child(1)  { border-bottom-width: 2px; }
