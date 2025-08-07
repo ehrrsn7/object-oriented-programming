@@ -103,13 +103,16 @@ blockquote:has(h2[id^="challenge"]) em {
   margin: 0;
 }
 
-.markdown-body blockquote ul {
+blockquote:has(h2[id^="problem"]) ul,
+blockquote:has(h2[id^="challenge"]) ul {
   padding-left: 1.5em;
 }
-.markdown-body blockquote li {
+blockquote:has(h2[id^="problem"]) li,
+blockquote:has(h2[id^="challenge"]) li {
   list-style-type: disc;
 }
-.markdown-body blockquote input {
+blockquote:has(h2[id^="problem"]) input,
+blockquote:has(h2[id^="challenge"]) input {
   border: unset;
   border-bottom-width: 1px;
   border-bottom: 1px solid #4f81bd;
@@ -122,7 +125,8 @@ blockquote:has(h2[id^="challenge"]) em {
   width: 90%;
   line-height: 2em;
 }
-.markdown-body blockquote input:focus  {
+blockquote:has(h2[id^="problem"]) input:focus,
+blockquote:has(h2[id^="challenge"]) input:focus {
   outline-color: #4f81bd40;
 }
 
