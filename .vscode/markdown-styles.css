@@ -94,6 +94,7 @@ table.Example > thead {
 }
 table.Example > tbody > tr > th {
   /* writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
+  background: red;
   background: #4f81bd;
   color: white;
   width: 10px; /* Set a fixed width for the vertical header cell */
