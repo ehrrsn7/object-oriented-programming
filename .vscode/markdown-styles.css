@@ -32,12 +32,12 @@
   color: white;
   font-weight: 900;
   font-size: 3em;
-  line-height: 1.2in;
-  min-height: 1.2in;
+  line-height: .8in;
+  min-height: .8in;
   transform: translateY(-10%);
   max-width: 8.5in;
   padding: .5em;
-  padding-top: 1em;
+  padding-top: 2em;
   margin: 0 auto;
   text-align: right;
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
