@@ -79,7 +79,7 @@ table.Example {
   width: 100%;
   border: 1px solid #aaaaaa;
 }
-.example-title {
+h2.example-title {
   text-align: center;
   padding: 0;
   margin: .5em;
@@ -87,7 +87,6 @@ table.Example {
   outline: none;
   border: none;
 }
-
 table.Example > thead {
   background: #4f81bd;
   color: white;
