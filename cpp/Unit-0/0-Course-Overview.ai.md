@@ -26,7 +26,7 @@ author: "CS 165 Course Materials"
 date: "2025-08-03"
 ---
 
-# 0-Course-Overview {.background}
+# Course Overview {.background}
 
 # Table of Contents
 
@@ -70,7 +70,7 @@ date: "2025-08-03"
 > **In this Document:**
 > [[toc]]
 
-# Course Overview 
+# Course Overview {.background}
 
 Procedural programming, the subject of CS 124 preceding this class, is a style of programming where the focus is on the function. This includes how to subdivide a program into functions (in a process called modularization) and what goes on inside functions. Virtually any programming project can be completed with procedural programming tools.
 Object-Oriented programming, on the other hand, is a style of programming where the focus is on the class. A class is a construct containing a collection of functions as well as the data associated with them. Topics such as encapsulation (how to create well-designed classes), inheritance (the relationship between classes), and polymorphism (working with many versions of related classes) form the backbone of Object-Oriented programming.
