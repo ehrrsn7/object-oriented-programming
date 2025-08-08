@@ -89,8 +89,9 @@ blockquote:has(div.table-of-contents) { /* generated > [[toc]] */
   line-height: 1.9em;
 }
 
-body > div > div:nth-child(35) > div.callout-content > p > em.align-right {
+body > div > div:nth-child(35):has(> div.callout-content > p > em.align-right) {
   float: right;
+  margin: 1em;
 }
 
 /* Select blockquotes that contain an h2 with id starting with "problem" or "challenge" */
