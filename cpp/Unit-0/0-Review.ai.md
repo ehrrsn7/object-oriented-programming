@@ -801,7 +801,7 @@ int array[6] =
 <td style="text-align:left" class="code-line" dir="auto">
 
 | ---
-| 0 | 0 | 0 | 0 | 0 | 0 {.array}
+| 3   | 6   | 2   | 9   | 1   | 8 {.array} |
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
