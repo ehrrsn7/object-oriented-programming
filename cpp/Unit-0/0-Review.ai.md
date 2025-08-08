@@ -778,7 +778,7 @@ int array[6];
 <td style="text-align:left" class="code-line" dir="auto">
 
 | --- | -- | -- | -- |
-| 0 | 0 | 0 | 0 | 0 | 0 |  {.array}
+| 0 | 0 | 0 | 0 | 0 | 0  {.array} |
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
