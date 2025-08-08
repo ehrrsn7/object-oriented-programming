@@ -1,3 +1,7 @@
+:root {
+  --byui-blue: #4f81bd;
+}
+
 /* # Headers */
 .background {
   background-color: var(--byui-blue);
