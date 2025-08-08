@@ -131,7 +131,7 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) p:has(e
 blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) ul {
   padding-left: 1.5em;
 }
-blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) li {
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) ul li {
   list-style-type: disc;
 }
 blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) input {
@@ -154,8 +154,8 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) input {
 blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) input:focus {
   outline-color: #4f81bd40;
 }
-blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) li:hover::marker,
-blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) li::marker {
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"])ul  li:hover::marker,
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"])ul  li::marker {
   font-size: 1.2em; /* Adjust the size of the bullet */
   color: var(--byui-blue); /* Change the color of the bullet */
 }
