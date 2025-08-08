@@ -10,8 +10,6 @@ generated: "2025-08-03 16:15:30"
 > **In this Chapter:**
 > [[toc]]
 
-<div style="page-break-after: always;"></div>
-
 Procedural programming is a method of programming where the fundamental unit is a function (or procedure). Topics such as variables, loops, and functions are central to procedural programming. Object-oriented programming, on the other hand, is a methodology where the fundamental unit is an object which is built from procedural tools. It is therefore necessary to have a firm grasp of procedural programming before object-oriented programming can be learned.
 
 This section is a brief review of procedural programming. Please use this section as a gauge indicating whether you need to review some procedural topics before continuing with this book.
