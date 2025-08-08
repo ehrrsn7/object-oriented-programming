@@ -262,7 +262,7 @@ img.sue {
 }
 
 table.array td {
-  background: blue;
+  border: 1px solid black;
 }
 
 /* Base row-border class */
