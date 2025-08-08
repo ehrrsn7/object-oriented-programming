@@ -1,10 +1,10 @@
 # Appendix {.unit-1-background}
 
 | ---
-| A. Elements of Style
-| B. C++ Syntax Reference Guide
-| C. Glossary
-| D. Index
+| [A. Elements of Style](./Appendix-A-Elements-of-Style.ai.md)
+| [B. C++ Syntax Reference Guide](./Appendix-B-C++-Reference-Guide.ai.md)
+| [C. Glossary](./Appendix-C-Glossary.ai.md)
+| [D. Index](./Appendix-D-Index.ai.md)
 
 <div class="footer" style="width: 100%; margin-top: auto; text-align: left;">
    <strong>Page 336</strong>
