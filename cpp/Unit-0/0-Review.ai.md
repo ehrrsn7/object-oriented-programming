@@ -1090,7 +1090,7 @@ We can do something similar when iterating through a c-string, except we end the
 ```
 
 
-## Allocating memory
+### Allocating memory
 
 It is possible to determine the size of a buffer at run-time using dynamic memory allocation with new and delete. When doing this, it is important to check for errors by catching the bad_alloc exception:
 
