@@ -280,7 +280,7 @@ table.array td {
 
 /* Base row-border class */
 /* Base row-border class */
-[class*="row-border"] + table > tbody > tr {
+[class*="row-border"] + table > tbody > tr, tr.row-border {
   border-bottom-width: 0px;
   border-bottom-style: solid;
   border-color: black;
