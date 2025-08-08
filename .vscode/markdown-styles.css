@@ -92,6 +92,7 @@ blockquote:has(div.table-of-contents) { /* generated > [[toc]] */
   border: unset;
   padding: unset;
   line-height: 1.9em;
+  page-break-after: always;
 }
 
 div.callout {
