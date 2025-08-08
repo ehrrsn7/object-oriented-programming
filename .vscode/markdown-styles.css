@@ -92,8 +92,8 @@ blockquote:has(h2[id^="challenge"]) {
     outline: 3px solid #4f81bd;
     border-color: #4f81bd;
 }
-h2[id^="problem"],
-h2[id^="challenge"] {
+blockquote h2[id^="problem"],
+blockquote h2[id^="challenge"] {
   border-color: #4f81bd;
   color: #4f81bd;
   border-radius: .1em;
