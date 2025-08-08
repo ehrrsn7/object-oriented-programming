@@ -138,6 +138,7 @@ blockquote:has(h2[id^="challenge"]) input {
   width: 90%;
   min-width: 300px;
   line-height: 2em;
+  fill: 1;
 }
 blockquote:has(h2[id^="problem"]) input:focus,
 blockquote:has(h2[id^="challenge"]) input:focus {
