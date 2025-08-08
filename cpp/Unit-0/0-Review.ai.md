@@ -199,7 +199,7 @@ In this case, when you divide 19 by 10, the remainder is 9. Therefore, the value
 
 ![0-Review_img_1.jpeg](0-Review_images/0-Review_img_1.jpeg)
 
-### Increment `++`
+### Increment `++` {style="page-break-before: always"}
 
 There are two flavors of the increment (and decrement of course) operators: increment before the expression is evaluated and increment after. To illustrate, consider the following example:
 
