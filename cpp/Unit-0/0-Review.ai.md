@@ -1116,7 +1116,7 @@ It is possible to determine the size of a buffer at run-time using dynamic memor
 
 ## Tools {style="page-break-before: always"}
 
-A collection of tools, called libraries, are written to help us with the programming task. Some of these include the c-c-type library, the c-string library, the math library, the standard library, the string class, and the Standard Template Library (STL) vector container.
+A collection of tools, called libraries, are written to help us with the programming task. Some of these include the c-c-type library, the c-string library, the math library, the standard library, the string class, and the Standard Template Library (`STL`) vector container.
 
 ### C-c-type
 
