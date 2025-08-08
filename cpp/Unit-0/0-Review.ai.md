@@ -1184,7 +1184,7 @@ In order to use any of these functions, it is necessary to include the c-standar
 #include <cstdlib>
 ```
 
-## String class
+### String class
 
 The string class is a data type designed to make text manipulation easier. An example using the string class is the following code:
 
@@ -1202,7 +1202,7 @@ int main()
 ```
 
 
-## STL containers
+### STL containers
 
 There are a set of tools collectively called the Standard Template Library which facilitate storing groups or lists of items. Perhaps the most useful of these is the vector class. The vector class behaves the same as an array in many ways with one important difference: a vector object can change its size. Consider the following example:
 
@@ -1226,7 +1226,7 @@ int main()
       i++)
       cout << items[i] << endl;
    // the [] operator works as you expect: fetching
-// the ith item from the list
+}  // the ith item from the list
 ```
 
 The vector class will grow to accommodate as many items as is added to it through the push_back() mechanism.
@@ -1309,7 +1309,7 @@ bool g = 10 + 2 - false;
 \}
 Please see page 6 for a hint.
 
-# Problem 17
+## Problem 17
 
 What is the output?
 
@@ -1346,7 +1346,7 @@ What is the output?
 ```
 
 
-# Problem 19
+## Problem 19
 
 What is the output when the user inputs the number 5?
 
@@ -1404,7 +1404,7 @@ int main()
 
 Please see page 13 for a bint.
 
-# Problem 22-26
+## Problem 22-26
 
 Write the function prototype to:
 22. Update the bill to include the $15 \%$ tip
@@ -1443,7 +1443,7 @@ What is the output of the following code fragment?
 
 Please see page 15 for a bint.
 
-# Problem 29
+## Problem 29
 
 Given the following code:
 
@@ -1482,7 +1482,7 @@ int mystery(char * p1)
 
 ![0-Review_img_3.jpeg](0-Review_images/0-Review_img_3.jpeg)
 
-# Problem 34
+## Problem 34
 
 Write the code to find the sum of all the items in the following array of integers:
 
@@ -1520,7 +1520,7 @@ Match the declaration with the type of data:
 
 Please see page 18, 101 for a bint.
 
-# Problem 37
+## Problem 37
 
 Match the description of the statement with the code:
 
