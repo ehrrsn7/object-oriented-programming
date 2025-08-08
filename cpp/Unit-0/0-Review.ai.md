@@ -1258,9 +1258,9 @@ Please see page 8 for a bint.
 How much space in memory does each variable take?
 
 - bool value;
-- char value[256]; $\qquad$
-- char value; $\qquad$
-- long double value; $\qquad$
+- char value[256]; <input>
+- char value; <input>
+- long double value; <input>
 
 Please see page 4 for a bint.
 
