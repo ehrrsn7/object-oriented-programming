@@ -132,15 +132,6 @@ blockquote:has(h2[id^="challenge"]) li:has(input) {
   align-items: baseline;
 }
 /* Add this rule to restore the bullet points */
-blockquote:has(h2[id^="problem"]) li:has(input:hover)::before,
-blockquote:has(h2[id^="challenge"]) li:has(input:hover)::before,
-blockquote:has(h2[id^="problem"]) li:has(input)::before,
-blockquote:has(h2[id^="challenge"]) li:has(input)::before {
-  content: "•";
-  font-size: 1.2em; /* Adjust the size of the bullet */
-  color: #4f81bd; /* Change the color of the bullet */
-  margin-right: .6em; /* Creates space between the bullet and the text */
-}
 blockquote:has(h2[id^="problem"]) input,
 blockquote:has(h2[id^="challenge"]) input {
   border: unset;
@@ -158,6 +149,15 @@ blockquote:has(h2[id^="challenge"]) input {
 blockquote:has(h2[id^="problem"]) input:focus,
 blockquote:has(h2[id^="challenge"]) input:focus {
   outline-color: #4f81bd40;
+}
+blockquote:has(h2[id^="problem"]) li:has(input:hover)::before,
+blockquote:has(h2[id^="challenge"]) li:has(input:hover)::before,
+blockquote:has(h2[id^="problem"]) li:has(input)::before,
+blockquote:has(h2[id^="challenge"]) li:has(input)::before {
+  content: "•";
+  font-size: 1.2em; /* Adjust the size of the bullet */
+  color: #4f81bd; /* Change the color of the bullet */
+  margin-right: .6em; /* Creates space between the bullet and the text */
 }
 
 /* General Table Styling */
