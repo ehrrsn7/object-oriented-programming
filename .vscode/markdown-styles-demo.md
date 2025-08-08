@@ -77,7 +77,7 @@ This is the second line.
 
 > [!Note] Different methods of inserting _**newlines**_:
 > **Newlines** within a paragraph in HTML are created using `<br>`.<br>
-> In an .md file, the markdown standard solution is to use <code>&nbsp;&nbsp;</code> at the end of the line.\
+> In an .md file, the markdown standard solution is to use <code> &nbsp;&nbsp; </code>&nbsp; at the end of the line.\
 > In VS Code, you can use the `\` character at the end of a line to force a line break instead --
 > While this technically works in VS Code, standard Markdown processors may not support it, so it's less portable than using two trailing spaces or `<br>`.
 
@@ -575,7 +575,7 @@ Orange
 > - 🔄 **In Progress**
 >   - Object-oriented design
 >   - Template programming
->   - STL containers
+>   - `STL` containers
 > 
 > - 📋 **Upcoming**
 >   - Advanced templates
@@ -591,7 +591,7 @@ Orange
 > - [ ] 🔄 **In Progress**
 >   - [ ] Object-oriented design
 >   - [ ] Template programming
->   - [ ] STL containers
+>   - [ ] `STL` containers
 > 
 > - [ ] 📋 **Upcoming**
 >   - [ ] Advanced templates

@@ -1,6 +1,11 @@
+:root {
+  --byui-blue: #4f81bd;
+  --rvhs-green: #2d8d42;
+}
+
 /* # Headers */
 .background {
-  background-color: #4f81bd;
+  background-color: var(--byui-blue);
   background-image: url("./assets/header.jpg");
   background-position: right;
   background-repeat: no-repeat;
@@ -21,6 +26,33 @@
   text-shadow: 0 1px 4px rgba(0,0,0,0.7);
 }
 
+.unit-1-background {
+  background-color: var(--byui-blue);
+  background-image: url("./assets/unit-1-background.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100%;
+  color: white;
+  font-weight: 900;
+  font-size: 3em;
+  line-height: .8in;
+  min-height: .8in;
+  transform: translateY(-10%);
+  max-width: 8.5in;
+  padding: .5em;
+  padding-top: 2em;
+  margin: 0 auto;
+  text-align: right;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.7);
+  clip-path: inset(0.5in 0 0 0);
+}
+
+a {
+  color: var(--byui-blue);
+}
+
 .monospace {
   font-weight: var(--vscode-font-weight) 700;
   word-wrap: break-word;
@@ -28,24 +60,181 @@
   line-height: 25px;
 }
 
+.monospace blockquote {
+  border-color: transparent;
+  background: none;
+  margin-left: 1em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 /* Select the table that is the next sibling of h1#table-of-contents */
-#table-of-contents {
+h1#table-of-contents {
   margin: 1em 0;
 }
 
-h1#table-of-contents + table {
-  /* Add your styles here */
+h1#table-of-contents + table, /* if following # Table of Contents */
+table:has(thead.table-of-contents), /* if | {.table-of-contents} | --- ...*/
+table:has(tr.table-of-contents), /* if | --- | {.table-of-contents} ...*/
+div.table-of-contents /* generated [[toc]] */
+{
   border: 2px solid #373461;
   background: #f3f4f6;
   width: 100%;
   margin-left: 1em;
+  padding-top: 1em;
+}
+blockquote:has(div.table-of-contents) { /* generated > [[toc]] */
+  background: unset;
+  border: unset;
+  padding: unset;
+  line-height: 1.9em;
+  page-break-after: always;
 }
 
-.steel-blue-header-table {
+div.callout {
+  overflow: visible;
+}
+
+/* Select blockquotes that contain an h2 with id starting with "problem" or "challenge" */
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) {
+    padding: 1em;
+    margin: 2em 0;
+    border-top-width: 4px;
+    background: white;
+    border-radius: 6px;
+    outline: 3px solid var(--byui-blue);
+    border-color: var(--byui-blue);
+}
+blockquote h2[id^="problem"], h2[id^="challenge"], h2[id^="review"] {
+  border-color: var(--byui-blue);
+  color: var(--byui-blue);
+  border-radius: .1em;
+  border-width: 2px;
+  margin: 0;
+}
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"], h2[id^="review"]) em:last-child,
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) p:has(em:last-child) {
+  /* hints */
+  border-color: var(--byui-blue);
+  color: var(--byui-blue);
+  border-radius: .1em;
+  border-width: 2px;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+  font-size: .85em;
+}
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) ul {
+  padding-left: 1.5em;
+}
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) ul li {
+  list-style-type: disc;
+}
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) input {
+  background: #fafafa;
+  border: unset;
+  border-bottom-width: 1px;
+  border-bottom: 1px solid var(--byui-blue);
+  box-sizing: border-box;
+  color: var(--byui-blue);
+  font-weight: bold;
+  line-height: 2em;
+  margin: .3em;
+  max-width: 100vw;
+  padding: 0 .5em;
+  width: 100%;
+  box-sizing: border-box;
+  /* disabled: true; */
+  pointer-events: none;
+}
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) input:focus {
+  outline-color: #4f81bd40;
+}
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"])ul  li:hover::marker,
+blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"])ul  li::marker {
+  font-size: 1.2em; /* Adjust the size of the bullet */
+  color: var(--byui-blue); /* Change the color of the bullet */
+}
+
+/* General Table Styling */
+table.Example {
+  width: 100%;
+  border: 1px solid #aaaaaa;
+  page-break-after: always;
+  page-break-before: always;
+}
+table.Example > thead > tr > th h2 {
+  text-align: center;
+  padding: 0;
+  margin: .2em;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+table.Example > thead {
+  background: var(--byui-blue);
+  color: white;
+  text-align: center;
+  border: none;
+}
+body > div.markdown-body > table.Example > thead > tr > th,
+table.Example > tbody th {
+  border: none;
+  border-top: 1px solid white;
+}
+table.Example > tbody > tr > th {
+  writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
+  background: var(--byui-blue);
+  color: white;
+  min-width: 12px; /* Set a fixed width for the vertical header cell */
+  text-align: center;
+  vertical-align: center;
+}
+table.Example > tbody th > p {
+  writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
+  transform: rotate(180deg);  /* Flips the text to be read bottom-to-top */
+  white-space: nowrap;
+  margin: -8px;
+  padding: 2px;
+}
+table.Example > tbody th > div {
+  width: 0;
+}
+
+/* Content Cell Styling */
+table.Example > tbody > tr > td {
+    vertical-align: top;
+}
+
+div.steel-blue-header-table {
   display: hidden;
 }
 .steel-blue-header-table + table > thead {
-  background: #4f81bddd;
+  background: var(--byui-blue);
+  color: white;
+}
+
+thead.steel-blue-header-table,
+th.steel-blue-header-table ~ th,
+th.steel-blue-header-table > code,
+th.steel-blue-header-table {
+  background: var(--byui-blue);
+  color: white;
+}
+
+table.gray-box > tbody > tr,
+tbody.gray-box > tr,
+thead.gray-box > tr,
+tr.gray-box > td,
+td.gray-box,
+td.gray-box ~ td,
+th.gray-box,
+th.gray-box ~ th {
+  border: 2px solid gray;
 }
 
 /* Select the table that is the next sibling of div.steel-blue-sidebar-table */
@@ -57,7 +246,7 @@ h1#table-of-contents + table {
 .steel-blue-sidebar-table + table > thead,
 .steel-blue-sidebar-table + table > tbody > tr > :first-child,
 .steel-blue-sidebar-table + table > tbody > tr > :first-child code {
-  background: #4f81bddd;
+  background: var(--byui-blue);
   color: white;
   font-weight: bold;
 }
@@ -70,46 +259,76 @@ h1#table-of-contents + table {
   background: #d8d8d8aa;
 }
 
+img.sam {
+  width: 75px;
+  height: 75px;
+  float: right;
+  margin-left: .3em;
+  margin-bottom: .3em;
+}
+img.sue {
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+table.array td {
+  border: 1px solid black;
+}
+
+table:has(thead.uml-class-diagram) {
+  min-width: 200px;
+  border: 1px solid var(--byui-blue);
+}
+thead.uml-class-diagram {
+  background: var(--byui-blue);
+  color: white;
+}
+
 /* Base row-border class */
-[class*="row-border"] + table > tbody > tr {
+/* Base row-border class */
+[class*="row-border"] + table > tbody > tr, tr.row-border {
   border-bottom-width: 0px;
   border-bottom-style: solid;
   border-color: black;
 }
 
-.row-border-1  + table > tbody > tr:nth-child(1)  { border-bottom-width: 2px; }
-.row-border-2  + table > tbody > tr:nth-child(2)  { border-bottom-width: 2px; }
-.row-border-3  + table > tbody > tr:nth-child(3)  { border-bottom-width: 2px; }
-.row-border-4  + table > tbody > tr:nth-child(4)  { border-bottom-width: 2px; }
-.row-border-5  + table > tbody > tr:nth-child(5)  { border-bottom-width: 2px; }
-.row-border-6  + table > tbody > tr:nth-child(6)  { border-bottom-width: 2px; }
-.row-border-7  + table > tbody > tr:nth-child(7)  { border-bottom-width: 2px; }
-.row-border-8  + table > tbody > tr:nth-child(8)  { border-bottom-width: 2px; }
-.row-border-9  + table > tbody > tr:nth-child(9)  { border-bottom-width: 2px; }
-.row-border-10 + table > tbody > tr:nth-child(10) { border-bottom-width: 2px; }
-.row-border-11 + table > tbody > tr:nth-child(11) { border-bottom-width: 2px; }
-.row-border-12 + table > tbody > tr:nth-child(12) { border-bottom-width: 2px; }
-.row-border-13 + table > tbody > tr:nth-child(13) { border-bottom-width: 2px; }
-.row-border-14 + table > tbody > tr:nth-child(14) { border-bottom-width: 2px; }
-.row-border-15 + table > tbody > tr:nth-child(15) { border-bottom-width: 2px; }
-.row-border-16 + table > tbody > tr:nth-child(16) { border-bottom-width: 2px; }
-.row-border-17 + table > tbody > tr:nth-child(17) { border-bottom-width: 2px; }
-.row-border-18 + table > tbody > tr:nth-child(18) { border-bottom-width: 2px; }
-.row-border-19 + table > tbody > tr:nth-child(19) { border-bottom-width: 2px; }
-.row-border-20 + table > tbody > tr:nth-child(20) { border-bottom-width: 2px; }
-.row-border-21 + table > tbody > tr:nth-child(21) { border-bottom-width: 2px; }
-.row-border-22 + table > tbody > tr:nth-child(22) { border-bottom-width: 2px; }
-.row-border-23 + table > tbody > tr:nth-child(23) { border-bottom-width: 2px; }
-.row-border-24 + table > tbody > tr:nth-child(24) { border-bottom-width: 2px; }
-.row-border-25 + table > tbody > tr:nth-child(25) { border-bottom-width: 2px; }
-.row-border-26 + table > tbody > tr:nth-child(26) { border-bottom-width: 2px; }
-.row-border-27 + table > tbody > tr:nth-child(27) { border-bottom-width: 2px; }
-.row-border-28 + table > tbody > tr:nth-child(28) { border-bottom-width: 2px; }
-.row-border-29 + table > tbody > tr:nth-child(29) { border-bottom-width: 2px; }
-.row-border-30 + table > tbody > tr:nth-child(30) { border-bottom-width: 2px; } 
+tr.row-border,
+.row-border-1  + table > tbody > tr:nth-child(1) ,
+.row-border-2  + table > tbody > tr:nth-child(2) ,
+.row-border-3  + table > tbody > tr:nth-child(3) ,
+.row-border-4  + table > tbody > tr:nth-child(4) ,
+.row-border-5  + table > tbody > tr:nth-child(5) ,
+.row-border-6  + table > tbody > tr:nth-child(6) ,
+.row-border-7  + table > tbody > tr:nth-child(7) ,
+.row-border-8  + table > tbody > tr:nth-child(8) ,
+.row-border-9  + table > tbody > tr:nth-child(9) ,
+.row-border-10 + table > tbody > tr:nth-child(10),
+.row-border-11 + table > tbody > tr:nth-child(11),
+.row-border-12 + table > tbody > tr:nth-child(12),
+.row-border-13 + table > tbody > tr:nth-child(13),
+.row-border-14 + table > tbody > tr:nth-child(14),
+.row-border-15 + table > tbody > tr:nth-child(15),
+.row-border-16 + table > tbody > tr:nth-child(16),
+.row-border-17 + table > tbody > tr:nth-child(17),
+.row-border-18 + table > tbody > tr:nth-child(18),
+.row-border-19 + table > tbody > tr:nth-child(19),
+.row-border-20 + table > tbody > tr:nth-child(20),
+.row-border-21 + table > tbody > tr:nth-child(21),
+.row-border-22 + table > tbody > tr:nth-child(22),
+.row-border-23 + table > tbody > tr:nth-child(23),
+.row-border-24 + table > tbody > tr:nth-child(24),
+.row-border-25 + table > tbody > tr:nth-child(25),
+.row-border-26 + table > tbody > tr:nth-child(26),
+.row-border-27 + table > tbody > tr:nth-child(27),
+.row-border-28 + table > tbody > tr:nth-child(28),
+.row-border-29 + table > tbody > tr:nth-child(29),
+.row-border-30 + table > tbody > tr:nth-child(30) { border-bottom-width: 2px; }
 
 /* Obsidian-style callout variables */
-/* 
+/*
 Callout styles: (already defined in extension)
 --callout-border-width: 0px;
 --callout-border-opacity: 0.25;
@@ -135,7 +354,7 @@ Callout styles: (already defined in extension)
 --callout-tip: var(--color-cyan-rgb);
 --callout-todo: var(--color-blue-rgb);
 --callout-warning: var(--color-orange-rgb);
---callout-quote: 158, 158, 158; 
+--callout-quote: 158, 158, 158;
 */
 
 /* adjust the callout styles slightly for my preference */

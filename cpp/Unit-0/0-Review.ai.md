@@ -1,15 +1,16 @@
 ---
-title: 0-Review
-source: AI-Generated Draft (Converted from PDF using Mistral OCR)
-original_file: 0-Review.pdf
-generated: 2025-08-03 16:15:30
+ai_generated: true
+conversion: "Converted from PDF using Mistral OCR"
+original_file: "0-Review.pdf"
+generated: "2025-08-03 16:15:30"
 ---
 
-# 0-Review {.background}
+# Review {.background}
 
----
+> **In this Chapter:**
+> [[toc]]
 
-# Review
+<div style="page-break-after: always;"></div>
 
 Procedural programming is a method of programming where the fundamental unit is a function (or procedure). Topics such as variables, loops, and functions are central to procedural programming. Object-oriented programming, on the other hand, is a methodology where the fundamental unit is an object which is built from procedural tools. It is therefore necessary to have a firm grasp of procedural programming before object-oriented programming can be learned.
 
@@ -32,7 +33,7 @@ The first generation of computers could only work with integers. A few decades l
 | `double` | Larger numbers with decimals | $8$ | $\approx 10^{-308}$ to $10^{308}$, accurate to 15 digits |
 | `long double` | Huge Numbers | $16$ | $\approx 10^{-4932}$ to $10^{4932}$, accurate to 19 digits |
 
-## Variable declarations
+### Variable declarations
 
 To use one of these data types, it is necessary to declare a variable. The syntax for declaring a variable is:
 <DataType> <variableName>;
@@ -57,7 +58,7 @@ const float PI = 3.14159;
 
 Observe how we make constant variables ALL_CAPS with an underscore separating the words. This is done for all constant variables except for function parameters.
 
-# Data conversion
+## Data conversion
 
 When converting a value from one data type to another, the compiler inserts code into your program to make the conversion. When converting from a relatively small data type like a char into a larger one like an int, there is no data loss from the conversion. The entire range for a char fits within that of an int.
 
@@ -116,7 +117,7 @@ Of these four, the most common is the `static_cast`. You can use it interchangea
 > ![Sam](../../.vscode/assets/sam.png){width=50 align=right}
 > Though `static_cast<int>(value)`{.tldr} is more of a C++ way of doing a cast than the C way of doing things `(int)value`{.tldr}, they do the same thing. In this text and in all the examples, we will use the C casting convention simply because it requires less typing.
 
-# Expressions
+## Expressions
 
 An expression is an equation that is evaluated to a single value. This equation can be in the form of a mathematical expression, the result of a function call, or any combination thereof. Evaluation of these expressions occurs in the following order:
 
@@ -159,11 +160,11 @@ The order of operations is:
 | 10 | Assignment, etc. | `=` `+=` `*=` `-=` `/=` ` %=` | `value += 4` |
 | 11 | Conditional expression (ternary operator) | `?` `:` | `passed ? "happy" : "sad"` |
 
-# Arithmetic operators
+## Arithmetic operators
 
 Most of the arithmetic operators such as addition and multiplication work the same in `C++` as they do in algebra. There are a few exceptions: integer division, modulus, and the increment operator.
 
-## Division `/`
+### Division `/`
 
 Floating point division (`/`) behaves the way it does in mathematics. Integer division, on the other hand, does not. The evaluation of integer division is always an integer. In each case, the remainder is thrown away. To illustrate this, consider the following:
 
@@ -175,7 +176,7 @@ Floating point division (`/`) behaves the way it does in mathematics. Integer di
 ```
 In this case, the output is _not_ 1.9. The variable `answer` cannot store a floating point value. When 19 is divided by 10, the result is 1 with a remainder of 9. Therefore, `answer` will get the value 1 and the remainder is discarded.
 
-## Modulus `%`
+### Modulus `%`
 
 Recall that integer division drops the remainder of the division problem. What if you want to know the remainder? This is the purpose of the modulus operator (`%`). Consider the following code:
 
@@ -196,9 +197,9 @@ In this case, when you divide 19 by 10, the remainder is 9. Therefore, the value
 }
 ```
 
-![0-Review_img_1.jpeg](0-Review_images/0-Review_img_1.jpeg)
+![0-Review_img_1.jpeg](0-Review_images/0-Review_img_1.jpeg){width="400px"}
 
-# Increment `++`
+### Increment `++`
 
 There are two flavors of the increment (and decrement of course) operators: increment before the expression is evaluated and increment after. To illustrate, consider the following example:
 
@@ -218,11 +219,11 @@ In this example, we increment the value of age _after_ the expression is evaluat
 }                          // is evaluated after age is incremented
 ```
 
-## Streams
+## Streams {style="page-break-before: always"}
 
 The standard tools to perform text input and output with `C++` is with the standard stream libraries. This includes writing text to the screen and accepting text from the keyboard as well as interacting with files.
 
-## Output
+### Output
 
 Text output on the screen is performed with the `cout` object. You can setup your program to write text to the screen by including the `iostream` library and using the standard namespace.
 
@@ -262,7 +263,7 @@ Note that `setw()` needs the `iomanip` library:
 #include <iomanip>
 ```
 
-# Input
+### Input
 
 Input is primarily accomplished through the `cin` object and the extraction `>>` operator.
 
@@ -293,7 +294,7 @@ Finally, it is possible to fetch only a single character from the input stream, 
 }                          //    letter, digit, symbol, or even a space
 ```
 
-## File
+### File
 
 To read or write from a file, it is necessary to use the `fstream` library:
 
@@ -336,18 +337,15 @@ void writeNumber(const char * filename, int data)
 }
 ```
 
-# Loops
+## Loops {style="page-break-before: always"}
 
 Loops are mechanisms to allow a program to execute the same section of code more than once. There are three types of loops in C++: WHILE, DO-WHILE, and FOR:
 
-<div class="steel-blue-sidebar-table" style="display:none"></div>
+| while  | do-while  | for {.steel-blue-header-table} |
+| :-- | :- | :-- |
+| A WHILE loop is good for repeating through a given block of code multiple times. $$ \begin{array}{l} \texttt{while (x > 0)} \\ \texttt{\{ } \\ \texttt{\ \ \ x--;} \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\}} \end{array} $$ | Same as WHILE except we always execute the body of the loop at least once. $$ \begin{array}{l} \texttt{do} \\ \texttt{\{ } \\ \texttt{\ \ \ x--;} \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\} while (x > 0);} \end{array} $$ | Designed for counting, usually meaning we know where we start, where we end and what changes. $$ \begin{array}{l} \texttt{for (x = 10; x > 0; x--)} \\ \texttt{\{ } \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\}} \end{array} $$  |
 
-|  |  while  | do-while  | for  |
-| --- | :-- | :- | :-- |
-| | | | |
-|  | A WHILE loop is good for repeating through a given block of code multiple times. $$ \begin{array}{l} \texttt{while (x > 0)} \\ \texttt{\{ } \\ \texttt{\ \ \ x--;} \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\}} \end{array} $$ | Same as WHILE except we always execute the body of the loop at least once. $$ \begin{array}{l} \texttt{do} \\ \texttt{\{ } \\ \texttt{\ \ \ x--;} \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\} while (x > 0);} \end{array} $$ | Designed for counting, usually meaning we know where we start, where we end and what changes. $$ \begin{array}{l} \texttt{for (x = 10; x > 0; x--)} \\ \texttt{\{ } \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\}} \end{array} $$ |
-
-## While
+### While
 
 The simplest loop is the WHILE statement. The WHILE loop will continue executing the body of the loop until the controlling Boolean expression evaluates to `false`. The syntax is:
 
@@ -380,7 +378,7 @@ char getGrade()
 }
 ```
 
-# Do-while
+### Do-while
 
 The DO-WHILE loop is the same as the WHILE loop except the controlling Boolean expression is checked after the body of the loop is executed. The syntax is:
 
@@ -408,7 +406,7 @@ An example of the DO-WHILE loop in action is to verify that the user's age is gr
 > ![Sue](../../.vscode/assets/sue.png){width=50 align=right}
 > We commonly use WHILE and DO-WHILE loops in event-controlled loops, a loop that continues until a given event occurs. With these loops, the number of repetitions is typically not known before the program starts.
 
-## For
+### For
 
 The final loop is designed for counting. The syntax is:
 ```cpp
@@ -422,7 +420,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > <div class="monospace quote-style" style="padding: 1em">
 >
 >  for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warning}; `count++`{.increment .success})\
->  &nbsp;&nbsp;&nbsp;cout << count << endl;
+>   $\quad $\quad $\quadcout << count << endl;
 >
 > </div>
 
@@ -486,7 +484,7 @@ While the syntax of the FOR loop may look quite complex, it has the three things
 > - What do you count by?
 > - What happens each iteration?
 
-## Functions
+## Functions {style="page-break-before: always"}
 
 A function is a small part of a larger program. In fact, it is the fundamental unit of organization for a procedural program (the subject of CS 124). When designing writing a program with functions, three things need to be taken into account: modularization, the syntax of a function, and parameter passing.
 
@@ -551,8 +549,8 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
 > {\
-> &nbsp;&nbsp;&nbsp;`<statement list>`{.success}\
-> &nbsp;&nbsp;&nbsp;return `<return value>`{.warning};\
+>  $\quad $\quad $\quad`<statement list>`{.success}\
+>  $\quad $\quad $\quadreturn `<return value>`{.warning};\
 > }
 >
 > </div>
@@ -600,7 +598,7 @@ Calling a function occurs by naming the function and providing the required para
 ```
 
 
-## Parameters
+### Parameters
 
 Parameter passing is the process of sending data between functions. The programmer is able to specify the parameters needed in a function with a comma-separated list. For example, consider the scenario where the programmer is sending a row and column coordinate to a display function. The display function will need to accept two parameters.
 
@@ -626,7 +624,7 @@ For this function to be called, two values need to be provided.
 
 Parameter matchup occurs by order, not by name.
 
-There are two ways to send data between functions: pass-by-value and pass-by-reference. Pass-by-reference" is the process of indicating to the compiler that a given parameter variable is shared between the caller and the callee. We use the ampersand \& to indicate the parameter is pass-by-reference.
+There are two ways to send data between functions: pass-by-value and pass-by-reference. Pass-by-reference" is the process of indicating to the compiler that a given parameter variable is shared between the caller and the callee. We use the ampersand `&` to indicate the parameter is pass-by-reference.
 
 <table>
 <thead>
@@ -696,7 +694,7 @@ void getCoordinates(int & row, int & column)
 }
 ```
 
-## Arrays
+## Arrays {style="page-break-before: always"}
 
 In the simplest form, an array is a "bucket of variables." Rather than having many variables to represent the values in a collection, we can have a single variable representing the bucket. There are two main tasks we do with arrays: create lists of data, and looking up values from a table. In call cases, it is necessary to know how to declare an array, reference individual items, and to pass arrays as parameters.
 
@@ -707,7 +705,7 @@ A normal variable declaration asks the compiler to reserve the necessary amount 
 <div class="monospace">
 
 {\
-&nbsp;&nbsp;&nbsp;`int`{.tip-style} `grades`{.info-style}[`10`{.error-style}];\
+ $\quad $\quad $\quad`int`{.tip-style} `grades`{.info-style}[`10`{.error-style}];\
 }
 
 </div>
@@ -746,10 +744,8 @@ A normal variable declaration asks the compiler to reserve the necessary amount 
 
 It is also possible to initialize an array at declaration time:
 
-<div class="steel-blue-header-table"></div>
-
-<table class="code-line" dir="auto">
-<thead class="code-line" dir="auto">
+<table>
+<thead class="steel-blue-header-table" dir="auto">
 <tr class="code-line" dir="auto">
 <th style="min-width: 190px; text-align:center" class="code-line" dir="auto">
 
@@ -779,7 +775,8 @@ int array[6];
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-7
+| ---
+| ? | ? | ? | ? | ? | ? {.array}
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -801,7 +798,8 @@ int array[6] =
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-6
+| ---
+| 3   | 6   | 2   | 9   | 1   | 8 {.array} |
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -823,7 +821,8 @@ int array[6] =
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-
+| ---
+| 3   | 6   | 0   | 0   | 0   | 0 {.array} |
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -845,7 +844,8 @@ int array[] =
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-6
+| ---
+| 3   | 6   | 2   | 9   | 1   | 8 {.array}
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -864,7 +864,8 @@ int array[6] = {};
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-6
+| ---
+| 0 | 0 | 0 | 0 | 0 | 0 {.array}
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -936,7 +937,7 @@ When referencing a multi-dimensional array, it is important to specify each of t
 
 Observe how we add an assert immediately before we reference the items in the grid. Though we will learn more about asserts in Chapter 1.1, the important thing to note here is that there is nothing in the C++ language to prevent the programmer from accessing memory outside the valid range of the array. It is up to the programmer to provide those checks!
 
-# Passing an array as a parameter
+### Passing an array as a parameter
 
 Passing arrays as parameters is quite different than passing other data types. The reason for this is a bit subtle. When passing an integer, a copy of the value is sent to the callee. When passing an array, however, the data itself does not move. Instead, only the address of the data is sent. This means, in effect, that passing arrays is always pass-by-reference.
 
@@ -995,11 +996,11 @@ int main()
 }
 ```
 
-# Pointers
+## Pointers {style="page-break-before: always"}
 
 A pointer is a variable that does not hold data, but rather an address. All pointers have a data type, namely "a pointer to an integer" or "a pointer to a character." Arrays and c-strings are pointer variables in `C++`.
 
-## Pointer syntax
+### Pointer syntax
 
 When declaring a normal data variable, it is necessary to specify the data type.
 
@@ -1041,7 +1042,7 @@ We can always retrieve the data from a given address using the dereference opera
 ```
 
 
-## Pointer arithmetic
+### Pointer arithmetic
 
 An array is a pointer to a block of memory. Consider the following code:
 
@@ -1055,7 +1056,8 @@ An array is a pointer to a block of memory. Consider the following code:
 ```
 
 This corresponds to:
-![0-Review_img_2.jpeg](0-Review_images/0-Review_img_2.jpeg)
+
+![0-Review_img_2.jpeg](0-Review_images/0-Review_img_2.jpeg){width="300px"}
 
 It is possible to iterate through all the elements in an array by incrementing a pointer:
 
@@ -1085,7 +1087,7 @@ We can do something similar when iterating through a c-string, except we end the
 ```
 
 
-# Allocating memory
+### Allocating memory
 
 It is possible to determine the size of a buffer at run-time using dynamic memory allocation with new and delete. When doing this, it is important to check for errors by catching the bad_alloc exception:
 
@@ -1112,11 +1114,11 @@ It is possible to determine the size of a buffer at run-time using dynamic memor
 }
 ```
 
-# Tools
+## Tools {style="page-break-before: always"}
 
-A collection of tools, called libraries, are written to help us with the programming task. Some of these include the c-c-type library, the c-string library, the math library, the standard library, the string class, and the Standard Template Library (STL) vector container.
+A collection of tools, called libraries, are written to help us with the programming task. Some of these include the c-c-type library, the c-string library, the math library, the standard library, the string class, and the Standard Template Library (`STL`) vector container.
 
-## C-c-type
+### C-c-type
 
 The c-c-type library allows the programmer to test the properties of characters. Examples include:
 
@@ -1143,7 +1145,7 @@ In order to use any of these functions, it is necessary to include the cc-type l
 ```
 
 
-## C-string
+### C-string
 
 The c-string library allows the programmer to perform common operations with c-strings, including:
 
@@ -1160,7 +1162,7 @@ In order to use any of these functions, it is necessary to include the c-string 
 ```
 
 
-## C-standard-library
+### C-standard-library
 
 The c-standard-library is a virtual grab-bag of helpful functions. Some of the most common are:
 
@@ -1175,10 +1177,11 @@ int abs(int); // returns the absolute value of a number
 
 In order to use any of these functions, it is necessary to include the c-standard-library:
 
-[^0]
-[^0]:    \#include <cstdlib>
+```cpp
+#include <cstdlib>
+```
 
-# String class
+### String class
 
 The string class is a data type designed to make text manipulation easier. An example using the string class is the following code:
 
@@ -1196,7 +1199,7 @@ int main()
 ```
 
 
-## STL containers
+### `STL` containers
 
 There are a set of tools collectively called the Standard Template Library which facilitate storing groups or lists of items. Perhaps the most useful of these is the vector class. The vector class behaves the same as an array in many ways with one important difference: a vector object can change its size. Consider the following example:
 
@@ -1212,7 +1215,7 @@ int main()
       int number;
       cout << "Enter a number: ":
       cin >> number;
-      items.push_back(number); // the push_back() method allows us to add an
+      items.push_back(number); // the `push_back()` method allows us to add an
    }
    // display the results
    for (int i = 0;
@@ -1220,326 +1223,322 @@ int main()
       i++)
       cout << items[i] << endl;
    // the [] operator works as you expect: fetching
-// the ith item from the list
+}  // the ith item from the list
 ```
 
-The vector class will grow to accommodate as many items as is added to it through the push_back() mechanism.
-
-# Problem 1 - 6
-
-For each of the following, indicate where the parentheses go to disambiguate the order of operations.
-
-1. a \&\& b || c \&\& d
-2. c ++ < ! $4+2$
-3. a || b \&\& c + d * e
-4. a += * b ++ * 7 || ! c + 5 > 2
-5. 1 < x < 10
-
-Please see page 6 for a bint.
-
-## Problem 6
-
-If the tab stops are set to 8 spaces, what will be the output of the following code?
-
-```cpp
-{
-   cout << "\taa\n";
-   cout << "aa\taa\n";
-}
-```
-
-Please see page 8 for a bint.
-
-## Problem 7
-
-How much space in memory does each variable take?
-
-- bool value;
-- char value[256]; $\qquad$
-- char value; $\qquad$
-- long double value; $\qquad$
-
-Please see page 4 for a bint.
-
-## Problem 8
-
-What is the value of a at the end of execution?
-
-$$
-\text { float } a=1.0+2 * 3 / 4
-$$
-
-## Problem 9
-
-What is the value of $b$ at the end of execution?
-
-$$
-\text { int } b=(\text { float }) 1 / 4 * 10
-$$
-
-Please see page 5 for a bint.
-
-What are the values of the following variables?
-\{
-
-```cpp
-bool a = false && true || false && true;
-```
-
-10.
-
-bool b = false || true \&\& false || true;
-11.
-bool c = true \&\& true \&\& true \&\& false;
-12.
-bool d = false || false || false || true;
-13.
-bool e = 100 > 90 > 80;
-14.
-bool f = 90 < 80 || 70;
-15.
-bool g = 10 + 2 - false;
-16.
-\}
-Please see page 6 for a hint.
-
-# Problem 17
-
-What is the output?
-
-```cpp
-char value = 'a';
-int main()
-{
-   char value = 'b';
-   if (true)
-   {
-      char value = 'c';
-   }
-   cout << value << endl;
-   return 0;
-}
-```
-
-What is the output?
-
-```cpp
-{
-   bool failedClass = false;
-   int grade = 95;
-   // pass or fail?
-   if (grade < 60);
-      failedClass = true;
-   // output grade
-   cout << grade << "%\n";
-   // output status
-   if (failedClass)
-      cout << "You need to take "
-         << "the class again\n";
-}
-```
-
-
-# Problem 19
-
-What is the output when the user inputs the number 5?
-
-```cpp
-{
-   int number;
-   // prompt for number
-   cout << "number? ";
-   cin >> number;
-   // crazy math
-   if (number = 0)
-      number += 2;
-   // output
-   cout << number << endl;
-}
-```
-
-
-## Problem 20
-
-What is the output?
-
-```cpp
-void weird(int a, int & b)
-{
-   a = 1;
-   b = 2;
-}
-int main()
-{
-   int a = 3;
-   int b = 4;
-   weird(a, b);
-   cout << a * b << endl;
-   return 0;
-}
-```
-
-What is the output?
-
-```cpp
-int setZero()
-{
-   int value = 0;
-   return value;
-}
-int main()
-{
-   int value = 10;
-   setZero();
-   cout << value << endl;
-   return 0;
-}
-```
-
-Please see page 13 for a bint.
-
-# Problem 22-26
-
-Write the function prototype to:
-22. Update the bill to include the $15 \%$ tip
-23. Display the price of a used car
-24. Convert meters to feet
-25. Prompt the user for his name
-26. Display the contents of a Sudoku board
-
-Please see page 14 for a bint.
-
-## Problem 27
-
-What is the output:
-
-```cpp
-{
-   int a[] = {2, 4, 6, 8, 10};
-   int b = 0;
-   for (int c = 1; c < 4; c++)
-      b += a[c];
-   cout << b << endl;
-}
-```
-
-Please see page 15 for a bint.
-
-What is the output of the following code fragment?
-
-```cpp
-{
-   int array[2][2] =
-      { {3, 4}, {1, 2} };
-   cout << array[1][0];
-}
-```
-
-Please see page 15 for a bint.
-
-# Problem 29
-
-Given the following code:
-
-```cpp
-{
-   int array[] = {7, 14, 21, 28};
-}
-```
-
-How can you output the $3^{\text {rd }}$ item in the list without using the square bracket operator []?
-Please see page 18 for a bint.
-
-## Problem 30-33
-
-Describe what each of the following functions do:
-
-```cpp
-void mystery(char * p)
-{
-   while (*p)
-      cout << *(p++);
-}
-void mystery(char * p1, char * p2)
-{
-   while (*(p1++) = *(p2++))
-      ;
-}
-int mystery(char * p1)
-{
-   char * p2 = p1;
-   while (*(p2++))
-      ;
-   return p2 - p1 - 1;
-}
-```
-
-![0-Review_img_3.jpeg](0-Review_images/0-Review_img_3.jpeg)
-
-# Problem 34
-
-Write the code to find the sum of all the items in the following array of integers:
-
-```cpp
-{
-   int array[10] = {5, 4, 7, 3, 5, 9, 8, 1, 3, 2};
-   int sum = 0;
-}
-```
-
-Please see page 7 for a bint.
-
-## Problem 35
-
-Write the code to display the contents of a string, one character on each line:
-
-```cpp
-void display(const char * text)
-{
-}
-```
-
-Please see page 7 for a bint.
-
-## Problem 36
-
-Match the declaration with the type of data:
-
-| int \& a; | Pointer to an integer |
-| :-- | :-- |
-| int a; | Error |
-| int @ a; | Pointer to a pointer to an integer |
-| int * a; | A reference to an integer |
-| int ** a; | An integer variable |
-
-Please see page 18, 101 for a bint.
-
-# Problem 37
-
-Match the description of the statement with the code:
-
-| int * p = new int; |
-| :-- |
-| int * p = new int *; |
-| int * p = new int(7); |
-| int * p = new int(int); |
-| int * p = new int[7][7]; |
-| int * p = new int[7] |
-
-Allocate a pointer to a function
-Allocate an array of 7 integers
-Allocate an integer and leave the memory un-initialized
-Error
-Allocate an integer and initialize the memory to 7
-Allocate a 2-dimensional array: $7 \times 7$
-Please see page 19 for a hint.
-
-## Problem 38
-
-Fibonacci is a sequence of numbers where each number is the sum of the previous two:
-
-$$
-F(n):= \begin{cases}0 & \text { if } n=0 \\ 1 & \text { if } n=1 \\ F(n-1)+F(n-2) & \text { if } n>1\end{cases}
-$$
-
-Write the code to generate the first 100 numbers in the Fibonacci sequence
+The vector class will grow to accommodate as many items as is added to it through the `push_back()` mechanism.
+
+> ## Problem 1 - 6
+> 
+> For each of the following, indicate where the parentheses go to disambiguate the order of operations.
+> 
+> 1. a && b || c && d
+> 2. c ++ < ! $4+2$
+> 3. a || b && c + d * e
+> 4. a += * b ++ * 7 || ! c + 5 > 2
+> 5. 1 < x < 10
+> 
+> *Please see page 6 for a hint.*
+> 
+> ## Problem 6
+> 
+> If the tab stops are set to 8 spaces, what will be the output of the following code?
+> 
+> ```cpp
+> {
+>    cout << "\taa\n";
+>    cout << "aa\taa\n";
+> }
+> ```
+> 
+> *Please see page 8 for a hint.*
+> 
+> ## Problem 7
+> 
+> How much space in memory does each variable take?
+> 
+> - bool value; <input>
+> - char value[256]; <input>
+> - char value; <input>
+> - long double value; <input>
+> 
+> *Please see page 4 for a hint.*
+> 
+> ## Problem 8
+> 
+> What is the value of a at the end of execution?
+> 
+> $$
+> \text { float } a=1.0+2 * 3 / 4
+> $$
+> 
+> ## Problem 9
+> 
+> What is the value of $b$ at the end of execution?
+> 
+> $$
+> \text { int } b=(\text { float }) 1 / 4 * 10
+> $$
+> 
+> *Please see page 5 for a hint.*
+> 
+> What are the values of the following variables?
+> \{
+> 
+> ```cpp
+> bool a = false && true || false && true;
+> ```
+> 
+> | ---
+> | 10.
+> | 11. `bool b = false || true && false || true;` | <input>
+> | 12. `bool c = true && true && true && false;` | <input>
+> | 13. `bool d = false || false || false || true;` | <input>
+> | 14. `bool e = 100 > 90 > 80;` | <input>
+> | 15. `bool f = 90 < 80 || 70;` | <input>
+> | 16. `bool g = 10 + 2 - false;` | <input>
+> 
+> \}
+> 
+> *Please see page 6 for a hint.*
+> 
+> ## Problem 17
+> 
+> What is the output?
+> 
+> ```cpp
+> char value = 'a';
+> int main()
+> {
+>    char value = 'b';
+>    if (true)
+>    {
+>       char value = 'c';
+>    }
+>    cout << value << endl;
+>    return 0;
+> }
+> ```
+> 
+> What is the output?
+> 
+> ```cpp
+> {
+>    bool failedClass = false;
+>    int grade = 95;
+>    // pass or fail?
+>    if (grade < 60);
+>       failedClass = true;
+>    // output grade
+>    cout << grade << "%\n";
+>    // output status
+>    if (failedClass)
+>       cout << "You need to take "
+>          << "the class again\n";
+> }
+> ```
+> 
+> 
+> ## Problem 19
+> 
+> What is the output when the user inputs the number 5?
+> 
+> ```cpp
+> {
+>    int number;
+>    // prompt for number
+>    cout << "number? ";
+>    cin >> number;
+>    // crazy math
+>    if (number = 0)
+>       number += 2;
+>    // output
+>    cout << number << endl;
+> }
+> ```
+> 
+> 
+> ## Problem 20
+> 
+> What is the output?
+> 
+> ```cpp
+> void weird(int a, int & b)
+> {
+>    a = 1;
+>    b = 2;
+> }
+> int main()
+> {
+>    int a = 3;
+>    int b = 4;
+>    weird(a, b);
+>    cout << a * b << endl;
+>    return 0;
+> }
+> ```
+> 
+> What is the output?
+> 
+> ```cpp
+> int setZero()
+> {
+>    int value = 0;
+>    return value;
+> }
+> int main()
+> {
+>    int value = 10;
+>    setZero();
+>    cout << value << endl;
+>    return 0;
+> }
+> ```
+> 
+> *Please see page 13 for a hint.*
+> 
+> ## Problem 22 - 26
+> 
+> Write the function prototype to:
+> 22. Update the bill to include the $15 \%$ tip
+> 23. Display the price of a used car
+> 24. Convert meters to feet
+> 25. Prompt the user for his name
+> 26. Display the contents of a Sudoku board
+> 
+> *Please see page 14 for a hint.*
+> 
+> ## Problem 27
+> 
+> What is the output:
+> 
+> ```cpp
+> {
+>    int a[] = {2, 4, 6, 8, 10};
+>    int b = 0;
+>    for (int c = 1; c < 4; c++)
+>       b += a[c];
+>    cout << b << endl;
+> }
+> ```
+> 
+> *Please see page 15 for a hint.*
+> 
+> What is the output of the following code fragment?
+> 
+> ```cpp
+> {
+>    int array[2][2] =
+>       { {3, 4}, {1, 2} };
+>    cout << array[1][0];
+> }
+> ```
+> 
+> *Please see page 15 for a hint.*
+> 
+> ## Problem 29
+> 
+> Given the following code:
+> 
+> ```cpp
+> {
+>    int array[] = {7, 14, 21, 28};
+> }
+> ```
+> 
+> How can you output the $3^{\text {rd }}$ item in the list without using the square bracket operator []?
+> *Please see page 18 for a hint.*
+> 
+> ## Problem 30 - 33
+> 
+> Describe what each of the following functions do:
+> 
+> ```cpp
+> void mystery(char * p)
+> {
+>    while (*p)
+>       cout << *(p++);
+> }
+> void mystery(char * p1, char * p2)
+> {
+>    while (*(p1++) = *(p2++))
+>       ;
+> }
+> int mystery(char * p1)
+> {
+>    char * p2 = p1;
+>    while (*(p2++))
+>       ;
+>    return p2 - p1 - 1;
+> }
+> ```
+> 
+> ![0-Review_img_3.jpeg](0-Review_images/0-Review_img_3.jpeg)
+> 
+> ## Problem 34
+> 
+> Write the code to find the sum of all the items in the following array of integers:
+> 
+> ```cpp
+> {
+>    int array[10] = {5, 4, 7, 3, 5, 9, 8, 1, 3, 2};
+>    int sum = 0;
+> }
+> ```
+> 
+> *Please see page 7 for a hint.*
+> 
+> ## Problem 35
+> 
+> Write the code to display the contents of a string, one character on each line:
+> 
+> ```cpp
+> void display(const char * text)
+> {
+> }
+> ```
+> 
+> *Please see page 7 for a hint.*
+> 
+> ## Problem 36
+> 
+> Match the declaration with the type of data:
+> 
+> | int & a; | Pointer to an integer |
+> | :-- | :-- |
+> | int a; | Error |
+> | int @ a; | Pointer to a pointer to an integer |
+> | int * a; | A reference to an integer |
+> | int ** a; | An integer variable |
+> 
+> *Please see page 18, 101 for a hint.*
+> 
+> ## Problem 37
+> 
+> Match the description of the statement with the code:
+> 
+> | int * p = new int; |
+> | :-- |
+> | int * p = new int *; |
+> | int * p = new int(7); |
+> | int * p = new int(int); |
+> | int * p = new int[7][7]; |
+> | int * p = new int[7] |
+> 
+> Allocate a pointer to a function
+> Allocate an array of 7 integers
+> Allocate an integer and leave the memory un-initialized
+> Error
+> Allocate an integer and initialize the memory to 7
+> Allocate a 2-dimensional array: $7 \times 7$
+> *Please see page 19 for a hint.*
+> 
+> ## Problem 38
+> 
+> Fibonacci is a sequence of numbers where each number is the sum of the previous two:
+> 
+> $$
+> F(n):= \begin{cases}0 & \text { if } n=0 \\ 1 & \text { if } n=1 \\ F(n-1)+F(n-2) & \text { if } n>1\end{cases}
+> $$
+> 
+> Write the code to generate the first 100 numbers in the Fibonacci sequence

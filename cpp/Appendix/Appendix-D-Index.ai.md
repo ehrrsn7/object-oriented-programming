@@ -1,12 +1,11 @@
-# Appendix-D-Index
-
-> **AI-Generated Draft** - Converted from PDF using Mistral OCR
-> 
-> Original file: `Appendix-D-Index.pdf`
-> 
-> Generated: 2025-08-03 16:15:20
-
 ---
+ai_generated: true
+conversion: "Converted from PDF using Mistral OCR"
+original_file: "Appendix-D-Index.pdf"
+generated: "2025-08-03 16:15:20"
+---
+
+# Appendix-D-Index
 
 # D. Index 
 
@@ -123,7 +122,7 @@ operator ..... $99,173,201,378$
 ! not ..... 183, 186, 188, 196, 202
 != not equals ..... 184, 186, 188, 196, 202, 212
 $\%$ modulus ..... $177,186,188,196,202$
-\&\& and ..... 207, 213
+&& and ..... 207, 213
 () function call ..... 206, 212
 * multiplication ..... $177,186,188,196,202$
 * = multiply by ..... $179,186,188,196,202$
@@ -177,7 +176,7 @@ source file ..... 87,137
 standard template library ..... 341
 static ..... $164,165,381$
 static_cast ..... 5
-STL ..... 381, See standard template library
+`STL` ..... 381, See standard template library
 strings ..... $23,360,381$
 c-strings ..... 368
 struct ..... 74

@@ -1,19 +1,19 @@
-# Appendix-A-Elements-of-Style
-
-> **AI-Generated Draft** - Converted from PDF using Mistral OCR
-> 
-> Original file: `Appendix-A-Elements-of-Style.pdf`
-> 
-> Generated: 2025-08-03 10:31:23
-
 ---
+ai_generated: true
+conversion: "Converted from PDF using Mistral OCR"
+original_file: "Appendix-A-Elements-of-Style.pdf"
+generated: "2025-08-03 10:31:23"
+---
+
+# Appendix-A-Elements-of-Style
 
 # Appendix 
 
-A. Elements of Style ..... 337
-B. C++ Syntax Reference Guide ..... 342
-C. Glossary ..... 346
-D. Index ..... 361
+| ---
+| [A. Elements of Style](.) {.table-of-contents}
+| [B. C++ Syntax Reference Guide](./Appendix-B-C++-Reference-Guide.ai.md)
+| [C. Glossary](./Appendix-C-Glossary.ai.md)
+| [D. Index](./Appendix-D-Index.ai.md)
 
 # Appendix 
 
