@@ -261,8 +261,7 @@ img.sue {
   margin-bottom: 1em;
 }
 
-table.array,
-body > div > table:nth-child(148) > tbody > tr:nth-child(1) > td:nth-child(2) > table {
+table.array td {
   background: blue;
 }
 
