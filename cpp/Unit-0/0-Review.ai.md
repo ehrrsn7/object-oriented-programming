@@ -487,7 +487,7 @@ While the syntax of the FOR loop may look quite complex, it has the three things
 > - What do you count by?
 > - What happens each iteration?
 
-## Functions
+## Functions {style="page-break-before: always"}
 
 A function is a small part of a larger program. In fact, it is the fundamental unit of organization for a procedural program (the subject of CS 124). When designing writing a program with functions, three things need to be taken into account: modularization, the syntax of a function, and parameter passing.
 
@@ -697,7 +697,7 @@ void getCoordinates(int & row, int & column)
 }
 ```
 
-## Arrays
+## Arrays {style="page-break-before: always"}
 
 In the simplest form, an array is a "bucket of variables." Rather than having many variables to represent the values in a collection, we can have a single variable representing the bucket. There are two main tasks we do with arrays: create lists of data, and looking up values from a table. In call cases, it is necessary to know how to declare an array, reference individual items, and to pass arrays as parameters.
 
@@ -999,7 +999,7 @@ int main()
 }
 ```
 
-## Pointers
+## Pointers {style="page-break-before: always"}
 
 A pointer is a variable that does not hold data, but rather an address. All pointers have a data type, namely "a pointer to an integer" or "a pointer to a character." Arrays and c-strings are pointer variables in `C++`.
 
@@ -1117,7 +1117,7 @@ It is possible to determine the size of a buffer at run-time using dynamic memor
 }
 ```
 
-## Tools
+## Tools {style="page-break-before: always"}
 
 A collection of tools, called libraries, are written to help us with the programming task. Some of these include the c-c-type library, the c-string library, the math library, the standard library, the string class, and the Standard Template Library (STL) vector container.
 
