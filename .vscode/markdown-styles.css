@@ -281,6 +281,7 @@ table.array td {
 table:has(thead.uml-class-diagram) {
   background: cyan;
   min-width: 200px;
+  border: 1px solid var(--byui-blue);
 }
 
 /* Base row-border class */
