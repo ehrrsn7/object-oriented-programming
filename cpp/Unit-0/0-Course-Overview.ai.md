@@ -64,7 +64,7 @@ date: "2025-08-03"
 | [C. Glossary](../Appendix/Appendix-C-Glossary.ai.md) |
 | [D. Index](../Appendix/Appendix-D-Index.ai.md) |
 
-> **In this Document:**
+> **In this Chapter:**
 > [[toc]]
 
 # Course Overview {.background}
