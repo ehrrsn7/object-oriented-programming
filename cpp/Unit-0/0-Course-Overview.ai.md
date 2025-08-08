@@ -26,12 +26,9 @@ author: "CS 165 Course Materials"
 date: "2025-08-03"
 ---
 
-#  {.background}
+# Table of Contents {.background}
 
-# Table of Contents
-
-| Table of Contents |
-| :--- |
+| :---
 | Course Overview |
 | [Review](0-Review.ai.md) |
 | [1.0 Design Documents](../Unit-1/Chapter-1.0/1.0-Using-Objects.ai.md) |
