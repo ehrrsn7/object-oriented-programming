@@ -199,7 +199,7 @@ In this case, when you divide 19 by 10, the remainder is 9. Therefore, the value
 
 ![0-Review_img_1.jpeg](0-Review_images/0-Review_img_1.jpeg){width="400px"}
 
-### Increment `++` {style="page-break-before: always"}
+### Increment `++`
 
 There are two flavors of the increment (and decrement of course) operators: increment before the expression is evaluated and increment after. To illustrate, consider the following example:
 
@@ -219,7 +219,7 @@ In this example, we increment the value of age _after_ the expression is evaluat
 }                          // is evaluated after age is incremented
 ```
 
-## Streams
+## Streams {style="page-break-before: always"}
 
 The standard tools to perform text input and output with `C++` is with the standard stream libraries. This includes writing text to the screen and accepting text from the keyboard as well as interacting with files.
 
