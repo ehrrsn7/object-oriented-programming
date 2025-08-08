@@ -9,10 +9,11 @@ generated: "2025-08-03 10:31:23"
 
 # Appendix 
 
-A. Elements of Style ..... 337
-B. C++ Syntax Reference Guide ..... 342
-C. Glossary ..... 346
-D. Index ..... 361
+| ---
+| A. Elements of Style ..... 337
+| B. C++ Syntax Reference Guide ..... 342
+| C. Glossary ..... 346
+| D. Index ..... 361
 
 # Appendix 
 
