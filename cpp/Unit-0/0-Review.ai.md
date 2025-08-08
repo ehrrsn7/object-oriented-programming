@@ -1228,321 +1228,334 @@ int main()
 
 The vector class will grow to accommodate as many items as is added to it through the `push_back()` mechanism.
 
-## Problem 1 - 6
-
-For each of the following, indicate where the parentheses go to disambiguate the order of operations.
-
-1. a && b || c && d
-2. c ++ < ! $4+2$
-3. a || b && c + d * e
-4. a += * b ++ * 7 || ! c + 5 > 2
-5. 1 < x < 10
-
-Please see page 6 for a hint.*
-
-## Problem 6
-
-If the tab stops are set to 8 spaces, what will be the output of the following code?
-
-```cpp
-{
-   cout << "\taa\n";
-   cout << "aa\taa\n";
-}
-```
-
-Please see page 8 for a hint.*
-
-## Problem 7
-
-How much space in memory does each variable take?
-
-- bool value;
-- char value[256]; <input>
-- char value; <input>
-- long double value; <input>
-
-Please see page 4 for a hint.*
-
-## Problem 8
-
-What is the value of a at the end of execution?
-
-$$
-\text { float } a=1.0+2 * 3 / 4
-$$
-
-## Problem 9
-
-What is the value of $b$ at the end of execution?
-
-$$
-\text { int } b=(\text { float }) 1 / 4 * 10
-$$
-
-Please see page 5 for a hint.*
-
-What are the values of the following variables?
-\{
-
-```cpp
-bool a = false && true || false && true;
-```
-
-10.
-
-bool b = false || true && false || true;
-11.
-bool c = true && true && true && false;
-12.
-bool d = false || false || false || true;
-13.
-bool e = 100 > 90 > 80;
-14.
-bool f = 90 < 80 || 70;
-15.
-bool g = 10 + 2 - false;
-16.
-\}
-Please see page 6 for a hint.*
-
-## Problem 17
-
-What is the output?
-
-```cpp
-char value = 'a';
-int main()
-{
-   char value = 'b';
-   if (true)
-   {
-      char value = 'c';
-   }
-   cout << value << endl;
-   return 0;
-}
-```
-
-What is the output?
-
-```cpp
-{
-   bool failedClass = false;
-   int grade = 95;
-   // pass or fail?
-   if (grade < 60);
-      failedClass = true;
-   // output grade
-   cout << grade << "%\n";
-   // output status
-   if (failedClass)
-      cout << "You need to take "
-         << "the class again\n";
-}
-```
-
-
-## Problem 19
-
-What is the output when the user inputs the number 5?
-
-```cpp
-{
-   int number;
-   // prompt for number
-   cout << "number? ";
-   cin >> number;
-   // crazy math
-   if (number = 0)
-      number += 2;
-   // output
-   cout << number << endl;
-}
-```
-
-
-## Problem 20
-
-What is the output?
-
-```cpp
-void weird(int a, int & b)
-{
-   a = 1;
-   b = 2;
-}
-int main()
-{
-   int a = 3;
-   int b = 4;
-   weird(a, b);
-   cout << a * b << endl;
-   return 0;
-}
-```
-
-What is the output?
-
-```cpp
-int setZero()
-{
-   int value = 0;
-   return value;
-}
-int main()
-{
-   int value = 10;
-   setZero();
-   cout << value << endl;
-   return 0;
-}
-```
-
-Please see page 13 for a hint.*
-
-## Problem 22 - 26
-
-Write the function prototype to:
-22. Update the bill to include the $15 \%$ tip
-23. Display the price of a used car
-24. Convert meters to feet
-25. Prompt the user for his name
-26. Display the contents of a Sudoku board
-
-Please see page 14 for a hint.*
-
-## Problem 27
-
-What is the output:
-
-```cpp
-{
-   int a[] = {2, 4, 6, 8, 10};
-   int b = 0;
-   for (int c = 1; c < 4; c++)
-      b += a[c];
-   cout << b << endl;
-}
-```
-
-Please see page 15 for a hint.*
-
-What is the output of the following code fragment?
-
-```cpp
-{
-   int array[2][2] =
-      { {3, 4}, {1, 2} };
-   cout << array[1][0];
-}
-```
-
-Please see page 15 for a hint.*
-
-## Problem 29
-
-Given the following code:
-
-```cpp
-{
-   int array[] = {7, 14, 21, 28};
-}
-```
-
-How can you output the $3^{\text {rd }}$ item in the list without using the square bracket operator []?
-Please see page 18 for a hint.*
-
-## Problem 30 - 33
-
-Describe what each of the following functions do:
-
-```cpp
-void mystery(char * p)
-{
-   while (*p)
-      cout << *(p++);
-}
-void mystery(char * p1, char * p2)
-{
-   while (*(p1++) = *(p2++))
-      ;
-}
-int mystery(char * p1)
-{
-   char * p2 = p1;
-   while (*(p2++))
-      ;
-   return p2 - p1 - 1;
-}
-```
-
-![0-Review_img_3.jpeg](0-Review_images/0-Review_img_3.jpeg)
-
-## Problem 34
-
-Write the code to find the sum of all the items in the following array of integers:
-
-```cpp
-{
-   int array[10] = {5, 4, 7, 3, 5, 9, 8, 1, 3, 2};
-   int sum = 0;
-}
-```
-
-Please see page 7 for a hint.*
-
-## Problem 35
-
-Write the code to display the contents of a string, one character on each line:
-
-```cpp
-void display(const char * text)
-{
-}
-```
-
-Please see page 7 for a hint.*
-
-## Problem 36
-
-Match the declaration with the type of data:
-
-| int & a; | Pointer to an integer |
-| :-- | :-- |
-| int a; | Error |
-| int @ a; | Pointer to a pointer to an integer |
-| int * a; | A reference to an integer |
-| int ** a; | An integer variable |
-
-Please see page 18, 101 for a hint.*
-
-## Problem 37
-
-Match the description of the statement with the code:
-
-| int * p = new int; |
-| :-- |
-| int * p = new int *; |
-| int * p = new int(7); |
-| int * p = new int(int); |
-| int * p = new int[7][7]; |
-| int * p = new int[7] |
-
-Allocate a pointer to a function
-Allocate an array of 7 integers
-Allocate an integer and leave the memory un-initialized
-Error
-Allocate an integer and initialize the memory to 7
-Allocate a 2-dimensional array: $7 \times 7$
-Please see page 19 for a hint.*
-
-## Problem 38
-
-Fibonacci is a sequence of numbers where each number is the sum of the previous two:
-
-$$
-F(n):= \begin{cases}0 & \text { if } n=0 \\ 1 & \text { if } n=1 \\ F(n-1)+F(n-2) & \text { if } n>1\end{cases}
-$$
-
-Write the code to generate the first 100 numbers in the Fibonacci sequence
+> ## Problem 1 - 6
+> 
+> For each of the following, indicate where the parentheses go to disambiguate the order of operations.
+> 
+> 1. a && b || c && d
+> 2. c ++ < ! $4+2$
+> 3. a || b && c + d * e
+> 4. a += * b ++ * 7 || ! c + 5 > 2
+> 5. 1 < x < 10
+> 
+> Please see page 6 for a hint.*
+> 
+> ## Problem 6
+> 
+> If the tab stops are set to 8 spaces, what will be the output of the following code?
+> 
+> ```cpp
+> {
+>    cout << "\taa\n";
+>    cout << "aa\taa\n";
+> }
+> ```
+> 
+> Please see page 8 for a hint.*
+> 
+> ## Problem 7
+> 
+> How much space in memory does each variable take?
+> 
+> - bool value;
+> - char value[256]; <input>
+> - char value; <input>
+> - long double value; <input>
+> 
+> Please see page 4 for a hint.*
+> 
+> ## Problem 8
+> 
+> What is the value of a at the end of execution?
+> 
+> $$
+> \text { float } a=1.0+2 * 3 / 4
+> $$
+> 
+> ## Problem 9
+> 
+> What is the value of $b$ at the end of execution?
+> 
+> $$
+> \text { int } b=(\text { float }) 1 / 4 * 10
+> $$
+> 
+> Please see page 5 for a hint.*
+> 
+> What are the values of the following variables?
+> \{
+> 
+> ```cpp
+> bool a = false && true || false && true;
+> ```
+> 
+> 10.
+> 
+> bool b = false || true && false || true;
+> 
+> 11. <input>
+> 
+> bool c = true && true && true && false;
+> 
+> 12. <input>
+> 
+> bool d = false || false || false || true;
+> 
+> 13. <input>
+> 
+> bool e = 100 > 90 > 80;
+> 
+> 14. <input>
+> 
+> bool f = 90 < 80 || 70;
+> 
+> 15. <input>
+> 
+> bool g = 10 + 2 - false;
+> 
+> 16. <input>
+> 
+> \}
+> 
+> Please see page 6 for a hint.*
+> 
+> ## Problem 17
+> 
+> What is the output?
+> 
+> ```cpp
+> char value = 'a';
+> int main()
+> {
+>    char value = 'b';
+>    if (true)
+>    {
+>       char value = 'c';
+>    }
+>    cout << value << endl;
+>    return 0;
+> }
+> ```
+> 
+> What is the output?
+> 
+> ```cpp
+> {
+>    bool failedClass = false;
+>    int grade = 95;
+>    // pass or fail?
+>    if (grade < 60);
+>       failedClass = true;
+>    // output grade
+>    cout << grade << "%\n";
+>    // output status
+>    if (failedClass)
+>       cout << "You need to take "
+>          << "the class again\n";
+> }
+> ```
+> 
+> 
+> ## Problem 19
+> 
+> What is the output when the user inputs the number 5?
+> 
+> ```cpp
+> {
+>    int number;
+>    // prompt for number
+>    cout << "number? ";
+>    cin >> number;
+>    // crazy math
+>    if (number = 0)
+>       number += 2;
+>    // output
+>    cout << number << endl;
+> }
+> ```
+> 
+> 
+> ## Problem 20
+> 
+> What is the output?
+> 
+> ```cpp
+> void weird(int a, int & b)
+> {
+>    a = 1;
+>    b = 2;
+> }
+> int main()
+> {
+>    int a = 3;
+>    int b = 4;
+>    weird(a, b);
+>    cout << a * b << endl;
+>    return 0;
+> }
+> ```
+> 
+> What is the output?
+> 
+> ```cpp
+> int setZero()
+> {
+>    int value = 0;
+>    return value;
+> }
+> int main()
+> {
+>    int value = 10;
+>    setZero();
+>    cout << value << endl;
+>    return 0;
+> }
+> ```
+> 
+> Please see page 13 for a hint.*
+> 
+> ## Problem 22 - 26
+> 
+> Write the function prototype to:
+> 22. Update the bill to include the $15 \%$ tip
+> 23. Display the price of a used car
+> 24. Convert meters to feet
+> 25. Prompt the user for his name
+> 26. Display the contents of a Sudoku board
+> 
+> Please see page 14 for a hint.*
+> 
+> ## Problem 27
+> 
+> What is the output:
+> 
+> ```cpp
+> {
+>    int a[] = {2, 4, 6, 8, 10};
+>    int b = 0;
+>    for (int c = 1; c < 4; c++)
+>       b += a[c];
+>    cout << b << endl;
+> }
+> ```
+> 
+> Please see page 15 for a hint.*
+> 
+> What is the output of the following code fragment?
+> 
+> ```cpp
+> {
+>    int array[2][2] =
+>       { {3, 4}, {1, 2} };
+>    cout << array[1][0];
+> }
+> ```
+> 
+> Please see page 15 for a hint.*
+> 
+> ## Problem 29
+> 
+> Given the following code:
+> 
+> ```cpp
+> {
+>    int array[] = {7, 14, 21, 28};
+> }
+> ```
+> 
+> How can you output the $3^{\text {rd }}$ item in the list without using the square bracket operator []?
+> Please see page 18 for a hint.*
+> 
+> ## Problem 30 - 33
+> 
+> Describe what each of the following functions do:
+> 
+> ```cpp
+> void mystery(char * p)
+> {
+>    while (*p)
+>       cout << *(p++);
+> }
+> void mystery(char * p1, char * p2)
+> {
+>    while (*(p1++) = *(p2++))
+>       ;
+> }
+> int mystery(char * p1)
+> {
+>    char * p2 = p1;
+>    while (*(p2++))
+>       ;
+>    return p2 - p1 - 1;
+> }
+> ```
+> 
+> ![0-Review_img_3.jpeg](0-Review_images/0-Review_img_3.jpeg)
+> 
+> ## Problem 34
+> 
+> Write the code to find the sum of all the items in the following array of integers:
+> 
+> ```cpp
+> {
+>    int array[10] = {5, 4, 7, 3, 5, 9, 8, 1, 3, 2};
+>    int sum = 0;
+> }
+> ```
+> 
+> Please see page 7 for a hint.*
+> 
+> ## Problem 35
+> 
+> Write the code to display the contents of a string, one character on each line:
+> 
+> ```cpp
+> void display(const char * text)
+> {
+> }
+> ```
+> 
+> Please see page 7 for a hint.*
+> 
+> ## Problem 36
+> 
+> Match the declaration with the type of data:
+> 
+> | int & a; | Pointer to an integer |
+> | :-- | :-- |
+> | int a; | Error |
+> | int @ a; | Pointer to a pointer to an integer |
+> | int * a; | A reference to an integer |
+> | int ** a; | An integer variable |
+> 
+> Please see page 18, 101 for a hint.*
+> 
+> ## Problem 37
+> 
+> Match the description of the statement with the code:
+> 
+> | int * p = new int; |
+> | :-- |
+> | int * p = new int *; |
+> | int * p = new int(7); |
+> | int * p = new int(int); |
+> | int * p = new int[7][7]; |
+> | int * p = new int[7] |
+> 
+> Allocate a pointer to a function
+> Allocate an array of 7 integers
+> Allocate an integer and leave the memory un-initialized
+> Error
+> Allocate an integer and initialize the memory to 7
+> Allocate a 2-dimensional array: $7 \times 7$
+> Please see page 19 for a hint.*
+> 
+> ## Problem 38
+> 
+> Fibonacci is a sequence of numbers where each number is the sum of the previous two:
+> 
+> $$
+> F(n):= \begin{cases}0 & \text { if } n=0 \\ 1 & \text { if } n=1 \\ F(n-1)+F(n-2) & \text { if } n>1\end{cases}
+> $$
+> 
+> Write the code to generate the first 100 numbers in the Fibonacci sequence
