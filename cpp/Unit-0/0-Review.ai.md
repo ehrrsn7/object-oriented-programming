@@ -337,7 +337,7 @@ void writeNumber(const char * filename, int data)
 }
 ```
 
-## Loops
+## Loops {style="page-break-before: always"}
 
 Loops are mechanisms to allow a program to execute the same section of code more than once. There are three types of loops in C++: WHILE, DO-WHILE, and FOR:
 
