@@ -847,7 +847,7 @@ int array[] =
 <td style="text-align:left" class="code-line" dir="auto">
 
 | ---
-| 0 | 0 | 0 | 0 | 0 | 0 {.array}
+| 3   | 6   | 2   | 9   | 1   | 8 {.array}
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -1058,7 +1058,8 @@ An array is a pointer to a block of memory. Consider the following code:
 ```
 
 This corresponds to:
-![0-Review_img_2.jpeg](0-Review_images/0-Review_img_2.jpeg)
+
+![0-Review_img_2.jpeg](0-Review_images/0-Review_img_2.jpeg){width="300px"}
 
 It is possible to iterate through all the elements in an array by incrementing a pointer:
 
