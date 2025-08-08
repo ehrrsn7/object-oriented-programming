@@ -5,11 +5,12 @@ original_file: "0-Review.pdf"
 generated: "2025-08-03 16:15:30"
 ---
 
-# 0-Review {.background}
+# Review {.background}
 
----
+> **In this Document:**
+> [[toc]]
 
-# Review
+<div style="page-break-after: always;"></div>
 
 Procedural programming is a method of programming where the fundamental unit is a function (or procedure). Topics such as variables, loops, and functions are central to procedural programming. Object-oriented programming, on the other hand, is a methodology where the fundamental unit is an object which is built from procedural tools. It is therefore necessary to have a firm grasp of procedural programming before object-oriented programming can be learned.
 
@@ -32,7 +33,7 @@ The first generation of computers could only work with integers. A few decades l
 | `double` | Larger numbers with decimals | $8$ | $\approx 10^{-308}$ to $10^{308}$, accurate to 15 digits |
 | `long double` | Huge Numbers | $16$ | $\approx 10^{-4932}$ to $10^{4932}$, accurate to 19 digits |
 
-## Variable declarations
+### Variable declarations
 
 To use one of these data types, it is necessary to declare a variable. The syntax for declaring a variable is:
 <DataType> <variableName>;
@@ -57,7 +58,7 @@ const float PI = 3.14159;
 
 Observe how we make constant variables ALL_CAPS with an underscore separating the words. This is done for all constant variables except for function parameters.
 
-# Data conversion
+## Data conversion
 
 When converting a value from one data type to another, the compiler inserts code into your program to make the conversion. When converting from a relatively small data type like a char into a larger one like an int, there is no data loss from the conversion. The entire range for a char fits within that of an int.
 
@@ -116,7 +117,7 @@ Of these four, the most common is the `static_cast`. You can use it interchangea
 > ![Sam](../../.vscode/assets/sam.png){width=50 align=right}
 > Though `static_cast<int>(value)`{.tldr} is more of a C++ way of doing a cast than the C way of doing things `(int)value`{.tldr}, they do the same thing. In this text and in all the examples, we will use the C casting convention simply because it requires less typing.
 
-# Expressions
+## Expressions
 
 An expression is an equation that is evaluated to a single value. This equation can be in the form of a mathematical expression, the result of a function call, or any combination thereof. Evaluation of these expressions occurs in the following order:
 
@@ -159,11 +160,11 @@ The order of operations is:
 | 10 | Assignment, etc. | `=` `+=` `*=` `-=` `/=` ` %=` | `value += 4` |
 | 11 | Conditional expression (ternary operator) | `?` `:` | `passed ? "happy" : "sad"` |
 
-# Arithmetic operators
+## Arithmetic operators
 
 Most of the arithmetic operators such as addition and multiplication work the same in `C++` as they do in algebra. There are a few exceptions: integer division, modulus, and the increment operator.
 
-## Division `/`
+### Division `/`
 
 Floating point division (`/`) behaves the way it does in mathematics. Integer division, on the other hand, does not. The evaluation of integer division is always an integer. In each case, the remainder is thrown away. To illustrate this, consider the following:
 
@@ -175,7 +176,7 @@ Floating point division (`/`) behaves the way it does in mathematics. Integer di
 ```
 In this case, the output is _not_ 1.9. The variable `answer` cannot store a floating point value. When 19 is divided by 10, the result is 1 with a remainder of 9. Therefore, `answer` will get the value 1 and the remainder is discarded.
 
-## Modulus `%`
+### Modulus `%`
 
 Recall that integer division drops the remainder of the division problem. What if you want to know the remainder? This is the purpose of the modulus operator (`%`). Consider the following code:
 
@@ -198,7 +199,7 @@ In this case, when you divide 19 by 10, the remainder is 9. Therefore, the value
 
 ![0-Review_img_1.jpeg](0-Review_images/0-Review_img_1.jpeg)
 
-# Increment `++`
+### Increment `++`
 
 There are two flavors of the increment (and decrement of course) operators: increment before the expression is evaluated and increment after. To illustrate, consider the following example:
 
@@ -222,7 +223,7 @@ In this example, we increment the value of age _after_ the expression is evaluat
 
 The standard tools to perform text input and output with `C++` is with the standard stream libraries. This includes writing text to the screen and accepting text from the keyboard as well as interacting with files.
 
-## Output
+### Output
 
 Text output on the screen is performed with the `cout` object. You can setup your program to write text to the screen by including the `iostream` library and using the standard namespace.
 
@@ -262,7 +263,7 @@ Note that `setw()` needs the `iomanip` library:
 #include <iomanip>
 ```
 
-# Input
+### Input
 
 Input is primarily accomplished through the `cin` object and the extraction `>>` operator.
 
@@ -293,7 +294,7 @@ Finally, it is possible to fetch only a single character from the input stream, 
 }                          //    letter, digit, symbol, or even a space
 ```
 
-## File
+### File
 
 To read or write from a file, it is necessary to use the `fstream` library:
 
@@ -336,7 +337,7 @@ void writeNumber(const char * filename, int data)
 }
 ```
 
-# Loops
+## Loops
 
 Loops are mechanisms to allow a program to execute the same section of code more than once. There are three types of loops in C++: WHILE, DO-WHILE, and FOR:
 
@@ -347,7 +348,7 @@ Loops are mechanisms to allow a program to execute the same section of code more
 | | | | |
 |  | A WHILE loop is good for repeating through a given block of code multiple times. $$ \begin{array}{l} \texttt{while (x > 0)} \\ \texttt{\{ } \\ \texttt{\ \ \ x--;} \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\}} \end{array} $$ | Same as WHILE except we always execute the body of the loop at least once. $$ \begin{array}{l} \texttt{do} \\ \texttt{\{ } \\ \texttt{\ \ \ x--;} \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\} while (x > 0);} \end{array} $$ | Designed for counting, usually meaning we know where we start, where we end and what changes. $$ \begin{array}{l} \texttt{for (x = 10; x > 0; x--)} \\ \texttt{\{ } \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\}} \end{array} $$ |
 
-## While
+### While
 
 The simplest loop is the WHILE statement. The WHILE loop will continue executing the body of the loop until the controlling Boolean expression evaluates to `false`. The syntax is:
 
@@ -380,7 +381,7 @@ char getGrade()
 }
 ```
 
-# Do-while
+### Do-while
 
 The DO-WHILE loop is the same as the WHILE loop except the controlling Boolean expression is checked after the body of the loop is executed. The syntax is:
 
@@ -600,7 +601,7 @@ Calling a function occurs by naming the function and providing the required para
 ```
 
 
-## Parameters
+### Parameters
 
 Parameter passing is the process of sending data between functions. The programmer is able to specify the parameters needed in a function with a comma-separated list. For example, consider the scenario where the programmer is sending a row and column coordinate to a display function. The display function will need to accept two parameters.
 
@@ -939,7 +940,7 @@ When referencing a multi-dimensional array, it is important to specify each of t
 
 Observe how we add an assert immediately before we reference the items in the grid. Though we will learn more about asserts in Chapter 1.1, the important thing to note here is that there is nothing in the C++ language to prevent the programmer from accessing memory outside the valid range of the array. It is up to the programmer to provide those checks!
 
-# Passing an array as a parameter
+### Passing an array as a parameter
 
 Passing arrays as parameters is quite different than passing other data types. The reason for this is a bit subtle. When passing an integer, a copy of the value is sent to the callee. When passing an array, however, the data itself does not move. Instead, only the address of the data is sent. This means, in effect, that passing arrays is always pass-by-reference.
 
@@ -998,11 +999,11 @@ int main()
 }
 ```
 
-# Pointers
+## Pointers
 
 A pointer is a variable that does not hold data, but rather an address. All pointers have a data type, namely "a pointer to an integer" or "a pointer to a character." Arrays and c-strings are pointer variables in `C++`.
 
-## Pointer syntax
+### Pointer syntax
 
 When declaring a normal data variable, it is necessary to specify the data type.
 
@@ -1044,7 +1045,7 @@ We can always retrieve the data from a given address using the dereference opera
 ```
 
 
-## Pointer arithmetic
+### Pointer arithmetic
 
 An array is a pointer to a block of memory. Consider the following code:
 
@@ -1089,7 +1090,7 @@ We can do something similar when iterating through a c-string, except we end the
 ```
 
 
-# Allocating memory
+## Allocating memory
 
 It is possible to determine the size of a buffer at run-time using dynamic memory allocation with new and delete. When doing this, it is important to check for errors by catching the bad_alloc exception:
 
@@ -1116,11 +1117,11 @@ It is possible to determine the size of a buffer at run-time using dynamic memor
 }
 ```
 
-# Tools
+## Tools
 
 A collection of tools, called libraries, are written to help us with the programming task. Some of these include the c-c-type library, the c-string library, the math library, the standard library, the string class, and the Standard Template Library (STL) vector container.
 
-## C-c-type
+### C-c-type
 
 The c-c-type library allows the programmer to test the properties of characters. Examples include:
 
@@ -1147,7 +1148,7 @@ In order to use any of these functions, it is necessary to include the cc-type l
 ```
 
 
-## C-string
+### C-string
 
 The c-string library allows the programmer to perform common operations with c-strings, including:
 
@@ -1164,7 +1165,7 @@ In order to use any of these functions, it is necessary to include the c-string 
 ```
 
 
-## C-standard-library
+### C-standard-library
 
 The c-standard-library is a virtual grab-bag of helpful functions. Some of the most common are:
 
@@ -1183,7 +1184,7 @@ In order to use any of these functions, it is necessary to include the c-standar
 #include <cstdlib>
 ```
 
-# String class
+## String class
 
 The string class is a data type designed to make text manipulation easier. An example using the string class is the following code:
 
@@ -1230,7 +1231,7 @@ int main()
 
 The vector class will grow to accommodate as many items as is added to it through the push_back() mechanism.
 
-# Problem 1 - 6
+## Problem 1 - 6
 
 For each of the following, indicate where the parentheses go to disambiguate the order of operations.
 
