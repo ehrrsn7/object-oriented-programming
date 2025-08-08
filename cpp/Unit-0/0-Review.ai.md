@@ -197,7 +197,7 @@ In this case, when you divide 19 by 10, the remainder is 9. Therefore, the value
 }
 ```
 
-![0-Review_img_1.jpeg](0-Review_images/0-Review_img_1.jpeg)
+![0-Review_img_1.jpeg](0-Review_images/0-Review_img_1.jpeg){width="400px"}
 
 ### Increment `++` {style="page-break-before: always"}
 
