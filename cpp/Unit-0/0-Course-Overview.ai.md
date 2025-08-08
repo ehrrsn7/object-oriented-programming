@@ -116,13 +116,13 @@ You may notice two characters present in various sections of this text. They emb
 > - Efficiency: How to make code execute with fewer resources
 
 
-## Sam's Corner
-
-Sam is a technology nerd. He likes solving hard problems for their own sake, not necessarily because they even need to be solved. Sam enjoys getting to the heart of a problem and finding the most elegant solution. It is easy for Sam to get hung up on a problem for hours even though he found a working solution long ago.
-The following topics are commonly discussed in Sam's Corner:
-
-- Details: The details of how various operations work, even though this knowledge is not necessary to get the job done
-- Tidbits: Interesting tidbits explaining why things are the way they are
+> [!tldr] Sam's Corner
+> ![sam](/.vscode/assets/sam.png){.sam}
+> Sam is a technology nerd. He likes solving hard problems for their own sake, not necessarily because they even need to be solved. Sam enjoys getting to the heart of a problem and finding the most elegant solution. It is easy for Sam to get hung up on a problem for hours even though he found a working solution long ago.
+> The following topics are commonly discussed in Sam's Corner:
+> 
+> - Details: The details of how various operations work, even though this knowledge is not necessary to get the job done
+> - Tidbits: Interesting tidbits explaining why things are the way they are
 
 Neither Sue's Tips nor Sam's Corner are required knowledge for this course. However, you may discover your inner Sam or Sue and find yourself reading one of their columns.
 
