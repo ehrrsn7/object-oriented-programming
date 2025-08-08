@@ -136,7 +136,6 @@ blockquote:has(h2[id^="challenge"]) input {
   background: unset;
   background: #fafafa;
   width: 90%;
-  min-width: 300px;
   line-height: 2em;
   flex: 1;
 }
