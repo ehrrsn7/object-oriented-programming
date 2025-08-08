@@ -278,6 +278,11 @@ table.array td {
   border: 1px solid black;
 }
 
+table:has(thead.uml-class-diagram) {
+  background: cyan;
+  min-width: 200px;
+}
+
 /* Base row-border class */
 /* Base row-border class */
 [class*="row-border"] + table > tbody > tr, tr.row-border {
