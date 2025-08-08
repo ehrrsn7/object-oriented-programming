@@ -1,4 +1,3 @@
-
 ---
 ai_generated: true
 conversion: "Converted from PDF using Mistral OCR"
