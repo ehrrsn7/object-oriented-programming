@@ -575,7 +575,7 @@ Orange
 > - 🔄 **In Progress**
 >   - Object-oriented design
 >   - Template programming
->   - STL containers
+>   - `STL` containers
 > 
 > - 📋 **Upcoming**
 >   - Advanced templates
@@ -591,7 +591,7 @@ Orange
 > - [ ] 🔄 **In Progress**
 >   - [ ] Object-oriented design
 >   - [ ] Template programming
->   - [ ] STL containers
+>   - [ ] `STL` containers
 > 
 > - [ ] 📋 **Upcoming**
 >   - [ ] Advanced templates

@@ -414,7 +414,7 @@ The sizeof function returns the number of bytes that a given datatype or variabl
 | :--: | :--: | :--: |
 | source file | Also known as an implementation file, a source file is a file containing the source code for a program. | Chapter 1.4 |
 | stack variable | A stack variable, otherwise known as a local variable, is a variable that is created by the compiler when it falls into scope and destroyed when it falls out of scope. The compiler manages the creation and destruction of stack variables wherease the programmer manages the createion and destruction of dynamically allocated (heap) variables. | Review |
-| STL | The Standard Template Library (`STL`) is a collection of tools designed to make common programming tasks easier. | Chapter 4.6 |
+| `STL` | The Standard Template Library (`STL`) is a collection of tools designed to make common programming tasks easier. | Chapter 4.6 |
 | string | A "string" is a computer representation of text. The term "string" is short for "an alpha-numeric string of characters." This implies one of the most important characteristics of a string: is a sequence of characters. In C++, a string is defined as an array of characters terminated with a null character. | Review |
 | \ | char text[256]; // a string of 255 characters |  |
 | structure | A mechanism to create a custom data type based on previously defined data types | Chapter 1.3 |

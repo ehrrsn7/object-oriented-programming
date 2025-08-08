@@ -176,7 +176,7 @@ source file ..... 87,137
 standard template library ..... 341
 static ..... $164,165,381$
 static_cast ..... 5
-STL ..... 381, See standard template library
+`STL` ..... 381, See standard template library
 strings ..... $23,360,381$
 c-strings ..... 368
 struct ..... 74

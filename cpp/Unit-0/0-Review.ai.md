@@ -1199,7 +1199,7 @@ int main()
 ```
 
 
-### STL containers
+### `STL` containers
 
 There are a set of tools collectively called the Standard Template Library which facilitate storing groups or lists of items. Perhaps the most useful of these is the vector class. The vector class behaves the same as an array in many ways with one important difference: a vector object can change its size. Consider the following example:
 
