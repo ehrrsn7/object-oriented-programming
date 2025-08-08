@@ -76,10 +76,12 @@
    background-color: rgb(0, 96, 232); /* Fallback */
    background-image: url('.etc/assets/topic-header.png')
 ">
-   <h1 style="width: 100%; text-align: right; padding-right: 1em;">
-      Appendix
-       $\quad
-   </h1>
+<h1 style="width: 100%; text-align: right; padding-right: 1em;">
+
+Appendix
+$\quad$
+
+</h1>
 </div>
 
 <div id="table-of-contents" style="
