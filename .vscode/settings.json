@@ -9,5 +9,6 @@
     "gitdoc.autoCommitDelay": 10000,
     "gitdoc.autoPushDelay": 30000,
     "gitdoc.commitMessageFormat": "🤖 AI Commit: ${aiMessage} | ${date}",
-    "gitdoc.ai.useEmojis": true
+    "gitdoc.ai.useEmojis": true,
+    "markdownExtended.disabledPlugins": "html5_embed_renderer, mimoza"
 }
