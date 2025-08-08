@@ -72,7 +72,8 @@ h1#table-of-contents {
 
 h1#table-of-contents + table, /* if following # Table of Contents */
 table:has(thead.table-of-contents), /* if | {.table-of-contents} | --- ...*/
-table:has(tr.table-of-contents) /* if | --- | {.table-of-contents} ...*/
+table:has(tr.table-of-contents), /* if | --- | {.table-of-contents} ...*/
+div.table-of-contents
 {
   /* Add your styles here */
   border: 2px solid #373461;
