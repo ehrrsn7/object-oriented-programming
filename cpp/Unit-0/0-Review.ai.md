@@ -800,7 +800,8 @@ int array[6] =
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-6
+| ---
+| 0 | 0 | 0 | 0 | 0 | 0 {.array}
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -822,7 +823,8 @@ int array[6] =
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-
+| ---
+| 0 | 0 | 0 | 0 | 0 | 0 {.array}
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -844,7 +846,8 @@ int array[] =
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-6
+| ---
+| 0 | 0 | 0 | 0 | 0 | 0 {.array}
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
@@ -863,7 +866,8 @@ int array[6] = {};
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
 
-6
+| ---
+| 0 | 0 | 0 | 0 | 0 | 0 {.array}
 
 </td>
 <td style="text-align:left" class="code-line" dir="auto">
