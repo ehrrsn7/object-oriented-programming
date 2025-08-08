@@ -211,7 +211,7 @@ div.steel-blue-header-table {
   display: hidden;
 }
 .steel-blue-header-table + table > thead {
-  background: #4f81bddd;
+  background: var(--rvhs-green);
   color: white;
 }
 
@@ -219,7 +219,7 @@ thead.steel-blue-header-table,
 th.steel-blue-header-table ~ th,
 th.steel-blue-header-table > code,
 th.steel-blue-header-table {
-  background: #4f81bddd;
+  background: var(--rvhs-green);
   color: white;
 }
 
@@ -243,7 +243,7 @@ th.gray-box ~ th {
 .steel-blue-sidebar-table + table > thead,
 .steel-blue-sidebar-table + table > tbody > tr > :first-child,
 .steel-blue-sidebar-table + table > tbody > tr > :first-child code {
-  background: #4f81bddd;
+  background: var(--rvhs-green);
   color: white;
   font-weight: bold;
 }
