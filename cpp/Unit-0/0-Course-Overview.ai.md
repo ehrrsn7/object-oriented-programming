@@ -26,7 +26,7 @@ author: "CS 165 Course Materials"
 date: "2025-08-03"
 ---
 
-# Course Overview {.background}
+#  {.background}
 
 # Table of Contents
 
