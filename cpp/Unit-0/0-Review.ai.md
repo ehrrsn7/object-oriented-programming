@@ -1404,7 +1404,7 @@ int main()
 
 Please see page 13 for a bint.
 
-## Problem 22-26
+## Problem 22 - 26
 
 Write the function prototype to:
 22. Update the bill to include the $15 \%$ tip
@@ -1456,7 +1456,7 @@ Given the following code:
 How can you output the $3^{\text {rd }}$ item in the list without using the square bracket operator []?
 Please see page 18 for a bint.
 
-## Problem 30-33
+## Problem 30 - 33
 
 Describe what each of the following functions do:
 
