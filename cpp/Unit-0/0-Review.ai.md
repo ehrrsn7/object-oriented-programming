@@ -1238,7 +1238,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > 4. a += * b ++ * 7 || ! c + 5 > 2
 > 5. 1 < x < 10
 > 
-> Please see page 6 for a hint.*
+> *Please see page 6 for a hint.*
 > 
 > ## Problem 6
 > 
@@ -1251,7 +1251,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > }
 > ```
 > 
-> Please see page 8 for a hint.*
+> *Please see page 8 for a hint.*
 > 
 > ## Problem 7
 > 
@@ -1262,7 +1262,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > - char value; <input>
 > - long double value; <input>
 > 
-> Please see page 4 for a hint.*
+> *Please see page 4 for a hint.*
 > 
 > ## Problem 8
 > 
@@ -1280,7 +1280,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > \text { int } b=(\text { float }) 1 / 4 * 10
 > $$
 > 
-> Please see page 5 for a hint.*
+> *Please see page 5 for a hint.*
 > 
 > What are the values of the following variables?
 > \{
@@ -1300,7 +1300,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > 
 > \}
 > 
-> Please see page 6 for a hint.*
+> *Please see page 6 for a hint.*
 > 
 > ## Problem 17
 > 
@@ -1395,7 +1395,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > }
 > ```
 > 
-> Please see page 13 for a hint.*
+> *Please see page 13 for a hint.*
 > 
 > ## Problem 22 - 26
 > 
@@ -1406,7 +1406,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > 25. Prompt the user for his name
 > 26. Display the contents of a Sudoku board
 > 
-> Please see page 14 for a hint.*
+> *Please see page 14 for a hint.*
 > 
 > ## Problem 27
 > 
@@ -1422,7 +1422,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > }
 > ```
 > 
-> Please see page 15 for a hint.*
+> *Please see page 15 for a hint.*
 > 
 > What is the output of the following code fragment?
 > 
@@ -1434,7 +1434,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > }
 > ```
 > 
-> Please see page 15 for a hint.*
+> *Please see page 15 for a hint.*
 > 
 > ## Problem 29
 > 
@@ -1447,7 +1447,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > ```
 > 
 > How can you output the $3^{\text {rd }}$ item in the list without using the square bracket operator []?
-> Please see page 18 for a hint.*
+> *Please see page 18 for a hint.*
 > 
 > ## Problem 30 - 33
 > 
@@ -1486,7 +1486,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > }
 > ```
 > 
-> Please see page 7 for a hint.*
+> *Please see page 7 for a hint.*
 > 
 > ## Problem 35
 > 
@@ -1498,7 +1498,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > }
 > ```
 > 
-> Please see page 7 for a hint.*
+> *Please see page 7 for a hint.*
 > 
 > ## Problem 36
 > 
@@ -1511,7 +1511,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > | int * a; | A reference to an integer |
 > | int ** a; | An integer variable |
 > 
-> Please see page 18, 101 for a hint.*
+> *Please see page 18, 101 for a hint.*
 > 
 > ## Problem 37
 > 
@@ -1531,7 +1531,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > Error
 > Allocate an integer and initialize the memory to 7
 > Allocate a 2-dimensional array: $7 \times 7$
-> Please see page 19 for a hint.*
+> *Please see page 19 for a hint.*
 > 
 > ## Problem 38
 > 
