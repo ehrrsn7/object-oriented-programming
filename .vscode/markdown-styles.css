@@ -82,6 +82,12 @@ div.table-of-contents
   margin-left: 1em;
 }
 
+blockquote:has(div.table-of-contents) {
+  background: unset;
+  border: unset;
+  padding: unset;
+}
+
 /* Select blockquotes that contain an h2 with id starting with "problem" or "challenge" */
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) {
     padding: 1em;
