@@ -129,7 +129,7 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input {
   background: unset;
   background: #fafafa;
   line-height: 2em;
-  width: 100vw;
+  width: 100%;
   max-width: 100vw;
   box-sizing: border-box;
   overflow-x: clip;
