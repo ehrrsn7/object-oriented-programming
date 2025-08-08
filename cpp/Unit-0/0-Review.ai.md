@@ -1229,9 +1229,9 @@ The vector class will grow to accommodate as many items as is added to it throug
 
 For each of the following, indicate where the parentheses go to disambiguate the order of operations.
 
-1. a \&\& b || c \&\& d
+1. a && b || c && d
 2. c ++ < ! $4+2$
-3. a || b \&\& c + d * e
+3. a || b && c + d * e
 4. a += * b ++ * 7 || ! c + 5 > 2
 5. 1 < x < 10
 
@@ -1288,9 +1288,9 @@ bool a = false && true || false && true;
 
 10.
 
-bool b = false || true \&\& false || true;
+bool b = false || true && false || true;
 11.
-bool c = true \&\& true \&\& true \&\& false;
+bool c = true && true && true && false;
 12.
 bool d = false || false || false || true;
 13.
@@ -1505,7 +1505,7 @@ Please see page 7 for a bint.
 
 Match the declaration with the type of data:
 
-| int \& a; | Pointer to an integer |
+| int & a; | Pointer to an integer |
 | :-- | :-- |
 | int a; | Error |
 | int @ a; | Pointer to a pointer to an integer |
