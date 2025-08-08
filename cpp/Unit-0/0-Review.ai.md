@@ -420,7 +420,7 @@ for (<initialization statement>; <Boolean expression>; <increment statement>)
 > <div class="monospace quote-style" style="padding: 1em">
 >
 >  for (`int count = 0;`{.initialization .info} `count < 5`{.boolean-expression .warning}; `count++`{.increment .success})\
->  &nbsp;&nbsp;&nbsp;cout << count << endl;
+>   $\quad $\quad $\quadcout << count << endl;
 >
 > </div>
 
@@ -549,8 +549,8 @@ Coupling is the quality of the information interchange between functions. Loose 
 >
 > `<return type>`{.error} `<function name>`{.info}(`<parameter list>`{.example})\
 > {\
-> &nbsp;&nbsp;&nbsp;`<statement list>`{.success}\
-> &nbsp;&nbsp;&nbsp;return `<return value>`{.warning};\
+>  $\quad $\quad $\quad`<statement list>`{.success}\
+>  $\quad $\quad $\quadreturn `<return value>`{.warning};\
 > }
 >
 > </div>
@@ -705,7 +705,7 @@ A normal variable declaration asks the compiler to reserve the necessary amount 
 <div class="monospace">
 
 {\
-&nbsp;&nbsp;&nbsp;`int`{.tip-style} `grades`{.info-style}[`10`{.error-style}];\
+ $\quad $\quad $\quad`int`{.tip-style} `grades`{.info-style}[`10`{.error-style}];\
 }
 
 </div>

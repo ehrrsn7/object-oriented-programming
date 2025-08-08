@@ -78,7 +78,7 @@
 ">
    <h1 style="width: 100%; text-align: right; padding-right: 1em;">
       Appendix
-      &nbsp;
+       $\quad
    </h1>
 </div>
 
@@ -124,7 +124,7 @@
    overflow-x: hidden;
 ">
    <span style="white-space: nowrap;">
-      B. C++ Syntax Reference Guide &nbsp;
+      B. C++ Syntax Reference Guide  $\quad
    </span>
    <span style="
       flex-grow: 1;
@@ -146,7 +146,7 @@
    width: 100%;
    overflow-x: hidden;
 ">
-   <span style="white-space: nowrap;">C. Glossary &nbsp;</span>
+   <span style="white-space: nowrap;">C. Glossary  $\quad</span>
    <span style="
       flex-grow: 1;
       overflow: hidden;
@@ -167,7 +167,7 @@
    width: 100%;
    overflow-x: hidden;
 ">
-   <span style="white-space: nowrap;">D. Index &nbsp;</span>
+   <span style="white-space: nowrap;">D. Index  $\quad</span>
    <span style="
       flex-grow: 1;
       overflow: hidden;
@@ -186,12 +186,12 @@
 
 <div class="footer" style="width: 100%; margin-top: auto; text-align: left;">
    <strong>Page 336</strong>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    <!-- ! Typo -->
    4.6 Standard Template Library
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    Appendix
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    C++ Object Oriented Programming
 </div>
 
@@ -226,7 +226,7 @@
 ">
    <h1 style="width: 100%; text-align: right; padding-right: 1em;">
       Appendix
-      &nbsp;
+       $\quad
    </h1>
 </div>
 
@@ -286,11 +286,11 @@ During the lexing process, the compiler removes all the spaces between keywords 
 
 <div class="footer" style="width: 100%; margin-top: auto; text-align: right;">
    C++ Object Oriented Programming
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    Appendix
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    A. Elements of Style
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    <strong>Page 337</strong>
 </div>
 
@@ -405,11 +405,11 @@ A program header appears at the beginning of every file. This identifies what th
 
 <div class="footer" style="width: 100%; margin-top: auto; text-align: left;">
    <strong>Page 338</strong>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    A. Elements of Style
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    Appendix
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    C++ Object Oriented Programming
 </div>
 
@@ -475,11 +475,11 @@ Just as one would expect correct spelling in a technical paper, one should also 
 
 <div style="width: 100%; margin-top: auto; text-align: right;">
    C++ Object Oriented Programming
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    Appendix
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    A. Elements of Style
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    <strong>Page 339</strong>
 </div>
 
@@ -589,11 +589,11 @@ istream & operator >> (istream & in, Card & card)
 
 <div class="footer" style="width: 100%; margin-top: auto; text-align: left;">
    <strong>Page 340</strong>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    Appendix
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    A. Elements of Style
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    C++ Object Oriented Programming
 </div>
 
@@ -692,11 +692,11 @@ complex.o: complex.cpp complex.h
 
 <div style="width: 100%; margin-top: auto; text-align: right;">
    C++ Object Oriented Programming
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    Appendix
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    A. Elements of Style
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $\quad $\quad $\quad $\quad $\quad |  $\quad $\quad $\quad $\quad $\quad
    <strong>Page 341</strong>
 </div>
 
