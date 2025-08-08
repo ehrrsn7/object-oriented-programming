@@ -124,8 +124,8 @@ blockquote:has(h2[id^="problem"]) li,
 blockquote:has(h2[id^="challenge"]) li {
   list-style-type: disc;
 }
-blockquote:has(h2[id^="problem"]) :has(input),
-blockquote:has(h2[id^="challenge"]) :has(input) {
+blockquote:has(h2[id^="problem"]) li:has(input),
+blockquote:has(h2[id^="challenge"]) li:has(input) {
   display: flex;
   flex-direction: row;
   flex: 1;
