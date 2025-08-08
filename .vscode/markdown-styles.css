@@ -86,7 +86,7 @@ blockquote:has(div.table-of-contents) { /* generated > [[toc]] */
   border: unset;
   padding: unset;
 }
-blockquote > div.table-of-contents > ul > li:has(a) {
+blockquote > div.table-of-contents ~ ul ~ li:has(a) {
   line-height: 2em;
   background: red;
 }
