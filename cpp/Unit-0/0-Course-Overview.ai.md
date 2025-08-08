@@ -117,7 +117,7 @@ You may notice two characters present in various sections of this text. They emb
 
 
 > [!tldr] Sam's Corner
-<!-- > ![Sam](/.vscode/assets/sam.png){.sam} -->
+<!-- > ![Sam](../../.vscode/assets/sam.png){.sam} -->
 > Sam is a technology nerd. He likes solving hard problems for their own sake, not necessarily because they even need to be solved. Sam enjoys getting to the heart of a problem and finding the most elegant solution. It is easy for Sam to get hung up on a problem for hours even though he found a working solution long ago.
 > The following topics are commonly discussed in Sam's Corner:
 > 
