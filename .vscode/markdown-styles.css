@@ -280,13 +280,13 @@ table.array td {
 
 /* Base row-border class */
 /* Base row-border class */
-[class*="row-border"] + table > tbody > tr,
-tr.row-border {
+[class*="row-border"] + table > tbody > tr {
   border-bottom-width: 0px;
   border-bottom-style: solid;
   border-color: black;
 }
 
+tr.row-border { border-bottom-width: 2px; }
 .row-border-1  + table > tbody > tr:nth-child(1)  { border-bottom-width: 2px; }
 .row-border-2  + table > tbody > tr:nth-child(2)  { border-bottom-width: 2px; }
 .row-border-3  + table > tbody > tr:nth-child(3)  { border-bottom-width: 2px; }
