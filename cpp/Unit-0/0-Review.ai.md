@@ -1,8 +1,9 @@
+
 ---
-title: 0-Review
-source: AI-Generated Draft (Converted from PDF using Mistral OCR)
-original_file: 0-Review.pdf
-generated: 2025-08-03 16:15:30
+ai_generated: true
+conversion: "Converted from PDF using Mistral OCR"
+original_file: "0-Review.pdf"
+generated: "2025-08-03 16:15:30"
 ---
 
 # 0-Review {.background}
