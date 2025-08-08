@@ -92,10 +92,10 @@ These goals will be explored in the context of `C++` using the Linux operating s
 
 This course will be broken into four units:
 
-1. Using Classes. This is a preparatory unit, ensuring we have the programming skills to learn ObjectOriented programming and to lay the foundation for the topics to come.
-2. Encapsulation. Our first undertaking into the world of Object-Oriented programming, the encapsulation unit introduces us to classes. Here we will learn how to design a program with classes and create our first class.
-3. Inheritance & Polymorphism. With knowledge of how to create and use classes, the next unit is concerned with leveraging the relationships between similar classes to minimize code duplication and to provide a new perspective on class design.
-4. Abstract Types. After spending virtually the entire semester concerning ourselves with designing and creating new data types, the final unit is about defining functions and classes that operate independent of the data type passed to them.
+1. **Using Classes**. This is a preparatory unit, ensuring we have the programming skills to learn ObjectOriented programming and to lay the foundation for the topics to come.
+2. **Encapsulation**. Our first undertaking into the world of Object-Oriented programming, the encapsulation unit introduces us to classes. Here we will learn how to design a program with classes and create our first class.
+3. **Inheritance & Polymorphism**. With knowledge of how to create and use classes, the next unit is concerned with leveraging the relationships between similar classes to minimize code duplication and to provide a new perspective on class design.
+4. **Abstract Types**. After spending virtually the entire semester concerning ourselves with designing and creating new data types, the final unit is about defining functions and classes that operate independent of the data type passed to them.
 
 # How to use this textbook 
 
