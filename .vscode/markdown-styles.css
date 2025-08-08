@@ -128,7 +128,8 @@ blockquote:has(h2[id^="challenge"]) input {
   margin: .3em;
   background: unset;
   background: #fafafa;
-  max-width: 90%;
+  width: 90%;
+  min-width: 300px;
   line-height: 2em;
 }
 blockquote:has(h2[id^="problem"]) input:focus,
