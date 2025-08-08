@@ -261,6 +261,10 @@ img.sue {
   margin-bottom: 1em;
 }
 
+table:has(.array) {
+  background: blue;
+}
+
 /* Base row-border class */
 /* Base row-border class */
 [class*="row-border"] + table > tbody > tr {
