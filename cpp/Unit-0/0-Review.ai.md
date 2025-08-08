@@ -1215,7 +1215,7 @@ int main()
       int number;
       cout << "Enter a number: ":
       cin >> number;
-      items.push_back(number); // the push_back() method allows us to add an
+      items.push_back(number); // the `push_back()` method allows us to add an
    }
    // display the results
    for (int i = 0;
@@ -1226,7 +1226,7 @@ int main()
 }  // the ith item from the list
 ```
 
-The vector class will grow to accommodate as many items as is added to it through the push_back() mechanism.
+The vector class will grow to accommodate as many items as is added to it through the `push_back()` mechanism.
 
 ## Problem 1 - 6
 
