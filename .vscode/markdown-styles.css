@@ -139,8 +139,8 @@ blockquote:has(h2[id^="challenge"]) li:has(input)::before {
   color: #4f81bd; /* Change the color of the bullet */
   margin-right: .6em; /* Creates space between the bullet and the text */
 }
-blockquote:has(h2[id^="problem"]) li:has(input)::before:hover,
-blockquote:has(h2[id^="challenge"]) li:has(input)::before:hover {
+blockquote:has(h2[id^="problem"]) li:has(input):hover::before,
+blockquote:has(h2[id^="challenge"]) li:has(input):hover::before {
   content: "•";
   font-size: 1.2em; /* Adjust the size of the bullet */
   color: #4f81bd; /* Change the color of the bullet */
