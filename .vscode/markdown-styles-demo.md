@@ -187,6 +187,45 @@ Below are examples of each Obsidian callout type, rendered with Bootstrap-inspir
 > [!CITE]
 > Cite callouts reference sources or important literature.
 
+## Fenced Spans
+
+### What Are Fenced Spans?
+
+Fenced spans are an extension to standard Markdown that allow you to apply custom classes or attributes to inline or block-level content. This is especially useful for advanced styling, such as highlighting, warnings, or other semantic cues, directly within your Markdown.
+
+### Syntax Example
+
+You can use the following syntax to create a fenced span:
+
+```
+[fenced-span]{.fenced}
+```
+
+> renders as:
+> 
+> [fenced-span]{.fenced}
+
+This will render the text `fenced-span` with the CSS class `fenced`, allowing you to style it via your custom CSS.
+
+### Use Cases
+
+- **Highlighting important terms**:  
+    `[important]{.highlight}`
+
+- **Semantic labeling**:  
+    `[deprecated]{.warning}`
+
+- **Custom inline styling**:  
+    `[inline code]{.code-style}`
+
+### Requirements
+
+To use fenced spans, your Markdown processor must support the [Markdown-it Attribute extension](https://github.com/arve0/markdown-it-attrs) or a similar plugin. In VS Code, this is typically enabled by the Markdown Extended extension or compatible plugins.
+
+> [!TIP]
+> Fenced spans are a powerful way to add semantic meaning and custom styling to your Markdown content without resorting to raw HTML.
+
+
 ---
 
 <div style="page-break-after: always;"></div>
