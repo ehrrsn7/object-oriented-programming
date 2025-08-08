@@ -128,6 +128,8 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input {
   margin: .3em;
   max-width: 100vw;
   padding: 0 .5em;
+  width: 100%;
+  box-sizing: border-box;
 }
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input:focus {
   outline-color: #4f81bd40;
