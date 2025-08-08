@@ -101,6 +101,10 @@ blockquote h2[id^="challenge"] {
   margin: 0;
 }
 
+blockquote:has(h2[id^="problem"]),
+blockquote:has(h2[id^="challenge"]) {
+  /* ...existing styles... */
+}
 blockquote:has(h2[id^="problem"]) em:last-child,
 blockquote:has(h2[id^="challenge"]) em:last-child,
 blockquote:has(h2[id^="problem"]) p:has(em:last-child),
