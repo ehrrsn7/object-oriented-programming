@@ -119,20 +119,20 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"]) li {
   list-style-type: disc;
 }
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input {
-  border: unset;
+  background: #fafafa;
+  background: unset;
   border-bottom-width: 1px;
   border-bottom: 1px solid #4f81bd;
+  border: unset;
+  box-sizing: border-box;
   color: #4f81bd;
   font-weight: bold;
-  padding: 0 .5em;
-  margin: .3em;
-  background: unset;
-  background: #fafafa;
   line-height: 2em;
-  width: max-content;
+  margin: .3em;
   max-width: 100vw;
-  box-sizing: border-box;
   overflow-x: wrap;
+  padding: 0 .5em;
+  width: max-content;
 }
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input:focus {
   outline-color: #4f81bd40;
