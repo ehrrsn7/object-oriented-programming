@@ -118,11 +118,6 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"]) ul {
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) li {
   list-style-type: disc;
 }
-blockquote:has(h2[id^="problem"], h2[id^="challenge"]) p:has(input),
-blockquote:has(h2[id^="problem"], h2[id^="challenge"]) li:has(input) {
-  display: flex;
-  align-items: baseline;
-}
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input {
   border: unset;
   border-bottom-width: 1px;
