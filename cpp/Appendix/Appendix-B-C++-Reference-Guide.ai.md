@@ -1,12 +1,12 @@
-# Appendix-B-C++-Reference-Guide
-
-> **AI-Generated Draft** - Converted from PDF using Mistral OCR
-> 
-> Original file: `Appendix-B-C++-Reference-Guide.pdf`
-> 
-> Generated: 2025-08-03 10:31:28
 
 ---
+ai_generated: true
+conversion: "Converted from PDF using Mistral OCR"
+original_file: "Appendix-B-C++-Reference-Guide.pdf"
+generated: "2025-08-03 10:31:28"
+---
+
+# Appendix-B-C++-Reference-Guide
 
 # Appendix 
 

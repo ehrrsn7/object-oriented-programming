@@ -1,12 +1,12 @@
-# Appendix-A-Elements-of-Style
-
-> **AI-Generated Draft** - Converted from PDF using Mistral OCR
-> 
-> Original file: `Appendix-A-Elements-of-Style.pdf`
-> 
-> Generated: 2025-08-03 10:31:23
 
 ---
+ai_generated: true
+conversion: "Converted from PDF using Mistral OCR"
+original_file: "Appendix-A-Elements-of-Style.pdf"
+generated: "2025-08-03 10:31:23"
+---
+
+# Appendix-A-Elements-of-Style
 
 # Appendix 
 

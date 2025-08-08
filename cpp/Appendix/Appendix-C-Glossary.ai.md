@@ -1,12 +1,12 @@
-# Appendix-C-Glossary
-
-> **AI-Generated Draft** - Converted from PDF using Mistral OCR
-> 
-> Original file: `Appendix-C-Glossary.pdf`
-> 
-> Generated: 2025-08-03 16:15:16
 
 ---
+ai_generated: true
+conversion: "Converted from PDF using Mistral OCR"
+original_file: "Appendix-C-Glossary.pdf"
+generated: "2025-08-03 16:15:16"
+---
+
+# Appendix-C-Glossary
 
 # C. Glossary 
 

@@ -1,12 +1,12 @@
-# Appendix-D-Index
-
-> **AI-Generated Draft** - Converted from PDF using Mistral OCR
-> 
-> Original file: `Appendix-D-Index.pdf`
-> 
-> Generated: 2025-08-03 16:15:20
 
 ---
+ai_generated: true
+conversion: "Converted from PDF using Mistral OCR"
+original_file: "Appendix-D-Index.pdf"
+generated: "2025-08-03 16:15:20"
+---
+
+# Appendix-D-Index
 
 # D. Index 
 
