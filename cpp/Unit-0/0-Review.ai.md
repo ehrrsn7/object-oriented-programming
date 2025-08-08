@@ -1257,7 +1257,7 @@ The vector class will grow to accommodate as many items as is added to it throug
 > 
 > How much space in memory does each variable take?
 > 
-> - bool value;
+> - bool value; <input>
 > - char value[256]; <input>
 > - char value; <input>
 > - long double value; <input>
