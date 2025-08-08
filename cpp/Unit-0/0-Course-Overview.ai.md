@@ -43,8 +43,8 @@ date: "2025-08-03"
 | [2.0 Encapsulation Design](../Unit-2/Chapter-2.0/2.0-Encapsulation-Design.ai.md) |
 | [2.1 Building a Class](../Unit-2/Chapter-2.1/2.1-Building-a-Class.ai.md) |
 | [2.2 Class Syntax](../Unit-2/Chapter-2.2/2.2-Class-Syntax.ai.md) |
-| [2.3 Accessors \& Mutators](../Unit-2/Chapter-2.3/2.3-Accessors-&-Mutators.ai.md) |
-| [2.4 Constructors \& Destructors](../Unit-2/Chapter-2.4/2.4-Constructors-&-Destructors.ai.md) |
+| [2.3 Accessors & Mutators](../Unit-2/Chapter-2.3/2.3-Accessors-&-Mutators.ai.md) |
+| [2.4 Constructors & Destructors](../Unit-2/Chapter-2.4/2.4-Constructors-&-Destructors.ai.md) |
 | [2.5 Static](../Unit-2/Chapter-2.5/2.5-Static.ai.md) |
 | [2.6 Non-Member Operator Overloading](../Unit-2/Chapter-2.6/2.6-Non-Member-Operator-Overloading.ai.md) |
 | [2.7 Friends](../Unit-2/Chapter-2.7/2.7-Friends.ai.md) |
@@ -94,7 +94,7 @@ This course will be broken into four units:
 
 1. Using Classes. This is a preparatory unit, ensuring we have the programming skills to learn ObjectOriented programming and to lay the foundation for the topics to come.
 2. Encapsulation. Our first undertaking into the world of Object-Oriented programming, the encapsulation unit introduces us to classes. Here we will learn how to design a program with classes and create our first class.
-3. Inheritance \& Polymorphism. With knowledge of how to create and use classes, the next unit is concerned with leveraging the relationships between similar classes to minimize code duplication and to provide a new perspective on class design.
+3. Inheritance & Polymorphism. With knowledge of how to create and use classes, the next unit is concerned with leveraging the relationships between similar classes to minimize code duplication and to provide a new perspective on class design.
 4. Abstract Types. After spending virtually the entire semester concerning ourselves with designing and creating new data types, the final unit is about defining functions and classes that operate independent of the data type passed to them.
 
 # How to use this textbook 

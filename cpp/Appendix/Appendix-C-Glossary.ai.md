@@ -56,7 +56,7 @@ int Date :: getYear() const
 address-of
 operator
 
-The address-of operator (\&) yields the address of a variable in memory. It is possible to use the address-of operator in front of any variable.
+The address-of operator (&) yields the address of a variable in memory. It is possible to use the address-of operator in front of any variable.
 
 ```cpp
 {
@@ -335,8 +335,8 @@ object file An object file is a partially compiled file. Rather than compiling a
 | operator overloading | Operator overloading is the process of using a more convenient and human-readable notation for calling a function (such as " $4+3$ "), than the functional notation common in programming languages (such as "add(4, 3)"). | Chapter 2.6 |
 | overloading | Overloading is the process of having more than one function with the same name. The only differences between the functions are the parameters they take. | Chapter 1.5 |
 |  | ```int add(int value1, int value2); float add(float value1, float value2);``` |  |
-| pass-by-reference | Pass-by-reference, also known as "call-by-reference," is the process of sending a parameter to a function where the caller and the callee share the same variable. This means that changes made to the parameter in the callee will be reflected in the caller. You specify a pass-by-reference parameter with the ampersand \&. | Review |
-|  | void passByReference(int \&parameter); |  |
+| pass-by-reference | Pass-by-reference, also known as "call-by-reference," is the process of sending a parameter to a function where the caller and the callee share the same variable. This means that changes made to the parameter in the callee will be reflected in the caller. You specify a pass-by-reference parameter with the ampersand &. | Review |
+|  | void passByReference(int &parameter); |  |
 | pass-by-pointer | Pass-by-pointer, more accurately called "passing a pointer by reference," is the process of passing an address as a parameter to a function. This has much the same effect as pass-by-reference. | Review |
 |  | void passByPointer(int *pParameter); |  |
 | pass-by-value | Pass-by-value, also known as "call-by-value," is the process of sending a parameter to a function where the caller and the callee have different versions of a variable. Data is sent one-way from the caller to the callee; no data is sent back to the caller through this mechanism. This is the default parameter passing convention in `C++`. | Review |
