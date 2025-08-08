@@ -1238,7 +1238,7 @@ For each of the following, indicate where the parentheses go to disambiguate the
 4. a += * b ++ * 7 || ! c + 5 > 2
 5. 1 < x < 10
 
-Please see page 6 for a hint.
+Please see page 6 for a hint.*
 
 ## Problem 6
 
@@ -1251,7 +1251,7 @@ If the tab stops are set to 8 spaces, what will be the output of the following c
 }
 ```
 
-Please see page 8 for a hint.
+Please see page 8 for a hint.*
 
 ## Problem 7
 
@@ -1262,7 +1262,7 @@ How much space in memory does each variable take?
 - char value; <input>
 - long double value; <input>
 
-Please see page 4 for a hint.
+Please see page 4 for a hint.*
 
 ## Problem 8
 
@@ -1280,7 +1280,7 @@ $$
 \text { int } b=(\text { float }) 1 / 4 * 10
 $$
 
-Please see page 5 for a hint.
+Please see page 5 for a hint.*
 
 What are the values of the following variables?
 \{
@@ -1304,7 +1304,7 @@ bool f = 90 < 80 || 70;
 bool g = 10 + 2 - false;
 16.
 \}
-Please see page 6 for a hint.
+Please see page 6 for a hint.*
 
 ## Problem 17
 
@@ -1399,7 +1399,7 @@ int main()
 }
 ```
 
-Please see page 13 for a hint.
+Please see page 13 for a hint.*
 
 ## Problem 22 - 26
 
@@ -1410,7 +1410,7 @@ Write the function prototype to:
 25. Prompt the user for his name
 26. Display the contents of a Sudoku board
 
-Please see page 14 for a hint.
+Please see page 14 for a hint.*
 
 ## Problem 27
 
@@ -1426,7 +1426,7 @@ What is the output:
 }
 ```
 
-Please see page 15 for a hint.
+Please see page 15 for a hint.*
 
 What is the output of the following code fragment?
 
@@ -1438,7 +1438,7 @@ What is the output of the following code fragment?
 }
 ```
 
-Please see page 15 for a hint.
+Please see page 15 for a hint.*
 
 ## Problem 29
 
@@ -1451,7 +1451,7 @@ Given the following code:
 ```
 
 How can you output the $3^{\text {rd }}$ item in the list without using the square bracket operator []?
-Please see page 18 for a hint.
+Please see page 18 for a hint.*
 
 ## Problem 30 - 33
 
@@ -1490,7 +1490,7 @@ Write the code to find the sum of all the items in the following array of intege
 }
 ```
 
-Please see page 7 for a hint.
+Please see page 7 for a hint.*
 
 ## Problem 35
 
@@ -1502,7 +1502,7 @@ void display(const char * text)
 }
 ```
 
-Please see page 7 for a hint.
+Please see page 7 for a hint.*
 
 ## Problem 36
 
@@ -1515,7 +1515,7 @@ Match the declaration with the type of data:
 | int * a; | A reference to an integer |
 | int ** a; | An integer variable |
 
-Please see page 18, 101 for a hint.
+Please see page 18, 101 for a hint.*
 
 ## Problem 37
 
@@ -1535,7 +1535,7 @@ Allocate an integer and leave the memory un-initialized
 Error
 Allocate an integer and initialize the memory to 7
 Allocate a 2-dimensional array: $7 \times 7$
-Please see page 19 for a hint.
+Please see page 19 for a hint.*
 
 ## Problem 38
 
