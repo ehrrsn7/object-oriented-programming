@@ -106,7 +106,7 @@ This textbook is closely aligned with CS 165. All the topics, problems, and tech
 You may notice two characters present in various sections of this text. They embody two common archetypes representative of people you will probably encounter in industry.
 
 > [!Danger] Sue's Tips
-> 
+> ![Sue](/.vscode/assets/sue.png){.sue}
 > Sue is a pragmatist. She cares only about getting the job done at a high quality level and with the minimum amount of effort. In other words, she cares little for the art of programming, focusing instead on the engineering of the craft.
 > Sue's Tips tend to focus on the following topics:
 > 
