@@ -132,10 +132,10 @@ blockquote:has(h2[id^="challenge"]) li:has(input) {
   align-items: baseline;
 }
 /* Add this rule to restore the bullet points */
-blockquote:has(h2[id^="problem"]) li:has(input)::before,
-blockquote:has(h2[id^="challenge"]) li:has(input)::before,
 blockquote:has(h2[id^="problem"]) li:has(input:hover)::before,
-blockquote:has(h2[id^="challenge"]) li:has(input:hover)::before {
+blockquote:has(h2[id^="challenge"]) li:has(input:hover)::before,
+blockquote:has(h2[id^="problem"]) li:has(input)::before,
+blockquote:has(h2[id^="challenge"]) li:has(input)::before {
   content: "•";
   font-size: 1.2em; /* Adjust the size of the bullet */
   color: #4f81bd; /* Change the color of the bullet */
