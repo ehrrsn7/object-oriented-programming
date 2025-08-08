@@ -86,7 +86,7 @@ By the end of this semester, you will be able to:
 - Write Object-Oriented C++ code conforming to a problem definition
 - List and define the terms and concepts of Object-Oriented design
 
-These goals will be explored in the context of $\mathrm{C}++$ using the Linux operating system.
+These goals will be explored in the context of `C++` using the Linux operating system.
 
 ## Course layout
 

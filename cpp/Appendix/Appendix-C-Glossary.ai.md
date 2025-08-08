@@ -93,7 +93,7 @@ The address-of operator (\&) yields the address of a variable in memory. It is p
 |  | char letterGrade = 'B'; |  |
 | comments | Comments are notes placed in a program not read by the compiler. | Review |
 | cohesion | The measure of the internal strength of a module. In other words, how much a function does one thing and one thing only. The seven levels of cohesion are: Functional, Sequential, Communicational, Procedural, Temporal, Logical, and Coincidental. | Review |
-| conditional expression | A conditional expression is a decision mechanism built into $\mathrm{C}++$ allowing the programmer to choose between two expression, rather than two statements. | Review |
+| conditional expression | A conditional expression is a decision mechanism built into `C++` allowing the programmer to choose between two expression, rather than two statements. | Review |
 |  | ```cout << (grade >= 60.0 ? "pass" : "fail");``` |  |
 | coupling | Coupling is the measure of information interchange between functions. The four levels of coupling are: Data, Stamp, Control, and External. | Review |
 | class | A data-structure consisting of member variables (like a structure) and member functions. A class is not a variable, but rather a template or plan by which a variable can be made. A variable built from a class is called an object. | Chapter 2.0 |
@@ -166,12 +166,12 @@ file format The part of a design document describing how to persist that data be
 |  | for (int i = 0; i < num; i++) <br> cout << array[i] << endl; |
 | :-- | :-- |
 
-friend Friends are special functions in $\mathrm{C}++$ that have access to the private member variables and private methods of a class.
+friend Friends are special functions in `C++` that have access to the private member variables and private methods of a class.
 
 # \{ <br> void (*pointer)(int parameter); 
 
 function signature A function signature is the combination of the name of the function with the data type of the parameters it takes. This is used to uniquely identify a function.
-function template A function template is a mechanism in $\mathrm{C}++$ allowing the programmer to implement a generic algorithm that works with any data type.
+function template A function template is a mechanism in `C++` allowing the programmer to implement a generic algorithm that works with any data type.
 
 ```cpp
 template <class T>
@@ -339,7 +339,7 @@ object file An object file is a partially compiled file. Rather than compiling a
 |  | void passByReference(int \&parameter); |  |
 | pass-by-pointer | Pass-by-pointer, more accurately called "passing a pointer by reference," is the process of passing an address as a parameter to a function. This has much the same effect as pass-by-reference. | Review |
 |  | void passByPointer(int *pParameter); |  |
-| pass-by-value | Pass-by-value, also known as "call-by-value," is the process of sending a parameter to a function where the caller and the callee have different versions of a variable. Data is sent one-way from the caller to the callee; no data is sent back to the caller through this mechanism. This is the default parameter passing convention in $\mathrm{C}++$. | Review |
+| pass-by-value | Pass-by-value, also known as "call-by-value," is the process of sending a parameter to a function where the caller and the callee have different versions of a variable. Data is sent one-way from the caller to the callee; no data is sent back to the caller through this mechanism. This is the default parameter passing convention in `C++`. | Review |
 |  | void passByValue(int parameter); |  |
 | pointer | A pointer is a variable holding and address rather than data. A data variable, for example, may hold the value 3.14159. A pointer variable, on the other hand, will contain the address of some place in memory. | Review |
 | polymorphism | Polymorphism is the process of one class having more than one variation. Each variation honors the same contract (called "interface") though the behavior details (called "implementation") may be different. | Chapter 3.1 |
@@ -372,7 +372,7 @@ An access modifier indicating that only member functions and member functions of
 
 A prototype is the name, parameter list, and return value of a function to be defined later in a file. The purpose of the prototype is to give the compiler "heads-up" as to which functions will be defined later in the file.
 
-Pseudocode is a high-level programming language designed to help people design programs. Though it has most of the elements of a language like $\mathrm{C}++$, pseudocode cannot be compiled. An example of pseudocode is:
+Pseudocode is a high-level programming language designed to help people design programs. Though it has most of the elements of a language like `C++`, pseudocode cannot be compiled. An example of pseudocode is:
 
 ```cpp
 computeTithe(income)
