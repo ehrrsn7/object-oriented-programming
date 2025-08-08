@@ -9,10 +9,11 @@ generated: "2025-08-03 10:31:23"
 
 # Appendix 
 
-- [A. Elements of Style](#a-elements-of-style) {.table-of-contents}
-- [B. C++ Syntax Reference Guide](#b-c-syntax-reference-guide)
-- [C. Glossary](#c-glossary)
-- [D. Index](#d-index)
+| ---
+| [A. Elements of Style](#a-elements-of-style) {.table-of-contents}
+| [B. C++ Syntax Reference Guide](#b-c-syntax-reference-guide)
+| [C. Glossary](#c-glossary)
+| [D. Index](#d-index)
 
 # Appendix 
 
