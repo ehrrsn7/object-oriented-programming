@@ -1,11 +1,11 @@
 :root {
-  --byui-blue: #4f81bd;
-  --rvhs-green: #2d8d42;
+  --rvhs-green: #4f81bd;
+  --byui-blue: #2d8d42;
 }
 
 /* # Headers */
 .background {
-  background-color: var(--rvhs-green);
+  background-color: var(--byui-blue);
   background-image: url("./assets/header.jpg");
   background-position: right;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 }
 
 .unit-1-background {
-  background-color: var(--rvhs-green);
+  background-color: var(--byui-blue);
   background-image: url("./assets/unit-1-background.jpg");
   background-position: right;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@
 }
 
 a {
-  color: var(--rvhs-green);
+  color: var(--byui-blue);
 }
 
 .monospace {
@@ -105,12 +105,12 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) {
     border-top-width: 4px;
     background: white;
     border-radius: 6px;
-    outline: 3px solid var(--rvhs-green);
-    border-color: var(--rvhs-green);
+    outline: 3px solid var(--byui-blue);
+    border-color: var(--byui-blue);
 }
 blockquote h2[id^="problem"], h2[id^="challenge"], h2[id^="review"] {
-  border-color: var(--rvhs-green);
-  color: var(--rvhs-green);
+  border-color: var(--byui-blue);
+  color: var(--byui-blue);
   border-radius: .1em;
   border-width: 2px;
   margin: 0;
@@ -118,8 +118,8 @@ blockquote h2[id^="problem"], h2[id^="challenge"], h2[id^="review"] {
 blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"], h2[id^="review"]) em:last-child,
 blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) p:has(em:last-child) {
   /* hints */
-  border-color: var(--rvhs-green);
-  color: var(--rvhs-green);
+  border-color: var(--byui-blue);
+  color: var(--byui-blue);
   border-radius: .1em;
   border-width: 2px;
   margin: 0;
@@ -137,9 +137,9 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) input {
   background: #fafafa;
   border: unset;
   border-bottom-width: 1px;
-  border-bottom: 1px solid var(--rvhs-green);
+  border-bottom: 1px solid var(--byui-blue);
   box-sizing: border-box;
-  color: var(--rvhs-green);
+  color: var(--byui-blue);
   font-weight: bold;
   line-height: 2em;
   margin: .3em;
@@ -154,7 +154,7 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) input:f
 blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) li:hover::marker,
 blockquote:has(h2[id^="problem"], h2[id^="challenge"], h2[id^="review"]) li::marker {
   font-size: 1.2em; /* Adjust the size of the bullet */
-  color: var(--rvhs-green); /* Change the color of the bullet */
+  color: var(--byui-blue); /* Change the color of the bullet */
 }
 
 /* General Table Styling */
@@ -173,7 +173,7 @@ table.Example > thead > tr > th h2 {
   border: none;
 }
 table.Example > thead {
-  background: var(--rvhs-green);
+  background: var(--byui-blue);
   color: white;
   text-align: center;
   border: none;
@@ -185,7 +185,7 @@ table.Example > tbody th {
 }
 table.Example > tbody > tr > th {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
-  background: var(--rvhs-green);
+  background: var(--byui-blue);
   color: white;
   min-width: 12px; /* Set a fixed width for the vertical header cell */
   text-align: center;
@@ -211,7 +211,7 @@ div.steel-blue-header-table {
   display: hidden;
 }
 .steel-blue-header-table + table > thead {
-  background: var(--rvhs-green);
+  background: var(--byui-blue);
   color: white;
 }
 
@@ -219,7 +219,7 @@ thead.steel-blue-header-table,
 th.steel-blue-header-table ~ th,
 th.steel-blue-header-table > code,
 th.steel-blue-header-table {
-  background: var(--rvhs-green);
+  background: var(--byui-blue);
   color: white;
 }
 
@@ -243,7 +243,7 @@ th.gray-box ~ th {
 .steel-blue-sidebar-table + table > thead,
 .steel-blue-sidebar-table + table > tbody > tr > :first-child,
 .steel-blue-sidebar-table + table > tbody > tr > :first-child code {
-  background: var(--rvhs-green);
+  background: var(--byui-blue);
   color: white;
   font-weight: bold;
 }
