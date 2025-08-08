@@ -127,8 +127,7 @@ blockquote:has(h2[id^="challenge"]) li {
 blockquote:has(h2[id^="problem"]) li:has(input),
 blockquote:has(h2[id^="challenge"]) li:has(input) {
   display: flex;
-  flex-direction: row;
-  flex: 1;
+  align-items: baseline;
 }
 blockquote:has(h2[id^="problem"]) input,
 blockquote:has(h2[id^="challenge"]) input {
