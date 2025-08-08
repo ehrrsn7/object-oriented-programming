@@ -261,7 +261,7 @@ img.sue {
   margin-bottom: 1em;
 }
 
-table:has(.array) {
+table:has(> .array) {
   background: blue;
 }
 
