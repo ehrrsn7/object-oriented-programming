@@ -1289,13 +1289,14 @@ The vector class will grow to accommodate as many items as is added to it throug
 > bool a = false && true || false && true;
 > ```
 > 
-> 10.
-> 11. bool b = false || true && false || true; <input>
-> 12. bool c = true && true && true && false; <input>
-> 13. bool d = false || false || false || true; <input>
-> 14. bool e = 100 > 90 > 80; <input>
-> 15. bool f = 90 < 80 || 70; <input>
-> 16. bool g = 10 + 2 - false; <input>
+> | ---
+> | 10.
+> | 11. `bool b = false || true && false || true;` | <input>
+> | 12. `bool c = true && true && true && false;` | <input>
+> | 13. `bool d = false || false || false || true;` | <input>
+> | 14. `bool e = 100 > 90 > 80;` | <input>
+> | 15. `bool f = 90 < 80 || 70;` | <input>
+> | 16. `bool g = 10 + 2 - false;` | <input>
 > 
 > \}
 > 
