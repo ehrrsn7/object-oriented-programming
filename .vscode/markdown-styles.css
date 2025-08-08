@@ -117,7 +117,6 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"]) ul {
 }
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) li {
   list-style-type: disc;
-  color: #4f81bd; /* Change the color of the bullet */
 }
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input {
   background: #fafafa;
