@@ -178,7 +178,8 @@ table.Example > tbody th {
   border: none;
   border-top: 1px solid white;
 }
-table.Example > tbody > tr > td > table > thead > tr > th {
+table.Example > tbody > tr > td > table > thead > tr > th,
+table.Example > tbody th {
   writing-mode: vertical-rl; /* Sets text direction to vertical, right-to-left */
   background: #4f81bd;
   color: white;
