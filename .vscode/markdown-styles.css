@@ -86,10 +86,12 @@ blockquote:has(div.table-of-contents) { /* generated > [[toc]] */
   border: unset;
   padding: unset;
 }
-blockquote > div.table-of-contents > ul > li > a,
 blockquote > div.table-of-contents > ul > li > a { /* generated > [[toc]] first-level list items */
   line-height: 2em;
   background: red;
+}
+body > div > blockquote:nth-child(4) > div > ul > li:nth-child(3) > ul > li:nth-child(1) > a {
+  background: blue;
 }
 
 /* Select blockquotes that contain an h2 with id starting with "problem" or "challenge" */
