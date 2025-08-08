@@ -584,6 +584,16 @@ Orange
 > ![Sam](.vscode/assets/sam.png){width=50 align=right}
 > Did you know that C++ templates are Turing complete? This means you can theoretically compute any computable function at compile time using only template metaprogramming techniques.
 
+Please note: using `/absolute/file/paths` is supported, but not when exporting. A known bug was when we used this:
+```
+> ![Sam](/.vscode/assets/sam.png){.sam}
+> ![Sue](/.vscode/assets/sue.png){.sue}
+```
+Which caused Markdown Export: `markdown-file-name...`.pdf (.../40) to crash. Using a relative import instead fixed this error altogether, albeit the current asset management could use some improvement.
+```
+> ![Sam](.vscode/assets/sam.png){.sam}
+> ![Sue](.vscode/assets/sue.png){.sue}
+```
 ---
 
 ## Lists and Organization
