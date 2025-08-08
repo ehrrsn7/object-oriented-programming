@@ -135,8 +135,8 @@ blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input {
 blockquote:has(h2[id^="problem"], h2[id^="challenge"]) input:focus {
   outline-color: #4f81bd40;
 }
-blockquote:has(h2[id^="problem"], h2[id^="challenge"]) li:hover::before,
-blockquote:has(h2[id^="problem"], h2[id^="challenge"]) li::before {
+blockquote:has(h2[id^="problem"], h2[id^="challenge"]) li:hover::marker,
+blockquote:has(h2[id^="problem"], h2[id^="challenge"]) li::marker {
   font-size: 1.2em; /* Adjust the size of the bullet */
   color: #4f81bd; /* Change the color of the bullet */
 }
