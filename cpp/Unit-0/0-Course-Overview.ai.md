@@ -67,6 +67,9 @@ date: "2025-08-03"
 | [C. Glossary](../Appendix/Appendix-C-Glossary.ai.md) |
 | [D. Index](../Appendix/Appendix-D-Index.ai.md) |
 
+> **In this Document:**
+> [[toc]]
+
 # Course Overview 
 
 Procedural programming, the subject of CS 124 preceding this class, is a style of programming where the focus is on the function. This includes how to subdivide a program into functions (in a process called modularization) and what goes on inside functions. Virtually any programming project can be completed with procedural programming tools.
