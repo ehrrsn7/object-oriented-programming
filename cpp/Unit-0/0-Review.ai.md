@@ -1179,8 +1179,9 @@ int abs(int); // returns the absolute value of a number
 
 In order to use any of these functions, it is necessary to include the c-standard-library:
 
-[^0]
-[^0]:    \#include <cstdlib>
+```cpp
+#include <cstdlib>
+```
 
 # String class
 
