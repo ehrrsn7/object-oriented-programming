@@ -746,10 +746,8 @@ A normal variable declaration asks the compiler to reserve the necessary amount 
 
 It is also possible to initialize an array at declaration time:
 
-<div class="steel-blue-header-table"></div>
-
-<table class="code-line" dir="auto">
-<thead class="code-line" dir="auto">
+<table>
+<thead class="steel-blue-header-table" dir="auto">
 <tr class="code-line" dir="auto">
 <th style="min-width: 190px; text-align:center" class="code-line" dir="auto">
 
