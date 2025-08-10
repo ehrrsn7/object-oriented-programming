@@ -4,19 +4,13 @@ conversion: "Converted from PDF using Mistral OCR"
 original_file: "Appendix-A-Elements-of-Style.pdf"
 generated: "2025-08-03 10:31:23"
 ---
-
-# Appendix-A-Elements-of-Style
-
-# Appendix 
-
+# Appendix {.unit-1-background}
 | ---
-| [A. Elements of Style](.) {.table-of-contents}
+| [A. Elements of Style](./Appendix-A-Elements-of-Style.ai.md)
 | [B. C++ Syntax Reference Guide](./Appendix-B-C++-Reference-Guide.ai.md)
 | [C. Glossary](./Appendix-C-Glossary.ai.md)
 | [D. Index](./Appendix-D-Index.ai.md)
-
-# Appendix 
-
+# Appendix
 ## A. Elements of Style
 
 While the ultimate test of a program is how well it performs for the user, the value of the program is greatly limited if it is difficult to understand or update. For this reason, it is very important for programmers to write their code in the most clear and understandable way possible. We call this "programming style."

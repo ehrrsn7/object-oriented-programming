@@ -106,7 +106,7 @@ This textbook is closely aligned with CS 165. All the topics, problems, and tech
 You may notice two characters present in various sections of this text. They embody two common archetypes representative of people you will probably encounter in industry.
 
 > [!Danger] Sue's Tips
-> ![Sue](/.vscode/assets/sue.png){.sue}
+> ![Sue](../../.vscode/assets/sue.png){.sue}
 > Sue is a pragmatist. She cares only about getting the job done at a high quality level and with the minimum amount of effort. In other words, she cares little for the art of programming, focusing instead on the engineering of the craft.
 > Sue's Tips tend to focus on the following topics:
 > 
@@ -117,7 +117,7 @@ You may notice two characters present in various sections of this text. They emb
 
 
 > [!tldr] Sam's Corner
-> ![sam](/.vscode/assets/sam.png){.sam}
+> ![Sam](../../.vscode/assets/sam.png){.sam}
 > Sam is a technology nerd. He likes solving hard problems for their own sake, not necessarily because they even need to be solved. Sam enjoys getting to the heart of a problem and finding the most elegant solution. It is easy for Sam to get hung up on a problem for hours even though he found a working solution long ago.
 > The following topics are commonly discussed in Sam's Corner:
 > 
