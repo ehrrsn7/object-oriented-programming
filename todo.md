@@ -29,7 +29,7 @@
 >   444,1: <!-- TODO: repeat this conversion process for CS 124 too (should go a lot quicker now that we've got the workflow down)-->
 > ```
 
-> [!tldr]-- [ ] Can't convert to PDF's (it poops out like 2 files in)
+> [!tldr]-- [x] Can't convert to PDF's (it poops out like 2 files in)
 > here is a TypeError related to a null value in the markdown-extended extension. This may be due to an invalid or missing image/file path in your markdown files.
 > When running {
 >   "key": "",
@@ -53,3 +53,7 @@
 >     at renderPage (c:\Users\ehrrsn7\.vscode\extensions\jebbs.markdown-extended-1.1.4\out\src\services\exporter\shared.js:19:16)
 >     at PuppeteerExporter.exportFile (c:\Users\ehrrsn7\.vscode\extensions\jebbs.markdown-extended-1.1.4\out\src\services\exporter\puppeteer.js:51:44)
 > ```
+> **Solution**:\
+> The issue was the `Foam` extension attempting to recreate obsidian features, including absolute paths for common images.
+> Since these didn't work with the exporter, we converted these image paths to relative ones (generally ../../../..).
+> The next step is to copy .vscode into each folder.
