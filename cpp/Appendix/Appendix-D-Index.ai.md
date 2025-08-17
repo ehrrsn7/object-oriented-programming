@@ -9,80 +9,80 @@ generated: "2025-08-03 16:15:20"
 
 # D. Index 
 
-\#define ..... 365
-\#ifdef ..... 365
-\#ifndef ..... 365
-\#include ..... 87
+\#define 
+\#ifdef 
+\#ifndef 
+\#include 
 :: See scope resolution operator
--> ..... 77
+-> 
 abstract class ..... 269, 365
-abstracting ..... 225
+abstracting 
 access modifier ..... $117,136,365$
-accessor ..... 144
-address-of operator ..... 365
-aggregate data-type ..... 71
-aggregation ..... 219
-argc ..... 362
-argv ..... 362
+accessor 
+address-of operator 
+aggregate data-type 
+aggregation 
+argc 
+argv 
 array ..... $17,360,366$
-arrow operator ..... 366
+arrow operator 
 assert ..... $55,359,366$
-association ..... 219
+association 
 base class ..... 237, 366
 binding ..... $229,258,366$
-bitwise operator ..... 366
+bitwise operator 
 bool ..... 4,366
-Boolean operators ..... 366
+Boolean operators 
 callback ..... 289, 290, 367
 callee ..... 290, 367
 caller ..... 290, 367
-cast ..... 5
-casting ..... 367
-catch ..... 65
-catch-all ..... 65
-cctype ..... 22
+cast 
+casting 
+catch 
+catch-all 
+cctype 
 char ..... 4, 367
-child class ..... 237
-chmod ..... 90
+child class 
+chmod 
 cin ..... 10, 359
-cin.clear() ..... 54
-cin.fail() ..... 53
-cin.ignore() ..... 54
+cin.clear() 
+cin.fail() 
+cin.ignore() 
 class ..... $115,135,367$
 class template ..... 310,368
 client ..... 98,368
 cohesion ..... $72,86,115,367$
-functions ..... 14
-coincidental ..... 15
+functions 
+coincidental 
 comments ..... $355,356,367$
-communicational ..... 14
+communicational 
 composition ..... $218,219,368$
 conditional expression ..... $7,362,367$
 const ..... 4,146
-const_cast ..... 5
+const_cast 
 constructor ..... $151,152,241,368$
-copy ..... 154
-default ..... 152
-non-default ..... 153
+copy 
+default 
+non-default 
 container ..... 341,368
-continuous data ..... 121
+continuous data 
 coupling ..... $86,115,367$
 cout ..... $9,359,368$
-cstdlib ..... 22
-cstring ..... 22
-data ..... 120
-data abstraction ..... 115
+cstdlib 
+cstring 
+data 
+data abstraction 
 default parameters ..... 103, 368
 delete ..... $7,362,370$
-dependency ..... 219
-dereference operator ..... 370
+dependency 
+dereference operator 
 derivation ..... 218,370
 derived class ..... 237, 370
-design document ..... 370
+design document 
 Design Document
 Algorithms ..... 33,40
-Data Structure ..... 42
-Data Structures ..... 33
+Data Structure 
+Data Structures 
 Design Overview ..... 33, 36
 Error Handling ..... $33,44,48$
 File Format ..... 33, 43
@@ -90,18 +90,18 @@ Interface Design ..... 33, 37
 Problem Description ..... 33, 35
 Structure Chart ..... 33, 38
 destructor ..... $151,156,370$
-discrete data ..... 121
+discrete data 
 double ..... 4,370
 downcasting ..... 261, 371
-dynamic_cast ..... 5
+dynamic_cast 
 early binding ..... 229, 371
 EID ..... 63, 371
-encapsulation ..... 114
-eof ..... 371
-error flags ..... 371
-error handling ..... 371
-escape sequences ..... 371
-expression ..... 371
+encapsulation 
+eof 
+error flags 
+error handling 
+escape sequences 
+expression 
 extraction operator ..... $7,176,373$
 
 ![Appendix-D-Index_img_1.jpeg](Appendix-D-Index_images/Appendix-D-Index_img_1.jpeg)
@@ -110,8 +110,8 @@ multi-dimensional arrays ..... $17,362,377$
 mutator ..... 144,377
 new ..... $7,362,371,377$
 node ..... 317,377
-null ..... 377
-NULL ..... 377
+null 
+NULL 
 object ..... 115,377
 object file ..... 90,377
 ofstream ..... 360,378
@@ -142,64 +142,64 @@ $==$ equivalence ..... 184-196, 202, 209, 212
 $>$ greater than ..... 184, 186, 188, 196, 202, 212
 $>=$ greater than or equal ... 184-188, 196, 202, 212
 $>>$ extraction.... 176-188, 196, 202, 212, 243, 253
-parent class ..... 237
-pass-by-pointer. ..... 378
+parent class 
+pass-by-pointer. 
 pass-by-reference ..... 16,378
 pass-by-value ..... 16,378
-pointer ..... 378
-arithmetic ..... 20
-declare ..... 20
-polymorphism ..... 378
+pointer 
+arithmetic 
+declare 
+polymorphism 
 private ..... $117,136,378$
-procedural ..... 14
-properties ..... 120
+procedural 
+properties 
 protected ..... 248,380
 prototype ..... 103,380
 pseudocode ..... 40,380
 public ..... $117,136,380$
 pure virtual function ..... 269,270
-random access ..... 318
+random access 
 
-redefining ..... 242
-reinterpret_cast ..... 5
-scope ..... 380
+redefining 
+reinterpret_cast 
+scope 
 scope resolution operator ..... 138,380
-separate compilation ..... 380
-sequential ..... 14
-$\operatorname{setf}($ ) ..... 359
+separate compilation 
+sequential 
+$\operatorname{setf}($ ) 
 setter ..... 122, See mutator
-$\operatorname{setw}()$ ..... 9
-short ..... 4
+$\operatorname{setw}()$ 
+short 
 sizeof() ..... 7,380
 slicing problem ..... 261, 262, 381
 source file ..... 87,137
-standard template library ..... 341
+standard template library 
 static ..... $164,165,381$
-static_cast ..... 5
+static_cast 
 `STL` ..... 381, See standard template library
 strings ..... $23,360,381$
-c-strings ..... 368
-struct ..... 74
-structure ..... 381
+c-strings 
+struct 
+structure 
 structure chart ..... 38,381
-structure tag ..... 381
-styleChecker ..... 383
-switch ..... 362
-tabs ..... 383
+structure tag 
+styleChecker 
+switch 
+tabs 
 TAR ..... 92, 383
-template ..... 281
+template 
 template prefix ..... 303, 311
-temporal ..... 14
+temporal 
 this ..... 140,383
 throw ..... 64,383
-throw list ..... 383
+throw list 
 try ..... 64,383
 type parameter ..... 303, 311
-UML ..... 384
+UML 
 UML class diagram ..... 225, 384
-unsigned ..... 4
+unsigned 
 upcasting ..... 262, 384
-variable ..... 384
+variable 
 variant ..... 222, 384
 vector ..... $23,342,343,344$
 virtual function ..... 258, 384
