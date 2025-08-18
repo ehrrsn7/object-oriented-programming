@@ -339,7 +339,7 @@ void writeNumber(const char * filename, int data)
 
 Loops are mechanisms to allow a program to execute the same section of code more than once. There are three types of loops in C++: WHILE, DO-WHILE, and FOR:
 
-| while  | do-while  | for {.steel-blue-header-table} |
+| while  | do-while  | for {.rvhs-green-header-table} |
 | :-- | :- | :-- |
 | A WHILE loop is good for repeating through a given block of code multiple times. $$ \begin{array}{l} \texttt{while (x > 0)} \\ \texttt{\{ } \\ \texttt{\ \ \ x--;} \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\}} \end{array} $$ | Same as WHILE except we always execute the body of the loop at least once. $$ \begin{array}{l} \texttt{do} \\ \texttt{\{ } \\ \texttt{\ \ \ x--;} \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\} while (x > 0);} \end{array} $$ | Designed for counting, usually meaning we know where we start, where we end and what changes. $$ \begin{array}{l} \texttt{for (x = 10; x > 0; x--)} \\ \texttt{\{ } \\ \texttt{\ \ \ cout << x << endl;} \\ \texttt{\}} \end{array} $$  |
 

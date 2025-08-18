@@ -1,5 +1,5 @@
 > [!tldr]- - [ ] Correct the code block shading starting at 1.1 for better readability.
-> C:\Users\ehrrsn7\Code\object-oriented-programming\cpp\Unit-1\Chapter-1.1\1.1-Defensive-Programming.ai.md
+> [](C:\Users\ehrrsn7\Code\object-oriented-programming\cpp\Unit-1\Chapter-1.1\1.1-Defensive-Programming.ai.md)
 > ```
 >   195,1: <!-- TODO: shade these code blocks (multiple in this file) -->
 > ```
