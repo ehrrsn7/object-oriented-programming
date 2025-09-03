@@ -7,6 +7,8 @@
     "markdown.preview.typographer": true,
     "gitdoc.enabled": true,
     "gitdoc.autoCommitDelay": 10000,
+    "markdown.preview.showHeader": false,
+    "markdown.preview.showFooter": false,
     "gitdoc.autoPushDelay": 30000,
     "gitdoc.commitMessageFormat": "🤖 AI Commit: ${aiMessage} | ${date}",
     "gitdoc.ai.useEmojis": true,
